@@ -4166,6 +4166,10 @@ export function genericPlay(ctx) {
  * Resolves when the hit lands. Returns true if a custom animation ran.
  */
 export async function playJutsu(arena, j, userEl, targetEls, { sp = 1, sideEls = [], isFoe = false } = {}) {
+  // pieces are sized from the fighters' pictures, so wait (briefly) for any that are still loading:
+  // an unloaded picture measures 0 wide and would draw e.g. Sand Coffin with no width at all
+  const pics = [userEl, ...targetEls, ...sideEls].flatMap((el) => [...(el?.querySelectorAll?.('img') || [])]).filter((im) => !im.complete || !im.naturalWidth);
+  if (pics.length) await Promise.race([Promise.all(pics.map((im) => im.decode().catch(() => {}))), wait(1500)]);
   // a speed set in the Sprite & Animation Studio (2 = twice as fast)
   const ctx = { arena, j, userEl, targetEls, sideEls, sp: sp / FX.jutsuSpeed(j.id), isFoe, from: FX.centerOf(userEl, arena), tos: targetEls.map((t) => FX.centerOf(t, arena)) };
   ctx.userSize = sizeOf(userEl);
