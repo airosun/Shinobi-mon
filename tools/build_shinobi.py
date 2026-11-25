@@ -325,6 +325,11 @@ UNIVERSAL = {
  'Body Flicker': ('Taijutsu', 'Physical', 70, 100, 20, {'contact': True, 'special': 'pivot'}),
 }
 MOVES.update(UNIVERSAL)
+# bigger move pools (tools/movepools.py): new jutsu from the anime and Storm games, staples per chakra nature
+from movepools import NEW as NEW_MOVES, ADD as ADD_MOVES, STAPLES, UNIVERSAL as UNIVERSAL_LIST
+for nm, mv in NEW_MOVES.items():
+    if nm in MOVES: raise SystemExit('new move already exists: ' + nm)
+    MOVES[nm] = mv
 
 # ---------------------------------------------------------------- fighters, forms, genders
 FEMALE = {'sakura', 'hinata', 'tenten', 'ino', 'kurenai', 'temari', 'chiyo', 'tayuya', 'anko', 'konan', 'karin', 'tsunade', 'karui',
@@ -342,7 +347,13 @@ for i, s in enumerate(SH, 1):
     for n, sp in ((ab_name, spec), (hid_name, hspec)):
         if n in abil_specs and abil_specs[n] != sp: raise SystemExit('ability clash ' + n)
         abil_specs[n] = sp
-    learn = [JID2NAME[j] for j in s['catalogue']] + list(UNIVERSAL)
+    learn = [JID2NAME[j] for j in s['catalogue']]
+    for nat in [s['natures'].get('primary'), s['natures'].get('secondary')]:
+        learn += STAPLES.get(nat, [])
+    learn += ADD_MOVES.get(s['id'], []) + UNIVERSAL_LIST
+    for n in learn:
+        if n not in MOVES: raise SystemExit(f"{s['id']}: unknown move {n}")
+    learn = list(dict.fromkeys(learn))
     sp = (s.get('_sprite') or {})
     f = {
         'num': i, 'id': fid(s['id']), 'baseId': s['baseId'], 'name': s['name'], 'series': s['era'], 'role': ' / '.join(s['roles']),

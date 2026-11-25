@@ -83,7 +83,8 @@ async function test(name, fn) { try { await fn(); passed++; console.log('ok  ', 
   await test('turn order is by Speed: only a few quick jutsu have priority', () => {
     const quick = Object.values(MOVES).filter(m => m.prio > 0 && m.prio < 4 && !['followme'].includes(m.special)).map(m => m.name).sort();
     assert.deepEqual(quick, ['Dynamic Entry', 'Explosive Tag Kunai', 'Flying Thunder God Strike', 'Hair Needle Senbon', 'Hidden Needle Shot', 'Kunai & Shuriken', 'Senbon Volley', 'Shuriken Volley']);
-    assert(Object.values(MOVES).every(m => m.prio >= 0), 'no negative priority');
+    // the only negative priority: counter jutsu that move last, like Counter / Mirror Coat
+    assert.deepEqual(Object.values(MOVES).filter(m => m.prio < 0).map(m => m.name).sort(), ['Sharingan: Copy', 'Uchiha Return']);
     const b = battle([mk('naruto-p1', ['Rasengan'])], [mk('minato', ['Rasengan'])]);   // Minato is faster
     b.choose(0, mv(0)); b.choose(1, mv(0));
     const used = b.log.filter(l => / used Rasengan!/.test(l.text)).map(l => l.text);

@@ -56,9 +56,17 @@
    "Multi Shadow Clone Jutsu",
    "Sexy Jutsu",
    "Summoning: Gamabunta",
+   "Wind Release: Great Breakthrough",
+   "Shadow Clone Jutsu",
+   "Shadow Clone Spin Kick",
+   "Sexy Jutsu: Harem",
+   "Nine-Tails Chakra Claw",
+   "Shuriken Volley",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -129,9 +137,18 @@
    "Uzumaki Barrage",
    "Multi Shadow Clone Jutsu",
    "Sexy Jutsu",
+   "Wind Release: Great Breakthrough",
+   "Shadow Clone Jutsu",
+   "Shadow Clone Spin Kick",
+   "Sexy Jutsu: Harem",
+   "Summoning: Gamabunta",
+   "Tailed Beast Chakra Arms",
+   "Nine-Tails Chakra Claw",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -197,9 +214,18 @@
    "Frog Kata",
    "Shadow Clone Scouts",
    "Rasengan",
+   "Wind Release: Great Breakthrough",
+   "Shadow Clone Jutsu",
+   "Big Ball Rasengan",
+   "Sage Art: Rasengan Barrage",
+   "Sage Art: Frog Song",
+   "Summoning: Gamabunta",
+   "Uzumaki Barrage",
+   "Shadow Clone Spin Kick",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -270,9 +296,18 @@
    "Kurama Chakra Transfer",
    "Frog Kata",
    "Tailed Beast Bomb",
+   "Wind Release: Great Breakthrough",
+   "Shadow Clone Jutsu",
+   "Wind Release: Rasenshuriken",
+   "Big Ball Rasengan",
+   "Six Paths: Truth-Seeking Ball Barrage",
+   "Sage Art: Lava Release Rasenshuriken",
+   "Sage Art: Massive Rasengan",
+   "Summoning: Kurama",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -338,9 +373,15 @@
    "Chidori",
    "Lion Combo",
    "Fire Release: Dragon Flame",
+   "Lightning Release: Lightning Ball",
+   "Shadow Shuriken Technique",
+   "Demon Wind Shuriken: Windmill of Shadows",
+   "Leaf Rising Wind",
+   "Sharingan Genjutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -411,9 +452,17 @@
    "Kirin",
    "Fire Release: Great Fireball",
    "Fire Release: Phoenix Flower",
+   "Lightning Release: Lightning Ball",
+   "Chidori Senbon",
+   "Chidori Katana",
+   "Summoning: Manda",
+   "Summoning: Garuda",
+   "Sharingan Genjutsu",
+   "Fire Release: Dragon Flame",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -484,9 +533,18 @@
    "Fire Release: Great Fireball",
    "Sharingan Genjutsu",
    "Susano'o: Flame Arrow",
+   "Fire Release: Phoenix Flower",
+   "Lightning Release: Lightning Ball",
+   "Blaze Release: Kagutsuchi",
+   "Chidori Arrow",
+   "Chidori Katana",
+   "Susano'o Ribcage",
+   "Summoning: Garuda",
+   "Chidori Senbon",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -557,9 +615,19 @@
    "Chidori Sharp Spear",
    "Sharingan Genjutsu",
    "Susano'o: Flame Arrow",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Lightning Release: Lightning Ball",
+   "Indra's Arrow",
+   "Amenotejikara Strike",
+   "Chidori Katana",
+   "Chidori Arrow",
+   "Susano'o Ribcage",
+   "Summoning: Garuda",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -625,9 +693,15 @@
    "Genjutsu Dispel",
    "Inner Sakura",
    "SHANNARO!",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Explosive Tag Kunai",
+   "Sly Mind Affect",
+   "Cherry Blossom Clash",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "earth",
@@ -693,9 +767,18 @@
    "Ground Splitting Punch",
    "Mystical Palm",
    "Poison Extraction",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Cherry Blossom Clash",
+   "Summoning: Katsuyu",
+   "Chakra Scalpel",
+   "Antidote",
+   "SHANNARO!",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "earth",
@@ -766,9 +849,18 @@
    "Hundred Healings Transfer",
    "Summoning: Katsuyu",
    "Mystical Palm",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Cherry Blossom Clash",
+   "Chakra Scalpel",
+   "Antidote",
+   "Poison Extraction",
+   "SHANNARO!",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "earth",
@@ -839,9 +931,18 @@
    "Earth Release: Mud Wall",
    "Summoning: Ninja Hounds",
    "Sharingan: Demonic Illusion",
+   "Lightning Release: Lightning Ball",
+   "Earth Release: Earth Flow Spears",
+   "Lightning Release: Lightning Hound",
+   "Thousand Years of Death",
+   "Sharingan: Copy",
+   "Fire Release: Great Fireball",
+   "Water Release: Water Formation Wall",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lightning",
@@ -917,9 +1018,19 @@
    "Summoning: Ninja Hounds",
    "Sharingan: Demonic Illusion",
    "Kamui",
+   "Lightning Release: Lightning Ball",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Lightning Release: Lightning Hound",
+   "Thousand Years of Death",
+   "Sharingan: Copy",
+   "Fire Release: Great Fireball",
+   "Water Release: Water Formation Wall",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lightning",
@@ -990,9 +1101,20 @@
    "Summoning: Ninja Hounds",
    "Earth Release: Headhunter",
    "Susano'o: Kamui Shuriken",
+   "Lightning Release: Lightning Ball",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Lightning Release: Purple Electricity",
+   "Lightning Release: Lightning Hound",
+   "Kamui",
+   "Sharingan: Copy",
+   "Shadow Clone Jutsu",
+   "Thousand Years of Death",
+   "Lightning Beast Running",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lightning",
@@ -1057,9 +1179,13 @@
    "Ink Bird Recon",
    "Ink Clone",
    "Tantō Strike",
+   "Super Beast Scroll: Lions",
+   "Ink Mist",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin"
@@ -1124,9 +1250,17 @@
    "Wood Clone",
    "Wood Release: Wood Wall",
    "Cutting Wood Stakes",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Wood Release: Great Forest Technique",
+   "Water Release: Raging Waves",
+   "Earth Release: Mud Wall",
+   "Earth Release: Headhunter",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wood",
@@ -1192,9 +1326,14 @@
    "Byakugan Scan",
    "Shuriken Volley",
    "Eight Trigrams 64 Palms Protection",
+   "Eight Trigrams Vacuum Palm",
+   "Eight Trigrams 64 Palms",
+   "Eight Trigrams Palm Rotation",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Hyūga rule: Gentle Fist is Taijutsu, chakra-network strikes add Yang.",
@@ -1262,9 +1401,14 @@
    "Eight Trigrams 64 Palms Protection",
    "Byakugan Scan",
    "Gentle Step Twin Lion Fists",
+   "Eight Trigrams Palm Rotation",
+   "Eight Trigrams 32 Palms",
+   "Eight Trigrams Mountain Crusher",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Twin Lion Fists: the chakra lions are Beast.",
@@ -1327,9 +1471,13 @@
    "Eight Trigrams Palm Rotation",
    "Eight Trigrams Vacuum Palm",
    "Byakugan Scan",
+   "Eight Trigrams 32 Palms",
+   "Eight Trigrams 64 Palms Protection",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Hyūga rule.",
@@ -1397,9 +1545,14 @@
    "Eight Trigrams Vacuum Wall Palm",
    "Eight Trigrams Vacuum Palm",
    "Byakugan Scan",
+   "Eight Trigrams Mountain Crusher",
+   "Eight Trigrams 64 Palms",
+   "Eight Trigrams 32 Palms",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Hyūga rule.",
@@ -1461,9 +1614,15 @@
    "Leaf Rising Wind",
    "Front Lotus",
    "Hidden Lotus",
+   "Drunken Fist",
+   "Leaf Great Whirlwind",
+   "Morning Peacock",
+   "Shuriken Volley",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Pure Taijutsu; opening Gates adds Yang (life force).",
@@ -1530,9 +1689,13 @@
    "Front Lotus",
    "Hidden Lotus",
    "Morning Peacock",
+   "Leaf Rising Wind",
+   "Leaf Great Whirlwind",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Sixth Gate: Morning Peacock friction flames add Fire.",
@@ -1594,9 +1757,14 @@
    "Giant Shuriken",
    "Explosive Tag Kunai",
    "Smoke Bomb",
+   "Manipulated Tools: Mace",
+   "Senbon Volley",
+   "Chain Bind",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless.",
@@ -1658,9 +1826,16 @@
    "Manipulated Tools: Heavenly Chains",
    "Giant Shuriken",
    "Smoke Bomb",
+   "Manipulated Tools: Mace",
+   "Bashōsen: Coil of Fire",
+   "Senbon Volley",
+   "Chain Bind",
+   "Explosive Tag Kunai",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless.",
@@ -1727,9 +1902,15 @@
    "Morning Peacock",
    "Daytime Tiger",
    "Night Guy",
+   "Leaf Hurricane",
+   "Leaf Rising Wind",
+   "Hidden Lotus",
+   "Evening Elephant",
+   "Drunken Fist",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Eighth Gate: blood-red steam = Boil.",
@@ -1792,9 +1973,13 @@
    "Four Legs Technique",
    "Dynamic Marking",
    "Shuriken Volley",
+   "Man Beast Clone",
+   "Explosive Tag Kunai",
+   "Smoke Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Fights alongside Akamaru.",
@@ -1857,9 +2042,14 @@
    "Four Legs Technique",
    "Dynamic Marking",
    "Fang Wolf Fang",
+   "Man Beast Clone",
+   "Tunneling Fang",
+   "Smoke Bomb",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Two-Headed Wolf: mono-Beast.",
@@ -1921,9 +2111,13 @@
    "Insect Sphere",
    "Female Insect Tracking",
    "Insect Wall",
+   "Insect Pillars",
+   "Insect Jar Technique",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Kikaichū insects.",
@@ -1990,9 +2184,13 @@
    "Female Insect Tracking",
    "Insect Clone",
    "Insect Wall",
+   "Insect Pillars",
+   "Insect Sphere",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless.",
@@ -2055,9 +2253,15 @@
    "Explosive Tag Kunai",
    "Battle Analysis",
    "Flash Bomb",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Shadow Imitation Shuriken",
+   "Smoke Bomb",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin",
@@ -2128,9 +2332,16 @@
    "Shadow Gathering",
    "Explosive Tag Kunai",
    "Battle Analysis",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Shadow Imitation Shuriken",
+   "Explosive Trap Tags",
+   "Flash Bomb",
+   "Smoke Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin",
@@ -2191,9 +2402,14 @@
    "Spiked Human Boulder",
    "Partial Expansion: Arms",
    "Super Expansion",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Super Open-Hand Slap",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yang",
@@ -2259,9 +2475,14 @@
    "Partial Expansion: Arms",
    "Super Expansion",
    "Butterfly Bullet Bombing",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Super Open-Hand Slap",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yang",
@@ -2321,9 +2542,15 @@
    "Mind Body Disturbance",
    "Mind Clone Spy",
    "Senbon Volley",
+   "Mind Transmission",
+   "Flower Bomb",
+   "Shuriken Volley",
+   "Explosive Tag Kunai",
+   "Sly Mind Affect",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin"
@@ -2393,9 +2620,15 @@
    "Mystical Palm",
    "Flower Bomb",
    "Mind Clone Spy",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Mind Transmission",
+   "Senbon Volley",
+   "Poison Extraction",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin",
@@ -2460,9 +2693,13 @@
    "Demonic Illusion: Mist Hiding",
    "Sly Mind Affect",
    "Shuriken Volley",
+   "Demonic Illusion: Hell Viewing",
+   "Genjutsu Dispel",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin"
@@ -2527,9 +2764,16 @@
    "Fire Release: Burning Ash",
    "Fire Release: Ash Pile Burning",
    "Wind Release: Dust Cloud",
+   "Wind Release: Great Breakthrough",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Explosive Tag Kunai",
+   "Smoke Bomb",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -2595,9 +2839,15 @@
    "Sand Shuriken",
    "Sand Tsunami",
    "Armor of Sand",
+   "Wind Release: Great Breakthrough",
+   "Sand Clone",
+   "Sand Shower",
+   "Quicksand Waterfall Flow",
+   "Sand Shukaku Spear",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "magnet",
@@ -2668,9 +2918,15 @@
    "Sand Shuriken",
    "Kazekage's Sand Shield",
    "Armor of Sand",
+   "Wind Release: Great Breakthrough",
+   "Sand Clone",
+   "Sand Shower",
+   "Quicksand Waterfall Flow",
+   "Sand Tsunami",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "magnet",
@@ -2735,9 +2991,13 @@
    "Giant Fan Strike",
    "Wind Release: Wind Barrier",
    "Summoning: Kamatari",
+   "Wind Release: Great Breakthrough",
+   "Wind Release: Wind Scythe",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind"
@@ -2806,9 +3066,13 @@
    "Giant Fan Strike",
    "Wind Release: Wind Barrier",
    "Summoning: Kamatari",
+   "Wind Release: Wind Scythe",
+   "Explosive Tag Kunai",
+   "Wind Release: Dust Cloud",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind"
@@ -2867,9 +3131,15 @@
    "Black Secret Technique: Machine of Forbidden Embraces",
    "Puppet Body Switch",
    "Poison Smoke Bomb",
+   "Crow: Poison Needles",
+   "Chakra Threads",
+   "Senbon Volley",
+   "Black Ant: Iron Maiden",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Puppets.",
@@ -2936,9 +3206,13 @@
    "Salamander Shield",
    "Puppet Body Switch",
    "Poison Smoke Bomb",
+   "Crow: Poison Needles",
+   "Chakra Threads",
+   "Senbon Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless.",
@@ -3006,9 +3280,14 @@
    "Antidote",
    "One's Own Life Reincarnation",
    "Puppet Body Switch",
+   "Poison Smoke Bomb",
+   "Senbon Volley",
+   "Mystical Palm",
+   "Crow: Poison Needles",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Puppets plus life-transfer medicine.",
@@ -3076,9 +3355,16 @@
    "Sword of Kusanagi",
    "Summoning: Manda",
    "Eight Branches Technique",
+   "Wind Release: Great Breakthrough",
+   "Summoning: Rashomon",
+   "Snake Shedding Clone",
+   "Living Corpse Reincarnation",
+   "Twin Snakes Mutual Death",
+   "Hidden Shadow Snake Hands",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -3149,9 +3435,16 @@
    "Sword of Kusanagi",
    "Summoning: Manda",
    "Eight Branches Technique",
+   "Wind Release: Great Breakthrough",
+   "Summoning: Rashomon",
+   "Snake Shedding Clone",
+   "Living Corpse Reincarnation",
+   "Twin Snakes Mutual Death",
+   "Five Pronged Seal",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -3217,9 +3510,16 @@
    "Temple of Nirvana",
    "Dead Soul Technique",
    "Striking Shadow Snakes",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Snake Shedding Clone",
+   "Senbon Volley",
+   "Poison Extraction",
+   "Summoning: Rashomon",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yang",
@@ -3290,9 +3590,17 @@
    "Mystical Palm",
    "Temple of Nirvana",
    "Sage Art: Snake Dragon",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Striking Shadow Snakes",
+   "Snake Shedding Clone",
+   "Dead Soul Technique",
+   "Water Release: Water Dragon",
+   "Summoning: Manda",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yang",
@@ -3352,9 +3660,15 @@
    "Arhat Fist",
    "Earth Release: Earth Shore Return",
    "Shuriken Volley",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Earth Release: Rock Fist",
+   "Earth Release: Golem",
+   "Human Boulder",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "earth"
@@ -3414,9 +3728,15 @@
    "Spider Bow: Fierce Rip",
    "Spider Sticky Gold Armor",
    "Summoning: Kyodaigumo",
+   "Spider Web Unrolling",
+   "Shuriken Volley",
+   "Explosive Tag Kunai",
+   "Six-Armed Rush",
+   "Senbon Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Golden arrows plus spider; Curse Mark replaces Beast with Sage.",
@@ -3474,9 +3794,15 @@
    "Parasitic Demon Destruction",
    "Summoning: Rashomon",
    "Arhat Fist",
+   "Shuriken Volley",
+   "Explosive Tag Kunai",
+   "Spider Web Unrolling",
+   "Twin Demon Combo",
+   "Smoke Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Merging their bodies is Yang; Curse Mark adds Sage.",
@@ -3533,9 +3859,15 @@
    "Summoning: Doki",
    "Doki: Spirit Eaters",
    "Flute Strike",
+   "Sly Mind Affect",
+   "Shuriken Volley",
+   "Demonic Flute: Illusion Warp",
+   "Senbon Volley",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin"
@@ -3600,9 +3932,13 @@
    "Dance of the Larch",
    "Ten-Finger Drilling Bullets",
    "Dance of the Seedling Fern",
+   "Dance of the Clematis: Vine",
+   "Dance of the Clematis: Flower",
+   "Bone Armor",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Bone blades plus dances; Curse Mark adds Sage.",
@@ -3665,9 +4001,16 @@
    "Executioner's Blade",
    "Water Release: Great Waterfall",
    "Water Release: Water Dragon",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Silent Killing",
+   "Water Clone",
+   "Water Release: Shark Bomb",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water"
@@ -3732,9 +4075,16 @@
    "Ice Release: Ice Prison",
    "Senbon Volley",
    "Selfless Shield",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Ice Release: Swallow Snow Storm",
+   "Ice Release: Ice Spears",
+   "Water Clone",
+   "Hidden Mist Technique",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "ice",
@@ -3800,9 +4150,16 @@
    "Twin Snakes Mutual Death",
    "Fire Release: Dragon Fire",
    "Shuriken Volley",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Senbon Volley",
+   "Summoning: Manda",
+   "Explosive Tag Kunai",
+   "Snake Shedding Clone",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire"
@@ -3867,9 +4224,15 @@
    "Summoning: Baku",
    "Kotoamatsukami",
    "Reverse Four Symbols Sealing",
+   "Wind Release: Great Breakthrough",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Wood Release: Wood Dragon",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -3935,9 +4298,14 @@
    "Kamui: Phase",
    "Tobi Is a Good Boy!",
    "Wood Release: Spikes",
+   "Fire Release: Phoenix Flower",
+   "Kamui",
+   "Fire Release: Great Fire Annihilation",
+   "Wood Release: Wood Dragon",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -4008,9 +4376,15 @@
    "Kamui Warp Strike",
    "Wood Release: Wood Dragon",
    "Kamui: Phase",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Summoning: Gedo Statue",
+   "Wood Release: Deep Forest Emergence",
+   "Wood Release: Spikes",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -4070,9 +4444,15 @@
    "Wood Release: Spikes",
    "Spore Absorption",
    "Mayfly",
+   "Wood Clone",
+   "Earth Release: Mud Wall",
+   "Shuriken Volley",
+   "Explosive Tag Kunai",
+   "Smoke Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wood"
@@ -4132,9 +4512,14 @@
    "Black Spike",
    "Mayfly",
    "Spore Clone",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Wood Release: Spikes",
+   "Earth Release: Earth Spear",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin",
@@ -4200,9 +4585,16 @@
    "Water Release: Thousand Feeding Sharks",
    "Water Prison Shark Dance",
    "Hidden Mist Technique",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Water Release: Great Shark Missile",
+   "Water Release: Water Prison",
+   "Water Release: Exploding Water Shockwave",
+   "Water Clone",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water"
@@ -4272,9 +4664,16 @@
    "Fire Release: Phoenix Flower",
    "Fire Release: Great Fireball",
    "Totsuka Blade",
+   "Sharingan Genjutsu",
+   "Shadow Clone Explosion",
+   "Water Release: Water Formation Wall",
+   "Shadow Clone Jutsu",
+   "Shuriken Volley",
+   "Water Release: Water Prison",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -4344,9 +4743,12 @@
    "C4: Karura",
    "Clay Bird Flight",
    "C0: Ultimate Art",
+   "Clay Clone",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "explosion"
@@ -4411,9 +4813,13 @@
    "Jashin Spike",
    "Curse Ritual: Death Possession Blood",
    "Sacrificial Stab",
+   "Scythe Spin",
+   "Blood Spear",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Scythe plus immortal body; the ritual curse is Yin.",
@@ -4476,9 +4882,17 @@
    "Earth Grudge Fear Threads",
    "Earth Release: Earth Spear",
    "Wind Release: Pressure Damage",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Lightning Release: Lightning Ball",
+   "Water Release: Water Gun",
+   "Water Release: Water Dragon",
+   "Fire Release: Great Fireball",
+   "Wind Release: Great Breakthrough",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "earth",
@@ -4544,9 +4958,15 @@
    "Iron Sand: World Order",
    "Puppet Body Switch",
    "Red Secret Technique: Performance of a Hundred Puppets",
+   "Iron Sand: Gathering Assault",
+   "Puppet Flamethrower",
+   "Hiruko: Poison Needle Barrage",
+   "Chakra Threads",
+   "Senbon Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "magnet"
@@ -4611,9 +5031,13 @@
    "Dance of the Shikigami",
    "Paper Clone",
    "Six Hundred Billion Exploding Tags",
+   "Wind Release: Great Breakthrough",
+   "Paper Butterfly Swarm",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind"
@@ -4683,9 +5107,14 @@
    "Preta Path: Absorb",
    "Asura Path: Missiles",
    "Chibaku Tensei",
+   "Animal Path: Summoning",
+   "Human Path: Soul Removal",
+   "Naraka Path: King of Hell",
+   "Outer Path: Samsara of Heavenly Life",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin",
@@ -4751,9 +5180,14 @@
    "Preta Path: Absorb",
    "Chibaku Tensei",
    "Outer Path: Samsara of Heavenly Life",
+   "Animal Path: Summoning",
+   "Human Path: Soul Removal",
+   "Naraka Path: King of Hell",
+   "Almighty Push",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin",
@@ -4814,9 +5248,15 @@
    "Water Release: Water Gun",
    "Great Water Arm",
    "Hydrification Technique",
+   "Water Release: Water Formation Wall",
+   "Water Release: Water Fang Bullet",
+   "Water Clone",
+   "Water Release: Raging Waves",
+   "Water Release: Water Prison",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water"
@@ -4875,9 +5315,16 @@
    "Adamantine Sealing Chains",
    "Karin Punch",
    "Mind's Eye of the Kagura",
+   "Adamantine Chain Barrier",
+   "Senbon Volley",
+   "Mystical Palm",
+   "Explosive Tag Kunai",
+   "Smoke Bomb",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yang"
@@ -4937,9 +5384,14 @@
    "Axe Arm",
    "Jet Punch",
    "Natural Energy Transfer",
+   "Sage Art: Rocket Fist",
+   "Human Boulder",
+   "Sage Art: Spear Arm",
+   "Shuriken Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Always takes in natural energy; his transformation turns his arms into weapons.",
@@ -5007,9 +5459,16 @@
    "Wood Release: Four-Pillar Prison",
    "Seal-less Healing",
    "Sage Art: True Several Thousand Hands",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Wood Release: Nativity of a World of Trees",
+   "Wood Clone",
+   "Water Release: Water Dragon",
+   "Wood Release: Wood Wall",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wood",
@@ -5075,9 +5534,16 @@
    "Flying Thunder God Slash",
    "Water Release: Water Formation Wall",
    "Shadow Clone Ambush",
+   "Water Release: Water Gun",
+   "Lightning Release: Lightning Ball",
+   "Shadow Clone Jutsu",
+   "Water Release: Shark Bomb",
+   "Water Release: Water Prison",
+   "Flying Thunder God Strike",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water",
@@ -5143,9 +5609,18 @@
    "Enma: Adamantine Staff",
    "Earth Release: Mud Wall",
    "Reaper Death Seal",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Earth Release: Earth Flow Spears",
+   "Shadow Clone Jutsu",
+   "Water Release: Water Dragon",
+   "Wind Release: Great Breakthrough",
+   "Lightning Release: Lightning Ball",
+   "Summoning: Rashomon",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -5211,9 +5686,16 @@
    "Flying Thunder God: Rasengan",
    "Space-Time Barrier",
    "Yang Kurama: Tailed Beast Bomb",
+   "Wind Release: Great Breakthrough",
+   "Shadow Clone Jutsu",
+   "Big Ball Rasengan",
+   "Flying Thunder God: Kunai Barrage",
+   "Summoning: Gamabunta",
+   "Reaper Death Seal",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -5279,9 +5761,16 @@
    "Mystical Palm",
    "Summoning: Katsuyu",
    "Creation Rebirth",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Ground Splitting Punch",
+   "Chakra Scalpel",
+   "Cherry Blossom Clash",
+   "Antidote",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "earth",
@@ -5352,9 +5841,20 @@
    "Toad Mouth Bind",
    "Summoning: Gamabunta",
    "Demonic Illusion: Gamarinsho",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Fire Release: Great Flame Bomb",
+   "Earth Release: Swamp of the Underworld",
+   "Sage Art: Goemon",
+   "Sage Art: Frog Song",
+   "Big Ball Rasengan",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -5415,9 +5915,14 @@
    "Lightning Release: Lariat",
    "Lightning Release: Guillotine Drop",
    "Lightning Release Armor",
+   "Lightning Release: Lightning Ball",
+   "Lightning Release: Double Lariat",
+   "Lightning Release: Iron Claw",
+   "Dynamic Entry",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lightning"
@@ -5482,9 +5987,15 @@
    "Ink Creation",
    "Octopus Leg Substitute",
    "Gyuki: Tailed Beast Bomb",
+   "Lightning Release: Lightning Ball",
+   "Chakra Arm Grab",
+   "Lightning Release: Lightning Blade Edge",
+   "Ink Spray",
+   "Lightning Release: Liger Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lightning"
@@ -5544,9 +6055,14 @@
    "Storm Release: Laser Circus",
    "Cleaver Sword Slash",
    "Lightning Release Armor",
+   "Lightning Release: Lightning Ball",
+   "Lightning Release: Four Pillar Bind",
+   "Water Release: Water Gun",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "storm",
@@ -5607,9 +6123,14 @@
    "Cloud-Style Flurry",
    "Lightning Release: Lightning Blade Edge",
    "Lightning Release: Lariat",
+   "Lightning Release: Lightning Ball",
+   "Explosive Tag Kunai",
+   "Shuriken Volley",
+   "Lightning Release: Iron Claw",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lightning"
@@ -5669,9 +6190,15 @@
    "Boil Release: Solid Fog",
    "Water Release: Water Dragon Bullet",
    "Lava Release: Lava Globs",
+   "Lava Release: Melting Apparition",
+   "Water Release: Water Dragon",
+   "Hidden Mist Technique",
+   "Water Clone",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lava",
@@ -5732,9 +6259,14 @@
    "Hiramekarei Unleashing",
    "Hiramekarei Guard",
    "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Hiramekarei: Hammer",
+   "Water Release: Water Dragon",
+   "Hidden Mist Technique",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water"
@@ -5794,9 +6326,16 @@
    "Water Release: Water Dragon",
    "Byakugan Sensing",
    "Hidden Mist Technique",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Explosive Tag Kunai",
+   "Water Clone",
+   "Smoke Bomb",
+   "Senbon Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water"
@@ -5856,9 +6395,15 @@
    "Clam Mirage",
    "Water Release: Water Gun",
    "Hydrification Technique",
+   "Water Release: Water Formation Wall",
+   "Boil Release: Solid Fog",
+   "Water Clone",
+   "Hidden Mist Technique",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "boil",
@@ -5923,9 +6468,15 @@
    "Water Mirror Technique",
    "Water Release: Raging Waves",
    "Isobu: Tailed Beast Bomb",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Water Release: Water Dragon",
+   "Water Clone",
+   "Hidden Mist Technique",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water"
@@ -5990,9 +6541,15 @@
    "Earth Release: Light Weight Rock",
    "Earth Release: Golem",
    "Dust Release: Cone of Light",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Earth Release: Earth Dome",
+   "Earth Release: Rock Fist",
+   "Earth Release: Earth Dragon Bullet",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "dust",
@@ -6053,9 +6610,15 @@
    "Lava Release: Lava Globs",
    "Earth Release: Rock Fist",
    "Earth Release: Earth Dome",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Earth Release: Earth Dragon Bullet",
+   "Water Release: Water Gun",
+   "Earth Release: Golem",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lava",
@@ -6115,9 +6678,15 @@
    "Earth Release: Rock Fist",
    "Earth Release: Earth Dome",
    "Earth Release: Light Weight Rock",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Earth Release: Earth Dragon Bullet",
+   "Human Boulder",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "earth"
@@ -6177,9 +6746,15 @@
    "Dust Release: Cone of Light",
    "Splitting Technique",
    "Invisibility Technique",
+   "Wind Release: Great Breakthrough",
+   "Earth Release: Mud Wall",
+   "Earth Release: Earth Dragon Bullet",
+   "Earth Release: Golem",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "dust",
@@ -6250,9 +6825,16 @@
    "Uchiha Gunbai: Uchiwa",
    "Truth-Seeking Balls",
    "Ten-Tails: Tailed Beast Bomb",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Summoning: Gedo Statue",
+   "Kamui Warp Strike",
+   "Wood Release: Wood Dragon",
+   "Wood Release: Deep Forest Emergence",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wood",
@@ -6323,9 +6905,18 @@
    "Uchiha Gunbai: Uchiwa",
    "Tengai Shinsei",
    "Perfect Susano'o: Sword Slash",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Fire Release: Great Fire Annihilation",
+   "Wood Release: Wood Dragon",
+   "Uchiha Return",
+   "Susano'o Ribcage",
+   "Summoning: Kurama",
+   "Sharingan Genjutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -6391,9 +6982,15 @@
    "Six Paths: Chibaku Tensei",
    "Infinite Tsukuyomi",
    "Fire Release: Majestic Destroyer Flame",
+   "Shinra Tensei",
+   "Universal Pull",
+   "Wood Release: Wood Dragon",
+   "Uchiha Return",
+   "Susano'o Ribcage",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yin",
@@ -6464,9 +7061,13 @@
    "Eighty Gods Vacuum Attack",
    "Hair Needle Senbon",
    "Amenominaka",
+   "Dimension Shift: Ice World",
+   "Dimension Shift: Lava World",
+   "Universal Pull",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "yang",
@@ -6526,9 +7127,14 @@
    "Rinpun Tackle",
    "Chomei Wings",
    "Chomei: Tailed Beast Bomb",
+   "Wind Release: Great Breakthrough",
+   "Wind Release: Cutting Whirlwind",
+   "Explosive Tag Kunai",
+   "Smoke Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind"
@@ -6593,9 +7199,13 @@
    "Bubble Release: Bubble Prison",
    "Bubble Clone",
    "Saiken: Tailed Beast Bomb",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Hidden Mist Technique",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water",
@@ -6656,9 +7266,14 @@
    "Boil Release: Steam Kick",
    "Boil Release: Steam Armor",
    "Kokuo: Tailed Beast Bomb",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Boil Release: Unrivaled Strength",
+   "Earth Release: Rock Fist",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "boil",
@@ -6724,9 +7339,14 @@
    "Lava Release: Magma Wall",
    "Lava Release: Lava Globs",
    "Son Goku: Tailed Beast Bomb",
+   "Earth Release: Earth Flow Spears",
+   "Earth Release: Mud Wall",
+   "Earth Release: Rock Fist",
+   "Earth Release: Golem",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "lava",
@@ -6786,9 +7406,15 @@
    "Fire Release: Mouse Fireballs",
    "Cat Pounce",
    "Matatabi: Tailed Beast Bomb",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Shuriken Volley",
+   "Blue Fire Wheel",
+   "Smoke Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire"
@@ -6848,9 +7474,14 @@
    "Summoning: Ibuse",
    "Chain Bind",
    "Salamander Guard",
+   "Wind Release: Great Breakthrough",
+   "Poison Mist",
+   "Explosive Tag Kunai",
+   "Senbon Volley",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind"
@@ -6909,9 +7540,14 @@
    "Fire Release: Great Fireball",
    "Teacher's Shield",
    "Explosive Trap Tags",
+   "Fire Release: Phoenix Flower",
+   "Shadow Clone Jutsu",
+   "Smoke Bomb",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire"
@@ -6971,9 +7607,17 @@
    "Fire Release: Ash Accumulation Burning",
    "Konohamaru Combo",
    "Sexy Jutsu: Harem",
+   "Wind Release: Great Breakthrough",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Shadow Clone Jutsu",
+   "Sexy Jutsu",
+   "Shuriken Volley",
+   "Explosive Tag Kunai",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "wind",
@@ -7039,9 +7683,13 @@
    "Red-Hot Habanero Fury",
    "Uzumaki Kenjutsu",
    "Adamantine Chain Barrier",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water",
@@ -7101,9 +7749,16 @@
    "Iai: Flash",
    "Chakra Blade Wave",
    "Samurai Stance",
+   "Iai: Rapid Slash",
+   "Samurai Saber Technique",
+   "Samurai Charge",
+   "Explosive Tag Kunai",
+   "Shuriken Volley",
+   "Smoke Bomb",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [],
   "notes": "Was typeless. Pure samurai.",
@@ -7161,9 +7816,16 @@
    "Magnet Release: Gold Avalanche",
    "Magnet Release: Gold Dust Coffin",
    "Magnet Release: Gold Dust Wall",
+   "Wind Release: Great Breakthrough",
+   "Gold Dust Waterfall Imperial Funeral",
+   "Sand Shuriken",
+   "Sand Clone",
+   "Quicksand Waterfall Flow",
+   "Sand Shower",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "magnet",
@@ -7229,9 +7891,14 @@
    "Kotoamatsukami",
    "Fire Release: Great Fireball",
    "Susano'o: Divine Arrows",
+   "Fire Release: Phoenix Flower",
+   "Sharingan Genjutsu",
+   "Susano'o Ribcage",
+   "Shadow Clone Jutsu",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "fire",
@@ -7292,9 +7959,16 @@
    "Hidden Needle Shot",
    "Mystical Palm",
    "Antidote",
+   "Water Release: Water Gun",
+   "Water Release: Water Formation Wall",
+   "Chakra Scalpel",
+   "Summoning: Katsuyu",
+   "Senbon Volley",
+   "Poison Extraction",
    "Kunai & Shuriken",
    "Substitution Jutsu",
-   "Body Flicker"
+   "Body Flicker",
+   "Clone Jutsu"
   ],
   "chakraNatures": [
    "water",
