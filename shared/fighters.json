@@ -2971,7 +2971,7 @@
   ],
   "hidden": {
    "name": "Elder's Antidotes",
-   "desc": "Can't be poisoned. At the end of each turn, may cure an ally of a status condition (30%)."
+   "desc": "Can't be poisoned. At the end of each turn, may cure itself or an ally of a status condition (50%)."
   },
   "signature": [
    {
@@ -4850,7 +4850,7 @@
   ],
   "hidden": {
    "name": "Healing Bite",
-   "desc": "At the end of each turn, may cure an ally of a status condition (30%)."
+   "desc": "At the end of each turn, may cure itself or an ally of a status condition (100%)."
   },
   "signature": [
    {
@@ -5244,7 +5244,7 @@
   "abilities": [
    {
     "name": "Legendary Medic",
-    "desc": "Its healing moves restore 50% more HP. At the end of each turn, may cure an ally of a status condition (30%)."
+    "desc": "Its healing moves restore 50% more HP. At the end of each turn, may cure itself or an ally of a status condition (30%)."
    }
   ],
   "hidden": {
@@ -6884,7 +6884,7 @@
   ],
   "hidden": {
    "name": "Academy Lessons",
-   "desc": "At the end of each turn, may cure an ally of a status condition (30%). Warns its team on entry if a foe has a super-effective move."
+   "desc": "At the end of each turn, may cure itself or an ally of a status condition (30%). Warns its team on entry if a foe has a super-effective move."
   },
   "signature": [
    {

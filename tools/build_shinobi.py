@@ -105,7 +105,7 @@ def describe(s):
         elif k == 'anticipationBoost': out.append('On entry, raises its Speed if a foe has a super-effective move.')
         elif k == 'protean': out.append("Changes its type to the type of the move it's about to use.")
         elif k == 'firstMovePrio': out.append('Its first move after entering battle gets +1 priority.')
-        elif k == 'healer': out.append('At the end of each turn, may cure an ally of a status condition (30%).')
+        elif k == 'healer': out.append(f'At the end of each turn, may cure itself or an ally of a status condition ({v}%).')
         elif k == 'frisk': out.append("Reveals the foes' held items when it enters battle.")
         elif k == 'allTaken': out.append(f'Takes {round((1 - v) * 100)}% less damage from all attacks.')
         elif k == 'filter': out.append('Takes 25% less damage from super-effective attacks.')
