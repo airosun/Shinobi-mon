@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex" />
+  <title>Animation Studio · Shinobi-mon</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="/jutsu/jutsu.css" />
+  <link rel="stylesheet" href="/studio/studio.css" />
+</head>
+<body class="studio-page">
+  <header class="topbar">
+    <div class="brand"><span class="brand-marvel">Shinobi</span><span class="brand-dash">-</span><span class="brand-mon">mon</span> <span class="st-title">Animation Studio</span></div>
+    <nav class="st-tabs">
+      <button data-act="tab" data-arg="anim" class="active">🎬 Animations</button>
+      <button data-act="tab" data-arg="moves">📜 Moves</button>
+      <button data-act="tab" data-arg="image">🖌️ Drawings</button>
+    </nav>
+    <span class="grow"></span>
+    <span id="saveState" class="muted small"></span>
+    <button class="small" data-act="studioKey" title="Enter the studio key to save changes">🔑 Studio key</button>
+    <button class="small" data-act="exportAll" title="Download a backup of everything you've changed">⬇ Backup</button>
+    <a class="small st-back" href="/">← Back to Shinobi-mon</a>
+  </header>
+  <main id="studio"></main>
+  <div id="toast" class="st-toast hidden"></div>
+  <script src="/studio/vendor/html2canvas.min.js"></script>
+  <script src="/studio/vendor/jszip.min.js"></script>
+  <script type="module" src="/studio/studio.js"></script>
+</body>
+</html>

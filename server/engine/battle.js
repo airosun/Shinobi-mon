@@ -144,7 +144,7 @@ class Battle {
       const locked = this.lockedMove(mon);
       const moves = mon.moves.map((mv, i) => {
         const md = MOVES[mv.name];
-        return { name: mv.name, index: i, pp: mv.pp, maxpp: mv.maxpp, type: md.type, cat: md.cat, power: md.power, acc: md.acc, target: md.target, disabled: !this.canUseMove(mon, i) };
+        return { name: mv.name, index: i, pp: mv.pp, maxpp: mv.maxpp, type: md.type, cat: md.cat, power: md.power, acc: md.acc, target: md.target, disabled: !this.canUseMove(mon, i), needsForm: !!md.requiresForm && !mon.mega };
       });
       const fs = !locked && this.canFinalSmash(mon) ? FINAL_SMASHES[mon.item] : null;
       return { pos, teamIndex: mon.teamIndex, name: mon.species.name, moves, locked, struggle: !locked && !moves.some(m => !m.disabled), canSwitch: !this.isTrapped(mon) && this.bench(side).length > 0, finalSmash: fs ? { name: fs.name, id: fs.id } : null };

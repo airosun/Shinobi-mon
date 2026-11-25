@@ -244,3 +244,45 @@ ADD = {
 # second pass: top up the smallest pools
 for _k, _v in {'hinata_p1': ['Eight Trigrams 64 Palms', 'Eight Trigrams Palm Rotation', 'Explosive Tag Kunai'], 'ino_p1': ['Senbon Volley', 'Explosive Tag Kunai', 'Sly Mind Affect'], 'kankuro_p1': ['Black Ant: Iron Maiden', 'Explosive Tag Kunai'], 'kidomaru': ['Six-Armed Rush', 'Senbon Volley'], 'sakon_ukon': ['Twin Demon Combo', 'Smoke Bomb'], 'tayuya': ['Demonic Flute: Illusion Warp', 'Senbon Volley', 'Explosive Tag Kunai'], 'zetsu_white': ['Earth Release: Mud Wall', 'Shuriken Volley', 'Explosive Tag Kunai', 'Smoke Bomb'], 'karin': ['Explosive Tag Kunai', 'Smoke Bomb', 'Shuriken Volley'], 'jugo': ['Sage Art: Spear Arm', 'Shuriken Volley'], 'mei': ['Water Clone', 'Explosive Tag Kunai'], 'ao': ['Water Clone', 'Smoke Bomb', 'Senbon Volley'], 'gengetsu': ['Hidden Mist Technique', 'Explosive Tag Kunai'], 'mu': ['Earth Release: Golem', 'Explosive Tag Kunai'], 'yugito': ['Blue Fire Wheel', 'Smoke Bomb'], 'mifune': ['Samurai Charge', 'Explosive Tag Kunai', 'Shuriken Volley', 'Smoke Bomb'], 'rasa': ['Sand Clone', 'Quicksand Waterfall Flow', 'Sand Shower'], 'lee_p1': ['Shuriken Volley', 'Explosive Tag Kunai'], 'lee_ship': ['Shuriken Volley', 'Drunken Fist']}.items():
     ADD.setdefault(_k, []).extend(_v)
+
+# Starting animation for each new jutsu: reuse the Shinobi Showdown animation of a similar existing jutsu
+# (by move name). Anything not listed uses the generic animation for its type. Change these in the Animation Studio.
+ANIM_LIKE = {
+ 'Kunai & Shuriken': 'Shuriken Volley', 'Body Flicker': 'Body Flicker Strike', 'Clone Jutsu': 'Clone Jutsu Feint',
+ 'Shadow Clone Jutsu': 'Multi Shadow Clone Jutsu', 'Lightning Release: Lightning Ball': 'Lightning Release: False Darkness',
+ 'Earth Release: Earth Flow Spears': 'Earth Release: Earth Spear', 'Shadow Clone Spin Kick': 'Uzumaki Barrage',
+ 'Nine-Tails Chakra Claw': 'Chakra Arm Grab', 'Tailed Beast Chakra Arms': 'Chakra Arm Grab',
+ 'Sage Art: Rasengan Barrage': 'Sage Art: Massive Rasengan', 'Sage Art: Frog Song': 'Demonic Illusion: Gamarinsho',
+ 'Six Paths: Truth-Seeking Ball Barrage': 'Truth-Seeking Balls', 'Sage Art: Lava Release Rasenshuriken': 'Wind Release: Rasenshuriken',
+ 'Shadow Shuriken Technique': 'Shuriken Volley', 'Demon Wind Shuriken: Windmill of Shadows': 'Giant Shuriken',
+ 'Chidori Senbon': 'Chidori Current', 'Chidori Katana': 'Chidori', 'Chidori Arrow': 'Chidori Sharp Spear', "Indra's Arrow": 'Kirin',
+ 'Amenotejikara Strike': 'Body Flicker Strike', 'Cherry Blossom Clash': 'Cherry Blossom Impact',
+ 'Lightning Release: Lightning Hound': 'Lightning Beast Running', 'Lightning Release: Purple Electricity': 'Lightning Blade',
+ 'Sharingan: Copy': 'Sharingan: Demonic Illusion', 'Super Beast Scroll: Lions': 'Super Beast Imitating Drawing', 'Ink Mist': 'Ink Creation',
+ 'Wood Release: Great Forest Technique': 'Wood Release: Deep Forest Emergence', 'Eight Trigrams Mountain Crusher': 'Eight Trigrams Vacuum Palm',
+ 'Eight Trigrams Thirty-Two Palms': 'Eight Trigrams 32 Palms', 'Evening Elephant': 'Daytime Tiger',
+ 'Bashōsen: Coil of Fire': 'Fire Release: Great Fire Annihilation', 'Man Beast Clone': 'Four Legs Technique', 'Tunneling Fang': 'Fang Over Fang',
+ 'Insect Pillars': 'Insect Tornado', 'Shadow Imitation Shuriken': 'Shadow Stitching', 'Super Open-Hand Slap': 'Partial Expansion: Arms',
+ 'Mind Transmission': 'Mind Clone Spy', 'Demonic Illusion: Hell Viewing': 'Sly Mind Affect', 'Sand Clone': 'Armor of Sand',
+ 'Sand Shower': 'Sand Shuriken', 'Quicksand Waterfall Flow': 'Sand Tsunami', 'Sand Shukaku Spear': 'Sand Burial',
+ 'Wind Release: Wind Scythe': 'Wind Release: Great Sickle Weasel', 'Crow: Poison Needles': 'Crow: Hidden Blades',
+ 'Gold Dust Waterfall Imperial Funeral': 'Magnet Release: Gold Avalanche', 'Snake Shedding Clone': 'Clone Jutsu Feint',
+ 'Living Corpse Reincarnation': 'Dead Soul Technique', 'Earth Release: Swamp of the Underworld': 'Earth Release: Earth Shore Return',
+ 'Sage Art: Goemon': 'Fire Release: Toad Oil Flame Bullet', 'Fire Release: Great Flame Bomb': 'Fire Release: Toad Oil Flame Bullet',
+ 'Spider Web Unrolling': 'Spider Sticky Gold: Spider Web Area', 'Dance of the Clematis: Vine': 'Dance of the Willow',
+ 'Dance of the Clematis: Flower': 'Dance of the Seedling Fern', 'Silent Killing': "Executioner's Blade", 'Water Clone': 'Water Mirror Technique',
+ 'Ice Release: Swallow Snow Storm': 'Thousand Needles of Death', 'Ice Release: Ice Spears': 'Thousand Needles of Death',
+ 'Water Release: Great Shark Missile': 'Water Release: Shark Bomb', 'Lava Release: Melting Apparition': 'Boil Release: Solid Fog',
+ 'Hiramekarei: Hammer': 'Hiramekarei Unleashing', 'Water Release: Water Fang Bullet': 'Water Release: Water Gun',
+ 'Summoning: Gedo Statue': 'Demonic Statue Chains', 'Shadow Clone Explosion': 'C3: Giant Clay Bomb', 'Scythe Spin': 'Triple-Bladed Scythe',
+ 'Blood Spear': 'Jashin Spike', 'Iron Sand: Gathering Assault': 'Iron Sand: Drizzle', 'Hiruko: Poison Needle Barrage': 'Hiruko: Poison Tail',
+ 'Paper Butterfly Swarm': 'Dance of the Shikigami', 'Human Path: Soul Removal': 'Preta Path: Absorb', 'Sage Art: Rocket Fist': 'Jet Punch',
+ 'Wood Release: Nativity of a World of Trees': 'Wood Release: Deep Forest Emergence', 'Flying Thunder God: Kunai Barrage': 'Flying Thunder God Strike',
+ 'Lightning Release: Double Lariat': 'Lightning Release: Lariat', 'Lightning Release: Iron Claw': 'Lightning Release: Liger Bomb',
+ 'Lightning Release: Four Pillar Bind': 'Black Lightning: Black Panther', 'Uchiha Return': 'Uchiha Gunbai: Uchiwa',
+ 'Summoning: Kurama': 'Tailed Beast Bomb', 'Dimension Shift: Ice World': 'Yomotsu Hirasaka', 'Dimension Shift: Lava World': 'Yomotsu Hirasaka',
+ 'Boil Release: Unrivaled Strength': 'Boil Release: Steam Punch', 'Iai: Rapid Slash': 'Iai Draw', 'Samurai Saber Technique': 'Iai: Flash',
+ 'Ink Spray': 'Ink Creation', 'Six-Armed Rush': 'Multiple Connected Fist', 'Twin Demon Combo': 'Multiple Connected Fist',
+ 'Demonic Flute: Illusion Warp': 'Demonic Flute: Phantom Sound Chains', 'Sage Art: Spear Arm': 'Axe Arm', 'Blue Fire Wheel': 'Cat Claw of Blue Fire',
+ 'Samurai Charge': 'Chakra Blade Wave',
+}

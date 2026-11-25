@@ -8,25 +8,28 @@
   const rnd = (a, b) => a + Math.random() * (b - a);
   const pick = arr => arr[Math.floor(Math.random() * arr.length)];
 
+  // Shinobi-mon types (generic fallback look for jutsu without their own animation)
   const TYPE = {
     Normal: { c: '#e8e4d8', c2: '#ffffff', p: 'star' },
+    Taijutsu: { c: '#e0452b', c2: '#ffb37a', p: 'star' },
     Fire: { c: '#ff7a1a', c2: '#ffd34d', p: 'flame' },
+    Wind: { c: '#8fe0a8', c2: '#ffffff', p: 'feather' },
+    Lightning: { c: '#ffd60a', c2: '#fff7b0', p: 'spark' },
+    Earth: { c: '#c9a04a', c2: '#ecd49b', p: 'rock' },
     Water: { c: '#3d8bff', c2: '#bfe3ff', p: 'drop' },
-    Electric: { c: '#ffd60a', c2: '#fff7b0', p: 'spark' },
-    Grass: { c: '#4cc94c', c2: '#b8f5a0', p: 'leaf' },
+    Yin: { c: '#7a5cc9', c2: '#c9b3ff', p: 'wisp' },
+    Yang: { c: '#f2d98a', c2: '#fffbe6', p: 'sparkle' },
+    Wood: { c: '#4f9a3a', c2: '#b8f5a0', p: 'leaf' },
     Ice: { c: '#8fe3ff', c2: '#ffffff', p: 'crystal' },
-    Fighting: { c: '#e0452b', c2: '#ffb37a', p: 'star' },
-    Poison: { c: '#a347c9', c2: '#e2a6ff', p: 'bubble' },
-    Ground: { c: '#c9a04a', c2: '#ecd49b', p: 'dust' },
-    Flying: { c: '#a8b8ff', c2: '#ffffff', p: 'feather' },
-    Psychic: { c: '#ff5c9d', c2: '#ffc2dc', p: 'ring' },
-    Bug: { c: '#9cc51b', c2: '#e3f59b', p: 'p' },
-    Rock: { c: '#b8a25a', c2: '#e3d6a8', p: 'rock' },
-    Ghost: { c: '#7a5cc9', c2: '#c9b3ff', p: 'wisp' },
-    Dragon: { c: '#6a4cff', c2: '#b9a8ff', p: 'flame' },
-    Dark: { c: '#4a3a33', c2: '#a08c80', p: 'shard' },
-    Steel: { c: '#b8c4d6', c2: '#ffffff', p: 'spark' },
-    Fairy: { c: '#ff8ad8', c2: '#ffe0f5', p: 'sparkle' },
+    Lava: { c: '#e0502a', c2: '#ffb347', p: 'flame' },
+    Storm: { c: '#5b8dff', c2: '#e0f0ff', p: 'spark' },
+    Magnet: { c: '#c8b48a', c2: '#f0e2c0', p: 'dust' },
+    Boil: { c: '#e8a0c0', c2: '#fff0f6', p: 'bubble' },
+    Explosion: { c: '#ffb347', c2: '#fff2b3', p: 'star' },
+    Dust: { c: '#e6eef2', c2: '#ffffff', p: 'ring' },
+    Weapon: { c: '#b8c4d6', c2: '#ffffff', p: 'shard' },
+    Beast: { c: '#c07a3c', c2: '#ffd9a8', p: 'star' },
+    Sage: { c: '#ff9a3c', c2: '#ffe2b8', p: 'sparkle' },
   };
   const T = t => TYPE[t] || TYPE.Normal;
 

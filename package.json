@@ -5,7 +5,7 @@
   "main": "server/index.js",
   "scripts": {
     "start": "node server/index.js",
-    "test": "node test/mechanics.js && node test/accounts.js && node test/rooms.js && node test/simulate.js 200 && node test/fuzz.js 100",
+    "test": "node test/mechanics.js && node test/studio.js && node test/accounts.js && node test/rooms.js && node test/simulate.js 200 && node test/fuzz.js 100",
     "build:heroes": "python3 tools/build_shinobi.py"
   },
   "engines": {

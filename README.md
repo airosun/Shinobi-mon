@@ -49,3 +49,15 @@ npm test           # mechanics, accounts, rooms, 400 CPU battles, 200 fuzz battl
 ## Deploy (Render)
 
 `render.yaml` defines the web service. `SHINOBI_SECRET` is generated automatically. `DATABASE_URL` (Neon Postgres) is optional for now; without it, replays and stats live in memory and reset on restart.
+
+## Animation Studio (`/studio`)
+
+Every jutsu plays its own animation, ported from Shinobi Showdown (`public/jutsu/anim.js`, `fx.js`, drawn pieces in `public/jutsu/img`). New Shinobi-mon jutsu start with a similar jutsu's animation (`ANIM_LIKE` in `tools/movepools.py`); the rest use the generic animation for their type (`public/anim.js`).
+
+The studio at `/studio` (not linked from the site) has three tabs:
+
+- **Animations**: preview any jutsu animation, change its speed, and resize / move / rotate / recolour / hide each piece.
+- **Moves**: pick which animation each Shinobi-mon move plays, or the generic one.
+- **Drawings**: redraw any piece with a layered paint editor (brush, eraser, fill, colour picker, move, undo) or import a picture.
+
+Viewing is open; saving needs the studio key (`STUDIO_KEY` on Render, entered with the 🔑 button). Saved edits go to Postgres (`server/studio.js`) and show up in battles straight away.

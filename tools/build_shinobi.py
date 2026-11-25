@@ -326,10 +326,16 @@ UNIVERSAL = {
 }
 MOVES.update(UNIVERSAL)
 # bigger move pools (tools/movepools.py): new jutsu from the anime and Storm games, staples per chakra nature
-from movepools import NEW as NEW_MOVES, ADD as ADD_MOVES, STAPLES, UNIVERSAL as UNIVERSAL_LIST
+from movepools import NEW as NEW_MOVES, ADD as ADD_MOVES, STAPLES, UNIVERSAL as UNIVERSAL_LIST, ANIM_LIKE
 for nm, mv in NEW_MOVES.items():
     if nm in MOVES: raise SystemExit('new move already exists: ' + nm)
     MOVES[nm] = mv
+# animation: a jutsu from Shinobi Showdown plays its own animation (anim = its id); new ones borrow a similar one
+for nm, (t, cat, pw, acc, pp, o) in MOVES.items():
+    if o.get('jutsu'): o['anim'] = o['jutsu']
+for nm, like in ANIM_LIKE.items():
+    if nm not in MOVES or like not in MOVES or not MOVES[like][5].get('jutsu'): raise SystemExit(f'ANIM_LIKE: {nm} -> {like}')
+    MOVES[nm][5]['anim'] = MOVES[like][5]['jutsu']
 
 # ---------------------------------------------------------------- fighters, forms, genders
 FEMALE = {'sakura', 'hinata', 'tenten', 'ino', 'kurenai', 'temari', 'chiyo', 'tayuya', 'anko', 'konan', 'karin', 'tsunade', 'karui',
@@ -437,6 +443,7 @@ for n, sp in abil_specs.items():
     k = json.dumps(sp, sort_keys=True)
     if k in seen: raise SystemExit(f'same effect: {seen[k]} / {n}')
     seen[k] = n
+json.dump(ART, open(os.path.join(ROOT, 'public', 'studio', 'art.json'), 'w'))   # the Animation Studio's preview sprites
 bst = sorted((sum(f['stats'].values()), f['name']) for f in fighters)
 print(f'{len(fighters)} shinobi, {len(megas)} transformations, {len(MOVES)} moves, {len(abil_specs)} abilities')
 print('BST low', bst[:3], 'high', bst[-3:])

@@ -1,0 +1,30 @@
+/* Effects used by the jutsu animations ported from Shinobi Showdown (public/jutsu/anim.js, fx.js). */
+.jfx { position: absolute; pointer-events: none; z-index: 6; transform: translate(-50%, -50%); }
+.jfx.orb { width: 24px; height: 24px; border-radius: 50%; }
+.jfx.orb.small { width: 10px; height: 10px; }
+.jfx.burst { width: 100px; height: 100px; border-radius: 50%; opacity: 0; animation: jfx-burst .45s ease-out forwards; mix-blend-mode: screen; }
+@keyframes jfx-burst { 0% { opacity: .9; transform: translate(-50%, -50%) scale(.2); } 100% { opacity: 0; transform: translate(-50%, -50%) scale(1.4); } }
+.jfx.slash { width: 120px; height: 9px; border-radius: 6px; background: #fff; animation: jfx-slash .35s ease-out forwards; box-shadow: 0 0 14px #fff; }
+@keyframes jfx-slash { 0% { opacity: 0; transform: translate(-50%, -50%) rotate(-35deg) scaleX(.1); } 40% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, -50%) rotate(-35deg) scaleX(1.2); } }
+.jfx.ring { width: 76px; height: 76px; border: 4px solid #fff; border-radius: 50%; animation: jfx-ring .6s ease-out forwards; }
+.jfx.ring.heal { border-color: #3ddc84; box-shadow: 0 0 18px #3ddc84; }
+.jfx.ring.gen { border-color: #c77dff; box-shadow: 0 0 18px #c77dff; border-style: dashed; }
+.jfx.ring.aura { border-color: #ffc83d; box-shadow: 0 0 26px #f57c1f; width: 120px; height: 120px; }
+@keyframes jfx-ring { 0% { opacity: 1; transform: translate(-50%, -50%) scale(.3); } 100% { opacity: 0; transform: translate(-50%, -50%) scale(1.6); } }
+.jfx.puff { width: 110px; height: 110px; border-radius: 50%; background: radial-gradient(circle, #f6ead2 0%, #c9d0dd 40%, #c9d0dd00 70%); animation: jfx-puff .7s ease-out forwards; }
+@keyframes jfx-puff { 0% { opacity: .95; transform: translate(-50%, -50%) scale(.3); } 100% { opacity: 0; transform: translate(-50%, -50%) scale(1.5); } }
+.jfx.log { font-size: 44px; animation: jfx-logdrop .7s ease-out forwards; }
+@keyframes jfx-logdrop { 0% { opacity: 0; transform: translate(-50%, -140%) rotate(-20deg); } 30% { opacity: 1; transform: translate(-50%, -50%) rotate(8deg); } 100% { opacity: 0; transform: translate(-50%, -40%) rotate(0); } }
+.jfx.pop { font-weight: 800; font-size: 16px; white-space: nowrap; text-shadow: 0 2px 4px #000, 0 0 2px #000; animation: jfx-popup 1s ease-out forwards; }
+.jfx.pop.big { font-size: 24px; -webkit-text-stroke: 1px #000; }
+.jfx.pop.dmg { color: #ff8f8f; } .jfx.pop.heal { color: #8ff0b6; } .jfx.pop.intel { color: #d6bfff; }
+.jfx.pop.se { color: #ffcc4d; } .jfx.pop.crit { color: #ff9a3c; } .jfx.pop.nve { color: #aab4c6; } .jfx.pop.status { color: #ffcf9e; } .jfx.pop.sub { color: #f6ead2; }
+@keyframes jfx-popup { 0% { opacity: 0; transform: translate(-50%, -20%) scale(.8); } 20% { opacity: 1; transform: translate(-50%, -90%) scale(1.05); } 100% { opacity: 0; transform: translate(-50%, -190%) scale(1); } }
+.jfx.banner { left: 50% !important; top: 50% !important; z-index: 7; padding: 10px 34px; font-family: var(--display); font-weight: 400; font-size: 40px; letter-spacing: .02em; white-space: nowrap;
+  color: #fff; background: linear-gradient(90deg, transparent, #000c 15%, #000c 85%, transparent); text-shadow: 0 0 18px var(--bc, #f57c1f), 0 2px 0 #000; animation: jfx-banner 1.3s ease-out forwards; }
+@keyframes jfx-banner { 0% { opacity: 0; transform: translate(-50%, -50%) scaleX(.2); } 15% { opacity: 1; transform: translate(-50%, -50%) scaleX(1.05); } 25% { transform: translate(-50%, -50%) scaleX(1); } 80% { opacity: 1; } 100% { opacity: 0; transform: translate(-50%, -50%) scaleX(1); } }
+
+.jfx.banner { -webkit-text-stroke: 1px #000; paint-order: stroke fill; }
+.arena .spr img.sub-log { position: absolute; left: 50%; bottom: 0; width: 120px; height: auto; max-width: none; z-index: 2; pointer-events: none; filter: drop-shadow(0 6px 4px #0007); }
+.arena .mon.you .spr img.sub-log { width: 160px; height: auto; }
+.arena .mon.foe .spr img.sub-log { height: auto; }

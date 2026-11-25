@@ -1,3 +1,4 @@
+const fs = require('fs');
 // Shinobi-mon server: lobby, challenges, matchmaking queues, CPU matches, spectating, chat.
 const path = require('path');
 const http = require('http');
@@ -30,6 +31,13 @@ Pass.useStore(store); Road.useStore(store);
 app.set('trust proxy', 1);
 setupAuth(app, store, { secure: process.env.NODE_ENV === 'production' });
 
+// jutsu animation pieces (public/jutsu/img): the animations look up which drawn pieces have an image file
+app.get('/jutsu/img/index.json', (req, res) => {
+  try { res.json(fs.readdirSync(path.join(__dirname, '..', 'public', 'jutsu', 'img')).filter(f => f !== 'index.json')); } catch { res.json([]); }
+});
+// Animation Studio: /studio (page) and /api/studio/* (saved edits). Saving needs STUDIO_KEY.
+require('./studio').mountStudio(app);
+app.get('/studio', (req, res) => res.sendFile(path.join(__dirname, '..', 'public', 'studio', 'index.html')));
 app.use(express.static(path.join(__dirname, '..', 'public')));
 for (const f of ['typechart.js', 'dex.js', 'movetext.js', 'megas.js', 'genders.js', 'cardcolors.js']) app.get('/shared/' + f, (req, res) => res.sendFile(path.join(__dirname, '..', 'shared', f)));
 const dexPayload = JSON.stringify({ fighters: FIGHTERS, moves: MOVES, items: DEX.ITEMS, natures: DEX.NATURES, types: DEX.TYPES, chart: DEX.CHART, eviolite: DEX.EVIOLITE_USERS, renamed: DEX.RENAMED_ABILITIES, finalSmashes: MEGAS.FINAL_SMASHES, forms: MEGAS.FORMS, pass: { perDay: Pass.ROLLS_PER_DAY, keep: Pass.KEEP_PER_ROLL } });
