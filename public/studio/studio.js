@@ -3,6 +3,7 @@
 // Edits save to the server (server/studio.js) with the studio key and show up in battles straight away.
 import { SHINOBI, SHINOBI_BY_ID } from '/jutsu/data/shinobi.js';
 import { JUTSU } from '/jutsu/data/jutsu.js';
+import { EXTRA_JUTSU } from '/jutsu/data/extra_jutsu.js';
 import { ANIMS, playJutsu, poisonBubbles } from '/jutsu/anim.js';
 import * as FX from '/jutsu/fx.js';
 
@@ -15,6 +16,7 @@ const app = $('studio');
 const KUNAI = { id: 'kunai', name: 'Kunai & Shuriken', category: 'taijutsu', nature: null, power: 25, cost: 0, priority: 2, target: 'enemy', effects: [], desc: 'The basic thrown attack every shinobi has.' };
 const USERS = {};
 for (const s of SHINOBI) for (const id of s.catalogue) (USERS[id] ||= []).push(s.id);
+for (const j of Object.values(EXTRA_JUTSU)) for (const sid of j.smUsers) if (SHINOBI_BY_ID[sid]) (USERS[j.id] ||= []).push(sid);
 const JLIST = [KUNAI, ...Object.values(JUTSU).filter((j) => USERS[j.id])].sort((a, b) => a.name.localeCompare(b.name));
 const JBY = Object.fromEntries(JLIST.map((j) => [j.id, j]));
 const FOES = ['kakashi_ship', 'gaara_ship', 'hinata_ship'];

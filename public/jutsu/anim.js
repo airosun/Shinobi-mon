@@ -4203,3 +4203,171 @@ export function playDecoy(arena, jutsuId, el, { sp = 1 } = {}) {
   a.decoy({ arena, sp }, el);
   return true;
 }
+
+// ================================================================== Shinobi-mon's own jutsu
+// Moves added in Shinobi-mon (they aren't in Shinobi Showdown). Each piece has its own data-sp name so it can be
+// redrawn in the Animation Studio. Creatures are drawn facing right and are flipped when they travel left.
+export const ART_SM = {
+  summonRhino: (w = 150) => `<svg data-sp="art-summonRhino" width="${w}" height="${w * 0.62}" viewBox="0 0 160 100"><g stroke="#2e2a28" stroke-width="3" stroke-linejoin="round"><path d="M18 46Q22 20 64 18Q104 14 124 30L150 40 156 54 142 64 124 66Q114 80 96 80H40Q14 78 18 46Z" fill="#7d746c"/><path d="M30 78 28 96H44L48 80ZM60 80V96H76L78 80ZM92 80 94 96H110L108 78ZM118 66 124 92H140L132 62Z" fill="#6a625b"/><path d="M146 40 158 18 152 44Z" fill="#e8e2d2"/><path d="M130 30 138 14 140 34Z" fill="#d8d0bc"/></g><circle cx="128" cy="42" r="5.5" fill="#d9c9ff" stroke="#2e2a28" stroke-width="1.5"/><circle cx="128" cy="42" r="3.2" fill="none" stroke="#6b4bb0" stroke-width="1"/><circle cx="128" cy="42" r="1.2" fill="#2e2a28"/><path d="M40 34Q70 26 100 32M36 52Q70 44 108 50" stroke="#5c544d" stroke-width="2" fill="none"/><circle cx="116" cy="56" r="2" fill="#9a9aa4"/><circle cx="106" cy="58" r="2" fill="#9a9aa4"/></svg>`,
+  garuda: (w = 170) => `<svg data-sp="art-garuda" width="${w}" height="${w * 0.6}" viewBox="0 0 170 102"><path d="M8 34Q40 6 78 30L86 40 94 30Q130 4 166 30Q140 36 120 50L104 56 112 78 98 70 92 92 84 70 70 78 76 56 56 50Q30 38 8 34Z" fill="#6b4a2c" stroke="#2e1f12" stroke-width="3" stroke-linejoin="round"/><path d="M14 33Q42 16 70 34M156 30Q126 16 100 34" stroke="#a8835a" stroke-width="3" fill="none"/><path d="M78 34Q86 18 96 34L94 46H80Z" fill="#f1ead8" stroke="#2e1f12" stroke-width="2.5"/><path d="M94 36 104 40 94 43Z" fill="#f2c14e" stroke="#2e1f12" stroke-width="1.5"/><circle cx="90" cy="35" r="2" fill="#c0392b"/><path d="M84 70 80 86M92 70 96 86" stroke="#f2c14e" stroke-width="3" stroke-linecap="round"/></svg>`,
+  earthDragon: (w = 130) => `<svg data-sp="art-earthDragon" width="${w}" height="${w * 1.15}" viewBox="0 0 120 138"><path d="M30 138Q24 92 40 66Q34 40 52 26Q74 10 96 22L116 30 108 42 118 52 98 58Q86 62 78 74Q70 100 74 138Z" fill="#8a6a44" stroke="#3e2c18" stroke-width="3" stroke-linejoin="round"/><path d="M98 58 116 56 104 66 84 66Z" fill="#5e4528" stroke="#3e2c18" stroke-width="2.5" stroke-linejoin="round"/><path d="M56 28 46 8 62 22M72 20 70 2 82 18" fill="#6e5234" stroke="#3e2c18" stroke-width="2.5" stroke-linejoin="round"/><circle cx="84" cy="34" r="4" fill="#ffd36a" stroke="#3e2c18" stroke-width="1.5"/><path d="M38 80Q50 76 62 82M36 100Q50 96 66 102M34 120Q50 116 70 122M48 46Q58 42 70 46" stroke="#5e4528" stroke-width="2.5" fill="none"/><circle cx="56" cy="92" r="3" fill="#6e5234"/><circle cx="62" cy="112" r="2.5" fill="#6e5234"/></svg>`,
+  mudBullet: (s = 26) => `<div data-sp="mudBullet" style="width:${s}px;height:${s}px;border-radius:50%;background:radial-gradient(circle at 35% 30%,#c49a64,#8a6a44 55%,#4e3a22);box-shadow:0 0 6px #3e2c18"></div>`,
+  puppetFlame: (s = 40) => `<div data-sp="puppetFlame" style="width:${s}px;height:${s * 0.7}px;border-radius:50%;background:radial-gradient(ellipse,#fff6c8 0%,#ffb43a 35%,#ff5a1a 65%,#ff3a0000 75%);filter:blur(.6px)"></div>`,
+  subLog: (h = 110) => `<svg data-sp="art-subLog" width="${h * 0.6}" height="${h}" viewBox="0 0 120 200"><ellipse cx="60" cy="192" rx="44" ry="7" fill="#0006"/><rect x="22" y="24" width="76" height="166" rx="10" fill="#8a5a30" stroke="#2e1d0e" stroke-width="3"/><path d="M34 40v130M50 32v150M70 36v140M86 44v120" stroke="#3b2612" stroke-width="2.5" stroke-linecap="round" opacity=".7"/><ellipse cx="60" cy="26" rx="38" ry="12" fill="#d9b27a" stroke="#2e1d0e" stroke-width="3"/><ellipse cx="60" cy="26" rx="24" ry="7" fill="none" stroke="#a87a44" stroke-width="2"/><rect x="38" y="96" width="44" height="22" rx="2" fill="#f3e3b0" stroke="#b08a3a" stroke-width="2"/><path d="M46 107h28M60 100v14" stroke="#c0392b" stroke-width="2.5"/></svg>`,
+  kingOfHell: (w = 170) => `<svg data-sp="art-kingOfHell" width="${w}" height="${w * 1.05}" viewBox="0 0 160 168"><path d="M20 70Q12 30 34 18L42 40 56 8 70 34 80 2 90 34 104 8 118 40 126 18Q148 30 140 70Q156 110 130 140Q110 166 80 166Q50 166 30 140Q4 110 20 70Z" fill="#2a1638" stroke="#0e0614" stroke-width="3" stroke-linejoin="round"/><path d="M34 18 42 40 56 8 70 34 80 2 90 34 104 8 118 40 126 18" fill="none" stroke="#ff9a3c" stroke-width="3" stroke-linejoin="round"/><path d="M40 76Q58 64 72 80M88 80Q102 64 120 76" stroke="#0e0614" stroke-width="5" fill="none"/><ellipse cx="58" cy="84" rx="9" ry="6" fill="#ffcf5a"/><ellipse cx="102" cy="84" rx="9" ry="6" fill="#ffcf5a"/><path d="M42 112Q80 96 118 112Q112 146 80 148Q48 146 42 112Z" fill="#0e0614"/><path d="M48 114 56 126 64 114 72 128 80 114 88 128 96 114 104 126 112 114" fill="#f2ead8" stroke="#0e0614" stroke-width="1.5" stroke-linejoin="round"/><path d="M60 134Q80 144 100 134" stroke="#6bffb0" stroke-width="3" fill="none" opacity=".8"/></svg>`,
+  clayClone: (h = 120) => `<svg data-sp="art-clayClone" width="${h * 0.45}" height="${h}" viewBox="0 0 54 120"><circle cx="27" cy="14" r="11" fill="#eee6d6" stroke="#9a8c74" stroke-width="2"/><path d="M14 30H40L44 66 38 68 36 118H29L27 76 25 118H18L16 68 10 66Z" fill="#eee6d6" stroke="#9a8c74" stroke-width="2" stroke-linejoin="round"/><path d="M20 40q7 4 14 0M18 54q9 4 18 0M20 90q2 8 0 16M33 90q-2 8 0 16" stroke="#c9bda4" stroke-width="1.5" fill="none"/><path d="M21 12q6 3 12 0" stroke="#9a8c74" stroke-width="1.5" fill="none"/></svg>`,
+  tyodHands: (w = 70) => `<svg data-sp="art-tyodHands" width="${w}" height="${w * 0.7}" viewBox="0 0 100 70"><path d="M4 30Q10 18 30 20L62 22 96 32 62 38 30 44Q10 46 4 36Z" fill="#f1c9a5" stroke="#7a5236" stroke-width="2.5" stroke-linejoin="round"/><path d="M30 20Q22 8 32 4M30 44Q22 56 32 62" stroke="#7a5236" stroke-width="2" fill="none"/><path d="M8 26Q30 30 60 28M8 40Q30 36 60 36" stroke="#c99a78" stroke-width="1.5" fill="none"/><path d="M0 22 4 30M0 44 4 36" stroke="#2a3a5a" stroke-width="6"/></svg>`,
+  boneArmor: (s = 160) => `<svg data-sp="art-boneArmor" width="${s}" height="${s}" viewBox="0 0 160 160"><g fill="#f4f1e8" stroke="#b9b29c" stroke-width="2" stroke-linejoin="round"><path d="M80 34 74 4 86 4Z"/><path d="M112 46 136 24 128 52Z"/><path d="M126 80 156 74 156 86Z"/><path d="M112 114 136 136 108 130Z"/><path d="M48 46 24 24 32 52Z"/><path d="M34 80 4 74 4 86Z"/><path d="M48 114 24 136 52 130Z"/><path d="M80 126 74 156 86 156Z"/></g><circle cx="80" cy="80" r="44" fill="none" stroke="#f4f1e8" stroke-width="3" stroke-dasharray="6 6" opacity=".7"/></svg>`,
+  mace: (w = 90) => `<svg data-sp="art-mace" width="${w}" height="${w * 0.5}" viewBox="0 0 120 60"><rect x="0" y="26" width="64" height="8" rx="3" fill="#6b4a2c" stroke="#2e1f12" stroke-width="2"/><rect x="2" y="25" width="10" height="10" rx="2" fill="#3a3a44"/><g fill="#9aa0a8" stroke="#3a3a44" stroke-width="2" stroke-linejoin="round"><path d="M88 4 92 12 84 12Z"/><path d="M88 56 92 48 84 48Z"/><path d="M118 30 110 26 110 34Z"/><path d="M108 9 104 17 112 15Z"/><path d="M108 51 104 43 112 45Z"/><path d="M66 22 70 26 64 28Z"/><path d="M66 38 70 34 64 32Z"/></g><circle cx="88" cy="30" r="20" fill="#b9bcc4" stroke="#3a3a44" stroke-width="2.5"/><circle cx="82" cy="24" r="5" fill="#e8eaee" opacity=".8"/></svg>`,
+  ribcage: (h = 150) => `<svg data-sp="art-ribcage" width="${h * 0.9}" height="${h}" viewBox="0 0 135 150" style="filter:drop-shadow(0 0 10px #9b5bff)"><g fill="none" stroke="#c9a2ff" stroke-width="6" stroke-linecap="round" opacity=".9"><path d="M67 8V142"/><path d="M67 30Q24 30 18 56Q16 72 30 76M67 30Q110 30 116 56Q118 72 104 76"/><path d="M67 52Q20 56 14 84Q14 100 30 102M67 52Q114 56 120 84Q120 100 104 102"/><path d="M67 76Q22 82 18 110Q20 124 36 124M67 76Q112 82 116 110Q114 124 98 124"/><path d="M67 100Q34 108 36 132M67 100Q100 108 98 132"/></g><g fill="none" stroke="#7a3bd6" stroke-width="2" opacity=".9"><path d="M67 8V142M67 30Q24 30 18 56M67 30Q110 30 116 56M67 52Q20 56 14 84M67 52Q114 56 120 84M67 76Q22 82 18 110M67 76Q112 82 116 110"/></g></svg>`,
+  sweat: (s = 14) => `<div data-sp="rechargeSweat" style="width:${s}px;height:${s * 1.4}px;border-radius:50% 50% 50% 50% / 60% 60% 40% 40%;background:radial-gradient(circle at 40% 60%,#ffffff,#9fdcff 55%,#4ab0ff);box-shadow:0 0 4px #4ab0ff88"></div>`,
+};
+const flipIf = (node, left) => { if (left && node.firstElementChild) node.firstElementChild.style.transform = 'scaleX(-1)'; };
+const selfAt = (ctx) => ctx.from;
+
+Object.assign(ANIMS, {
+  animal_path_summoning: {
+    desc: 'Pain summons a giant Rinnegan rhino that charges into the target.',
+    async play(ctx) {
+      const to = ctx.tos[0]; const left = to.x < ctx.from.x; const h = ctx.userSize.h;
+      glowAura(ctx, ctx.userEl, '#b48cff', 700);
+      const at = between(ctx.from, to, 0.2);
+      for (let i = 0; i < 3; i++) puff(ctx, { x: at.x + rnd(-20, 20), y: at.y + rnd(-14, 14) }, '#ffffff', 120);
+      await wait(260 * ctx.sp);
+      const r = spawn(ctx, ART_SM.summonRhino(h * 1.1), at, { life: 1500, z: 7 }); flipIf(r, left);
+      await pop(ctx, r, 180);
+      await fly(ctx, r, at, to, 380, { rotate: 0, ease: 'ease-in' });
+      boom(ctx, to, '#c9a27a', 150); shake(ctx); fade(ctx, r, 300);
+    },
+  },
+  summoning_garuda: {
+    desc: 'Sasuke summons Garuda, a giant hawk that swoops down on the target.',
+    async play(ctx) {
+      const to = ctx.tos[0]; const left = to.x < ctx.from.x; const h = ctx.userSize.h;
+      const at = { x: ctx.from.x, y: ctx.from.y - h * 0.55 };
+      puff(ctx, at, '#ffffff', 140); puff(ctx, at, '#ffffff', 110);
+      await wait(220 * ctx.sp);
+      const g = spawn(ctx, ART_SM.garuda(h * 1.25), at, { life: 1500, z: 7 }); flipIf(g, left);
+      await pop(ctx, g, 160);
+      await fly(ctx, g, at, to, 420, { rotate: 0, arc: -60, ease: 'ease-in' });
+      slashArc(ctx, to, { color: '#ffffff', glow: '#c9a27a', size: 120, rot: left ? -30 : 30 }); boom(ctx, to, '#ffffff', 120); shake(ctx); fade(ctx, g, 250);
+    },
+  },
+  puppet_flamethrower: {
+    desc: 'Sasori’s puppet breathes a stream of fire at the target.',
+    async play(ctx) {
+      const to = ctx.tos[0];
+      for (let i = 0; i < 14; i++) {
+        const st = { x: ctx.from.x + rnd(-6, 6), y: ctx.from.y - 10 + rnd(-6, 6) };
+        const f = spawn(ctx, ART_SM.puppetFlame(rnd(34, 56)), st, { life: 700 });
+        fly(ctx, f, st, { x: to.x + rnd(-18, 18), y: to.y + rnd(-18, 18) }, 260, { ease: 'linear', scale: [0.6, 1.4] }).then(() => fade(ctx, f, 160));
+        await wait(35 * ctx.sp);
+      }
+      await wait(200 * ctx.sp); boom(ctx, to, '#ff7a2a', 140); shake(ctx);
+    },
+  },
+  earth_dragon_bullet: {
+    desc: 'An earth dragon rises from the ground beside the user and spits mud bullets at the target.',
+    async play(ctx) {
+      const to = ctx.tos[0]; const left = to.x < ctx.from.x; const f = feetOf(ctx, ctx.userEl); const h = ctx.userSize.h;
+      const at = { x: f.x + (left ? -1 : 1) * h * 0.35, y: f.y };
+      const d = spawn(ctx, ART_SM.earthDragon(h * 0.8), at, { life: 2000, z: 5 }); flipIf(d, left);
+      await rise(ctx, d, 380);
+      const mouth = { x: at.x + (left ? -1 : 1) * h * 0.3, y: at.y - h * 0.62 };
+      for (let i = 0; i < 5; i++) {
+        const b = spawn(ctx, ART_SM.mudBullet(rnd(22, 32)), mouth, { life: 800 });
+        fly(ctx, b, mouth, { x: to.x + rnd(-16, 16), y: to.y + rnd(-16, 16) }, 300, { ease: 'ease-in', arc: 20 }).then(() => { b.remove(); boom(ctx, to, '#a8864e', 70); shake(ctx); });
+        await wait(110 * ctx.sp);
+      }
+      await wait(350 * ctx.sp); fade(ctx, d, 300);
+    },
+  },
+  substitution_jutsu: {
+    desc: 'The user vanishes in a puff of smoke, leaving a log behind, then reappears.',
+    async play(ctx) {
+      const el = ctx.userEl; const f = feetOf(ctx, el); const h = ctx.userSize.h;
+      puff(ctx, ctx.from, '#ffffff', 130); puff(ctx, ctx.from, '#ffffff', 100);
+      el.animate([{ opacity: 1 }, { opacity: 0, offset: 0.1 }, { opacity: 0, offset: 0.8 }, { opacity: 1 }], { duration: 1300 * ctx.sp });
+      const log = spawn(ctx, ART_SM.subLog(h * 0.6), { x: f.x, y: f.y }, { life: 1400 });
+      await rise(ctx, log, 200);
+      await wait(700 * ctx.sp); puff(ctx, ctx.from, '#ffffff', 110); fade(ctx, log, 250); await wait(250 * ctx.sp);
+    },
+  },
+  king_of_hell: {
+    desc: 'The King of Hell rises behind the user and restores them.',
+    async play(ctx) {
+      const el = ctx.userEl; const f = feetOf(ctx, el); const h = ctx.userSize.h; const left = ctx.isFoe;
+      const at = { x: f.x + (left ? 1 : -1) * h * 0.55, y: f.y + 6 };
+      const k = spawn(ctx, ART_SM.kingOfHell(h * 0.9), at, { life: 2200, z: 4 });
+      await rise(ctx, k, 420);
+      glowAura(ctx, el, '#6bffb0', 1000); await wait(900 * ctx.sp); fade(ctx, k, 350);
+    },
+  },
+  clay_clone: {
+    desc: 'A lump of clay shapes itself into a copy of the user.',
+    async play(ctx) {
+      const el = ctx.userEl; const f = feetOf(ctx, el); const h = ctx.userSize.h; const left = ctx.isFoe;
+      const at = { x: f.x + (left ? -1 : 1) * h * 0.38, y: f.y };
+      const c = spawn(ctx, ART_SM.clayClone(h * 0.85), at, { life: 1800 });
+      c.style.transformOrigin = '50% 100%';
+      await c.animate([{ transform: 'translate(-50%,-100%) scale(.2,.05)' }, { transform: 'translate(-50%,-100%) scale(.9,.5)', offset: 0.5 }, { transform: 'translate(-50%,-100%) scale(1)' }], { duration: 520 * ctx.sp, easing: 'ease-out', fill: 'forwards' }).finished.catch(() => {});
+      puff(ctx, { x: at.x, y: at.y - h * 0.4 }, '#eee6d6', 90); await wait(700 * ctx.sp); fade(ctx, c, 300);
+    },
+  },
+  thousand_years_of_death: {
+    desc: 'The user slips behind the target and jabs them with a Thousand Years of Death.',
+    async play(ctx) {
+      const to = ctx.tos[0]; const el = ctx.targetEls[0]; const left = to.x < ctx.from.x;
+      lunge(ctx, to, 0.85, 620); await wait(300 * ctx.sp);
+      const f = feetOf(ctx, el); const { h } = sizeOf(el);
+      const at = { x: to.x + (left ? 1 : -1) * h * 0.22, y: f.y - h * 0.38 };
+      const hands = spawn(ctx, ART_SM.tyodHands(h * 0.75), at, { life: 900, z: 8 }); flipIf(hands, left);
+      await pop(ctx, hands, 120);
+      boom(ctx, at, '#ffffff', 70);
+      el.animate([{ transform: 'translate(0,0)' }, { transform: 'translate(0,-46px) rotate(-8deg)', offset: 0.35 }, { transform: 'translate(0,0)' }], { duration: 600 * ctx.sp, easing: 'ease-out' });
+      await wait(300 * ctx.sp); fade(ctx, hands, 200);
+    },
+  },
+  bone_armor: {
+    desc: 'Bones burst out of the user’s body as armour.',
+    async play(ctx) {
+      const el = ctx.userEl; const h = ctx.userSize.h;
+      const b = spawn(ctx, ART_SM.boneArmor(h * 1.05), ctx.from, { life: 1600 });
+      await grow(ctx, b, 260, 'scale(.3)', 'scale(1)');
+      glowAura(ctx, el, '#f4f1e8', 900); await wait(800 * ctx.sp); fade(ctx, b, 300);
+    },
+  },
+  manipulated_mace: {
+    desc: 'Tenten hurls a giant spiked mace at the target.',
+    async play(ctx) {
+      const to = ctx.tos[0]; const h = ctx.userSize.h;
+      const m = spawn(ctx, ART_SM.mace(h * 0.75), ctx.from, { life: 1000 });
+      m.firstElementChild.animate([{ transform: 'rotate(0)' }, { transform: 'rotate(720deg)' }], { duration: 420 * ctx.sp });
+      await fly(ctx, m, ctx.from, to, 420, { arc: 50, ease: 'ease-in' });
+      boom(ctx, to, '#c9ced6', 130); shake(ctx); fade(ctx, m, 200);
+    },
+  },
+  susanoo_ribcage: {
+    desc: 'A purple Susano’o ribcage forms around the user.',
+    async play(ctx) {
+      const el = ctx.userEl; const h = ctx.userSize.h;
+      const r = spawn(ctx, ART_SM.ribcage(h * 1.05), ctx.from, { life: 1700 });
+      await pop(ctx, r, 300);
+      glowAura(ctx, el, '#9b5bff', 900); await wait(900 * ctx.sp); fade(ctx, r, 350);
+    },
+  },
+  recharge: {
+    desc: 'The user catches their breath.',
+    async play(ctx) {
+      const el = ctx.userEl; const h = ctx.userSize.h;
+      el.animate([{ transform: 'scale(1,1)' }, { transform: 'scale(1.03,.94)', offset: 0.25 }, { transform: 'scale(1,1)', offset: 0.5 }, { transform: 'scale(1.03,.94)', offset: 0.75 }, { transform: 'scale(1,1)' }], { duration: 900 * ctx.sp, transformOrigin: '50% 100%' });
+      for (let i = 0; i < 3; i++) {
+        const st = { x: ctx.from.x + rnd(-h * 0.15, h * 0.15), y: ctx.from.y - h * 0.42 };
+        const s = spawn(ctx, ART_SM.sweat(rnd(10, 16)), st, { life: 800 });
+        fly(ctx, s, st, { x: st.x + rnd(-24, 24), y: st.y + 30 }, 500, { rotate: 0, ease: 'ease-in', arc: 18 }).then(() => fade(ctx, s, 150));
+        await wait(180 * ctx.sp);
+      }
+      await wait(400 * ctx.sp);
+    },
+  },
+});

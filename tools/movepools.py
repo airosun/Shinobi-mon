@@ -286,3 +286,11 @@ ANIM_LIKE = {
  'Demonic Flute: Illusion Warp': 'Demonic Flute: Phantom Sound Chains', 'Sage Art: Spear Arm': 'Axe Arm', 'Blue Fire Wheel': 'Cat Claw of Blue Fire',
  'Samurai Charge': 'Chakra Blade Wave',
 }
+
+# Shinobi-mon's own animations (public/jutsu/anim.js, ART_SM) for new moves that have no Shinobi Showdown jutsu
+OWN_ANIM = {
+    'Animal Path: Summoning': 'animal_path_summoning', 'Summoning: Garuda': 'summoning_garuda', 'Puppet Flamethrower': 'puppet_flamethrower',
+    'Earth Release: Earth Dragon Bullet': 'earth_dragon_bullet', 'Substitution Jutsu': 'substitution_jutsu', 'Naraka Path: King of Hell': 'king_of_hell',
+    'Clay Clone': 'clay_clone', 'Thousand Years of Death': 'thousand_years_of_death', 'Bone Armor': 'bone_armor',
+    'Manipulated Tools: Mace': 'manipulated_mace', "Susano'o Ribcage": 'susanoo_ribcage',
+}

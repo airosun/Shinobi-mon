@@ -26,7 +26,7 @@ m("Fire Release: Searing Migraine", "Fire", "Special", 70, 100, 15, {"prio": 0, 
 m("Fire Release: Toad Oil Flame Bullet", "Fire", "Special", 80, 100, 15, {"prio": 0, "sec": [{"chance": 30, "status": "brn"}], "target": "allFoes", "jutsu": "toad_oil_flame", "anim": "toad_oil_flame"});
 m("Matatabi: Tailed Beast Bomb", "Fire", "Special", 130, 90, 5, {"prio": 0, "sec": [{"chance": 40, "status": "brn"}], "requiresForm": true, "target": "allFoes", "jutsu": "matatabi_bomb", "anim": "matatabi_bomb"});
 m("Perfect Susano'o: Sword Slash", "Fire", "Special", 145, 90, 5, {"prio": 0, "requiresForm": true, "target": "allFoes", "jutsu": "susanoo_sword", "anim": "susanoo_sword"});
-m("Puppet Flamethrower", "Fire", "Special", 80, 100, 15, {"sec": [{"chance": 20, "status": "brn"}]});
+m("Puppet Flamethrower", "Fire", "Special", 80, 100, 15, {"sec": [{"chance": 20, "status": "brn"}], "anim": "puppet_flamethrower"});
 m("Susano'o: Divine Arrows", "Fire", "Special", 140, 90, 5, {"prio": 0, "requiresForm": true, "jutsu": "shisui_arrows", "anim": "shisui_arrows"});
 m("Susano'o: Flame Arrow", "Fire", "Special", 120, 90, 5, {"prio": 0, "sec": [{"chance": 50, "status": "brn"}], "requiresForm": true, "jutsu": "susanoo_arrow", "anim": "susanoo_arrow"});
 m("Totsuka Blade", "Fire", "Special", 130, 90, 5, {"prio": 0, "requiresForm": true, "jutsu": "totsuka_blade", "anim": "totsuka_blade"});
@@ -88,7 +88,7 @@ m("Chakra Enhanced Strength", "Earth", "Physical", 100, 100, 10, {"prio": 0, "co
 m("Earth Release: Added Weight Rock", "Earth", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "foe", "spe": -2}, "jutsu": "weighted_boulder", "anim": "weighted_boulder"});
 m("Earth Release: Barrier Earth Prison Dome", "Earth", "Status", 0, 90, 10, {"prio": 0, "status": "par", "boosts": {"target": "foe", "spa": -1}, "jutsu": "earth_dome", "anim": "earth_dome"});
 m("Earth Release: Earth Dome", "Earth", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "self", "def": 1, "spd": 1}, "target": "self", "jutsu": "stone_wall", "anim": "stone_wall"});
-m("Earth Release: Earth Dragon Bullet", "Earth", "Special", 80, 100, 15, {});
+m("Earth Release: Earth Dragon Bullet", "Earth", "Special", 80, 100, 15, {"anim": "earth_dragon_bullet"});
 m("Earth Release: Earth Flow Spears", "Earth", "Physical", 80, 100, 15, {"anim": "earth_spear"});
 m("Earth Release: Earth Shore Return", "Earth", "Special", 60, 100, 15, {"prio": 0, "target": "allFoes", "jutsu": "earth_shore_return", "anim": "earth_shore_return"});
 m("Earth Release: Earth Spear", "Earth", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "self", "def": 2, "spd": 2}, "target": "self", "jutsu": "earth_spear", "anim": "earth_spear"});
@@ -191,7 +191,7 @@ m("Sharingan: Copy", "Yin", "Special", 0, 100, 10, {"special": "mirrorcoat", "pr
 m("Sharingan: Demonic Illusion", "Yin", "Status", 0, 90, 10, {"prio": 0, "special": "confuse", "jutsu": "demonic_illusion", "anim": "demonic_illusion"});
 m("Six Paths: Chibaku Tensei", "Yin", "Special", 155, 100, 5, {"prio": 0, "charge": true, "sec": [{"chance": 50, "status": "par"}], "target": "allFoes", "jutsu": "six_paths_chibaku", "anim": "six_paths_chibaku"});
 m("Sly Mind Affect", "Yin", "Status", 0, 90, 10, {"prio": 0, "special": "confuse", "jutsu": "sly_mind_affect", "anim": "sly_mind_affect"});
-m("Substitution Jutsu", "Yin", "Status", 0, true, 10, {"prio": 4, "special": "protect", "target": "self"});
+m("Substitution Jutsu", "Yin", "Status", 0, true, 10, {"prio": 4, "special": "protect", "target": "self", "anim": "substitution_jutsu"});
 m("Summoning: Gedo Statue", "Yin", "Special", 120, 85, 5, {"anim": "gedo_chains"});
 m("Summoning: Rashomon", "Yin", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "self", "def": 1, "spd": 1}, "target": "self", "jutsu": "rashomon", "anim": "rashomon"});
 m("Super Beast Imitating Drawing", "Yin", "Special", 80, 100, 15, {"prio": 0, "jutsu": "super_beast_scroll", "anim": "super_beast_scroll"});
@@ -223,7 +223,7 @@ m("Kurama Chakra Transfer", "Yang", "Status", 0, 100, 10, {"prio": 0, "heal": 0.
 m("Mind's Eye of the Kagura", "Yang", "Status", 0, 100, 10, {"prio": 0, "special": "laserfocus", "target": "self", "jutsu": "mind_eye_sensing", "anim": "mind_eye_sensing"});
 m("Multi Shadow Clone Jutsu", "Yang", "Status", 0, 100, 10, {"prio": 0, "special": "substitute", "target": "self", "jutsu": "multi_shadow_clone", "anim": "multi_shadow_clone"});
 m("Mystical Palm", "Yang", "Status", 0, 100, 10, {"prio": 0, "special": "lifedew", "target": "self", "jutsu": "mystical_palm", "anim": "mystical_palm"});
-m("Naraka Path: King of Hell", "Yang", "Status", 0, true, 5, {"heal": 0.5, "target": "self"});
+m("Naraka Path: King of Hell", "Yang", "Status", 0, true, 5, {"heal": 0.5, "target": "self", "anim": "king_of_hell"});
 m("Natural Energy Transfer", "Yang", "Status", 0, 100, 10, {"prio": 0, "special": "lifedew", "recoil": 0.3333333333333333, "target": "self", "jutsu": "cell_share", "anim": "cell_share"});
 m("One's Own Life Reincarnation", "Yang", "Status", 0, 100, 1, {"prio": 0, "special": "revival", "target": "self", "jutsu": "reincarnation", "anim": "reincarnation"});
 m("Outer Path: Samsara of Heavenly Life", "Yang", "Status", 0, 100, 1, {"prio": 0, "special": "revival", "target": "self", "jutsu": "samsara_revival", "anim": "samsara_revival"});
@@ -304,7 +304,7 @@ m("C2: Clay Dragon", "Explosion", "Special", 85, 100, 15, {"prio": 0, "target": 
 m("C3: Giant Clay Bomb", "Explosion", "Special", 120, 100, 5, {"prio": 0, "charge": true, "target": "allFoes", "jutsu": "c3_bomb", "anim": "c3_bomb"});
 m("C4: Karura", "Explosion", "Special", 45, 100, 20, {"prio": 0, "sec": [{"chance": 40, "status": "psn"}], "target": "allFoes", "jutsu": "c4_karura", "anim": "c4_karura"});
 m("Clay Bird Flight", "Explosion", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "self", "spe": 1}, "target": "self", "jutsu": "clay_bird", "anim": "clay_bird"});
-m("Clay Clone", "Explosion", "Status", 0, true, 10, {"special": "substitute", "target": "self"});
+m("Clay Clone", "Explosion", "Status", 0, true, 10, {"special": "substitute", "target": "self", "anim": "clay_clone"});
 m("Shadow Clone Explosion", "Explosion", "Special", 90, 100, 10, {"anim": "c3_bomb"});
 m("Dust Release: Cone of Light", "Dust", "Special", 95, 100, 10, {"prio": 0, "jutsu": "dust_cone", "anim": "dust_cone"});
 m("Dust Release: Detachment of the Primitive World", "Dust", "Special", 145, 90, 5, {"prio": 0, "jutsu": "particle_detachment", "anim": "particle_detachment"});
@@ -353,7 +353,7 @@ m("Six-Armed Rush", "Taijutsu", "Physical", 20, 100, 15, {"contact": true, "punc
 m("Spiked Human Boulder", "Taijutsu", "Physical", 85, 100, 15, {"prio": 0, "contact": true, "punch": true, "crit": 1, "jutsu": "spiked_boulder", "anim": "spiked_boulder"});
 m("Super Open-Hand Slap", "Taijutsu", "Physical", 90, 100, 10, {"contact": true, "punch": true, "anim": "partial_expansion"});
 m("Teacher's Shield", "Taijutsu", "Status", 0, 100, 10, {"prio": 2, "special": "followme", "target": "self", "jutsu": "iruka_cover", "anim": "iruka_cover"});
-m("Thousand Years of Death", "Taijutsu", "Physical", 40, 100, 10, {"contact": true, "special": "fakeout", "prio": 3});
+m("Thousand Years of Death", "Taijutsu", "Physical", 40, 100, 10, {"contact": true, "special": "fakeout", "prio": 3, "anim": "thousand_years_of_death"});
 m("Twin Demon Combo", "Taijutsu", "Physical", 45, 100, 15, {"contact": true, "multihit": 2, "anim": "connected_fist"});
 m("Uchiha Taijutsu", "Taijutsu", "Physical", 80, 100, 15, {"prio": 0, "contact": true, "jutsu": "madara_taijutsu", "anim": "madara_taijutsu"});
 m("Uzumaki Barrage", "Taijutsu", "Physical", 60, 100, 15, {"prio": 0, "contact": true, "jutsu": "shadow_clone_barrage", "anim": "shadow_clone_barrage"});
@@ -363,7 +363,7 @@ m("Black Ant: Iron Maiden", "Weapon", "Physical", 75, 100, 15, {"prio": 0, "spec
 m("Black Secret Technique: Machine of Forbidden Embraces", "Weapon", "Physical", 50, 100, 20, {"prio": 0, "sec": [{"chance": 60, "status": "par"}], "jutsu": "crow_embrace", "anim": "crow_embrace"});
 m("Blood Spear", "Weapon", "Physical", 75, 100, 15, {"contact": true, "drain": 0.25, "anim": "jashin_spike"});
 m("Body Flicker Slashes", "Weapon", "Physical", 60, 100, 15, {"prio": 0, "contact": true, "slicing": true, "target": "allFoes", "jutsu": "flicker_slashes", "anim": "flicker_slashes"});
-m("Bone Armor", "Weapon", "Status", 0, true, 10, {"boosts": {"target": "self", "def": 1, "atk": 1}});
+m("Bone Armor", "Weapon", "Status", 0, true, 10, {"boosts": {"target": "self", "def": 1, "atk": 1}, "anim": "bone_armor"});
 m("Chain Bind", "Weapon", "Physical", 40, 100, 20, {"prio": 0, "sec": [{"chance": 50, "status": "par"}], "jutsu": "hanzo_chain_bind", "anim": "hanzo_chain_bind"});
 m("Chakra Blade Wave", "Weapon", "Physical", 60, 100, 15, {"prio": 0, "contact": true, "slicing": true, "target": "allFoes", "jutsu": "chakra_blade_wave", "anim": "chakra_blade_wave"});
 m("Chakra Threads", "Weapon", "Special", 35, 100, 20, {"prio": 0, "sec": [{"chance": 50, "status": "par"}], "jutsu": "chakra_threads", "anim": "chakra_threads"});
@@ -401,7 +401,7 @@ m("Iai: Rapid Slash", "Weapon", "Physical", 70, 100, 15, {"contact": true, "slic
 m("Jashin Spike", "Weapon", "Physical", 70, 100, 15, {"prio": 0, "contact": true, "crit": 1, "jutsu": "jashin_spike", "anim": "jashin_spike"});
 m("Kunai & Shuriken", "Weapon", "Physical", 40, 100, 30, {"prio": 1, "anim": "shuriken_volley"});
 m("Manipulated Tools: Heavenly Chains", "Weapon", "Physical", 40, 100, 20, {"prio": 0, "sec": [{"chance": 45, "status": "par"}], "jutsu": "chain_bind", "anim": "chain_bind"});
-m("Manipulated Tools: Mace", "Weapon", "Physical", 85, 90, 10, {"sec": [{"chance": 20, "volatile": "flinch"}]});
+m("Manipulated Tools: Mace", "Weapon", "Physical", 85, 90, 10, {"sec": [{"chance": 20, "volatile": "flinch"}], "anim": "manipulated_mace"});
 m("Poison Kusarigama", "Weapon", "Physical", 80, 100, 15, {"prio": 0, "contact": true, "slicing": true, "sec": [{"chance": 30, "status": "psn"}], "jutsu": "hanzo_kusarigama", "anim": "hanzo_kusarigama"});
 m("Poison Smoke Bomb", "Weapon", "Status", 0, 90, 10, {"prio": 0, "status": "psn", "target": "allFoes", "jutsu": "poison_bomb", "anim": "poison_bomb"});
 m("Puppet Body Switch", "Weapon", "Status", 0, 100, 10, {"prio": 0, "special": "substitute", "target": "self", "jutsu": "puppet_switch", "anim": "puppet_switch"});
@@ -423,7 +423,7 @@ m("Silent Killing", "Weapon", "Physical", 80, 100, 10, {"contact": true, "slicin
 m("Smoke Bomb", "Weapon", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "foe", "spe": -1}, "target": "allFoes", "jutsu": "smoke_bomb", "anim": "smoke_bomb"});
 m("Spider Bow: Fierce Rip", "Weapon", "Physical", 130, 100, 5, {"prio": 0, "charge": true, "crit": 1, "jutsu": "spider_bow", "anim": "spider_bow"});
 m("Spider Sticky Gold Armor", "Weapon", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "self", "def": 1, "spd": 1}, "target": "self", "jutsu": "spider_armor", "anim": "spider_armor"});
-m("Susano'o Ribcage", "Weapon", "Status", 0, true, 10, {"boosts": {"target": "self", "def": 2}});
+m("Susano'o Ribcage", "Weapon", "Status", 0, true, 10, {"boosts": {"target": "self", "def": 2}, "anim": "susanoo_ribcage"});
 m("Sword of Kusanagi", "Weapon", "Physical", 85, 100, 15, {"prio": 0, "contact": true, "slicing": true, "crit": 1, "jutsu": "kusanagi", "anim": "kusanagi"});
 m("Tantō Strike", "Weapon", "Physical", 60, 100, 15, {"prio": 0, "contact": true, "slicing": true, "jutsu": "tanto_strike", "anim": "tanto_strike"});
 m("Ten Puppets of Chikamatsu", "Weapon", "Physical", 60, 100, 15, {"prio": 0, "sec": [{"chance": 25, "status": "psn"}], "target": "allFoes", "jutsu": "ten_puppets", "anim": "ten_puppets"});
@@ -433,7 +433,7 @@ m("Twin Rising Dragons", "Weapon", "Physical", 40, 100, 20, {"prio": 0, "target"
 m("Twin Rising Dragons: Explosion", "Weapon", "Physical", 50, 100, 20, {"prio": 0, "sec": [{"chance": 20, "status": "brn"}], "target": "allFoes", "jutsu": "rising_dragons_explosion", "anim": "rising_dragons_explosion"});
 m("Uzumaki Kenjutsu", "Weapon", "Physical", 80, 100, 15, {"prio": 0, "contact": true, "slicing": true, "jutsu": "kushina_blade", "anim": "kushina_blade"});
 m("White Secret Technique: Mother and Father", "Weapon", "Physical", 75, 100, 15, {"prio": 0, "sec": [{"chance": 30, "status": "par"}], "jutsu": "mother_father", "anim": "mother_father"});
-m("Animal Path: Summoning", "Beast", "Physical", 85, 100, 10, {});
+m("Animal Path: Summoning", "Beast", "Physical", 85, 100, 10, {"anim": "animal_path_summoning"});
 m("Cat Pounce", "Beast", "Physical", 60, 100, 15, {"prio": 0, "contact": true, "jutsu": "cat_pounce", "anim": "cat_pounce"});
 m("Chakra Arm Grab", "Beast", "Physical", 70, 100, 15, {"prio": 0, "contact": true, "sec": [{"chance": 35, "status": "par"}], "jutsu": "chakra_arm", "anim": "chakra_arm"});
 m("Dynamic Marking", "Beast", "Status", 0, 100, 10, {"prio": 0, "boosts": {"target": "foe", "def": -1}, "jutsu": "dynamic_marking", "anim": "dynamic_marking"});
@@ -463,7 +463,7 @@ m("Spider Web Unrolling", "Beast", "Status", 0, 100, 15, {"boosts": {"target": "
 m("Striking Shadow Snakes", "Beast", "Special", 65, 100, 15, {"prio": 0, "sec": [{"chance": 30, "status": "psn"}], "jutsu": "shadow_snakes", "anim": "shadow_snakes"});
 m("Summoning: Baku", "Beast", "Special", 40, 100, 20, {"prio": 0, "sec": [{"chance": 100, "boosts": {"spa": -1}}], "target": "allFoes", "jutsu": "summon_baku", "anim": "summon_baku"});
 m("Summoning: Doki", "Beast", "Special", 65, 100, 15, {"prio": 0, "target": "allFoes", "jutsu": "summon_doki", "anim": "summon_doki"});
-m("Summoning: Garuda", "Beast", "Physical", 85, 100, 10, {});
+m("Summoning: Garuda", "Beast", "Physical", 85, 100, 10, {"anim": "summoning_garuda"});
 m("Summoning: Ibuse", "Beast", "Special", 60, 100, 15, {"prio": 0, "sec": [{"chance": 50, "status": "psn"}], "target": "allFoes", "jutsu": "summon_ibuse", "anim": "summon_ibuse"});
 m("Summoning: Kurama", "Beast", "Special", 120, 85, 5, {"anim": "tailed_beast_bomb"});
 m("Summoning: Kyodaigumo", "Beast", "Special", 50, 100, 20, {"prio": 0, "sec": [{"chance": 15, "status": "par"}], "target": "allFoes", "jutsu": "summon_spider", "anim": "summon_spider"});
@@ -485,7 +485,7 @@ m("Sage Art: Snake Dragon", "Sage", "Special", 100, 100, 10, {"prio": 0, "sec": 
 m("Sage Art: Spear Arm", "Sage", "Physical", 80, 100, 15, {"contact": true, "anim": "axe_arm"});
 m("Sage Art: White Rage", "Sage", "Special", 70, 100, 15, {"prio": 0, "sec": [{"chance": 40, "status": "par"}], "target": "allFoes", "jutsu": "white_rage", "anim": "white_rage"});
 m("Six Paths: Truth-Seeking Ball Barrage", "Sage", "Special", 100, 100, 10, {"requiresForm": true, "sec": [{"chance": 30, "boosts": {"spd": -1}}], "anim": "truth_seeking_balls"});
-m('Recharge', 'Taijutsu', 'Status', 0, true, 1, { special: 'rechargeturn', target: 'self' });
+m('Recharge', 'Taijutsu', 'Status', 0, true, 1, { special: 'rechargeturn', target: 'self', anim: 'recharge' });
 for (const mv of Object.values(MOVES)) {
   if (mv.target) continue;
   if (mv.cat === 'Status') mv.target = (mv.boosts && mv.boosts.target === 'self') || mv.heal ? 'self' : (mv.boosts && mv.boosts.target === 'foe') || mv.status || mv.special === 'confuse' || mv.special === 'attract' ? 'normal' : 'self';

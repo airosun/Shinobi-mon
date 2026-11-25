@@ -336,6 +336,10 @@ for nm, (t, cat, pw, acc, pp, o) in MOVES.items():
 for nm, like in ANIM_LIKE.items():
     if nm not in MOVES or like not in MOVES or not MOVES[like][5].get('jutsu'): raise SystemExit(f'ANIM_LIKE: {nm} -> {like}')
     MOVES[nm][5]['anim'] = MOVES[like][5]['jutsu']
+from movepools import OWN_ANIM
+for nm, aid in OWN_ANIM.items():
+    if nm not in MOVES: raise SystemExit('OWN_ANIM: ' + nm)
+    MOVES[nm][5]['anim'] = aid
 
 # ---------------------------------------------------------------- fighters, forms, genders
 FEMALE = {'sakura', 'hinata', 'tenten', 'ino', 'kurenai', 'temari', 'chiyo', 'tayuya', 'anko', 'konan', 'karin', 'tsunade', 'karui',
@@ -401,7 +405,7 @@ lines = ['// Shinobi-mon move database: every Shinobi Showdown jutsu as a Pokém
          'function m(name, type, cat, power, acc, pp, o = {}) { MOVES[name] = Object.assign({ name, type, cat, power, acc, pp, prio: 0 }, o); }']
 for nm, (t, cat, pw, acc, pp, o) in sorted(MOVES.items(), key=lambda kv: (TYPES.index(kv[1][0]), kv[0])):
     lines.append(f"m({js(nm)}, {js(t)}, {js(cat)}, {pw}, {'true' if acc is True else acc}, {pp}, {js(o)});")
-lines += ["m('Recharge', 'Taijutsu', 'Status', 0, true, 1, { special: 'rechargeturn', target: 'self' });",
+lines += ["m('Recharge', 'Taijutsu', 'Status', 0, true, 1, { special: 'rechargeturn', target: 'self', anim: 'recharge' });",
           "for (const mv of Object.values(MOVES)) {",
           "  if (mv.target) continue;",
           "  if (mv.cat === 'Status') mv.target = (mv.boosts && mv.boosts.target === 'self') || mv.heal ? 'self' : (mv.boosts && mv.boosts.target === 'foe') || mv.status || mv.special === 'confuse' || mv.special === 'attract' ? 'normal' : 'self';",

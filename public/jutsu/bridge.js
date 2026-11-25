@@ -3,6 +3,7 @@
 // one it plays, and the Animation Studio (/studio) can point any move at a different one or back to the generic look.
 import { playJutsu, ANIMS } from './anim.js';
 import { JUTSU } from './data/jutsu.js';
+import './data/extra_jutsu.js'; // Shinobi-mon's own jutsu (adds them to JUTSU)
 import * as FX from './fx.js';
 
 const KUNAI = { id: 'kunai', name: 'Kunai & Shuriken', category: 'taijutsu', nature: null, target: 'enemy', effects: [] };
