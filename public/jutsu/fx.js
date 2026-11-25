@@ -128,6 +128,8 @@ export function applySprites(root, jutsuId = null) {
         el = img;
       } else {
         el.dataset.ovr = '1';
+        // the drawn insides (e.g. an inner <svg>) would cover the image: clear them, unless they hold other editable pieces
+        if (el.children.length && !el.querySelector('[data-sp]')) el.replaceChildren();
         el.style.background = `url("${url}") center / contain no-repeat`;
         el.style.border = 'none'; el.style.borderRadius = '0'; el.style.boxShadow = 'none'; el.style.clipPath = 'none';
       }
