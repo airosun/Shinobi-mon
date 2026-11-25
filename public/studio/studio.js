@@ -699,11 +699,11 @@ async function exportAll() {
   if (!names.length && !Object.keys(tweaksOut).length) { toast('Nothing changed yet'); return; }
   if (!window.JSZip) { toast('Zip support didn’t load'); return; }
   const zip = new window.JSZip();
-  for (const n of names) { try { zip.file(`public/img/${n}.png`, await (await fetch(blobUrl(S.saved[n].image))).blob()); } catch { /* skip */ } }
-  zip.file('public/data/anim_tweaks.json', `${JSON.stringify(tweaksOut, null, 1)}\n`);
-  zip.file('README.txt', 'Upload the public folder to the root of the Shinobi_Showdown repo on GitHub (Add file > Upload files, drag the folder in).\nImages go to public/img, animation settings to public/data/anim_tweaks.json.\n');
+  for (const n of names) { try { zip.file(`public/jutsu/img/${n}.png`, await (await fetch(blobUrl(S.saved[n].image))).blob()); } catch { /* skip */ } }
+  zip.file('public/jutsu/data/anim_tweaks.json', `${JSON.stringify(tweaksOut, null, 1)}\n`);
+  zip.file('README.txt', 'Shinobi-mon studio backup. Upload the public folder to the root of the Shinobi-mon repo on GitHub (Add file > Upload files, drag the folder in).\nImages go to public/jutsu/img, animation settings to public/jutsu/data/anim_tweaks.json.\n');
   const blob = await zip.generateAsync({ type: 'blob' });
-  if (await save('shinobi-studio-changes.zip', blob)) toast(`Exported ${names.length} image(s) and ${Object.keys(tweaksOut).length} animation setting(s)`);
+  if (await save('shinobi-mon-studio-backup.zip', blob)) toast(`Exported ${names.length} image(s) and ${Object.keys(tweaksOut).length} animation setting(s)`);
 }
 
 // ================================================================== events
