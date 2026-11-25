@@ -1,0 +1,7102 @@
+[
+ {
+  "floor": 1,
+  "name": "Adam Warlock's Crew",
+  "milestone": false,
+  "ace": "adam-warlock",
+  "skill": 0.15,
+  "bst": 3150,
+  "team": [
+   {
+    "uid": "boss1-0",
+    "species": "adam-warlock",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 22,
+     "atk": 9,
+     "def": 25,
+     "spa": 15,
+     "spd": 6,
+     "spe": 29
+    },
+    "ability": "Regenerative Cocoon",
+    "gender": "M",
+    "moves": [
+     "Psyshock",
+     "Shadow Ball",
+     "Protect",
+     "Moonblast"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss1-1",
+    "species": "cloak-and-dagger",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 26,
+     "atk": 28,
+     "def": 0,
+     "spa": 16,
+     "spd": 19,
+     "spe": 1
+    },
+    "ability": "Light and Darkforce",
+    "gender": "B",
+    "moves": [
+     "Psychic",
+     "Hex",
+     "Foul Play",
+     "Ally Switch"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss1-2",
+    "species": "invisible-woman",
+    "nature": "Mild",
+    "ivs": {
+     "hp": 4,
+     "atk": 30,
+     "def": 25,
+     "spa": 21,
+     "spd": 3,
+     "spe": 3
+    },
+    "ability": "Invisibility",
+    "gender": "F",
+    "moves": [
+     "Expanding Force",
+     "Psybeam",
+     "Reflect",
+     "Life Dew"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss1-3",
+    "species": "jeff-the-land-shark",
+    "nature": "Quiet",
+    "ivs": {
+     "hp": 29,
+     "atk": 5,
+     "def": 17,
+     "spa": 4,
+     "spd": 16,
+     "spe": 22
+    },
+    "ability": "Too Cute",
+    "gender": "M",
+    "moves": [
+     "Muddy Water",
+     "Crunch",
+     "Fishious Rend",
+     "Life Dew"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss1-4",
+    "species": "ultron",
+    "nature": "Naughty",
+    "ivs": {
+     "hp": 2,
+     "atk": 11,
+     "def": 13,
+     "spa": 30,
+     "spd": 9,
+     "spe": 30
+    },
+    "ability": "Adamantium Shell",
+    "gender": "N",
+    "moves": [
+     "Volt Switch",
+     "Flash Cannon",
+     "Heal Pulse",
+     "Metal Sound"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss1-5",
+    "species": "loki",
+    "nature": "Careful",
+    "ivs": {
+     "hp": 30,
+     "atk": 7,
+     "def": 3,
+     "spa": 8,
+     "spd": 16,
+     "spe": 9
+    },
+    "ability": "God of Mischief",
+    "gender": "F",
+    "moves": [
+     "Ice Beam",
+     "Dark Pulse",
+     "Ally Switch",
+     "Freeze-Dry"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 2,
+  "name": "Rocket Raccoon's Gang",
+  "milestone": false,
+  "ace": "rocket-raccoon",
+  "skill": 0.19,
+  "bst": 3155,
+  "team": [
+   {
+    "uid": "boss2-0",
+    "species": "loki",
+    "nature": "Docile",
+    "ivs": {
+     "hp": 14,
+     "atk": 2,
+     "def": 14,
+     "spa": 2,
+     "spd": 8,
+     "spe": 22
+    },
+    "ability": "God of Mischief",
+    "gender": "F",
+    "moves": [
+     "Foul Play",
+     "Freeze-Dry",
+     "Trick",
+     "Wish"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss2-1",
+    "species": "mantis",
+    "nature": "Naive",
+    "ivs": {
+     "hp": 20,
+     "atk": 13,
+     "def": 20,
+     "spa": 4,
+     "spd": 19,
+     "spe": 31
+    },
+    "ability": "Spore Slumber",
+    "gender": "F",
+    "moves": [
+     "Energy Ball",
+     "Bug Buzz",
+     "Sleep Powder",
+     "Pollen Puff"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss2-2",
+    "species": "invisible-woman",
+    "nature": "Hardy",
+    "ivs": {
+     "hp": 15,
+     "atk": 2,
+     "def": 6,
+     "spa": 26,
+     "spd": 3,
+     "spe": 15
+    },
+    "ability": "Invisibility",
+    "gender": "F",
+    "moves": [
+     "Psyshock",
+     "Force Palm",
+     "Psychic",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss2-3",
+    "species": "cloak-and-dagger",
+    "nature": "Calm",
+    "ivs": {
+     "hp": 12,
+     "atk": 4,
+     "def": 16,
+     "spa": 11,
+     "spd": 27,
+     "spe": 24
+    },
+    "ability": "Eternal Bond",
+    "gender": "B",
+    "moves": [
+     "Moonblast",
+     "Shadow Ball",
+     "Life Dew",
+     "Obstruct"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss2-4",
+    "species": "gambit",
+    "nature": "Impish",
+    "ivs": {
+     "hp": 31,
+     "atk": 15,
+     "def": 22,
+     "spa": 26,
+     "spd": 27,
+     "spe": 5
+    },
+    "ability": "Lady Luck",
+    "gender": "M",
+    "moves": [
+     "Thief",
+     "Moonblast",
+     "Flamethrower",
+     "Mystical Fire"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss2-5",
+    "species": "rocket-raccoon",
+    "nature": "Impish",
+    "ivs": {
+     "hp": 24,
+     "atk": 5,
+     "def": 13,
+     "spa": 15,
+     "spd": 20,
+     "spe": 27
+    },
+    "ability": "Genius Engineer",
+    "gender": "M",
+    "moves": [
+     "Fake Out",
+     "Thunderbolt",
+     "U-turn",
+     "Discharge"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 3,
+  "name": "Nightcrawler's Posse",
+  "milestone": false,
+  "ace": "nightcrawler",
+  "skill": 0.22,
+  "bst": 3160,
+  "team": [
+   {
+    "uid": "boss3-0",
+    "species": "jeff-the-land-shark",
+    "nature": "Gentle",
+    "ivs": {
+     "hp": 18,
+     "atk": 24,
+     "def": 19,
+     "spa": 8,
+     "spd": 2,
+     "spe": 16
+    },
+    "ability": "Too Cute",
+    "gender": "M",
+    "moves": [
+     "Liquidation",
+     "Muddy Water",
+     "Bubble Beam",
+     "Scald"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss3-1",
+    "species": "adam-warlock",
+    "nature": "Quirky",
+    "ivs": {
+     "hp": 31,
+     "atk": 13,
+     "def": 12,
+     "spa": 19,
+     "spd": 9,
+     "spe": 8
+    },
+    "ability": "Soul Gem",
+    "gender": "M",
+    "moves": [
+     "Shadow Ball",
+     "Dazzling Gleam",
+     "Psybeam",
+     "Life Dew"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss3-2",
+    "species": "nightcrawler",
+    "nature": "Hardy",
+    "ivs": {
+     "hp": 9,
+     "atk": 2,
+     "def": 7,
+     "spa": 28,
+     "spd": 31,
+     "spe": 5
+    },
+    "ability": "BAMF!",
+    "gender": "M",
+    "moves": [
+     "Throat Chop",
+     "Sucker Punch",
+     "Life Dew",
+     "Ally Switch"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss3-3",
+    "species": "mantis",
+    "nature": "Bashful",
+    "ivs": {
+     "hp": 14,
+     "atk": 26,
+     "def": 26,
+     "spa": 28,
+     "spd": 26,
+     "spe": 11
+    },
+    "ability": "Empath",
+    "gender": "F",
+    "moves": [
+     "Bug Buzz",
+     "Psyshock",
+     "Psychic",
+     "Energy Ball"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss3-4",
+    "species": "ultron",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 6,
+     "atk": 15,
+     "def": 25,
+     "spa": 13,
+     "spd": 12,
+     "spe": 10
+    },
+    "ability": "Upload Consciousness",
+    "gender": "N",
+    "moves": [
+     "Hyper Beam",
+     "Flash Cannon",
+     "Metal Sound",
+     "Heal Pulse"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss3-5",
+    "species": "rocket-raccoon",
+    "nature": "Hardy",
+    "ivs": {
+     "hp": 29,
+     "atk": 6,
+     "def": 15,
+     "spa": 15,
+     "spd": 29,
+     "spe": 29
+    },
+    "ability": "Genius Engineer",
+    "gender": "M",
+    "moves": [
+     "Quick Attack",
+     "Volt Switch",
+     "Discharge",
+     "Fake Out"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 4,
+  "name": "Deadpool's Troupe",
+  "milestone": false,
+  "ace": "deadpool",
+  "skill": 0.24,
+  "bst": 3170,
+  "team": [
+   {
+    "uid": "boss4-0",
+    "species": "luna-snow",
+    "nature": "Serious",
+    "ivs": {
+     "hp": 15,
+     "atk": 29,
+     "def": 26,
+     "spa": 18,
+     "spd": 21,
+     "spe": 15
+    },
+    "ability": "Ice Queen",
+    "gender": "F",
+    "moves": [
+     "Ice Beam",
+     "Freeze-Dry",
+     "Snowscape",
+     "Draining Kiss"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss4-1",
+    "species": "gambit",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 22,
+     "atk": 27,
+     "def": 26,
+     "spa": 30,
+     "spd": 16,
+     "spe": 22
+    },
+    "ability": "Lady Luck",
+    "gender": "M",
+    "moves": [
+     "Moonblast",
+     "Mystical Fire",
+     "Mind Blown",
+     "Life Dew"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss4-2",
+    "species": "deadpool",
+    "nature": "Brave",
+    "ivs": {
+     "hp": 3,
+     "atk": 4,
+     "def": 8,
+     "spa": 31,
+     "spd": 15,
+     "spe": 24
+    },
+    "ability": "Unkillable",
+    "gender": "M",
+    "moves": [
+     "Night Slash",
+     "Facade",
+     "Spite",
+     "Sacred Sword"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss4-3",
+    "species": "jubilee",
+    "nature": "Gentle",
+    "ivs": {
+     "hp": 23,
+     "atk": 25,
+     "def": 8,
+     "spa": 24,
+     "spd": 16,
+     "spe": 26
+    },
+    "ability": "Fireworks",
+    "gender": "F",
+    "moves": [
+     "Mystical Fire",
+     "Electro Ball",
+     "Volt Switch",
+     "Heal Pulse"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss4-4",
+    "species": "scarlet-witch",
+    "nature": "Quirky",
+    "ivs": {
+     "hp": 10,
+     "atk": 31,
+     "def": 7,
+     "spa": 22,
+     "spd": 22,
+     "spe": 8
+    },
+    "ability": "Chaos Magic",
+    "gender": "F",
+    "moves": [
+     "Dark Pulse",
+     "Expanding Force",
+     "Calm Mind",
+     "Magic Room"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss4-5",
+    "species": "invisible-woman",
+    "nature": "Calm",
+    "ivs": {
+     "hp": 16,
+     "atk": 22,
+     "def": 12,
+     "spa": 20,
+     "spd": 20,
+     "spe": 27
+    },
+    "ability": "Force Field",
+    "gender": "F",
+    "moves": [
+     "Psyshock",
+     "Psybeam",
+     "Psychic",
+     "Double Team"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 5,
+  "name": "Black Cat's Team",
+  "milestone": false,
+  "ace": "black-cat",
+  "skill": 0.26,
+  "bst": 3175,
+  "team": [
+   {
+    "uid": "boss5-0",
+    "species": "invisible-woman",
+    "nature": "Lonely",
+    "ivs": {
+     "hp": 3,
+     "atk": 29,
+     "def": 20,
+     "spa": 6,
+     "spd": 3,
+     "spe": 14
+    },
+    "ability": "Invisibility",
+    "gender": "F",
+    "moves": [
+     "Force Palm",
+     "Psybeam",
+     "Heal Pulse",
+     "Barrier"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss5-1",
+    "species": "black-cat",
+    "nature": "Hardy",
+    "ivs": {
+     "hp": 27,
+     "atk": 21,
+     "def": 9,
+     "spa": 10,
+     "spd": 14,
+     "spe": 9
+    },
+    "ability": "Bad Luck",
+    "gender": "F",
+    "moves": [
+     "Knock Off",
+     "Sucker Punch",
+     "Quick Attack",
+     "Fury Swipes"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss5-2",
+    "species": "white-fox",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 21,
+     "atk": 14,
+     "def": 8,
+     "spa": 9,
+     "spd": 28,
+     "spe": 24
+    },
+    "ability": "Kumiho Essence",
+    "gender": "F",
+    "moves": [
+     "Spirit Break",
+     "Aura Sphere",
+     "Moonblast",
+     "Fake Out"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss5-3",
+    "species": "elsa-bloodstone",
+    "nature": "Serious",
+    "ivs": {
+     "hp": 12,
+     "atk": 31,
+     "def": 4,
+     "spa": 29,
+     "spd": 19,
+     "spe": 13
+    },
+    "ability": "Bloodstone",
+    "gender": "F",
+    "moves": [
+     "Iron Head",
+     "Smart Strike",
+     "Stealth Rock",
+     "Bullet Punch"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss5-4",
+    "species": "luna-snow",
+    "nature": "Quirky",
+    "ivs": {
+     "hp": 14,
+     "atk": 8,
+     "def": 28,
+     "spa": 30,
+     "spd": 23,
+     "spe": 17
+    },
+    "ability": "Ice Queen",
+    "gender": "F",
+    "moves": [
+     "Icy Wind",
+     "Ice Beam",
+     "Life Dew",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss5-5",
+    "species": "jubilee",
+    "nature": "Careful",
+    "ivs": {
+     "hp": 26,
+     "atk": 28,
+     "def": 31,
+     "spa": 26,
+     "spd": 25,
+     "spe": 18
+    },
+    "ability": "Fireworks",
+    "gender": "F",
+    "moves": [
+     "Fire Blast",
+     "Overdrive",
+     "Spark",
+     "Electro Ball"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 6,
+  "name": "Scarlet Witch's Unit",
+  "milestone": false,
+  "ace": "scarlet-witch",
+  "skill": 0.29,
+  "bst": 3190,
+  "team": [
+   {
+    "uid": "boss6-0",
+    "species": "mantis",
+    "nature": "Naughty",
+    "ivs": {
+     "hp": 16,
+     "atk": 12,
+     "def": 8,
+     "spa": 21,
+     "spd": 6,
+     "spe": 24
+    },
+    "ability": "Spore Slumber",
+    "gender": "F",
+    "moves": [
+     "Pollen Puff",
+     "Energy Ball",
+     "Protect",
+     "Life Dew"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss6-1",
+    "species": "white-fox",
+    "nature": "Quirky",
+    "ivs": {
+     "hp": 22,
+     "atk": 6,
+     "def": 4,
+     "spa": 26,
+     "spd": 31,
+     "spe": 20
+    },
+    "ability": "Kumiho Unleashed",
+    "gender": "F",
+    "moves": [
+     "Drain Punch",
+     "Draining Kiss",
+     "Wish",
+     "Fake Out"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss6-2",
+    "species": "scarlet-witch",
+    "nature": "Naive",
+    "ivs": {
+     "hp": 10,
+     "atk": 31,
+     "def": 30,
+     "spa": 19,
+     "spd": 11,
+     "spe": 15
+    },
+    "ability": "Chaos Magic",
+    "gender": "F",
+    "moves": [
+     "Fiery Wrath",
+     "Eerie Spell",
+     "Trick Room",
+     "Mystical Fire"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss6-3",
+    "species": "nightcrawler",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 22,
+     "atk": 30,
+     "def": 15,
+     "spa": 10,
+     "spd": 24,
+     "spe": 23
+    },
+    "ability": "Blind Faith",
+    "gender": "M",
+    "moves": [
+     "Sacred Sword",
+     "Sucker Punch",
+     "Throat Chop",
+     "Spirit Break"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss6-4",
+    "species": "elsa-bloodstone",
+    "nature": "Relaxed",
+    "ivs": {
+     "hp": 20,
+     "atk": 11,
+     "def": 15,
+     "spa": 7,
+     "spd": 8,
+     "spe": 13
+    },
+    "ability": "Bloodstone",
+    "gender": "F",
+    "moves": [
+     "Smart Strike",
+     "Close Combat",
+     "Accelerock",
+     "Stone Edge"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss6-5",
+    "species": "deadpool",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 25,
+     "atk": 21,
+     "def": 20,
+     "spa": 22,
+     "spd": 6,
+     "spe": 24
+    },
+    "ability": "Unkillable",
+    "gender": "M",
+    "moves": [
+     "Night Slash",
+     "Shadow Claw",
+     "Spite",
+     "Last Resort"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 7,
+  "name": "Hawkeye's Brigade",
+  "milestone": false,
+  "ace": "hawkeye",
+  "skill": 0.31,
+  "bst": 3190,
+  "team": [
+   {
+    "uid": "boss7-0",
+    "species": "ultron",
+    "nature": "Relaxed",
+    "ivs": {
+     "hp": 27,
+     "atk": 11,
+     "def": 20,
+     "spa": 15,
+     "spd": 6,
+     "spe": 31
+    },
+    "ability": "Upload Consciousness",
+    "gender": "N",
+    "moves": [
+     "Flash Cannon",
+     "Charge Beam",
+     "Recover",
+     "Metal Sound"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss7-1",
+    "species": "black-cat",
+    "nature": "Bold",
+    "ivs": {
+     "hp": 22,
+     "atk": 17,
+     "def": 5,
+     "spa": 19,
+     "spd": 17,
+     "spe": 9
+    },
+    "ability": "Cat Burglar",
+    "gender": "F",
+    "moves": [
+     "Knock Off",
+     "Fake Out",
+     "U-turn",
+     "Thief"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss7-2",
+    "species": "hawkeye",
+    "nature": "Rash",
+    "ivs": {
+     "hp": 31,
+     "atk": 26,
+     "def": 20,
+     "spa": 26,
+     "spd": 27,
+     "spe": 18
+    },
+    "ability": "World's Greatest Marksman",
+    "gender": "M",
+    "moves": [
+     "Sacred Sword",
+     "Rapid Spin",
+     "Protect",
+     "Night Slash"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss7-3",
+    "species": "hela",
+    "nature": "Careful",
+    "ivs": {
+     "hp": 14,
+     "atk": 17,
+     "def": 14,
+     "spa": 8,
+     "spd": 5,
+     "spe": 29
+    },
+    "ability": "Queen of Hel",
+    "gender": "F",
+    "moves": [
+     "Night Daze",
+     "Hex",
+     "Foul Play",
+     "Sucker Punch"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss7-4",
+    "species": "gambit",
+    "nature": "Naughty",
+    "ivs": {
+     "hp": 17,
+     "atk": 13,
+     "def": 21,
+     "spa": 28,
+     "spd": 20,
+     "spe": 15
+    },
+    "ability": "Lady Luck",
+    "gender": "M",
+    "moves": [
+     "Play Rough",
+     "Mind Blown",
+     "Charm",
+     "Mystical Fire"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss7-5",
+    "species": "adam-warlock",
+    "nature": "Quirky",
+    "ivs": {
+     "hp": 9,
+     "atk": 20,
+     "def": 14,
+     "spa": 23,
+     "spd": 8,
+     "spe": 23
+    },
+    "ability": "Regenerative Cocoon",
+    "gender": "M",
+    "moves": [
+     "Psychic",
+     "Dazzling Gleam",
+     "Protect",
+     "Recover"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 8,
+  "name": "Iron Man's Strike Force",
+  "milestone": false,
+  "ace": "iron-man",
+  "skill": 0.33,
+  "bst": 3190,
+  "team": [
+   {
+    "uid": "boss8-0",
+    "species": "gambit",
+    "nature": "Rash",
+    "ivs": {
+     "hp": 8,
+     "atk": 21,
+     "def": 24,
+     "spa": 22,
+     "spd": 9,
+     "spe": 10
+    },
+    "ability": "Ragin' Cajun",
+    "gender": "M",
+    "moves": [
+     "Moonblast",
+     "Fire Blast",
+     "Fake Out",
+     "Nasty Plot"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss8-1",
+    "species": "hawkeye",
+    "nature": "Brave",
+    "ivs": {
+     "hp": 10,
+     "atk": 21,
+     "def": 29,
+     "spa": 28,
+     "spd": 31,
+     "spe": 30
+    },
+    "ability": "Trick Arrows",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss8-2",
+    "species": "iron-man",
+    "nature": "Bold",
+    "ivs": {
+     "hp": 18,
+     "atk": 29,
+     "def": 13,
+     "spa": 22,
+     "spd": 24,
+     "spe": 29
+    },
+    "ability": "Nanotech Armor",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Hyper Beam",
+     "Discharge",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss8-3",
+    "species": "white-fox",
+    "nature": "Docile",
+    "ivs": {
+     "hp": 21,
+     "atk": 31,
+     "def": 24,
+     "spa": 14,
+     "spd": 9,
+     "spe": 17
+    },
+    "ability": "Kumiho Essence",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Spirit Break",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss8-4",
+    "species": "jeff-the-land-shark",
+    "nature": "Careful",
+    "ivs": {
+     "hp": 9,
+     "atk": 23,
+     "def": 29,
+     "spa": 31,
+     "spd": 17,
+     "spe": 11
+    },
+    "ability": "Too Cute",
+    "gender": "M",
+    "moves": [
+     "Earthquake",
+     "Fishious Rend",
+     "Crunch",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss8-5",
+    "species": "rocket-raccoon",
+    "nature": "Calm",
+    "ivs": {
+     "hp": 12,
+     "atk": 9,
+     "def": 24,
+     "spa": 18,
+     "spd": 20,
+     "spe": 8
+    },
+    "ability": "Genius Engineer",
+    "gender": "M",
+    "moves": [
+     "Thunderbolt",
+     "Tri Attack",
+     "Thief",
+     "Protect"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 9,
+  "name": "Moon Knight's Alliance",
+  "milestone": false,
+  "ace": "moon-knight",
+  "skill": 0.35,
+  "bst": 3200,
+  "team": [
+   {
+    "uid": "boss9-0",
+    "species": "white-fox",
+    "nature": "Careful",
+    "ivs": {
+     "hp": 25,
+     "atk": 18,
+     "def": 7,
+     "spa": 27,
+     "spd": 8,
+     "spe": 23
+    },
+    "ability": "Kumiho Essence",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Play Rough",
+     "Quick Attack",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss9-1",
+    "species": "nightcrawler",
+    "nature": "Sassy",
+    "ivs": {
+     "hp": 19,
+     "atk": 8,
+     "def": 19,
+     "spa": 17,
+     "spd": 26,
+     "spe": 28
+    },
+    "ability": "BAMF!",
+    "gender": "M",
+    "moves": [
+     "Play Rough",
+     "Throat Chop",
+     "Iron Tail",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss9-2",
+    "species": "loki",
+    "nature": "Hasty",
+    "ivs": {
+     "hp": 22,
+     "atk": 28,
+     "def": 28,
+     "spa": 13,
+     "spd": 25,
+     "spe": 7
+    },
+    "ability": "Trickster",
+    "gender": "M",
+    "moves": [
+     "Dark Pulse",
+     "Ice Beam",
+     "Nasty Plot",
+     "Freeze-Dry"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss9-3",
+    "species": "moon-knight",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 15,
+     "atk": 14,
+     "def": 14,
+     "spa": 23,
+     "spd": 18,
+     "spe": 26
+    },
+    "ability": "Moon's Vengeance",
+    "gender": "M",
+    "moves": [
+     "High Jump Kick",
+     "Poltergeist",
+     "Moonblast",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss9-4",
+    "species": "elsa-bloodstone",
+    "nature": "Brave",
+    "ivs": {
+     "hp": 27,
+     "atk": 23,
+     "def": 10,
+     "spa": 15,
+     "spd": 16,
+     "spe": 25
+    },
+    "ability": "Monster Hunter",
+    "gender": "F",
+    "moves": [
+     "Iron Head",
+     "Close Combat",
+     "Stone Edge",
+     "Swords Dance"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss9-5",
+    "species": "iron-man",
+    "nature": "Hardy",
+    "ivs": {
+     "hp": 20,
+     "atk": 8,
+     "def": 27,
+     "spa": 14,
+     "spd": 22,
+     "spe": 17
+    },
+    "ability": "Arc Reactor",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Hyper Beam",
+     "Thunderbolt",
+     "Protect"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 10,
+  "name": "Gatekeeper Hela",
+  "milestone": true,
+  "ace": "hela",
+  "skill": 0.37,
+  "bst": 3205,
+  "team": [
+   {
+    "uid": "boss10-0",
+    "species": "jubilee",
+    "nature": "Careful",
+    "ivs": {
+     "hp": 22,
+     "atk": 23,
+     "def": 18,
+     "spa": 21,
+     "spd": 7,
+     "spe": 7
+    },
+    "ability": "Vampiric",
+    "gender": "F",
+    "moves": [
+     "Overdrive",
+     "Fire Blast",
+     "Leech Life",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss10-1",
+    "species": "moon-knight",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 23,
+     "atk": 25,
+     "def": 22,
+     "spa": 30,
+     "spd": 15,
+     "spe": 13
+    },
+    "ability": "Fist of Khonshu",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Poltergeist",
+     "Night Slash",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss10-2",
+    "species": "black-cat",
+    "nature": "Sassy",
+    "ivs": {
+     "hp": 27,
+     "atk": 28,
+     "def": 17,
+     "spa": 20,
+     "spd": 11,
+     "spe": 26
+    },
+    "ability": "Bad Luck",
+    "gender": "F",
+    "moves": [
+     "Night Slash",
+     "Play Rough",
+     "U-turn",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss10-3",
+    "species": "hela",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 18,
+     "atk": 24,
+     "def": 10,
+     "spa": 17,
+     "spd": 15,
+     "spe": 15
+    },
+    "ability": "Death's Embrace",
+    "gender": "F",
+    "moves": [
+     "Night Daze",
+     "Shadow Ball",
+     "Air Slash",
+     "Nasty Plot"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss10-4",
+    "species": "hawkeye",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 16,
+     "atk": 7,
+     "def": 23,
+     "spa": 9,
+     "spd": 12,
+     "spe": 24
+    },
+    "ability": "World's Greatest Marksman",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss10-5",
+    "species": "cloak-and-dagger",
+    "nature": "Bashful",
+    "ivs": {
+     "hp": 22,
+     "atk": 28,
+     "def": 25,
+     "spa": 29,
+     "spd": 28,
+     "spe": 11
+    },
+    "ability": "Eternal Bond",
+    "gender": "B",
+    "moves": [
+     "Dazzling Gleam",
+     "Shadow Ball",
+     "Dark Pulse",
+     "Nasty Plot"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 11,
+  "name": "Hulk's Syndicate",
+  "milestone": false,
+  "ace": "hulk",
+  "skill": 0.39,
+  "bst": 3235,
+  "team": [
+   {
+    "uid": "boss11-0",
+    "species": "scarlet-witch",
+    "nature": "Relaxed",
+    "ivs": {
+     "hp": 11,
+     "atk": 24,
+     "def": 29,
+     "spa": 9,
+     "spd": 17,
+     "spe": 11
+    },
+    "ability": "Reality Warping",
+    "gender": "F",
+    "moves": [
+     "Psychic",
+     "Dark Pulse",
+     "Hex",
+     "Nasty Plot"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss11-1",
+    "species": "hulk",
+    "nature": "Lonely",
+    "ivs": {
+     "hp": 24,
+     "atk": 24,
+     "def": 15,
+     "spa": 30,
+     "spd": 30,
+     "spe": 10
+    },
+    "ability": "Puny Banner",
+    "gender": "M",
+    "moves": [
+     "Hammer Arm",
+     "Gunk Shot",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss11-2",
+    "species": "squirrel-girl",
+    "nature": "Calm",
+    "ivs": {
+     "hp": 18,
+     "atk": 14,
+     "def": 22,
+     "spa": 27,
+     "spd": 27,
+     "spe": 15
+    },
+    "ability": "Squirrel Army",
+    "gender": "F",
+    "moves": [
+     "Spirit Break",
+     "Tail Slap",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss11-3",
+    "species": "spider-man",
+    "nature": "Sassy",
+    "ivs": {
+     "hp": 10,
+     "atk": 26,
+     "def": 27,
+     "spa": 12,
+     "spd": 21,
+     "spe": 19
+    },
+    "ability": "Spider-Sense",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Leech Life",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss11-4",
+    "species": "jeff-the-land-shark",
+    "nature": "Impish",
+    "ivs": {
+     "hp": 16,
+     "atk": 19,
+     "def": 20,
+     "spa": 17,
+     "spd": 20,
+     "spe": 16
+    },
+    "ability": "Healing Bubble",
+    "gender": "M",
+    "moves": [
+     "Earthquake",
+     "Fishious Rend",
+     "Crunch",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss11-5",
+    "species": "cloak-and-dagger",
+    "nature": "Naughty",
+    "ivs": {
+     "hp": 11,
+     "atk": 27,
+     "def": 14,
+     "spa": 10,
+     "spd": 11,
+     "spe": 9
+    },
+    "ability": "Eternal Bond",
+    "gender": "B",
+    "moves": [
+     "Moonblast",
+     "Night Daze",
+     "Hex",
+     "Nasty Plot"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 12,
+  "name": "Wolverine's Squad",
+  "milestone": false,
+  "ace": "wolverine",
+  "skill": 0.41,
+  "bst": 3210,
+  "team": [
+   {
+    "uid": "boss12-0",
+    "species": "white-fox",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 25,
+     "atk": 22,
+     "def": 9,
+     "spa": 19,
+     "spd": 25,
+     "spe": 24
+    },
+    "ability": "Kumiho Unleashed",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Play Rough",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss12-1",
+    "species": "wolverine",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 21,
+     "atk": 26,
+     "def": 22,
+     "spa": 18,
+     "spd": 11,
+     "spe": 20
+    },
+    "ability": "Berserker Rage",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Iron Head",
+     "Thrash",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss12-2",
+    "species": "mantis",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 15,
+     "atk": 30,
+     "def": 31,
+     "spa": 11,
+     "spd": 19,
+     "spe": 24
+    },
+    "ability": "Empath",
+    "gender": "F",
+    "moves": [
+     "Psychic",
+     "Bug Buzz",
+     "Energy Ball",
+     "Nasty Plot"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss12-3",
+    "species": "iron-man",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 9,
+     "atk": 16,
+     "def": 31,
+     "spa": 26,
+     "spd": 15,
+     "spe": 16
+    },
+    "ability": "Arc Reactor",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Thunderbolt",
+     "Hyper Beam",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss12-4",
+    "species": "scarlet-witch",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 21,
+     "atk": 13,
+     "def": 26,
+     "spa": 31,
+     "spd": 24,
+     "spe": 13
+    },
+    "ability": "Chaos Magic",
+    "gender": "F",
+    "moves": [
+     "Psychic",
+     "Dark Pulse",
+     "Hex",
+     "Nasty Plot"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss12-5",
+    "species": "squirrel-girl",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 12,
+     "atk": 9,
+     "def": 26,
+     "spa": 24,
+     "spd": 28,
+     "spe": 13
+    },
+    "ability": "Unbeatable",
+    "gender": "F",
+    "moves": [
+     "Play Rough",
+     "Facade",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 13,
+  "name": "Magik's Crew",
+  "milestone": false,
+  "ace": "magik",
+  "skill": 0.43,
+  "bst": 3230,
+  "team": [
+   {
+    "uid": "boss13-0",
+    "species": "magik",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 25,
+     "def": 23,
+     "spa": 24,
+     "spd": 14,
+     "spe": 10
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Zen Headbutt",
+     "Throat Chop",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss13-1",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 29,
+     "atk": 18,
+     "def": 30,
+     "spa": 14,
+     "spd": 17,
+     "spe": 21
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Thunder Punch",
+     "Sucker Punch",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss13-2",
+    "species": "moon-knight",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 29,
+     "atk": 10,
+     "def": 20,
+     "spa": 22,
+     "spd": 19,
+     "spe": 18
+    },
+    "ability": "Fist of Khonshu",
+    "gender": "M",
+    "moves": [
+     "High Jump Kick",
+     "Poltergeist",
+     "Moonblast",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss13-3",
+    "species": "ultron",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 13,
+     "atk": 21,
+     "def": 17,
+     "spa": 13,
+     "spd": 20,
+     "spe": 23
+    },
+    "ability": "Upload Consciousness",
+    "gender": "N",
+    "moves": [
+     "Steel Beam",
+     "Zap Cannon",
+     "Hyper Beam",
+     "Nasty Plot"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss13-4",
+    "species": "hela",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 12,
+     "atk": 26,
+     "def": 19,
+     "spa": 31,
+     "spd": 20,
+     "spe": 14
+    },
+    "ability": "Death's Embrace",
+    "gender": "F",
+    "moves": [
+     "Night Daze",
+     "Shadow Ball",
+     "Air Slash",
+     "Nasty Plot"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss13-5",
+    "species": "storm",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 25,
+     "atk": 17,
+     "def": 10,
+     "spa": 20,
+     "spd": 10,
+     "spe": 22
+    },
+    "ability": "Weather Witch",
+    "gender": "F",
+    "moves": [
+     "Bleakwind Storm",
+     "Thunderbolt",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 14,
+  "name": "Storm's Gang",
+  "milestone": false,
+  "ace": "storm",
+  "skill": 0.44,
+  "bst": 3230,
+  "team": [
+   {
+    "uid": "boss14-0",
+    "species": "white-fox",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 24,
+     "atk": 23,
+     "def": 13,
+     "spa": 10,
+     "spd": 27,
+     "spe": 13
+    },
+    "ability": "Kumiho Unleashed",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Play Rough",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss14-1",
+    "species": "storm",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 20,
+     "atk": 12,
+     "def": 10,
+     "spa": 21,
+     "spd": 15,
+     "spe": 18
+    },
+    "ability": "Weather Witch",
+    "gender": "F",
+    "moves": [
+     "Thunderbolt",
+     "Bleakwind Storm",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss14-2",
+    "species": "wolverine",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 17,
+     "atk": 11,
+     "def": 15,
+     "spa": 17,
+     "spd": 12,
+     "spe": 13
+    },
+    "ability": "Berserker Rage",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Thrash",
+     "Iron Head",
+     "Swords Dance"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss14-3",
+    "species": "the-punisher",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 14,
+     "atk": 19,
+     "def": 27,
+     "spa": 27,
+     "spd": 16,
+     "spe": 29
+    },
+    "ability": "Vengeance",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Throat Chop",
+     "Bullet Punch",
+     "Swords Dance"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss14-4",
+    "species": "spider-man",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 15,
+     "atk": 27,
+     "def": 26,
+     "spa": 15,
+     "spd": 19,
+     "spe": 16
+    },
+    "ability": "Great Responsibility",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Lunge",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": ""
+   },
+   {
+    "uid": "boss14-5",
+    "species": "winter-soldier",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 10,
+     "atk": 23,
+     "def": 15,
+     "spa": 12,
+     "spd": 15,
+     "spe": 25
+    },
+    "ability": "Trained Assassin",
+    "gender": "M",
+    "moves": [
+     "Heavy Slam",
+     "Sucker Punch",
+     "Thunder Punch",
+     "Swords Dance"
+    ],
+    "item": ""
+   }
+  ]
+ },
+ {
+  "floor": 15,
+  "name": "Spider-Man's Posse",
+  "milestone": false,
+  "ace": "spider-man",
+  "skill": 0.46,
+  "bst": 3230,
+  "team": [
+   {
+    "uid": "boss15-0",
+    "species": "spider-man",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 18,
+     "atk": 25,
+     "def": 28,
+     "spa": 23,
+     "spd": 19,
+     "spe": 31
+    },
+    "ability": "Great Responsibility",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Leech Life",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss15-1",
+    "species": "squirrel-girl",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 24,
+     "atk": 20,
+     "def": 31,
+     "spa": 27,
+     "spd": 31,
+     "spe": 11
+    },
+    "ability": "Squirrel Army",
+    "gender": "F",
+    "moves": [
+     "Super Fang",
+     "Play Rough",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss15-2",
+    "species": "cyclops",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 13,
+     "atk": 26,
+     "def": 25,
+     "spa": 13,
+     "spd": 30,
+     "spe": 20
+    },
+    "ability": "Field Leader",
+    "gender": "M",
+    "moves": [
+     "Hyper Beam",
+     "Focus Blast",
+     "Calm Mind",
+     "Hyper Voice"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss15-3",
+    "species": "phoenix",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 26,
+     "atk": 31,
+     "def": 23,
+     "spa": 13,
+     "spd": 26,
+     "spe": 31
+    },
+    "ability": "Phoenix Force",
+    "gender": "F",
+    "moves": [
+     "Burn Up",
+     "Expanding Force",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "M'Kraan Shard"
+   },
+   {
+    "uid": "boss15-4",
+    "species": "human-torch",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 25,
+     "atk": 15,
+     "def": 18,
+     "spa": 25,
+     "spd": 27,
+     "spe": 16
+    },
+    "ability": "Flame On",
+    "gender": "M",
+    "moves": [
+     "Burn Up",
+     "Hurricane",
+     "Protect",
+     "Overheat"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss15-5",
+    "species": "nightcrawler",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 23,
+     "atk": 26,
+     "def": 25,
+     "spa": 13,
+     "spd": 12,
+     "spe": 31
+    },
+    "ability": "Blind Faith",
+    "gender": "M",
+    "moves": [
+     "Night Slash",
+     "Play Rough",
+     "Iron Tail",
+     "Protect"
+    ],
+    "item": "Heavy-Duty Boots"
+   }
+  ]
+ },
+ {
+  "floor": 16,
+  "name": "Gorr's Troupe",
+  "milestone": false,
+  "ace": "gorr",
+  "skill": 0.48,
+  "bst": 3240,
+  "team": [
+   {
+    "uid": "boss16-0",
+    "species": "elsa-bloodstone",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 24,
+     "atk": 23,
+     "def": 29,
+     "spa": 21,
+     "spd": 14,
+     "spe": 17
+    },
+    "ability": "Monster Hunter",
+    "gender": "F",
+    "moves": [
+     "Heavy Slam",
+     "Close Combat",
+     "Stone Edge",
+     "Swords Dance"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss16-1",
+    "species": "gorr",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 22,
+     "atk": 19,
+     "def": 17,
+     "spa": 31,
+     "spd": 29,
+     "spe": 15
+    },
+    "ability": "God Butcher",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Smart Strike",
+     "Night Slash",
+     "Swords Dance"
+    ],
+    "item": "All-Black Necrosword"
+   },
+   {
+    "uid": "boss16-2",
+    "species": "storm",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 26,
+     "atk": 27,
+     "def": 29,
+     "spa": 31,
+     "spd": 24,
+     "spe": 16
+    },
+    "ability": "Weather Witch",
+    "gender": "F",
+    "moves": [
+     "Bleakwind Storm",
+     "Thunderbolt",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss16-3",
+    "species": "squirrel-girl",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 27,
+     "def": 25,
+     "spa": 14,
+     "spd": 12,
+     "spe": 20
+    },
+    "ability": "Unbeatable",
+    "gender": "F",
+    "moves": [
+     "Play Rough",
+     "Facade",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss16-4",
+    "species": "the-punisher",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 22,
+     "atk": 29,
+     "def": 26,
+     "spa": 16,
+     "spd": 14,
+     "spe": 22
+    },
+    "ability": "Arsenal",
+    "gender": "M",
+    "moves": [
+     "Crunch",
+     "Double-Edge",
+     "Bullet Punch",
+     "Swords Dance"
+    ],
+    "item": "Rocky Helmet"
+   },
+   {
+    "uid": "boss16-5",
+    "species": "spider-man",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 23,
+     "atk": 22,
+     "def": 28,
+     "spa": 25,
+     "spd": 25,
+     "spe": 20
+    },
+    "ability": "Great Responsibility",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Leech Life",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   }
+  ]
+ },
+ {
+  "floor": 17,
+  "name": "Phoenix's Team",
+  "milestone": false,
+  "ace": "phoenix",
+  "skill": 0.5,
+  "bst": 3235,
+  "team": [
+   {
+    "uid": "boss17-0",
+    "species": "moon-knight",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 22,
+     "atk": 28,
+     "def": 13,
+     "spa": 22,
+     "spd": 26,
+     "spe": 22
+    },
+    "ability": "Moon's Vengeance",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Poltergeist",
+     "Night Slash",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss17-1",
+    "species": "phoenix",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 19,
+     "atk": 30,
+     "def": 22,
+     "spa": 22,
+     "spd": 15,
+     "spe": 14
+    },
+    "ability": "Phoenix Force",
+    "gender": "F",
+    "moves": [
+     "Burn Up",
+     "Psychic",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "M'Kraan Shard"
+   },
+   {
+    "uid": "boss17-2",
+    "species": "blade",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 16,
+     "def": 19,
+     "spa": 27,
+     "spd": 27,
+     "spe": 26
+    },
+    "ability": "Daywalker",
+    "gender": "M",
+    "moves": [
+     "Night Slash",
+     "Close Combat",
+     "Iron Head",
+     "Swords Dance"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss17-3",
+    "species": "storm",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 14,
+     "atk": 24,
+     "def": 17,
+     "spa": 17,
+     "spd": 21,
+     "spe": 30
+    },
+    "ability": "Goddess of the Storm",
+    "gender": "F",
+    "moves": [
+     "Hurricane",
+     "Thunderbolt",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss17-4",
+    "species": "deadpool",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 15,
+     "atk": 31,
+     "def": 18,
+     "spa": 26,
+     "spd": 21,
+     "spe": 17
+    },
+    "ability": "Fourth Wall",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Sacred Sword",
+     "Facade",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss17-5",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 28,
+     "def": 29,
+     "spa": 27,
+     "spd": 19,
+     "spe": 22
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Sucker Punch",
+     "Ice Punch",
+     "Calm Mind"
+    ],
+    "item": "Sitrus Berry"
+   }
+  ]
+ },
+ {
+  "floor": 18,
+  "name": "Psylocke's Unit",
+  "milestone": false,
+  "ace": "psylocke",
+  "skill": 0.51,
+  "bst": 3235,
+  "team": [
+   {
+    "uid": "boss18-0",
+    "species": "hulk",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 27,
+     "def": 31,
+     "spa": 30,
+     "spd": 26,
+     "spe": 22
+    },
+    "ability": "Strongest There Is",
+    "gender": "M",
+    "moves": [
+     "Superpower",
+     "Gunk Shot",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Gamma Bomb"
+   },
+   {
+    "uid": "boss18-1",
+    "species": "psylocke",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 15,
+     "atk": 20,
+     "def": 23,
+     "spa": 18,
+     "spd": 14,
+     "spe": 21
+    },
+    "ability": "Psionic Butterfly",
+    "gender": "F",
+    "moves": [
+     "Psyblade",
+     "Iron Head",
+     "Close Combat",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss18-2",
+    "species": "nightcrawler",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 14,
+     "atk": 27,
+     "def": 30,
+     "spa": 20,
+     "spd": 20,
+     "spe": 24
+    },
+    "ability": "BAMF!",
+    "gender": "M",
+    "moves": [
+     "Sucker Punch",
+     "Play Rough",
+     "Sacred Sword",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss18-3",
+    "species": "deadpool",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 24,
+     "atk": 21,
+     "def": 28,
+     "spa": 25,
+     "spd": 23,
+     "spe": 24
+    },
+    "ability": "Fourth Wall",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Facade",
+     "Sacred Sword",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss18-4",
+    "species": "jubilee",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 22,
+     "atk": 20,
+     "def": 21,
+     "spa": 15,
+     "spd": 26,
+     "spe": 25
+    },
+    "ability": "Fireworks",
+    "gender": "F",
+    "moves": [
+     "Fire Blast",
+     "Discharge",
+     "Leech Life",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss18-5",
+    "species": "jeff-the-land-shark",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 14,
+     "atk": 15,
+     "def": 21,
+     "spa": 22,
+     "spd": 14,
+     "spe": 29
+    },
+    "ability": "Healing Bubble",
+    "gender": "M",
+    "moves": [
+     "Liquidation",
+     "Earthquake",
+     "Crunch",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   }
+  ]
+ },
+ {
+  "floor": 19,
+  "name": "Human Torch's Brigade",
+  "milestone": false,
+  "ace": "human-torch",
+  "skill": 0.53,
+  "bst": 3240,
+  "team": [
+   {
+    "uid": "boss19-0",
+    "species": "phoenix",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 22,
+     "atk": 20,
+     "def": 26,
+     "spa": 30,
+     "spd": 30,
+     "spe": 23
+    },
+    "ability": "Dark Phoenix",
+    "gender": "F",
+    "moves": [
+     "Burn Up",
+     "Expanding Force",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "M'Kraan Shard"
+   },
+   {
+    "uid": "boss19-1",
+    "species": "human-torch",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 16,
+     "atk": 25,
+     "def": 29,
+     "spa": 17,
+     "spd": 19,
+     "spe": 15
+    },
+    "ability": "Supernova",
+    "gender": "M",
+    "moves": [
+     "Burn Up",
+     "Hurricane",
+     "Protect",
+     "Overheat"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss19-2",
+    "species": "winter-soldier",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 17,
+     "def": 18,
+     "spa": 16,
+     "spd": 17,
+     "spe": 20
+    },
+    "ability": "Trained Assassin",
+    "gender": "M",
+    "moves": [
+     "Heavy Slam",
+     "Throat Chop",
+     "Ice Punch",
+     "Swords Dance"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss19-3",
+    "species": "wolverine",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 15,
+     "def": 29,
+     "spa": 20,
+     "spd": 28,
+     "spe": 29
+    },
+    "ability": "Berserker Rage",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Iron Head",
+     "Thrash",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss19-4",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 20,
+     "atk": 31,
+     "def": 16,
+     "spa": 30,
+     "spd": 24,
+     "spe": 15
+    },
+    "ability": "Rubber Body",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Sucker Punch",
+     "Ice Punch",
+     "Calm Mind"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss19-5",
+    "species": "squirrel-girl",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 16,
+     "atk": 30,
+     "def": 16,
+     "spa": 22,
+     "spd": 27,
+     "spe": 25
+    },
+    "ability": "Unbeatable",
+    "gender": "F",
+    "moves": [
+     "Play Rough",
+     "Facade",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": "Rocky Helmet"
+   }
+  ]
+ },
+ {
+  "floor": 20,
+  "name": "Defender The Punisher",
+  "milestone": true,
+  "ace": "the-punisher",
+  "skill": 0.55,
+  "bst": 3250,
+  "team": [
+   {
+    "uid": "boss20-0",
+    "species": "deadpool",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 20,
+     "atk": 23,
+     "def": 23,
+     "spa": 21,
+     "spd": 21,
+     "spe": 26
+    },
+    "ability": "Unkillable",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Facade",
+     "Sacred Sword",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss20-1",
+    "species": "hulk",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 24,
+     "atk": 25,
+     "def": 23,
+     "spa": 16,
+     "spd": 18,
+     "spe": 15
+    },
+    "ability": "Strongest There Is",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Gunk Shot",
+     "Rock Slide",
+     "Protect"
+    ],
+    "item": "Gamma Bomb"
+   },
+   {
+    "uid": "boss20-2",
+    "species": "luna-snow",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 23,
+     "atk": 26,
+     "def": 21,
+     "spa": 22,
+     "spd": 16,
+     "spe": 16
+    },
+    "ability": "Ice Queen",
+    "gender": "F",
+    "moves": [
+     "Moonblast",
+     "Ice Beam",
+     "Quiver Dance",
+     "Alluring Voice"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss20-3",
+    "species": "the-punisher",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 22,
+     "atk": 18,
+     "def": 19,
+     "spa": 19,
+     "spd": 26,
+     "spe": 28
+    },
+    "ability": "Vengeance",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Payback",
+     "Bullet Punch",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss20-4",
+    "species": "spider-man",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 19,
+     "atk": 31,
+     "def": 16,
+     "spa": 27,
+     "spd": 20,
+     "spe": 24
+    },
+    "ability": "Great Responsibility",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "U-turn",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss20-5",
+    "species": "iron-man",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 21,
+     "atk": 22,
+     "def": 29,
+     "spa": 15,
+     "spd": 25,
+     "spe": 27
+    },
+    "ability": "Nanotech Armor",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Hyper Beam",
+     "Zap Cannon",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   }
+  ]
+ },
+ {
+  "floor": 21,
+  "name": "Mister Fantastic's Alliance",
+  "milestone": false,
+  "ace": "mister-fantastic",
+  "skill": 0.57,
+  "bst": 3240,
+  "team": [
+   {
+    "uid": "boss21-0",
+    "species": "iron-man",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 21,
+     "def": 21,
+     "spa": 17,
+     "spd": 31,
+     "spe": 25
+    },
+    "ability": "Nanotech Armor",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Hyper Beam",
+     "Zap Cannon",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss21-1",
+    "species": "human-torch",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 16,
+     "atk": 31,
+     "def": 20,
+     "spa": 24,
+     "spd": 29,
+     "spe": 28
+    },
+    "ability": "Supernova",
+    "gender": "M",
+    "moves": [
+     "Overheat",
+     "Hurricane",
+     "Protect",
+     "Burn Up"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss21-2",
+    "species": "phoenix",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 19,
+     "atk": 24,
+     "def": 19,
+     "spa": 25,
+     "spd": 27,
+     "spe": 23
+    },
+    "ability": "Dark Phoenix",
+    "gender": "F",
+    "moves": [
+     "Burn Up",
+     "Psychic",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "M'Kraan Shard"
+   },
+   {
+    "uid": "boss21-3",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 24,
+     "atk": 24,
+     "def": 25,
+     "spa": 29,
+     "spd": 26,
+     "spe": 20
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Mega Punch",
+     "Ice Punch",
+     "Thunder Punch",
+     "Calm Mind"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss21-4",
+    "species": "the-punisher",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 28,
+     "atk": 28,
+     "def": 31,
+     "spa": 30,
+     "spd": 28,
+     "spe": 23
+    },
+    "ability": "Vengeance",
+    "gender": "M",
+    "moves": [
+     "Crunch",
+     "Double-Edge",
+     "Bullet Punch",
+     "Swords Dance"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss21-5",
+    "species": "winter-soldier",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 21,
+     "atk": 17,
+     "def": 19,
+     "spa": 24,
+     "spd": 26,
+     "spe": 20
+    },
+    "ability": "Cryo Stasis",
+    "gender": "M",
+    "moves": [
+     "Meteor Mash",
+     "Throat Chop",
+     "Ice Punch",
+     "Swords Dance"
+    ],
+    "item": "Rocky Helmet"
+   }
+  ]
+ },
+ {
+  "floor": 22,
+  "name": "Namor's Legion",
+  "milestone": false,
+  "ace": "namor",
+  "skill": 0.58,
+  "bst": 3245,
+  "team": [
+   {
+    "uid": "boss22-0",
+    "species": "wolverine",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 17,
+     "atk": 26,
+     "def": 25,
+     "spa": 25,
+     "spd": 24,
+     "spe": 23
+    },
+    "ability": "Berserker Rage",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Metal Claw",
+     "Crush Claw",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss22-1",
+    "species": "cyclops",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 26,
+     "atk": 27,
+     "def": 23,
+     "spa": 22,
+     "spd": 19,
+     "spe": 19
+    },
+    "ability": "Field Leader",
+    "gender": "M",
+    "moves": [
+     "Hyper Beam",
+     "Focus Blast",
+     "Calm Mind",
+     "Hyper Voice"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss22-2",
+    "species": "magik",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 21,
+     "atk": 27,
+     "def": 26,
+     "spa": 18,
+     "spd": 19,
+     "spe": 19
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Zen Headbutt",
+     "Lash Out",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Limbo Bloodstone"
+   },
+   {
+    "uid": "boss22-3",
+    "species": "namor",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 21,
+     "atk": 30,
+     "def": 17,
+     "spa": 25,
+     "spd": 28,
+     "spe": 20
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "Wave Crash",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss22-4",
+    "species": "phoenix",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 24,
+     "atk": 28,
+     "def": 20,
+     "spa": 27,
+     "spd": 29,
+     "spe": 24
+    },
+    "ability": "Dark Phoenix",
+    "gender": "F",
+    "moves": [
+     "Burn Up",
+     "Expanding Force",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss22-5",
+    "species": "black-cat",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 21,
+     "atk": 28,
+     "def": 21,
+     "spa": 26,
+     "spd": 23,
+     "spe": 27
+    },
+    "ability": "Cat Burglar",
+    "gender": "F",
+    "moves": [
+     "Assurance",
+     "Covet",
+     "Play Rough",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   }
+  ]
+ },
+ {
+  "floor": 23,
+  "name": "Loki's Syndicate",
+  "milestone": false,
+  "ace": "loki",
+  "skill": 0.6,
+  "bst": 3245,
+  "team": [
+   {
+    "uid": "boss23-0",
+    "species": "hulk",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 29,
+     "atk": 22,
+     "def": 21,
+     "spa": 27,
+     "spd": 24,
+     "spe": 22
+    },
+    "ability": "Strongest There Is",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Gunk Shot",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Gamma Bomb"
+   },
+   {
+    "uid": "boss23-1",
+    "species": "psylocke",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 20,
+     "def": 21,
+     "spa": 25,
+     "spd": 18,
+     "spe": 27
+    },
+    "ability": "Psionic Butterfly",
+    "gender": "F",
+    "moves": [
+     "Psycho Cut",
+     "Iron Head",
+     "Close Combat",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss23-2",
+    "species": "loki",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 23,
+     "atk": 25,
+     "def": 31,
+     "spa": 28,
+     "spd": 21,
+     "spe": 27
+    },
+    "ability": "Trickster",
+    "gender": "M",
+    "moves": [
+     "Dark Pulse",
+     "Ice Beam",
+     "Nasty Plot",
+     "Freeze-Dry"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss23-3",
+    "species": "gambit",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 19,
+     "atk": 27,
+     "def": 25,
+     "spa": 17,
+     "spd": 20,
+     "spe": 30
+    },
+    "ability": "Ragin' Cajun",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Dazzling Gleam",
+     "Fake Out",
+     "Nasty Plot"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss23-4",
+    "species": "rocket-raccoon",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 21,
+     "atk": 31,
+     "def": 31,
+     "spa": 29,
+     "spd": 18,
+     "spe": 18
+    },
+    "ability": "Genius Engineer",
+    "gender": "M",
+    "moves": [
+     "Spark",
+     "Thief",
+     "Fake Out",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss23-5",
+    "species": "namor",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 19,
+     "atk": 28,
+     "def": 20,
+     "spa": 21,
+     "spd": 28,
+     "spe": 20
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Wave Crash",
+     "Brave Bird",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Rocky Helmet"
+   }
+  ]
+ },
+ {
+  "floor": 24,
+  "name": "Black Panther's Squad",
+  "milestone": false,
+  "ace": "black-panther",
+  "skill": 0.61,
+  "bst": 3250,
+  "team": [
+   {
+    "uid": "boss24-0",
+    "species": "storm",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 24,
+     "atk": 23,
+     "def": 30,
+     "spa": 25,
+     "spd": 22,
+     "spe": 23
+    },
+    "ability": "Weather Witch",
+    "gender": "F",
+    "moves": [
+     "Thunderbolt",
+     "Bleakwind Storm",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss24-1",
+    "species": "black-panther",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 19,
+     "atk": 24,
+     "def": 22,
+     "spa": 27,
+     "spd": 24,
+     "spe": 21
+    },
+    "ability": "Heart-Shaped Herb",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Iron Head",
+     "U-turn",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss24-2",
+    "species": "black-widow",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 30,
+     "atk": 24,
+     "def": 31,
+     "spa": 31,
+     "spd": 18,
+     "spe": 23
+    },
+    "ability": "Widow's Bite",
+    "gender": "F",
+    "moves": [
+     "Discharge",
+     "Focus Blast",
+     "Fake Out",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss24-3",
+    "species": "human-torch",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 29,
+     "atk": 28,
+     "def": 28,
+     "spa": 30,
+     "spd": 28,
+     "spe": 29
+    },
+    "ability": "Supernova",
+    "gender": "M",
+    "moves": [
+     "Burn Up",
+     "Hurricane",
+     "Protect",
+     "Overheat"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss24-4",
+    "species": "blade",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 23,
+     "def": 22,
+     "spa": 24,
+     "spd": 20,
+     "spe": 29
+    },
+    "ability": "Vampire Hunter",
+    "gender": "M",
+    "moves": [
+     "Kowtow Cleave",
+     "Sacred Sword",
+     "Leech Life",
+     "Swords Dance"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss24-5",
+    "species": "phoenix",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 26,
+     "atk": 19,
+     "def": 21,
+     "spa": 28,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Dark Phoenix",
+    "gender": "F",
+    "moves": [
+     "Fire Blast",
+     "Psychic",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "M'Kraan Shard"
+   }
+  ]
+ },
+ {
+  "floor": 25,
+  "name": "Black Widow's Crew",
+  "milestone": false,
+  "ace": "black-widow",
+  "skill": 0.63,
+  "bst": 3255,
+  "team": [
+   {
+    "uid": "boss25-0",
+    "species": "winter-soldier",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 27,
+     "atk": 28,
+     "def": 26,
+     "spa": 26,
+     "spd": 20,
+     "spe": 26
+    },
+    "ability": "Cryo Stasis",
+    "gender": "M",
+    "moves": [
+     "Heavy Slam",
+     "Throat Chop",
+     "Thunder Punch",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss25-1",
+    "species": "magik",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 23,
+     "atk": 19,
+     "def": 24,
+     "spa": 26,
+     "spd": 23,
+     "spe": 20
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Throat Chop",
+     "Psyblade",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Limbo Bloodstone"
+   },
+   {
+    "uid": "boss25-2",
+    "species": "black-widow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 29,
+     "atk": 26,
+     "def": 26,
+     "spa": 30,
+     "spd": 24,
+     "spe": 19
+    },
+    "ability": "Widow's Bite",
+    "gender": "F",
+    "moves": [
+     "Focus Blast",
+     "Zap Cannon",
+     "U-turn",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss25-3",
+    "species": "black-panther",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 23,
+     "atk": 23,
+     "def": 31,
+     "spa": 26,
+     "spd": 19,
+     "spe": 19
+    },
+    "ability": "Heart-Shaped Herb",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Iron Head",
+     "Sucker Punch",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss25-4",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 28,
+     "def": 30,
+     "spa": 30,
+     "spd": 23,
+     "spe": 19
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Thunder Punch",
+     "Ice Punch",
+     "Calm Mind"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss25-5",
+    "species": "human-torch",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 20,
+     "def": 28,
+     "spa": 22,
+     "spd": 22,
+     "spe": 24
+    },
+    "ability": "Supernova",
+    "gender": "M",
+    "moves": [
+     "Burn Up",
+     "Hurricane",
+     "Protect",
+     "Overheat"
+    ],
+    "item": "Expert Belt"
+   }
+  ]
+ },
+ {
+  "floor": 26,
+  "name": "Groot's Gang",
+  "milestone": false,
+  "ace": "groot",
+  "skill": 0.65,
+  "bst": 3255,
+  "team": [
+   {
+    "uid": "boss26-0",
+    "species": "human-torch",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 28,
+     "atk": 21,
+     "def": 25,
+     "spa": 24,
+     "spd": 24,
+     "spe": 31
+    },
+    "ability": "Supernova",
+    "gender": "M",
+    "moves": [
+     "Overheat",
+     "Hurricane",
+     "Protect",
+     "Burn Up"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss26-1",
+    "species": "daredevil",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 30,
+     "atk": 24,
+     "def": 21,
+     "spa": 31,
+     "spd": 26,
+     "spe": 22
+    },
+    "ability": "The Man Without Fear",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Lash Out",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss26-2",
+    "species": "gorr",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 24,
+     "atk": 24,
+     "def": 30,
+     "spa": 31,
+     "spd": 23,
+     "spe": 21
+    },
+    "ability": "Black Berserkers",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "All-Black Necrosword"
+   },
+   {
+    "uid": "boss26-3",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 22,
+     "atk": 24,
+     "def": 24,
+     "spa": 27,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss26-4",
+    "species": "rocket-raccoon",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 30,
+     "atk": 29,
+     "def": 25,
+     "spa": 26,
+     "spd": 21,
+     "spe": 24
+    },
+    "ability": "Genius Engineer",
+    "gender": "M",
+    "moves": [
+     "Spark",
+     "U-turn",
+     "Quick Attack",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss26-5",
+    "species": "invisible-woman",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 20,
+     "atk": 26,
+     "def": 22,
+     "spa": 28,
+     "spd": 25,
+     "spe": 20
+    },
+    "ability": "Invisibility",
+    "gender": "F",
+    "moves": [
+     "Psychic",
+     "Force Palm",
+     "Calm Mind",
+     "Psyshock"
+    ],
+    "item": "Leftovers"
+   }
+  ]
+ },
+ {
+  "floor": 27,
+  "name": "Star-Lord's Posse",
+  "milestone": false,
+  "ace": "star-lord",
+  "skill": 0.66,
+  "bst": 3260,
+  "team": [
+   {
+    "uid": "boss27-0",
+    "species": "the-punisher",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 25,
+     "spa": 28,
+     "spd": 30,
+     "spe": 25
+    },
+    "ability": "Vengeance",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Throat Chop",
+     "Bullet Punch",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss27-1",
+    "species": "magik",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 29,
+     "atk": 26,
+     "def": 31,
+     "spa": 30,
+     "spd": 25,
+     "spe": 30
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Zen Headbutt",
+     "Lash Out",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Limbo Bloodstone"
+   },
+   {
+    "uid": "boss27-2",
+    "species": "black-widow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 28,
+     "atk": 24,
+     "def": 29,
+     "spa": 26,
+     "spd": 21,
+     "spe": 30
+    },
+    "ability": "Widow's Bite",
+    "gender": "F",
+    "moves": [
+     "Focus Blast",
+     "Zap Cannon",
+     "U-turn",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss27-3",
+    "species": "blade",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 29,
+     "atk": 29,
+     "def": 27,
+     "spa": 31,
+     "spd": 22,
+     "spe": 22
+    },
+    "ability": "Vampire Hunter",
+    "gender": "M",
+    "moves": [
+     "Kowtow Cleave",
+     "Close Combat",
+     "Iron Head",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss27-4",
+    "species": "star-lord",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 27,
+     "atk": 30,
+     "def": 29,
+     "spa": 23,
+     "spd": 24,
+     "spe": 29
+    },
+    "ability": "Dance-Off",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "U-turn",
+     "Tri Attack",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss27-5",
+    "species": "namor",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 24,
+     "atk": 24,
+     "def": 26,
+     "spa": 25,
+     "spd": 24,
+     "spe": 31
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "Wave Crash",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Lum Berry"
+   }
+  ]
+ },
+ {
+  "floor": 28,
+  "name": "Devil Dinosaur's Troupe",
+  "milestone": false,
+  "ace": "devil-dinosaur",
+  "skill": 0.68,
+  "bst": 3275,
+  "team": [
+   {
+    "uid": "boss28-0",
+    "species": "black-widow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 25,
+     "atk": 31,
+     "def": 29,
+     "spa": 29,
+     "spd": 29,
+     "spe": 31
+    },
+    "ability": "Widow's Bite",
+    "gender": "F",
+    "moves": [
+     "Zap Cannon",
+     "Focus Blast",
+     "U-turn",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss28-1",
+    "species": "magik",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 24,
+     "atk": 31,
+     "def": 26,
+     "spa": 29,
+     "spd": 21,
+     "spe": 22
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Psyblade",
+     "Throat Chop",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Limbo Bloodstone"
+   },
+   {
+    "uid": "boss28-2",
+    "species": "gorr",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 26,
+     "atk": 24,
+     "def": 24,
+     "spa": 21,
+     "spd": 27,
+     "spe": 24
+    },
+    "ability": "Black Berserkers",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss28-3",
+    "species": "star-lord",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 30,
+     "def": 22,
+     "spa": 22,
+     "spd": 30,
+     "spe": 27
+    },
+    "ability": "Dance-Off",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "U-turn",
+     "Tri Attack",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss28-4",
+    "species": "devil-dinosaur",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 21,
+     "atk": 31,
+     "def": 31,
+     "spa": 26,
+     "spd": 26,
+     "spe": 21
+    },
+    "ability": "Moon Girl",
+    "gender": "M",
+    "moves": [
+     "Outrage",
+     "Flare Blitz",
+     "Earthquake",
+     "Dragon Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss28-5",
+    "species": "luna-snow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 22,
+     "atk": 26,
+     "def": 29,
+     "spa": 30,
+     "spd": 28,
+     "spe": 29
+    },
+    "ability": "Ice Queen",
+    "gender": "F",
+    "moves": [
+     "Moonblast",
+     "Ice Beam",
+     "Quiver Dance",
+     "Dazzling Gleam"
+    ],
+    "item": "Rocky Helmet"
+   }
+  ]
+ },
+ {
+  "floor": 29,
+  "name": "Captain America's Team",
+  "milestone": false,
+  "ace": "captain-america",
+  "skill": 0.69,
+  "bst": 3275,
+  "team": [
+   {
+    "uid": "boss29-0",
+    "species": "captain-america",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 27,
+     "atk": 22,
+     "def": 27,
+     "spa": 28,
+     "spd": 25,
+     "spe": 24
+    },
+    "ability": "Avengers Assemble",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Iron Head",
+     "Stone Edge",
+     "Protect"
+    ],
+    "item": "Captain America's Shield"
+   },
+   {
+    "uid": "boss29-1",
+    "species": "loki",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 24,
+     "atk": 26,
+     "def": 25,
+     "spa": 26,
+     "spd": 30,
+     "spe": 23
+    },
+    "ability": "Trickster",
+    "gender": "M",
+    "moves": [
+     "Ice Beam",
+     "Dark Pulse",
+     "Nasty Plot",
+     "Freeze-Dry"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss29-2",
+    "species": "adam-warlock",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 26,
+     "atk": 28,
+     "def": 29,
+     "spa": 26,
+     "spd": 29,
+     "spe": 27
+    },
+    "ability": "Soul Gem",
+    "gender": "M",
+    "moves": [
+     "Moonblast",
+     "Psychic",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss29-3",
+    "species": "human-torch",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 30,
+     "atk": 24,
+     "def": 25,
+     "spa": 22,
+     "spd": 29,
+     "spe": 22
+    },
+    "ability": "Supernova",
+    "gender": "M",
+    "moves": [
+     "Overheat",
+     "Hurricane",
+     "Protect",
+     "Burn Up"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss29-4",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 22,
+     "def": 29,
+     "spa": 25,
+     "spd": 22,
+     "spe": 23
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Thunder Punch",
+     "Sucker Punch",
+     "Calm Mind"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss29-5",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 27,
+     "def": 22,
+     "spa": 24,
+     "spd": 31,
+     "spe": 22
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Lash Out",
+     "Power Whip",
+     "Swords Dance"
+    ],
+    "item": "Codex of the Abyss"
+   }
+  ]
+ },
+ {
+  "floor": 30,
+  "name": "Warlord Doctor Strange",
+  "milestone": true,
+  "ace": "doctor-strange",
+  "skill": 0.71,
+  "bst": 3280,
+  "team": [
+   {
+    "uid": "boss30-0",
+    "species": "doctor-strange",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 30,
+     "atk": 26,
+     "def": 27,
+     "spa": 24,
+     "spd": 26,
+     "spe": 27
+    },
+    "ability": "14,000,605 Futures",
+    "gender": "M",
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Calm Mind"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss30-1",
+    "species": "rogue",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 28,
+     "atk": 23,
+     "def": 27,
+     "spa": 31,
+     "spd": 31,
+     "spe": 27
+    },
+    "ability": "Draining Touch",
+    "gender": "F",
+    "moves": [
+     "Superpower",
+     "Bounce",
+     "Draining Kiss",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss30-2",
+    "species": "blade",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 27,
+     "atk": 27,
+     "def": 30,
+     "spa": 27,
+     "spd": 25,
+     "spe": 30
+    },
+    "ability": "Vampire Hunter",
+    "gender": "M",
+    "moves": [
+     "Kowtow Cleave",
+     "Iron Head",
+     "Close Combat",
+     "Swords Dance"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss30-3",
+    "species": "gambit",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 26,
+     "atk": 29,
+     "def": 24,
+     "spa": 26,
+     "spd": 31,
+     "spe": 28
+    },
+    "ability": "Ragin' Cajun",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Moonblast",
+     "Thief",
+     "Nasty Plot"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss30-4",
+    "species": "gorr",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 29,
+     "atk": 23,
+     "def": 26,
+     "spa": 27,
+     "spd": 30,
+     "spe": 29
+    },
+    "ability": "Black Berserkers",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "All-Black Necrosword"
+   },
+   {
+    "uid": "boss30-5",
+    "species": "jeff-the-land-shark",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 25,
+     "def": 29,
+     "spa": 24,
+     "spd": 26,
+     "spe": 28
+    },
+    "ability": "Healing Bubble",
+    "gender": "M",
+    "moves": [
+     "Earthquake",
+     "Liquidation",
+     "Crunch",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   }
+  ]
+ },
+ {
+  "floor": 31,
+  "name": "Venom's Brigade",
+  "milestone": false,
+  "ace": "venom",
+  "skill": 0.72,
+  "bst": 3285,
+  "team": [
+   {
+    "uid": "boss31-0",
+    "species": "gorr",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 25,
+     "atk": 31,
+     "def": 28,
+     "spa": 30,
+     "spd": 28,
+     "spe": 25
+    },
+    "ability": "Black Berserkers",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "All-Black Necrosword"
+   },
+   {
+    "uid": "boss31-1",
+    "species": "iron-fist",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 30,
+     "atk": 28,
+     "def": 25,
+     "spa": 25,
+     "spd": 24,
+     "spe": 29
+    },
+    "ability": "Chi Healing",
+    "gender": "M",
+    "moves": [
+     "High Jump Kick",
+     "Outrage",
+     "Fire Punch",
+     "Dragon Dance"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss31-2",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 27,
+     "def": 29,
+     "spa": 24,
+     "spd": 27,
+     "spe": 27
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Jaw Lock",
+     "Power Whip",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss31-3",
+    "species": "emma-frost",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 25,
+     "atk": 24,
+     "def": 24,
+     "spa": 31,
+     "spd": 28,
+     "spe": 26
+    },
+    "ability": "Mind Control",
+    "gender": "F",
+    "moves": [
+     "Diamond Storm",
+     "Zen Headbutt",
+     "Body Press",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss31-4",
+    "species": "jubilee",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 24,
+     "atk": 31,
+     "def": 31,
+     "spa": 24,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "Vampiric",
+    "gender": "F",
+    "moves": [
+     "Fire Blast",
+     "Overdrive",
+     "Leech Life",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss31-5",
+    "species": "cloak-and-dagger",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 27,
+     "def": 28,
+     "spa": 31,
+     "spd": 25,
+     "spe": 31
+    },
+    "ability": "Light and Darkforce",
+    "gender": "B",
+    "moves": [
+     "Moonblast",
+     "Psychic",
+     "Night Daze",
+     "Nasty Plot"
+    ],
+    "item": "Expert Belt"
+   }
+  ]
+ },
+ {
+  "floor": 32,
+  "name": "The Hood's Strike Force",
+  "milestone": false,
+  "ace": "the-hood",
+  "skill": 0.74,
+  "bst": 3285,
+  "team": [
+   {
+    "uid": "boss32-0",
+    "species": "psylocke",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 28,
+     "atk": 29,
+     "def": 28,
+     "spa": 27,
+     "spd": 26,
+     "spe": 30
+    },
+    "ability": "Psionic Butterfly",
+    "gender": "F",
+    "moves": [
+     "Iron Head",
+     "Zen Headbutt",
+     "Close Combat",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss32-1",
+    "species": "hulk",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 28,
+     "atk": 31,
+     "def": 27,
+     "spa": 27,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "Strongest There Is",
+    "gender": "M",
+    "moves": [
+     "Superpower",
+     "Gunk Shot",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Gamma Bomb"
+   },
+   {
+    "uid": "boss32-2",
+    "species": "the-hood",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 27,
+     "atk": 25,
+     "def": 26,
+     "spa": 30,
+     "spd": 27,
+     "spe": 26
+    },
+    "ability": "Levitation Boots",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Fiery Wrath",
+     "Infernal Parade",
+     "Nasty Plot"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss32-3",
+    "species": "star-lord",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 26,
+     "atk": 28,
+     "def": 27,
+     "spa": 25,
+     "spd": 25,
+     "spe": 27
+    },
+    "ability": "Dance-Off",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "U-turn",
+     "Quick Attack",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss32-4",
+    "species": "jeff-the-land-shark",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 25,
+     "atk": 29,
+     "def": 26,
+     "spa": 31,
+     "spd": 26,
+     "spe": 25
+    },
+    "ability": "Healing Bubble",
+    "gender": "M",
+    "moves": [
+     "Earthquake",
+     "Liquidation",
+     "Crunch",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss32-5",
+    "species": "luna-snow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 26,
+     "atk": 31,
+     "def": 28,
+     "spa": 31,
+     "spd": 25,
+     "spe": 25
+    },
+    "ability": "Ice Queen",
+    "gender": "F",
+    "moves": [
+     "Ice Beam",
+     "Moonblast",
+     "Quiver Dance",
+     "Alluring Voice"
+    ],
+    "item": "Sitrus Berry"
+   }
+  ]
+ },
+ {
+  "floor": 33,
+  "name": "Groot's Alliance",
+  "milestone": false,
+  "ace": "groot",
+  "skill": 0.75,
+  "bst": 3290,
+  "team": [
+   {
+    "uid": "boss33-0",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 27,
+     "atk": 29,
+     "def": 26,
+     "spa": 31,
+     "spd": 29,
+     "spe": 29
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Ice Punch",
+     "Thunder Punch",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss33-1",
+    "species": "magik",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 29,
+     "atk": 28,
+     "def": 29,
+     "spa": 28,
+     "spd": 29,
+     "spe": 26
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Zen Headbutt",
+     "Lash Out",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Limbo Bloodstone"
+   },
+   {
+    "uid": "boss33-2",
+    "species": "black-widow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 30,
+     "def": 26,
+     "spa": 31,
+     "spd": 25,
+     "spe": 26
+    },
+    "ability": "Widow's Bite",
+    "gender": "F",
+    "moves": [
+     "Focus Blast",
+     "Thunderbolt",
+     "U-turn",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss33-3",
+    "species": "namor",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 28,
+     "atk": 30,
+     "def": 27,
+     "spa": 29,
+     "spd": 31,
+     "spe": 29
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "Wave Crash",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss33-4",
+    "species": "gorr",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 28,
+     "spd": 29,
+     "spe": 25
+    },
+    "ability": "Black Berserkers",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss33-5",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 26,
+     "atk": 26,
+     "def": 29,
+     "spa": 28,
+     "spd": 25,
+     "spe": 25
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   }
+  ]
+ },
+ {
+  "floor": 34,
+  "name": "Peni Parker's Legion",
+  "milestone": false,
+  "ace": "peni-parker",
+  "skill": 0.77,
+  "bst": 3295,
+  "team": [
+   {
+    "uid": "boss34-0",
+    "species": "daredevil",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 28,
+     "atk": 26,
+     "def": 27,
+     "spa": 26,
+     "spd": 29,
+     "spe": 26
+    },
+    "ability": "The Man Without Fear",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Throat Chop",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss34-1",
+    "species": "peni-parker",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 28,
+     "atk": 31,
+     "def": 29,
+     "spa": 27,
+     "spd": 27,
+     "spe": 27
+    },
+    "ability": "Spider-Nest",
+    "gender": "F",
+    "moves": [
+     "Heavy Slam",
+     "Leech Life",
+     "Thunder Punch",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss34-2",
+    "species": "emma-frost",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 28,
+     "def": 27,
+     "spa": 29,
+     "spd": 26,
+     "spe": 30
+    },
+    "ability": "Mind Control",
+    "gender": "F",
+    "moves": [
+     "Diamond Storm",
+     "Zen Headbutt",
+     "Body Press",
+     "Calm Mind"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss34-3",
+    "species": "white-fox",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 29,
+     "atk": 27,
+     "def": 30,
+     "spa": 26,
+     "spd": 31,
+     "spe": 29
+    },
+    "ability": "Kumiho Unleashed",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Play Rough",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Fox Bead"
+   },
+   {
+    "uid": "boss34-4",
+    "species": "storm",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 30,
+     "def": 30,
+     "spa": 29,
+     "spd": 31,
+     "spe": 30
+    },
+    "ability": "Weather Witch",
+    "gender": "F",
+    "moves": [
+     "Hurricane",
+     "Thunderbolt",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": "Rocky Helmet"
+   },
+   {
+    "uid": "boss34-5",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 26,
+     "atk": 30,
+     "def": 31,
+     "spa": 27,
+     "spd": 27,
+     "spe": 28
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Thunder Punch",
+     "Ice Punch",
+     "Calm Mind"
+    ],
+    "item": "Life Orb"
+   }
+  ]
+ },
+ {
+  "floor": 35,
+  "name": "Mantis's Syndicate",
+  "milestone": false,
+  "ace": "mantis",
+  "skill": 0.78,
+  "bst": 3300,
+  "team": [
+   {
+    "uid": "boss35-0",
+    "species": "the-hood",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 29,
+     "atk": 27,
+     "def": 27,
+     "spa": 30,
+     "spd": 29,
+     "spe": 30
+    },
+    "ability": "Levitation Boots",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Fiery Wrath",
+     "Infernal Parade",
+     "Nasty Plot"
+    ],
+    "item": "Dormammu's Cloak"
+   },
+   {
+    "uid": "boss35-1",
+    "species": "captain-america",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 28,
+     "atk": 27,
+     "def": 31,
+     "spa": 29,
+     "spd": 28,
+     "spe": 28
+    },
+    "ability": "Avengers Assemble",
+    "gender": "M",
+    "moves": [
+     "Superpower",
+     "Iron Head",
+     "Knock Off",
+     "Protect"
+    ],
+    "item": "Captain America's Shield"
+   },
+   {
+    "uid": "boss35-2",
+    "species": "mantis",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 30,
+     "def": 28,
+     "spa": 27,
+     "spd": 30,
+     "spe": 28
+    },
+    "ability": "Spore Slumber",
+    "gender": "F",
+    "moves": [
+     "Bug Buzz",
+     "Psychic",
+     "Energy Ball",
+     "Nasty Plot"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss35-3",
+    "species": "cloak-and-dagger",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 30,
+     "atk": 28,
+     "def": 29,
+     "spa": 30,
+     "spd": 29,
+     "spe": 29
+    },
+    "ability": "Light and Darkforce",
+    "gender": "B",
+    "moves": [
+     "Moonblast",
+     "Psychic",
+     "Night Daze",
+     "Nasty Plot"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss35-4",
+    "species": "deadpool",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 27,
+     "atk": 31,
+     "def": 28,
+     "spa": 27,
+     "spd": 28,
+     "spe": 31
+    },
+    "ability": "Unkillable",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Facade",
+     "Sacred Sword",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss35-5",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 27,
+     "def": 27,
+     "spa": 27,
+     "spd": 28,
+     "spe": 28
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   }
+  ]
+ },
+ {
+  "floor": 36,
+  "name": "Iron Fist's Squad",
+  "milestone": false,
+  "ace": "iron-fist",
+  "skill": 0.8,
+  "bst": 3305,
+  "team": [
+   {
+    "uid": "boss36-0",
+    "species": "phoenix",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 30,
+     "atk": 29,
+     "def": 29,
+     "spa": 31,
+     "spd": 28,
+     "spe": 28
+    },
+    "ability": "Dark Phoenix",
+    "gender": "F",
+    "moves": [
+     "Burn Up",
+     "Psychic",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "M'Kraan Shard"
+   },
+   {
+    "uid": "boss36-1",
+    "species": "iron-fist",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 28,
+     "def": 30,
+     "spa": 31,
+     "spd": 31,
+     "spe": 30
+    },
+    "ability": "Chi Healing",
+    "gender": "M",
+    "moves": [
+     "High Jump Kick",
+     "Outrage",
+     "Fire Punch",
+     "Dragon Dance"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss36-2",
+    "species": "star-lord",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 29,
+     "atk": 28,
+     "def": 31,
+     "spa": 29,
+     "spd": 30,
+     "spe": 30
+    },
+    "ability": "Dance-Off",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "U-turn",
+     "Fake Out",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss36-3",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 31,
+     "def": 31,
+     "spa": 28,
+     "spd": 30,
+     "spe": 30
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss36-4",
+    "species": "jubilee",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 30,
+     "atk": 30,
+     "def": 29,
+     "spa": 30,
+     "spd": 29,
+     "spe": 29
+    },
+    "ability": "Vampiric",
+    "gender": "F",
+    "moves": [
+     "Fire Blast",
+     "Overdrive",
+     "Leech Life",
+     "Protect"
+    ],
+    "item": "Rocky Helmet"
+   },
+   {
+    "uid": "boss36-5",
+    "species": "doctor-strange",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 29,
+     "atk": 31,
+     "def": 28,
+     "spa": 29,
+     "spd": 28,
+     "spe": 28
+    },
+    "ability": "14,000,605 Futures",
+    "gender": "M",
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Calm Mind"
+    ],
+    "item": "Lum Berry"
+   }
+  ]
+ },
+ {
+  "floor": 37,
+  "name": "Cyclops's Crew",
+  "milestone": false,
+  "ace": "cyclops",
+  "skill": 0.81,
+  "bst": 3310,
+  "team": [
+   {
+    "uid": "boss37-0",
+    "species": "phoenix",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 30,
+     "atk": 30,
+     "def": 30,
+     "spa": 31,
+     "spd": 29,
+     "spe": 30
+    },
+    "ability": "Dark Phoenix",
+    "gender": "F",
+    "moves": [
+     "Burn Up",
+     "Psychic",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "M'Kraan Shard"
+   },
+   {
+    "uid": "boss37-1",
+    "species": "gorr",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 29,
+     "spa": 31,
+     "spd": 29,
+     "spe": 30
+    },
+    "ability": "Black Berserkers",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss37-2",
+    "species": "cyclops",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 29,
+     "atk": 31,
+     "def": 30,
+     "spa": 31,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "Field Leader",
+    "gender": "M",
+    "moves": [
+     "Hyper Beam",
+     "Focus Blast",
+     "Calm Mind",
+     "Hyper Voice"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss37-3",
+    "species": "namor",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 29,
+     "atk": 29,
+     "def": 31,
+     "spa": 30,
+     "spd": 30,
+     "spe": 29
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Wave Crash",
+     "Brave Bird",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss37-4",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 31,
+     "def": 29,
+     "spa": 30,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss37-5",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 30,
+     "def": 30,
+     "spa": 30,
+     "spd": 30,
+     "spe": 30
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Power Whip",
+     "Jaw Lock",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   }
+  ]
+ },
+ {
+  "floor": 38,
+  "name": "Emma Frost's Gang",
+  "milestone": false,
+  "ace": "emma-frost",
+  "skill": 0.83,
+  "bst": 3310,
+  "team": [
+   {
+    "uid": "boss38-0",
+    "species": "iron-fist",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 29,
+     "def": 29,
+     "spa": 29,
+     "spd": 29,
+     "spe": 29
+    },
+    "ability": "Chi Healing",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Outrage",
+     "Fire Punch",
+     "Dragon Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss38-1",
+    "species": "peni-parker",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 30,
+     "def": 31,
+     "spa": 29,
+     "spd": 29,
+     "spe": 30
+    },
+    "ability": "Spider-Nest",
+    "gender": "F",
+    "moves": [
+     "Heavy Slam",
+     "Leech Life",
+     "Thunder Punch",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss38-2",
+    "species": "emma-frost",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 30,
+     "def": 30,
+     "spa": 31,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "Mind Control",
+    "gender": "F",
+    "moves": [
+     "Diamond Storm",
+     "Zen Headbutt",
+     "Body Press",
+     "Calm Mind"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss38-3",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 29,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 30,
+     "spe": 30
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Power Whip",
+     "Jaw Lock",
+     "Swords Dance"
+    ],
+    "item": "Codex of the Abyss"
+   },
+   {
+    "uid": "boss38-4",
+    "species": "jubilee",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 30,
+     "spa": 30,
+     "spd": 30,
+     "spe": 29
+    },
+    "ability": "Vampiric",
+    "gender": "F",
+    "moves": [
+     "Fire Blast",
+     "Discharge",
+     "Leech Life",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss38-5",
+    "species": "jeff-the-land-shark",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 30,
+     "atk": 29,
+     "def": 29,
+     "spa": 29,
+     "spd": 30,
+     "spe": 29
+    },
+    "ability": "Healing Bubble",
+    "gender": "M",
+    "moves": [
+     "Earthquake",
+     "Fishious Rend",
+     "Crunch",
+     "Protect"
+    ],
+    "item": "Heavy-Duty Boots"
+   }
+  ]
+ },
+ {
+  "floor": 39,
+  "name": "Angela's Posse",
+  "milestone": false,
+  "ace": "angela",
+  "skill": 0.84,
+  "bst": 3320,
+  "team": [
+   {
+    "uid": "boss39-0",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 30,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 30
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss39-1",
+    "species": "angela",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 30,
+     "def": 31,
+     "spa": 30,
+     "spd": 30,
+     "spe": 30
+    },
+    "ability": "Ichor Ribbons",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Brave Bird",
+     "Spirit Break",
+     "Swords Dance"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss39-2",
+    "species": "psylocke",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 30,
+     "atk": 30,
+     "def": 30,
+     "spa": 31,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "Psionic Butterfly",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Psyblade",
+     "Iron Head",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss39-3",
+    "species": "the-hood",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 30,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Levitation Boots",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Fiery Wrath",
+     "Infernal Parade",
+     "Nasty Plot"
+    ],
+    "item": "Dormammu's Cloak"
+   },
+   {
+    "uid": "boss39-4",
+    "species": "luna-snow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 30,
+     "atk": 30,
+     "def": 30,
+     "spa": 30,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "Ice Queen",
+    "gender": "F",
+    "moves": [
+     "Moonblast",
+     "Ice Beam",
+     "Quiver Dance",
+     "Alluring Voice"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss39-5",
+    "species": "deadpool",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 30,
+     "atk": 30,
+     "def": 31,
+     "spa": 30,
+     "spd": 30,
+     "spe": 31
+    },
+    "ability": "Unkillable",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Facade",
+     "Sacred Sword",
+     "Protect"
+    ],
+    "item": "Rocky Helmet"
+   }
+  ]
+ },
+ {
+  "floor": 40,
+  "name": "Overlord Luna Snow",
+  "milestone": true,
+  "ace": "luna-snow",
+  "skill": 0.86,
+  "bst": 3325,
+  "team": [
+   {
+    "uid": "boss40-0",
+    "species": "black-panther",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Heart-Shaped Herb",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Iron Head",
+     "Sucker Punch",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss40-1",
+    "species": "emma-frost",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Mind Control",
+    "gender": "F",
+    "moves": [
+     "Diamond Storm",
+     "Zen Headbutt",
+     "Body Press",
+     "Calm Mind"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss40-2",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Jaw Lock",
+     "Power Whip",
+     "Swords Dance"
+    ],
+    "item": "Codex of the Abyss"
+   },
+   {
+    "uid": "boss40-3",
+    "species": "star-lord",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Dance-Off",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "U-turn",
+     "Fake Out",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss40-4",
+    "species": "devil-dinosaur",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Moon Girl",
+    "gender": "M",
+    "moves": [
+     "Outrage",
+     "Flare Blitz",
+     "Earthquake",
+     "Dragon Dance"
+    ],
+    "item": "Rocky Helmet"
+   },
+   {
+    "uid": "boss40-5",
+    "species": "luna-snow",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Ice Queen",
+    "gender": "F",
+    "moves": [
+     "Moonblast",
+     "Ice Beam",
+     "Quiver Dance",
+     "Dazzling Gleam"
+    ],
+    "item": "Leftovers"
+   }
+  ]
+ },
+ {
+  "floor": 41,
+  "name": "Daredevil's Team",
+  "milestone": false,
+  "ace": "daredevil",
+  "skill": 0.87,
+  "bst": 3325,
+  "team": [
+   {
+    "uid": "boss41-0",
+    "species": "magik",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Throat Chop",
+     "Psyblade",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Limbo Bloodstone"
+   },
+   {
+    "uid": "boss41-1",
+    "species": "peni-parker",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Spider-Nest",
+    "gender": "F",
+    "moves": [
+     "Heavy Slam",
+     "Lunge",
+     "Thunder Punch",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss41-2",
+    "species": "daredevil",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "The Man Without Fear",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Throat Chop",
+     "Acrobatics",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss41-3",
+    "species": "emma-frost",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Mind Control",
+    "gender": "F",
+    "moves": [
+     "Diamond Storm",
+     "Zen Headbutt",
+     "Body Press",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss41-4",
+    "species": "devil-dinosaur",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Moon Girl",
+    "gender": "M",
+    "moves": [
+     "Outrage",
+     "Flare Blitz",
+     "Earthquake",
+     "Dragon Dance"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss41-5",
+    "species": "jeff-the-land-shark",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Healing Bubble",
+    "gender": "M",
+    "moves": [
+     "Earthquake",
+     "Liquidation",
+     "Crunch",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   }
+  ]
+ },
+ {
+  "floor": 42,
+  "name": "Rogue's Unit",
+  "milestone": false,
+  "ace": "rogue",
+  "skill": 0.89,
+  "bst": 3325,
+  "team": [
+   {
+    "uid": "boss42-0",
+    "species": "hulk",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Strongest There Is",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Gunk Shot",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Gamma Bomb"
+   },
+   {
+    "uid": "boss42-1",
+    "species": "rogue",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Draining Touch",
+    "gender": "F",
+    "moves": [
+     "Close Combat",
+     "Fly",
+     "Draining Kiss",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss42-2",
+    "species": "magneto",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Electromagnetic Field",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Earth Power",
+     "Thunderbolt",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss42-3",
+    "species": "scarlet-witch",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Reality Warping",
+    "gender": "F",
+    "moves": [
+     "Psychic",
+     "Fiery Wrath",
+     "Mystical Fire",
+     "Nasty Plot"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss42-4",
+    "species": "storm",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Weather Witch",
+    "gender": "F",
+    "moves": [
+     "Thunderbolt",
+     "Hurricane",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss42-5",
+    "species": "squirrel-girl",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Squirrel Army",
+    "gender": "F",
+    "moves": [
+     "Play Rough",
+     "Facade",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   }
+  ]
+ },
+ {
+  "floor": 43,
+  "name": "Thor's Brigade",
+  "milestone": false,
+  "ace": "thor",
+  "skill": 0.9,
+  "bst": 3330,
+  "team": [
+   {
+    "uid": "boss43-0",
+    "species": "thor",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Thorforce",
+    "gender": "M",
+    "moves": [
+     "Bolt Strike",
+     "Close Combat",
+     "Gigaton Hammer",
+     "Protect"
+    ],
+    "item": "Mjolnir"
+   },
+   {
+    "uid": "boss43-1",
+    "species": "hawkeye",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Trick Arrows",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Iron Head",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss43-2",
+    "species": "adam-warlock",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Soul Gem",
+    "gender": "M",
+    "moves": [
+     "Moonblast",
+     "Psychic",
+     "Shadow Ball",
+     "Calm Mind"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss43-3",
+    "species": "the-hood",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Levitation Boots",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Fiery Wrath",
+     "Infernal Parade",
+     "Nasty Plot"
+    ],
+    "item": "Dormammu's Cloak"
+   },
+   {
+    "uid": "boss43-4",
+    "species": "namor",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "Wave Crash",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss43-5",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Expert Belt"
+   }
+  ]
+ },
+ {
+  "floor": 44,
+  "name": "Magneto's Strike Force",
+  "milestone": false,
+  "ace": "magneto",
+  "skill": 0.92,
+  "bst": 3335,
+  "team": [
+   {
+    "uid": "boss44-0",
+    "species": "namor",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "Wave Crash",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss44-1",
+    "species": "hulk",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Strongest There Is",
+    "gender": "M",
+    "moves": [
+     "Close Combat",
+     "Gunk Shot",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Gamma Bomb"
+   },
+   {
+    "uid": "boss44-2",
+    "species": "magneto",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Electromagnetic Field",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Earth Power",
+     "Thunderbolt",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss44-3",
+    "species": "magik",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Darkchylde",
+    "gender": "F",
+    "moves": [
+     "Zen Headbutt",
+     "Lash Out",
+     "Sacred Sword",
+     "Swords Dance"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss44-4",
+    "species": "devil-dinosaur",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Moon Girl",
+    "gender": "M",
+    "moves": [
+     "Outrage",
+     "Flare Blitz",
+     "Earthquake",
+     "Dragon Dance"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss44-5",
+    "species": "deadpool",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Unkillable",
+    "gender": "M",
+    "moves": [
+     "Poltergeist",
+     "Facade",
+     "Sacred Sword",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   }
+  ]
+ },
+ {
+  "floor": 45,
+  "name": "The Thing's Alliance",
+  "milestone": false,
+  "ace": "the-thing",
+  "skill": 0.93,
+  "bst": 3340,
+  "team": [
+   {
+    "uid": "boss45-0",
+    "species": "magneto",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Electromagnetic Field",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Thunderbolt",
+     "Earth Power",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss45-1",
+    "species": "the-thing",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Clobberin' Time",
+    "gender": "M",
+    "moves": [
+     "Hammer Arm",
+     "Head Smash",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss45-2",
+    "species": "the-hood",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Levitation Boots",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Fiery Wrath",
+     "Infernal Parade",
+     "Nasty Plot"
+    ],
+    "item": "Dormammu's Cloak"
+   },
+   {
+    "uid": "boss45-3",
+    "species": "doctor-strange",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "14,000,605 Futures",
+    "gender": "M",
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Calm Mind"
+    ],
+    "item": "Rocky Helmet"
+   },
+   {
+    "uid": "boss45-4",
+    "species": "rocket-raccoon",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Genius Engineer",
+    "gender": "M",
+    "moves": [
+     "Spark",
+     "U-turn",
+     "Fake Out",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss45-5",
+    "species": "cloak-and-dagger",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Light and Darkforce",
+    "gender": "B",
+    "moves": [
+     "Moonblast",
+     "Psychic",
+     "Night Daze",
+     "Nasty Plot"
+    ],
+    "item": "Weakness Policy"
+   }
+  ]
+ },
+ {
+  "floor": 46,
+  "name": "Groot's Legion",
+  "milestone": false,
+  "ace": "groot",
+  "skill": 0.94,
+  "bst": 3345,
+  "team": [
+   {
+    "uid": "boss46-0",
+    "species": "cyclops",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Field Leader",
+    "gender": "M",
+    "moves": [
+     "Hyper Beam",
+     "Focus Blast",
+     "Calm Mind",
+     "Hyper Voice"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss46-1",
+    "species": "psylocke",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Psionic Butterfly",
+    "gender": "F",
+    "moves": [
+     "Iron Head",
+     "Close Combat",
+     "Zen Headbutt",
+     "Swords Dance"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss46-2",
+    "species": "namor",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "Wave Crash",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss46-3",
+    "species": "groot",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "I Am Groot",
+    "gender": "M",
+    "moves": [
+     "Power Whip",
+     "Stone Edge",
+     "Body Press",
+     "Protect"
+    ],
+    "item": "Rocky Helmet"
+   },
+   {
+    "uid": "boss46-4",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Jaw Lock",
+     "Power Whip",
+     "Swords Dance"
+    ],
+    "item": "Codex of the Abyss"
+   },
+   {
+    "uid": "boss46-5",
+    "species": "devil-dinosaur",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Moon Girl",
+    "gender": "M",
+    "moves": [
+     "Outrage",
+     "Flare Blitz",
+     "Earthquake",
+     "Dragon Dance"
+    ],
+    "item": "Leftovers"
+   }
+  ]
+ },
+ {
+  "floor": 47,
+  "name": "Cloak & Dagger's Syndicate",
+  "milestone": false,
+  "ace": "cloak-and-dagger",
+  "skill": 0.96,
+  "bst": 3350,
+  "team": [
+   {
+    "uid": "boss47-0",
+    "species": "the-thing",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Clobberin' Time",
+    "gender": "M",
+    "moves": [
+     "Head Smash",
+     "Hammer Arm",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss47-1",
+    "species": "the-hood",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Levitation Boots",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Fiery Wrath",
+     "Infernal Parade",
+     "Nasty Plot"
+    ],
+    "item": "Dormammu's Cloak"
+   },
+   {
+    "uid": "boss47-2",
+    "species": "peni-parker",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Spider-Nest",
+    "gender": "F",
+    "moves": [
+     "Heavy Slam",
+     "Lunge",
+     "Thunder Punch",
+     "Protect"
+    ],
+    "item": "Lum Berry"
+   },
+   {
+    "uid": "boss47-3",
+    "species": "doctor-strange",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "14,000,605 Futures",
+    "gender": "M",
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Calm Mind"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss47-4",
+    "species": "cloak-and-dagger",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Light and Darkforce",
+    "gender": "B",
+    "moves": [
+     "Moonblast",
+     "Night Daze",
+     "Psychic",
+     "Nasty Plot"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss47-5",
+    "species": "mister-fantastic",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Smartest Man Alive",
+    "gender": "M",
+    "moves": [
+     "Double-Edge",
+     "Thunder Punch",
+     "Ice Punch",
+     "Calm Mind"
+    ],
+    "item": "Rocky Helmet"
+   }
+  ]
+ },
+ {
+  "floor": 48,
+  "name": "Doctor Strange's Squad",
+  "milestone": false,
+  "ace": "doctor-strange",
+  "skill": 0.97,
+  "bst": 3360,
+  "team": [
+   {
+    "uid": "boss48-0",
+    "species": "hulk",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Strongest There Is",
+    "gender": "M",
+    "moves": [
+     "Superpower",
+     "Gunk Shot",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Gamma Bomb"
+   },
+   {
+    "uid": "boss48-1",
+    "species": "the-hood",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Levitation Boots",
+    "gender": "M",
+    "moves": [
+     "Fire Blast",
+     "Fiery Wrath",
+     "Infernal Parade",
+     "Nasty Plot"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss48-2",
+    "species": "magneto",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Electromagnetic Field",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Thunderbolt",
+     "Psychic",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss48-3",
+    "species": "doctor-strange",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "14,000,605 Futures",
+    "gender": "M",
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Calm Mind"
+    ],
+    "item": "Eye of Agamotto"
+   },
+   {
+    "uid": "boss48-4",
+    "species": "rocket-raccoon",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Genius Engineer",
+    "gender": "M",
+    "moves": [
+     "Spark",
+     "U-turn",
+     "Thief",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss48-5",
+    "species": "namor",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Horn of Proteus",
+    "gender": "M",
+    "moves": [
+     "Brave Bird",
+     "Wave Crash",
+     "Ice Beam",
+     "Swords Dance"
+    ],
+    "item": "Expert Belt"
+   }
+  ]
+ },
+ {
+  "floor": 49,
+  "name": "Squirrel Girl's Crew",
+  "milestone": false,
+  "ace": "squirrel-girl",
+  "skill": 0.99,
+  "bst": 3365,
+  "team": [
+   {
+    "uid": "boss49-0",
+    "species": "peni-parker",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Spider-Nest",
+    "gender": "F",
+    "moves": [
+     "Heavy Slam",
+     "X-Scissor",
+     "Thunder Punch",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss49-1",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Power Whip",
+     "Crunch",
+     "Swords Dance"
+    ],
+    "item": "Codex of the Abyss"
+   },
+   {
+    "uid": "boss49-2",
+    "species": "the-thing",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Clobberin' Time",
+    "gender": "M",
+    "moves": [
+     "Head Smash",
+     "Hammer Arm",
+     "Earthquake",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss49-3",
+    "species": "doctor-strange",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "14,000,605 Futures",
+    "gender": "M",
+    "moves": [
+     "Psychic",
+     "Shadow Ball",
+     "Focus Blast",
+     "Calm Mind"
+    ],
+    "item": "Expert Belt"
+   },
+   {
+    "uid": "boss49-4",
+    "species": "squirrel-girl",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Squirrel Army",
+    "gender": "F",
+    "moves": [
+     "Play Rough",
+     "Facade",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss49-5",
+    "species": "storm",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Weather Witch",
+    "gender": "F",
+    "moves": [
+     "Thunder",
+     "Hurricane",
+     "Blizzard",
+     "Calm Mind"
+    ],
+    "item": "Lum Berry"
+   }
+  ]
+ },
+ {
+  "floor": 50,
+  "name": "Champion Thor",
+  "milestone": true,
+  "ace": "thor",
+  "skill": 1,
+  "bst": 3370,
+  "team": [
+   {
+    "uid": "boss50-0",
+    "species": "venom",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Feast",
+    "gender": "M",
+    "moves": [
+     "Gunk Shot",
+     "Jaw Lock",
+     "Power Whip",
+     "Swords Dance"
+    ],
+    "item": "Codex of the Abyss"
+   },
+   {
+    "uid": "boss50-1",
+    "species": "thor",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Thorforce",
+    "gender": "M",
+    "moves": [
+     "Bolt Strike",
+     "Close Combat",
+     "Gigaton Hammer",
+     "Protect"
+    ],
+    "item": "Focus Sash"
+   },
+   {
+    "uid": "boss50-2",
+    "species": "magneto",
+    "nature": "Modest",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Electromagnetic Field",
+    "gender": "M",
+    "moves": [
+     "Steel Beam",
+     "Thunderbolt",
+     "Psychic",
+     "Protect"
+    ],
+    "item": "Leftovers"
+   },
+   {
+    "uid": "boss50-3",
+    "species": "hela",
+    "nature": "Timid",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Death's Embrace",
+    "gender": "F",
+    "moves": [
+     "Dark Pulse",
+     "Shadow Ball",
+     "Air Slash",
+     "Nasty Plot"
+    ],
+    "item": "Sitrus Berry"
+   },
+   {
+    "uid": "boss50-4",
+    "species": "squirrel-girl",
+    "nature": "Jolly",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Squirrel Army",
+    "gender": "F",
+    "moves": [
+     "Play Rough",
+     "Facade",
+     "Seed Bomb",
+     "Protect"
+    ],
+    "item": "Life Orb"
+   },
+   {
+    "uid": "boss50-5",
+    "species": "devil-dinosaur",
+    "nature": "Adamant",
+    "ivs": {
+     "hp": 31,
+     "atk": 31,
+     "def": 31,
+     "spa": 31,
+     "spd": 31,
+     "spe": 31
+    },
+    "ability": "Moon Girl",
+    "gender": "M",
+    "moves": [
+     "Outrage",
+     "Flare Blitz",
+     "Earthquake",
+     "Dragon Dance"
+    ],
+    "item": "Heavy-Duty Boots"
+   }
+  ]
+ }
+]

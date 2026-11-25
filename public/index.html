@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Shinobi-mon</title>
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22%3E%3Ctext y=%22.9em%22 font-size=%2290%22 fill=%22%23f57c1f%22%3E%E2%9C%A6%3C/text%3E%3C/svg%3E">
+  <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand"><span class="brand-marvel">Shinobi</span><span class="brand-dash">-</span><span class="brand-mon">mon</span></div>
+    <nav id="tabs" class="tabs"></nav>
+    <button id="typesBtn" class="types-btn" title="Type chart">Types</button>
+    <button id="audioBtn" class="audio-btn" title="Sound settings">🔊</button>
+    <button id="signInBtn" class="primary sign-in-btn hidden">Sign in</button>
+    <button id="nameBtn" class="name-btn" title="Change your name">…</button>
+  </header>
+  <main id="view"></main>
+  <div id="modal" class="modal hidden"><div class="modal-card" id="modalCard"></div></div>
+  <div id="toast" class="toast hidden"></div>
+  <script src="/socket.io/socket.io.js"></script>
+  <script src="/shared/typechart.js"></script>
+  <script src="/shared/dex.js"></script>
+  <script src="/shared/movetext.js"></script>
+  <script src="/shared/megas.js"></script>
+  <script src="/shared/genders.js"></script>
+  <script src="/shared/cardcolors.js"></script>
+  <script src="/anim.js"></script>
+  <script src="/audio.js"></script>
+  <script src="/app.js"></script>
+  <script src="/battle.js"></script>
+  <script src="/extras.js"></script>
+  <script src="/rooms.js"></script>
+  <script src="/road.js"></script>
+  <script src="/animgallery.js"></script>
+  <script src="/about.js"></script>
+</body>
+</html>

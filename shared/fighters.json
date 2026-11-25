@@ -1,0 +1,7306 @@
+[
+ {
+  "num": 1,
+  "id": "naruto-p1",
+  "baseId": "naruto",
+  "name": "Naruto Uzumaki (Part I)",
+  "series": "Part I",
+  "role": "Striker / Tank",
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 85,
+   "def": 75,
+   "spa": 80,
+   "spd": 75,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Uzumaki Vitality",
+    "desc": "Restores 1/16 of its max HP at the end of every turn."
+   }
+  ],
+  "hidden": {
+   "name": "Unbreakable Spirit",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Uzumaki Barrage",
+    "smash": "Uzumaki Barrage"
+   },
+   {
+    "move": "Rasengan",
+    "smash": "Rasengan"
+   },
+   {
+    "move": "Multi Shadow Clone Jutsu",
+    "smash": "Multi Shadow Clone Jutsu"
+   },
+   {
+    "move": "Sexy Jutsu",
+    "smash": "Sexy Jutsu"
+   },
+   {
+    "move": "Summoning: Gamabunta",
+    "smash": "Summoning: Gamabunta"
+   }
+  ],
+  "learnset": [
+   "Uzumaki Barrage",
+   "Rasengan",
+   "Multi Shadow Clone Jutsu",
+   "Sexy Jutsu",
+   "Summoning: Gamabunta",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "yang"
+  ],
+  "notes": "Partial cloak: Kurama chakra replaces Yang with Beast.",
+  "image": "naruto-part-1.webp"
+ },
+ {
+  "num": 2,
+  "id": "naruto-ship",
+  "baseId": "naruto",
+  "name": "Naruto Uzumaki",
+  "series": "Shippuden",
+  "role": "Striker / Tank",
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 90,
+   "def": 85,
+   "spa": 95,
+   "spd": 85,
+   "spe": 90
+  },
+  "abilities": [
+   {
+    "name": "Uzumaki Vitality",
+    "desc": "Restores 1/16 of its max HP at the end of every turn."
+   }
+  ],
+  "hidden": {
+   "name": "Shadow Clone Reinforcements",
+   "desc": "The first time it enters battle, it sets up a Substitute (a clone) for free."
+  },
+  "signature": [
+   {
+    "move": "Rasengan",
+    "smash": "Rasengan"
+   },
+   {
+    "move": "Big Ball Rasengan",
+    "smash": "Big Ball Rasengan"
+   },
+   {
+    "move": "Wind Release: Rasenshuriken",
+    "smash": "Wind Release: Rasenshuriken"
+   },
+   {
+    "move": "Uzumaki Barrage",
+    "smash": "Uzumaki Barrage"
+   },
+   {
+    "move": "Multi Shadow Clone Jutsu",
+    "smash": "Multi Shadow Clone Jutsu"
+   },
+   {
+    "move": "Sexy Jutsu",
+    "smash": "Sexy Jutsu"
+   }
+  ],
+  "learnset": [
+   "Rasengan",
+   "Big Ball Rasengan",
+   "Wind Release: Rasenshuriken",
+   "Uzumaki Barrage",
+   "Multi Shadow Clone Jutsu",
+   "Sexy Jutsu",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "yang"
+  ],
+  "notes": "Four-tails cloak is more beast than man, so Beast takes the primary slot.",
+  "image": "naruto-shippuden.webp"
+ },
+ {
+  "num": 3,
+  "id": "naruto-sage",
+  "baseId": "naruto",
+  "name": "Naruto Uzumaki (Sage Mode)",
+  "series": "Shippuden",
+  "role": "Striker / Sensor",
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 100,
+   "def": 90,
+   "spa": 115,
+   "spd": 93,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Uzumaki Vitality",
+    "desc": "Restores 1/16 of its max HP at the end of every turn."
+   }
+  ],
+  "hidden": {
+   "name": "Toad Sage Tutelage",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Wind Release: Rasenshuriken",
+    "smash": "Wind Release: Rasenshuriken"
+   },
+   {
+    "move": "Sage Art: Massive Rasengan",
+    "smash": "Sage Art: Massive Rasengan"
+   },
+   {
+    "move": "Frog Kata",
+    "smash": "Frog Kata"
+   },
+   {
+    "move": "Shadow Clone Scouts",
+    "smash": "Shadow Clone Scouts"
+   },
+   {
+    "move": "Rasengan",
+    "smash": "Rasengan"
+   }
+  ],
+  "learnset": [
+   "Wind Release: Rasenshuriken",
+   "Sage Art: Massive Rasengan",
+   "Frog Kata",
+   "Shadow Clone Scouts",
+   "Rasengan",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "yang"
+  ],
+  "notes": "Sage Mode: natural energy replaces Yang.",
+  "image": "naruto-sage-mode.webp"
+ },
+ {
+  "num": 4,
+  "id": "naruto-war",
+  "baseId": "naruto",
+  "name": "Naruto Uzumaki (Kurama Link Mode)",
+  "series": "Shippuden",
+  "role": "Striker / Sensor / Support",
+  "types": [
+   "Wind",
+   "Beast"
+  ],
+  "stats": {
+   "hp": 125,
+   "atk": 110,
+   "def": 100,
+   "spa": 125,
+   "spd": 102,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Kurama Link",
+    "desc": "Restores 1/16 of its max HP at the end of every turn. Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+   }
+  ],
+  "hidden": {
+   "name": "Six Paths Gift",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Tailed Beast Rasengan",
+    "smash": "Tailed Beast Rasengan"
+   },
+   {
+    "move": "Rasenshuriken (Thrown)",
+    "smash": "Rasenshuriken (Thrown)"
+   },
+   {
+    "move": "Chakra Arm Grab",
+    "smash": "Chakra Arm Grab"
+   },
+   {
+    "move": "Kurama Chakra Transfer",
+    "smash": "Kurama Chakra Transfer"
+   },
+   {
+    "move": "Frog Kata",
+    "smash": "Frog Kata"
+   },
+   {
+    "move": "Tailed Beast Bomb",
+    "smash": "Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Tailed Beast Rasengan",
+   "Rasenshuriken (Thrown)",
+   "Chakra Arm Grab",
+   "Kurama Chakra Transfer",
+   "Frog Kata",
+   "Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "yang"
+  ],
+  "notes": "Linked with Kurama at all times; Six Paths adds Sage.",
+  "image": "naruto-kurama-link-mode.webp"
+ },
+ {
+  "num": 5,
+  "id": "sasuke-p1",
+  "baseId": "sasuke",
+  "name": "Sasuke Uchiha (Part I)",
+  "series": "Part I",
+  "role": "Striker",
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 90,
+   "def": 70,
+   "spa": 100,
+   "spd": 73,
+   "spe": 110
+  },
+  "abilities": [
+   {
+    "name": "Sharingan",
+    "desc": "Its moves go through Substitutes and screens. Ignores the target's evasion boosts and its own accuracy drops."
+   }
+  ],
+  "hidden": {
+   "name": "Uchiha Pride",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Fire Release: Great Fireball",
+    "smash": "Fire Release: Great Fireball"
+   },
+   {
+    "move": "Fire Release: Phoenix Flower",
+    "smash": "Fire Release: Phoenix Flower"
+   },
+   {
+    "move": "Chidori",
+    "smash": "Chidori"
+   },
+   {
+    "move": "Lion Combo",
+    "smash": "Lion Combo"
+   },
+   {
+    "move": "Fire Release: Dragon Flame",
+    "smash": "Fire Release: Dragon Flame"
+   }
+  ],
+  "learnset": [
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Chidori",
+   "Lion Combo",
+   "Fire Release: Dragon Flame",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "lightning"
+  ],
+  "notes": "Curse Marks are senjutsu (Jugo's natural energy), so they become Sage.",
+  "image": "sasuke-part-1.webp"
+ },
+ {
+  "num": 6,
+  "id": "sasuke-ship",
+  "baseId": "sasuke",
+  "name": "Sasuke Uchiha",
+  "series": "Shippuden",
+  "role": "Striker",
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 95,
+   "def": 75,
+   "spa": 115,
+   "spd": 81,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Sharingan",
+    "desc": "Its moves go through Substitutes and screens. Ignores the target's evasion boosts and its own accuracy drops."
+   }
+  ],
+  "hidden": {
+   "name": "Avenger's Focus",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Chidori",
+    "smash": "Chidori"
+   },
+   {
+    "move": "Chidori Current",
+    "smash": "Chidori Current"
+   },
+   {
+    "move": "Chidori Sharp Spear",
+    "smash": "Chidori Sharp Spear"
+   },
+   {
+    "move": "Kirin",
+    "smash": "Kirin"
+   },
+   {
+    "move": "Fire Release: Great Fireball",
+    "smash": "Fire Release: Great Fireball"
+   },
+   {
+    "move": "Fire Release: Phoenix Flower",
+    "smash": "Fire Release: Phoenix Flower"
+   }
+  ],
+  "learnset": [
+   "Chidori",
+   "Chidori Current",
+   "Chidori Sharp Spear",
+   "Kirin",
+   "Fire Release: Great Fireball",
+   "Fire Release: Phoenix Flower",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "lightning"
+  ],
+  "notes": "Level 2: Chidori-focused, Lightning leads.",
+  "image": "sasuke-shippuden.webp"
+ },
+ {
+  "num": 7,
+  "id": "sasuke-ms",
+  "baseId": "sasuke",
+  "name": "Sasuke Uchiha (Mangekyō)",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 95,
+   "def": 80,
+   "spa": 130,
+   "spd": 89,
+   "spe": 115
+  },
+  "abilities": [
+   {
+    "name": "Mangekyō Sharingan",
+    "desc": "Its moves go through Substitutes and screens. Fire and Yin moves deal 1.2x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Hatred's Edge",
+   "desc": "Deals 1.3x damage to targets at half HP or less."
+  },
+  "signature": [
+   {
+    "move": "Amaterasu",
+    "smash": "Amaterasu"
+   },
+   {
+    "move": "Chidori Sharp Spear",
+    "smash": "Chidori Sharp Spear"
+   },
+   {
+    "move": "Kirin",
+    "smash": "Kirin"
+   },
+   {
+    "move": "Fire Release: Great Fireball",
+    "smash": "Fire Release: Great Fireball"
+   },
+   {
+    "move": "Sharingan Genjutsu",
+    "smash": "Sharingan Genjutsu"
+   },
+   {
+    "move": "Susano'o: Flame Arrow",
+    "smash": "Susano'o: Flame Arrow"
+   }
+  ],
+  "learnset": [
+   "Amaterasu",
+   "Chidori Sharp Spear",
+   "Kirin",
+   "Fire Release: Great Fireball",
+   "Sharingan Genjutsu",
+   "Susano'o: Flame Arrow",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "lightning"
+  ],
+  "notes": "Susano'o rule: the armor becomes the Weapon type.",
+  "image": "sasuke-mangekyo.webp"
+ },
+ {
+  "num": 8,
+  "id": "sasuke-war",
+  "baseId": "sasuke",
+  "name": "Sasuke Uchiha (Eternal Mangekyō)",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 110,
+   "def": 100,
+   "spa": 135,
+   "spd": 101,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Eternal Mangekyō Sharingan",
+    "desc": "Its moves go through Substitutes and screens. Can't be confused (genjutsu doesn't take hold). Can't be put to sleep. Fire moves deal 1.2x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Taka Leader",
+   "desc": "Each knockout raises its Attack and Sp. Atk by 1 stage."
+  },
+  "signature": [
+   {
+    "move": "Amaterasu",
+    "smash": "Amaterasu"
+   },
+   {
+    "move": "Blaze Release: Kagutsuchi",
+    "smash": "Blaze Release: Kagutsuchi"
+   },
+   {
+    "move": "Kirin",
+    "smash": "Kirin"
+   },
+   {
+    "move": "Chidori Sharp Spear",
+    "smash": "Chidori Sharp Spear"
+   },
+   {
+    "move": "Sharingan Genjutsu",
+    "smash": "Sharingan Genjutsu"
+   },
+   {
+    "move": "Susano'o: Flame Arrow",
+    "smash": "Susano'o: Flame Arrow"
+   }
+  ],
+  "learnset": [
+   "Amaterasu",
+   "Blaze Release: Kagutsuchi",
+   "Kirin",
+   "Chidori Sharp Spear",
+   "Sharingan Genjutsu",
+   "Susano'o: Flame Arrow",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "lightning"
+  ],
+  "notes": "Rinne-Sharingan: Indra-style lightning plus Yin eyes.",
+  "image": "sasuke-eternal-mangekyo.webp"
+ },
+ {
+  "num": 9,
+  "id": "sakura-p1",
+  "baseId": "sakura",
+  "name": "Sakura Haruno (Part I)",
+  "series": "Part I",
+  "role": "Controller",
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 80,
+   "atk": 70,
+   "def": 65,
+   "spa": 60,
+   "spd": 59,
+   "spe": 75
+  },
+  "abilities": [
+   {
+    "name": "Genjutsu Talent",
+    "desc": "Yin moves deal 1.2x damage. Can't be confused (genjutsu doesn't take hold)."
+   }
+  ],
+  "hidden": {
+   "name": "Inner Sakura",
+   "desc": "Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+  },
+  "signature": [
+   {
+    "move": "Shuriken Volley",
+    "smash": "Shuriken Volley"
+   },
+   {
+    "move": "Clone Jutsu Feint",
+    "smash": "Clone Jutsu Feint"
+   },
+   {
+    "move": "Genjutsu Dispel",
+    "smash": "Genjutsu Dispel"
+   },
+   {
+    "move": "Inner Sakura",
+    "smash": "Inner Sakura"
+   },
+   {
+    "move": "SHANNARO!",
+    "smash": "SHANNARO!"
+   }
+  ],
+  "learnset": [
+   "Shuriken Volley",
+   "Clone Jutsu Feint",
+   "Genjutsu Dispel",
+   "Inner Sakura",
+   "SHANNARO!",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "earth",
+   "yang"
+  ],
+  "notes": "",
+  "image": "sakura-part-1.webp"
+ },
+ {
+  "num": 10,
+  "id": "sakura-shippuden",
+  "baseId": "sakura",
+  "name": "Sakura Haruno",
+  "series": "Shippuden",
+  "role": "Medic / Frontliner",
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 105,
+   "def": 80,
+   "spa": 70,
+   "spd": 70,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Perfect Chakra Control",
+    "desc": "Punching moves deal 1.2x damage. Its healing moves restore 50% more HP."
+   }
+  ],
+  "hidden": {
+   "name": "Field Medic",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Cherry Blossom Impact",
+    "smash": "Cherry Blossom Impact"
+   },
+   {
+    "move": "Heavenly Foot of Pain",
+    "smash": "Heavenly Foot of Pain"
+   },
+   {
+    "move": "Ground Splitting Punch",
+    "smash": "Ground Splitting Punch"
+   },
+   {
+    "move": "Mystical Palm",
+    "smash": "Mystical Palm"
+   },
+   {
+    "move": "Poison Extraction",
+    "smash": "Poison Extraction"
+   }
+  ],
+  "learnset": [
+   "Cherry Blossom Impact",
+   "Heavenly Foot of Pain",
+   "Ground Splitting Punch",
+   "Mystical Palm",
+   "Poison Extraction",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "earth",
+   "yang"
+  ],
+  "notes": "",
+  "image": "sakura-shippuden.webp"
+ },
+ {
+  "num": 11,
+  "id": "sakura-war",
+  "baseId": "sakura",
+  "name": "Sakura Haruno (Great War)",
+  "series": "Shippuden",
+  "role": "Medic / Frontliner",
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 125,
+   "def": 95,
+   "spa": 80,
+   "spd": 82,
+   "spe": 90
+  },
+  "abilities": [
+   {
+    "name": "Perfect Chakra Control",
+    "desc": "Punching moves deal 1.2x damage. Its healing moves restore 50% more HP."
+   }
+  ],
+  "hidden": {
+   "name": "Katsuyu Network",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Cherry Blossom Impact",
+    "smash": "Cherry Blossom Impact"
+   },
+   {
+    "move": "Heavenly Foot of Pain",
+    "smash": "Heavenly Foot of Pain"
+   },
+   {
+    "move": "Ground Splitting Punch",
+    "smash": "Ground Splitting Punch"
+   },
+   {
+    "move": "Hundred Healings Transfer",
+    "smash": "Hundred Healings Transfer"
+   },
+   {
+    "move": "Summoning: Katsuyu",
+    "smash": "Summoning: Katsuyu"
+   },
+   {
+    "move": "Mystical Palm",
+    "smash": "Mystical Palm"
+   }
+  ],
+  "learnset": [
+   "Cherry Blossom Impact",
+   "Heavenly Foot of Pain",
+   "Ground Splitting Punch",
+   "Hundred Healings Transfer",
+   "Summoning: Katsuyu",
+   "Mystical Palm",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "earth",
+   "yang"
+  ],
+  "notes": "Hundred Seal: pure strength (shared with Tsunade).",
+  "image": "sakura-great-war.webp"
+ },
+ {
+  "num": 12,
+  "id": "kakashi-p1",
+  "baseId": "kakashi",
+  "name": "Kakashi Hatake (Part I)",
+  "series": "Part I",
+  "role": "Striker / Controller",
+  "types": [
+   "Lightning",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 95,
+   "def": 85,
+   "spa": 105,
+   "spd": 82,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Copy Ninja",
+    "desc": "Copies the opposing shinobi's ability when it enters battle."
+   }
+  ],
+  "hidden": {
+   "name": "Jonin Leadership",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Lightning Blade",
+    "smash": "Lightning Blade"
+   },
+   {
+    "move": "Water Release: Water Dragon",
+    "smash": "Water Release: Water Dragon"
+   },
+   {
+    "move": "Earth Release: Headhunter",
+    "smash": "Earth Release: Headhunter"
+   },
+   {
+    "move": "Earth Release: Mud Wall",
+    "smash": "Earth Release: Mud Wall"
+   },
+   {
+    "move": "Summoning: Ninja Hounds",
+    "smash": "Summoning: Ninja Hounds"
+   },
+   {
+    "move": "Sharingan: Demonic Illusion",
+    "smash": "Sharingan: Demonic Illusion"
+   }
+  ],
+  "learnset": [
+   "Lightning Blade",
+   "Water Release: Water Dragon",
+   "Earth Release: Headhunter",
+   "Earth Release: Mud Wall",
+   "Summoning: Ninja Hounds",
+   "Sharingan: Demonic Illusion",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lightning",
+   "earth"
+  ],
+  "notes": "",
+  "image": "kakashi.webp"
+ },
+ {
+  "num": 13,
+  "id": "kakashi-ship",
+  "baseId": "kakashi",
+  "name": "Kakashi Hatake",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Lightning",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 95,
+   "def": 85,
+   "spa": 120,
+   "spd": 86,
+   "spe": 110
+  },
+  "abilities": [
+   {
+    "name": "Copy Ninja",
+    "desc": "Copies the opposing shinobi's ability when it enters battle."
+   }
+  ],
+  "hidden": {
+   "name": "Sixth Hokage Candidate",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Lightning Blade",
+    "smash": "Lightning Blade"
+   },
+   {
+    "move": "Lightning Beast Running",
+    "smash": "Lightning Beast Running"
+   },
+   {
+    "move": "Water Release: Water Dragon",
+    "smash": "Water Release: Water Dragon"
+   },
+   {
+    "move": "Earth Release: Headhunter",
+    "smash": "Earth Release: Headhunter"
+   },
+   {
+    "move": "Summoning: Ninja Hounds",
+    "smash": "Summoning: Ninja Hounds"
+   },
+   {
+    "move": "Sharingan: Demonic Illusion",
+    "smash": "Sharingan: Demonic Illusion"
+   },
+   {
+    "move": "Kamui",
+    "smash": "Kamui"
+   }
+  ],
+  "learnset": [
+   "Lightning Blade",
+   "Lightning Beast Running",
+   "Water Release: Water Dragon",
+   "Earth Release: Headhunter",
+   "Summoning: Ninja Hounds",
+   "Sharingan: Demonic Illusion",
+   "Kamui",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lightning",
+   "earth"
+  ],
+  "notes": "Mangekyō replaces Earth with Yin.",
+  "image": "kakashi.webp"
+ },
+ {
+  "num": 14,
+  "id": "kakashi-dms",
+  "baseId": "kakashi",
+  "name": "Kakashi Hatake (Double Eternal Mangekyō)",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Lightning",
+   "Yin"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 110,
+   "def": 95,
+   "spa": 135,
+   "spd": 98,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Obito's Gift",
+    "desc": "Copies the opposing shinobi's ability when it enters battle. Can't be confused (genjutsu doesn't take hold)."
+   }
+  ],
+  "hidden": {
+   "name": "Team Kakashi Bond",
+   "desc": "Raises allies' critical-hit chance. When it switches out, the incoming ally gets +1 Speed."
+  },
+  "signature": [
+   {
+    "move": "Kamui Raikiri",
+    "smash": "Kamui Raikiri"
+   },
+   {
+    "move": "Lightning Blade",
+    "smash": "Lightning Blade"
+   },
+   {
+    "move": "Water Release: Water Dragon",
+    "smash": "Water Release: Water Dragon"
+   },
+   {
+    "move": "Summoning: Ninja Hounds",
+    "smash": "Summoning: Ninja Hounds"
+   },
+   {
+    "move": "Earth Release: Headhunter",
+    "smash": "Earth Release: Headhunter"
+   },
+   {
+    "move": "Susano'o: Kamui Shuriken",
+    "smash": "Susano'o: Kamui Shuriken"
+   }
+  ],
+  "learnset": [
+   "Kamui Raikiri",
+   "Lightning Blade",
+   "Water Release: Water Dragon",
+   "Summoning: Ninja Hounds",
+   "Earth Release: Headhunter",
+   "Susano'o: Kamui Shuriken",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lightning",
+   "earth"
+  ],
+  "notes": "Double Mangekyō is Yin at base; Perfect Susano'o is Weapon.",
+  "image": "kakashi-double-mangekyo.webp"
+ },
+ {
+  "num": 15,
+  "id": "sai",
+  "baseId": "sai",
+  "name": "Sai",
+  "series": "Shippuden",
+  "role": "Infiltrator / Controller",
+  "types": [
+   "Yin"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 80,
+   "def": 70,
+   "spa": 95,
+   "spd": 73,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Root Agent",
+    "desc": "Its moves go through Substitutes and screens."
+   }
+  ],
+  "hidden": {
+   "name": "Root Discipline",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Super Beast Imitating Drawing",
+    "smash": "Super Beast Imitating Drawing"
+   },
+   {
+    "move": "Ink Snake Bind",
+    "smash": "Ink Snake Bind"
+   },
+   {
+    "move": "Ink Bird Recon",
+    "smash": "Ink Bird Recon"
+   },
+   {
+    "move": "Ink Clone",
+    "smash": "Ink Clone"
+   },
+   {
+    "move": "Tantō Strike",
+    "smash": "Tantō Strike"
+   }
+  ],
+  "learnset": [
+   "Super Beast Imitating Drawing",
+   "Ink Snake Bind",
+   "Ink Bird Recon",
+   "Ink Clone",
+   "Tantō Strike",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin"
+  ],
+  "notes": "Mono-type: ink and imagination.",
+  "image": "sai.webp"
+ },
+ {
+  "num": 16,
+  "id": "yamato",
+  "baseId": "yamato",
+  "name": "Yamato",
+  "series": "Shippuden",
+  "role": "Tank / Controller",
+  "types": [
+   "Wood",
+   "Water"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 80,
+   "def": 110,
+   "spa": 105,
+   "spd": 95,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Tailed Beast Suppression",
+    "desc": "Deals 1.5x damage to Beast and Sage-type shinobi."
+   }
+  ],
+  "hidden": {
+   "name": "Wood Shelter",
+   "desc": "Allies take 25% less damage, and it takes 10% less."
+  },
+  "signature": [
+   {
+    "move": "Wood Release: Four-Pillar Prison",
+    "smash": "Wood Release: Four-Pillar Prison"
+   },
+   {
+    "move": "Wood Release: Wood Dragon",
+    "smash": "Wood Release: Wood Dragon"
+   },
+   {
+    "move": "Wood Clone",
+    "smash": "Wood Clone"
+   },
+   {
+    "move": "Wood Release: Wood Wall",
+    "smash": "Wood Release: Wood Wall"
+   },
+   {
+    "move": "Cutting Wood Stakes",
+    "smash": "Cutting Wood Stakes"
+   }
+  ],
+  "learnset": [
+   "Wood Release: Four-Pillar Prison",
+   "Wood Release: Wood Dragon",
+   "Wood Clone",
+   "Wood Release: Wood Wall",
+   "Cutting Wood Stakes",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wood",
+   "water"
+  ],
+  "notes": "",
+  "image": "yamato.webp"
+ },
+ {
+  "num": 17,
+  "id": "hinata-p1",
+  "baseId": "hinata",
+  "name": "Hinata Hyuga (Part I)",
+  "series": "Part I",
+  "role": "Sensor / Frontliner",
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 90,
+   "def": 75,
+   "spa": 70,
+   "spd": 67,
+   "spe": 90
+  },
+  "abilities": [
+   {
+    "name": "Byakugan",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Its moves are more likely to land critical hits."
+   }
+  ],
+  "hidden": {
+   "name": "Quiet Encouragement",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Gentle Fist",
+    "smash": "Gentle Fist"
+   },
+   {
+    "move": "Eight Trigrams 32 Palms",
+    "smash": "Eight Trigrams 32 Palms"
+   },
+   {
+    "move": "Byakugan Scan",
+    "smash": "Byakugan Scan"
+   },
+   {
+    "move": "Shuriken Volley",
+    "smash": "Shuriken Volley"
+   },
+   {
+    "move": "Eight Trigrams 64 Palms Protection",
+    "smash": "Eight Trigrams 64 Palms Protection"
+   }
+  ],
+  "learnset": [
+   "Gentle Fist",
+   "Eight Trigrams 32 Palms",
+   "Byakugan Scan",
+   "Shuriken Volley",
+   "Eight Trigrams 64 Palms Protection",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Hyūga rule: Gentle Fist is Taijutsu, chakra-network strikes add Yang.",
+  "image": "hinata-part-1.webp"
+ },
+ {
+  "num": 18,
+  "id": "hinata-ship",
+  "baseId": "hinata",
+  "name": "Hinata Hyuga",
+  "series": "Shippuden",
+  "role": "Sensor / Frontliner",
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 105,
+   "def": 85,
+   "spa": 85,
+   "spd": 78,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Byakugan",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Its moves are more likely to land critical hits."
+   }
+  ],
+  "hidden": {
+   "name": "Byakugan Lookout",
+   "desc": "The first hit it takes in battle misses completely."
+  },
+  "signature": [
+   {
+    "move": "Gentle Fist",
+    "smash": "Gentle Fist"
+   },
+   {
+    "move": "Eight Trigrams 64 Palms",
+    "smash": "Eight Trigrams 64 Palms"
+   },
+   {
+    "move": "Eight Trigrams Vacuum Palm",
+    "smash": "Eight Trigrams Vacuum Palm"
+   },
+   {
+    "move": "Eight Trigrams 64 Palms Protection",
+    "smash": "Eight Trigrams 64 Palms Protection"
+   },
+   {
+    "move": "Byakugan Scan",
+    "smash": "Byakugan Scan"
+   },
+   {
+    "move": "Gentle Step Twin Lion Fists",
+    "smash": "Gentle Step Twin Lion Fists"
+   }
+  ],
+  "learnset": [
+   "Gentle Fist",
+   "Eight Trigrams 64 Palms",
+   "Eight Trigrams Vacuum Palm",
+   "Eight Trigrams 64 Palms Protection",
+   "Byakugan Scan",
+   "Gentle Step Twin Lion Fists",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Twin Lion Fists: the chakra lions are Beast.",
+  "image": "hinata-shippuden.webp"
+ },
+ {
+  "num": 19,
+  "id": "neji-p1",
+  "baseId": "neji",
+  "name": "Neji Hyuga (Part I)",
+  "series": "Part I",
+  "role": "Frontliner / Sensor",
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 110,
+   "def": 85,
+   "spa": 75,
+   "spd": 73,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Byakugan",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Its moves are more likely to land critical hits."
+   }
+  ],
+  "hidden": {
+   "name": "Hyuga Prodigy",
+   "desc": "Its moves go through Substitutes and screens."
+  },
+  "signature": [
+   {
+    "move": "Gentle Fist",
+    "smash": "Gentle Fist"
+   },
+   {
+    "move": "Eight Trigrams 64 Palms",
+    "smash": "Eight Trigrams 64 Palms"
+   },
+   {
+    "move": "Eight Trigrams Palm Rotation",
+    "smash": "Eight Trigrams Palm Rotation"
+   },
+   {
+    "move": "Eight Trigrams Vacuum Palm",
+    "smash": "Eight Trigrams Vacuum Palm"
+   },
+   {
+    "move": "Byakugan Scan",
+    "smash": "Byakugan Scan"
+   }
+  ],
+  "learnset": [
+   "Gentle Fist",
+   "Eight Trigrams 64 Palms",
+   "Eight Trigrams Palm Rotation",
+   "Eight Trigrams Vacuum Palm",
+   "Byakugan Scan",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Hyūga rule.",
+  "image": "neji-part-1.webp"
+ },
+ {
+  "num": 20,
+  "id": "neji-ship",
+  "baseId": "neji",
+  "name": "Neji Hyuga",
+  "series": "Shippuden",
+  "role": "Frontliner / Sensor",
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 120,
+   "def": 95,
+   "spa": 85,
+   "spd": 81,
+   "spe": 110
+  },
+  "abilities": [
+   {
+    "name": "Byakugan",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Its moves are more likely to land critical hits."
+   }
+  ],
+  "hidden": {
+   "name": "Caged Bird's Resolve",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Gentle Fist",
+    "smash": "Gentle Fist"
+   },
+   {
+    "move": "Eight Trigrams 128 Palms",
+    "smash": "Eight Trigrams 128 Palms"
+   },
+   {
+    "move": "Eight Trigrams Palm Rotation",
+    "smash": "Eight Trigrams Palm Rotation"
+   },
+   {
+    "move": "Eight Trigrams Vacuum Wall Palm",
+    "smash": "Eight Trigrams Vacuum Wall Palm"
+   },
+   {
+    "move": "Eight Trigrams Vacuum Palm",
+    "smash": "Eight Trigrams Vacuum Palm"
+   },
+   {
+    "move": "Byakugan Scan",
+    "smash": "Byakugan Scan"
+   }
+  ],
+  "learnset": [
+   "Gentle Fist",
+   "Eight Trigrams 128 Palms",
+   "Eight Trigrams Palm Rotation",
+   "Eight Trigrams Vacuum Wall Palm",
+   "Eight Trigrams Vacuum Palm",
+   "Byakugan Scan",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Hyūga rule.",
+  "image": "neji-shippuden.webp"
+ },
+ {
+  "num": 21,
+  "id": "lee-p1",
+  "baseId": "lee",
+  "name": "Rock Lee (Part I)",
+  "series": "Part I",
+  "role": "Frontliner",
+  "types": [
+   "Taijutsu"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 125,
+   "def": 85,
+   "spa": 0,
+   "spd": 47,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Splendid Taijutsu",
+    "desc": "Contact moves deal 1.3x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Power of Youth",
+   "desc": "Its Speed rises by 1 stage at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Leaf Hurricane",
+    "smash": "Leaf Hurricane"
+   },
+   {
+    "move": "Dynamic Entry",
+    "smash": "Dynamic Entry"
+   },
+   {
+    "move": "Leaf Rising Wind",
+    "smash": "Leaf Rising Wind"
+   },
+   {
+    "move": "Front Lotus",
+    "smash": "Front Lotus"
+   },
+   {
+    "move": "Hidden Lotus",
+    "smash": "Hidden Lotus"
+   }
+  ],
+  "learnset": [
+   "Leaf Hurricane",
+   "Dynamic Entry",
+   "Leaf Rising Wind",
+   "Front Lotus",
+   "Hidden Lotus",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Pure Taijutsu; opening Gates adds Yang (life force).",
+  "image": "rock-lee-part-1.webp"
+ },
+ {
+  "num": 22,
+  "id": "lee-ship",
+  "baseId": "lee",
+  "name": "Rock Lee",
+  "series": "Shippuden",
+  "role": "Frontliner",
+  "types": [
+   "Taijutsu"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 135,
+   "def": 90,
+   "spa": 0,
+   "spd": 50,
+   "spe": 130
+  },
+  "abilities": [
+   {
+    "name": "Splendid Taijutsu",
+    "desc": "Contact moves deal 1.3x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Never Give Up",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Leaf Hurricane",
+    "smash": "Leaf Hurricane"
+   },
+   {
+    "move": "Dynamic Entry",
+    "smash": "Dynamic Entry"
+   },
+   {
+    "move": "Drunken Fist",
+    "smash": "Drunken Fist"
+   },
+   {
+    "move": "Front Lotus",
+    "smash": "Front Lotus"
+   },
+   {
+    "move": "Hidden Lotus",
+    "smash": "Hidden Lotus"
+   },
+   {
+    "move": "Morning Peacock",
+    "smash": "Morning Peacock"
+   }
+  ],
+  "learnset": [
+   "Leaf Hurricane",
+   "Dynamic Entry",
+   "Drunken Fist",
+   "Front Lotus",
+   "Hidden Lotus",
+   "Morning Peacock",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Sixth Gate: Morning Peacock friction flames add Fire.",
+  "image": "rock-lee-shippuden.webp"
+ },
+ {
+  "num": 23,
+  "id": "tenten-p1",
+  "baseId": "tenten",
+  "name": "Tenten (Part I)",
+  "series": "Part I",
+  "role": "Striker",
+  "types": [
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 95,
+   "def": 70,
+   "spa": 60,
+   "spd": 60,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Weapon Mistress",
+    "desc": "Weapon moves deal 1.2x damage. Multi-hit moves always hit the maximum number of times."
+   }
+  ],
+  "hidden": {
+   "name": "Armory",
+   "desc": "Multi-hit moves always hit the maximum number of times."
+  },
+  "signature": [
+   {
+    "move": "Twin Rising Dragons",
+    "smash": "Twin Rising Dragons"
+   },
+   {
+    "move": "Manipulated Tools: Heavenly Chains",
+    "smash": "Manipulated Tools: Heavenly Chains"
+   },
+   {
+    "move": "Giant Shuriken",
+    "smash": "Giant Shuriken"
+   },
+   {
+    "move": "Explosive Tag Kunai",
+    "smash": "Explosive Tag Kunai"
+   },
+   {
+    "move": "Smoke Bomb",
+    "smash": "Smoke Bomb"
+   }
+  ],
+  "learnset": [
+   "Twin Rising Dragons",
+   "Manipulated Tools: Heavenly Chains",
+   "Giant Shuriken",
+   "Explosive Tag Kunai",
+   "Smoke Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless.",
+  "image": "tenten-part-1.webp"
+ },
+ {
+  "num": 24,
+  "id": "tenten-ship",
+  "baseId": "tenten",
+  "name": "Tenten",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 110,
+   "def": 80,
+   "spa": 70,
+   "spd": 69,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Weapon Mistress",
+    "desc": "Weapon moves deal 1.2x damage. Multi-hit moves always hit the maximum number of times."
+   }
+  ],
+  "hidden": {
+   "name": "Weapon Supply",
+   "desc": "Contact moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "Twin Rising Dragons",
+    "smash": "Twin Rising Dragons"
+   },
+   {
+    "move": "Twin Rising Dragons: Explosion",
+    "smash": "Twin Rising Dragons: Explosion"
+   },
+   {
+    "move": "Manipulated Tools: Heavenly Chains",
+    "smash": "Manipulated Tools: Heavenly Chains"
+   },
+   {
+    "move": "Giant Shuriken",
+    "smash": "Giant Shuriken"
+   },
+   {
+    "move": "Smoke Bomb",
+    "smash": "Smoke Bomb"
+   }
+  ],
+  "learnset": [
+   "Twin Rising Dragons",
+   "Twin Rising Dragons: Explosion",
+   "Manipulated Tools: Heavenly Chains",
+   "Giant Shuriken",
+   "Smoke Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless.",
+  "image": "tenten-shippuden.webp"
+ },
+ {
+  "num": 25,
+  "id": "guy",
+  "baseId": "guy",
+  "name": "Might Guy",
+  "series": "Shippuden",
+  "role": "Frontliner",
+  "types": [
+   "Taijutsu"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 140,
+   "def": 95,
+   "spa": 0,
+   "spd": 54,
+   "spe": 130
+  },
+  "abilities": [
+   {
+    "name": "Sensei of Youth",
+    "desc": "Contact moves deal 1.3x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Eternal Rival",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Leaf Great Whirlwind",
+    "smash": "Leaf Great Whirlwind"
+   },
+   {
+    "move": "Dynamic Entry",
+    "smash": "Dynamic Entry"
+   },
+   {
+    "move": "Front Lotus",
+    "smash": "Front Lotus"
+   },
+   {
+    "move": "Morning Peacock",
+    "smash": "Morning Peacock"
+   },
+   {
+    "move": "Daytime Tiger",
+    "smash": "Daytime Tiger"
+   },
+   {
+    "move": "Night Guy",
+    "smash": "Night Guy"
+   }
+  ],
+  "learnset": [
+   "Leaf Great Whirlwind",
+   "Dynamic Entry",
+   "Front Lotus",
+   "Morning Peacock",
+   "Daytime Tiger",
+   "Night Guy",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Eighth Gate: blood-red steam = Boil.",
+  "image": "might-guy.webp"
+ },
+ {
+  "num": 26,
+  "id": "kiba-p1",
+  "baseId": "kiba",
+  "name": "Kiba Inuzuka (Part I)",
+  "series": "Part I",
+  "role": "Frontliner / Sensor",
+  "types": [
+   "Beast",
+   "Taijutsu"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 105,
+   "def": 75,
+   "spa": 55,
+   "spd": 61,
+   "spe": 110
+  },
+  "abilities": [
+   {
+    "name": "Akamaru Partner",
+    "desc": "Its attacks hit a second time for 25% damage."
+   }
+  ],
+  "hidden": {
+   "name": "Pack Hunter",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Fang Over Fang",
+    "smash": "Fang Over Fang"
+   },
+   {
+    "move": "Passing Fang",
+    "smash": "Passing Fang"
+   },
+   {
+    "move": "Four Legs Technique",
+    "smash": "Four Legs Technique"
+   },
+   {
+    "move": "Dynamic Marking",
+    "smash": "Dynamic Marking"
+   },
+   {
+    "move": "Shuriken Volley",
+    "smash": "Shuriken Volley"
+   }
+  ],
+  "learnset": [
+   "Fang Over Fang",
+   "Passing Fang",
+   "Four Legs Technique",
+   "Dynamic Marking",
+   "Shuriken Volley",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Fights alongside Akamaru.",
+  "image": "kiba-part-1.webp"
+ },
+ {
+  "num": 27,
+  "id": "kiba-ship",
+  "baseId": "kiba",
+  "name": "Kiba Inuzuka",
+  "series": "Shippuden",
+  "role": "Frontliner / Sensor",
+  "types": [
+   "Beast",
+   "Taijutsu"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 120,
+   "def": 85,
+   "spa": 60,
+   "spd": 68,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Akamaru Partner",
+    "desc": "Its attacks hit a second time for 25% damage."
+   }
+  ],
+  "hidden": {
+   "name": "Akamaru Scouting",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Fang Over Fang",
+    "smash": "Fang Over Fang"
+   },
+   {
+    "move": "Passing Fang",
+    "smash": "Passing Fang"
+   },
+   {
+    "move": "Four Legs Technique",
+    "smash": "Four Legs Technique"
+   },
+   {
+    "move": "Dynamic Marking",
+    "smash": "Dynamic Marking"
+   },
+   {
+    "move": "Fang Wolf Fang",
+    "smash": "Fang Wolf Fang"
+   }
+  ],
+  "learnset": [
+   "Fang Over Fang",
+   "Passing Fang",
+   "Four Legs Technique",
+   "Dynamic Marking",
+   "Fang Wolf Fang",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Two-Headed Wolf: mono-Beast.",
+  "image": "kiba-shippuden.webp"
+ },
+ {
+  "num": 28,
+  "id": "shino-p1",
+  "baseId": "shino",
+  "name": "Shino Aburame (Part I)",
+  "series": "Part I",
+  "role": "Controller / Sensor",
+  "types": [
+   "Beast"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 70,
+   "def": 95,
+   "spa": 95,
+   "spd": 84,
+   "spe": 75
+  },
+  "abilities": [
+   {
+    "name": "Kikaichu Host",
+    "desc": "Heals 1/8 of the damage its attacks deal."
+   }
+  ],
+  "hidden": {
+   "name": "Chakra Leech",
+   "desc": "Heals 1/8 of the damage its attacks deal."
+  },
+  "signature": [
+   {
+    "move": "Parasitic Insect Swarm",
+    "smash": "Parasitic Insect Swarm"
+   },
+   {
+    "move": "Insect Clone",
+    "smash": "Insect Clone"
+   },
+   {
+    "move": "Insect Sphere",
+    "smash": "Insect Sphere"
+   },
+   {
+    "move": "Female Insect Tracking",
+    "smash": "Female Insect Tracking"
+   },
+   {
+    "move": "Insect Wall",
+    "smash": "Insect Wall"
+   }
+  ],
+  "learnset": [
+   "Parasitic Insect Swarm",
+   "Insect Clone",
+   "Insect Sphere",
+   "Female Insect Tracking",
+   "Insect Wall",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Kikaichū insects.",
+  "image": "shino-part-1.webp"
+ },
+ {
+  "num": 29,
+  "id": "shino-ship",
+  "baseId": "shino",
+  "name": "Shino Aburame",
+  "series": "Shippuden",
+  "role": "Controller / Sensor",
+  "types": [
+   "Beast"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 75,
+   "def": 100,
+   "spa": 110,
+   "spd": 93,
+   "spe": 85
+  },
+  "abilities": [
+   {
+    "name": "Kikaichu Host",
+    "desc": "Heals 1/8 of the damage its attacks deal."
+   }
+  ],
+  "hidden": {
+   "name": "Insect Barrier",
+   "desc": "Takes 25% less damage from super-effective attacks."
+  },
+  "signature": [
+   {
+    "move": "Parasitic Insect Swarm",
+    "smash": "Parasitic Insect Swarm"
+   },
+   {
+    "move": "Insect Tornado",
+    "smash": "Insect Tornado"
+   },
+   {
+    "move": "Insect Jar Technique",
+    "smash": "Insect Jar Technique"
+   },
+   {
+    "move": "Female Insect Tracking",
+    "smash": "Female Insect Tracking"
+   },
+   {
+    "move": "Insect Clone",
+    "smash": "Insect Clone"
+   },
+   {
+    "move": "Insect Wall",
+    "smash": "Insect Wall"
+   }
+  ],
+  "learnset": [
+   "Parasitic Insect Swarm",
+   "Insect Tornado",
+   "Insect Jar Technique",
+   "Female Insect Tracking",
+   "Insect Clone",
+   "Insect Wall",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless.",
+  "image": "shino-shippuden.webp"
+ },
+ {
+  "num": 30,
+  "id": "shikamaru-p1",
+  "baseId": "shikamaru",
+  "name": "Shikamaru Nara (Part I)",
+  "series": "Part I",
+  "role": "Controller / Infiltrator",
+  "types": [
+   "Yin",
+   "Fire"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 65,
+   "def": 75,
+   "spa": 90,
+   "spd": 73,
+   "spe": 85
+  },
+  "abilities": [
+   {
+    "name": "200 IQ",
+    "desc": "Deals 1.3x damage when it moves last."
+   }
+  ],
+  "hidden": {
+   "name": "Battle Plan",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Shadow Possession Jutsu",
+    "smash": "Shadow Possession Jutsu"
+   },
+   {
+    "move": "Shadow Neck Bind",
+    "smash": "Shadow Neck Bind"
+   },
+   {
+    "move": "Explosive Tag Kunai",
+    "smash": "Explosive Tag Kunai"
+   },
+   {
+    "move": "Battle Analysis",
+    "smash": "Battle Analysis"
+   },
+   {
+    "move": "Flash Bomb",
+    "smash": "Flash Bomb"
+   }
+  ],
+  "learnset": [
+   "Shadow Possession Jutsu",
+   "Shadow Neck Bind",
+   "Explosive Tag Kunai",
+   "Battle Analysis",
+   "Flash Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin",
+   "fire"
+  ],
+  "notes": "",
+  "image": "shikamaru-part-1.webp"
+ },
+ {
+  "num": 31,
+  "id": "shikamaru-ship",
+  "baseId": "shikamaru",
+  "name": "Shikamaru Nara",
+  "series": "Shippuden",
+  "role": "Controller / Infiltrator",
+  "types": [
+   "Yin",
+   "Fire"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 70,
+   "def": 85,
+   "spa": 105,
+   "spd": 84,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "200 IQ",
+    "desc": "Deals 1.3x damage when it moves last."
+   }
+  ],
+  "hidden": {
+   "name": "Asuma's Will",
+   "desc": "Its moves' added effects are twice as likely."
+  },
+  "signature": [
+   {
+    "move": "Shadow Possession Jutsu",
+    "smash": "Shadow Possession Jutsu"
+   },
+   {
+    "move": "Shadow Neck Bind",
+    "smash": "Shadow Neck Bind"
+   },
+   {
+    "move": "Shadow Stitching",
+    "smash": "Shadow Stitching"
+   },
+   {
+    "move": "Shadow Gathering",
+    "smash": "Shadow Gathering"
+   },
+   {
+    "move": "Explosive Tag Kunai",
+    "smash": "Explosive Tag Kunai"
+   },
+   {
+    "move": "Battle Analysis",
+    "smash": "Battle Analysis"
+   }
+  ],
+  "learnset": [
+   "Shadow Possession Jutsu",
+   "Shadow Neck Bind",
+   "Shadow Stitching",
+   "Shadow Gathering",
+   "Explosive Tag Kunai",
+   "Battle Analysis",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin",
+   "fire"
+  ],
+  "notes": "",
+  "image": "shikamaru-shippuden.webp"
+ },
+ {
+  "num": 32,
+  "id": "choji-p1",
+  "baseId": "choji",
+  "name": "Choji Akimichi (Part I)",
+  "series": "Part I",
+  "role": "Tank",
+  "types": [
+   "Yang",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 130,
+   "atk": 100,
+   "def": 100,
+   "spa": 60,
+   "spd": 75,
+   "spe": 60
+  },
+  "abilities": [
+   {
+    "name": "Akimichi Appetite",
+    "desc": "Berries have double the effect."
+   }
+  ],
+  "hidden": {
+   "name": "Snack Break",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Human Boulder",
+    "smash": "Human Boulder"
+   },
+   {
+    "move": "Spiked Human Boulder",
+    "smash": "Spiked Human Boulder"
+   },
+   {
+    "move": "Partial Expansion: Arms",
+    "smash": "Partial Expansion: Arms"
+   },
+   {
+    "move": "Super Expansion",
+    "smash": "Super Expansion"
+   }
+  ],
+  "learnset": [
+   "Human Boulder",
+   "Spiked Human Boulder",
+   "Partial Expansion: Arms",
+   "Super Expansion",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yang",
+   "earth"
+  ],
+  "notes": "Curry Pill: drops Earth for raw Taijutsu power.",
+  "image": "choji-part-1.webp"
+ },
+ {
+  "num": 33,
+  "id": "choji-ship",
+  "baseId": "choji",
+  "name": "Choji Akimichi",
+  "series": "Shippuden",
+  "role": "Tank / Frontliner",
+  "types": [
+   "Yang",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 140,
+   "atk": 115,
+   "def": 110,
+   "spa": 65,
+   "spd": 83,
+   "spe": 70
+  },
+  "abilities": [
+   {
+    "name": "Akimichi Appetite",
+    "desc": "Berries have double the effect."
+   }
+  ],
+  "hidden": {
+   "name": "Akimichi Bulwark",
+   "desc": "Allies take 25% less damage, and it takes 10% less."
+  },
+  "signature": [
+   {
+    "move": "Human Boulder",
+    "smash": "Human Boulder"
+   },
+   {
+    "move": "Spiked Human Boulder",
+    "smash": "Spiked Human Boulder"
+   },
+   {
+    "move": "Partial Expansion: Arms",
+    "smash": "Partial Expansion: Arms"
+   },
+   {
+    "move": "Super Expansion",
+    "smash": "Super Expansion"
+   },
+   {
+    "move": "Butterfly Bullet Bombing",
+    "smash": "Butterfly Bullet Bombing"
+   }
+  ],
+  "learnset": [
+   "Human Boulder",
+   "Spiked Human Boulder",
+   "Partial Expansion: Arms",
+   "Super Expansion",
+   "Butterfly Bullet Bombing",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yang",
+   "earth"
+  ],
+  "notes": "Butterfly Mode: mono-Yang, pure calorie chakra.",
+  "image": "choji-shippuden.webp"
+ },
+ {
+  "num": 34,
+  "id": "ino-p1",
+  "baseId": "ino",
+  "name": "Ino Yamanaka (Part I)",
+  "series": "Part I",
+  "role": "Infiltrator / Controller",
+  "types": [
+   "Yin"
+  ],
+  "stats": {
+   "hp": 80,
+   "atk": 65,
+   "def": 65,
+   "spa": 85,
+   "spd": 66,
+   "spe": 85
+  },
+  "abilities": [
+   {
+    "name": "Yamanaka Mind Clan",
+    "desc": "Yin moves deal 1.3x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Sensory Relay",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Mind Transfer Jutsu",
+    "smash": "Mind Transfer Jutsu"
+   },
+   {
+    "move": "Mind Body Disturbance",
+    "smash": "Mind Body Disturbance"
+   },
+   {
+    "move": "Mind Clone Spy",
+    "smash": "Mind Clone Spy"
+   },
+   {
+    "move": "Senbon Volley",
+    "smash": "Senbon Volley"
+   }
+  ],
+  "learnset": [
+   "Mind Transfer Jutsu",
+   "Mind Body Disturbance",
+   "Mind Clone Spy",
+   "Senbon Volley",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin"
+  ],
+  "notes": "",
+  "image": "ino-part-1.webp"
+ },
+ {
+  "num": 35,
+  "id": "ino-ship",
+  "baseId": "ino",
+  "name": "Ino Yamanaka",
+  "series": "Shippuden",
+  "role": "Infiltrator / Medic",
+  "types": [
+   "Yin",
+   "Water"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 70,
+   "def": 75,
+   "spa": 95,
+   "spd": 76,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Yamanaka Mind Clan",
+    "desc": "Yin moves deal 1.3x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Mind Link",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Mind Transfer Jutsu",
+    "smash": "Mind Transfer Jutsu"
+   },
+   {
+    "move": "Mind Body Disturbance",
+    "smash": "Mind Body Disturbance"
+   },
+   {
+    "move": "Mind Destruction",
+    "smash": "Mind Destruction"
+   },
+   {
+    "move": "Mystical Palm",
+    "smash": "Mystical Palm"
+   },
+   {
+    "move": "Flower Bomb",
+    "smash": "Flower Bomb"
+   },
+   {
+    "move": "Mind Clone Spy",
+    "smash": "Mind Clone Spy"
+   }
+  ],
+  "learnset": [
+   "Mind Transfer Jutsu",
+   "Mind Body Disturbance",
+   "Mind Destruction",
+   "Mystical Palm",
+   "Flower Bomb",
+   "Mind Clone Spy",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin",
+   "water"
+  ],
+  "notes": "",
+  "image": "ino-shippuden.webp"
+ },
+ {
+  "num": 36,
+  "id": "kurenai",
+  "baseId": "kurenai",
+  "name": "Kurenai Yuhi",
+  "series": "Part I",
+  "role": "Controller",
+  "types": [
+   "Yin"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 70,
+   "def": 70,
+   "spa": 110,
+   "spd": 79,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Genjutsu Mistress",
+    "desc": "Its moves' added effects are twice as likely."
+   }
+  ],
+  "hidden": {
+   "name": "Illusionary Cover",
+   "desc": "The first hit it takes in battle misses completely."
+  },
+  "signature": [
+   {
+    "move": "Demonic Illusion: Tree Binding Death",
+    "smash": "Demonic Illusion: Tree Binding Death"
+   },
+   {
+    "move": "Flower Petal Escape",
+    "smash": "Flower Petal Escape"
+   },
+   {
+    "move": "Demonic Illusion: Mist Hiding",
+    "smash": "Demonic Illusion: Mist Hiding"
+   },
+   {
+    "move": "Sly Mind Affect",
+    "smash": "Sly Mind Affect"
+   },
+   {
+    "move": "Shuriken Volley",
+    "smash": "Shuriken Volley"
+   }
+  ],
+  "learnset": [
+   "Demonic Illusion: Tree Binding Death",
+   "Flower Petal Escape",
+   "Demonic Illusion: Mist Hiding",
+   "Sly Mind Affect",
+   "Shuriken Volley",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin"
+  ],
+  "notes": "",
+  "image": "kurenai.webp"
+ },
+ {
+  "num": 37,
+  "id": "asuma",
+  "baseId": "asuma",
+  "name": "Asuma Sarutobi",
+  "series": "Part I",
+  "role": "Frontliner / Striker",
+  "types": [
+   "Wind",
+   "Fire"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 105,
+   "def": 90,
+   "spa": 95,
+   "spd": 82,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Chakra Blades",
+    "desc": "Slicing moves deal 1.3x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Twelve Guardian Ninja",
+   "desc": "Wind moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "Flying Swallow",
+    "smash": "Flying Swallow"
+   },
+   {
+    "move": "Chakra Blade Combo",
+    "smash": "Chakra Blade Combo"
+   },
+   {
+    "move": "Fire Release: Burning Ash",
+    "smash": "Fire Release: Burning Ash"
+   },
+   {
+    "move": "Fire Release: Ash Pile Burning",
+    "smash": "Fire Release: Ash Pile Burning"
+   },
+   {
+    "move": "Wind Release: Dust Cloud",
+    "smash": "Wind Release: Dust Cloud"
+   }
+  ],
+  "learnset": [
+   "Flying Swallow",
+   "Chakra Blade Combo",
+   "Fire Release: Burning Ash",
+   "Fire Release: Ash Pile Burning",
+   "Wind Release: Dust Cloud",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "fire"
+  ],
+  "notes": "",
+  "image": "asuma.webp"
+ },
+ {
+  "num": 38,
+  "id": "gaara-p1",
+  "baseId": "gaara",
+  "name": "Gaara (Part I)",
+  "series": "Part I",
+  "role": "Tank / Striker",
+  "types": [
+   "Magnet",
+   "Wind"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 45,
+   "def": 125,
+   "spa": 105,
+   "spd": 102,
+   "spe": 60
+  },
+  "abilities": [
+   {
+    "name": "Shield of Sand",
+    "desc": "Takes half damage while at full HP."
+   }
+  ],
+  "hidden": {
+   "name": "Sand Barrier",
+   "desc": "Takes half damage while at full HP."
+  },
+  "signature": [
+   {
+    "move": "Sand Coffin",
+    "smash": "Sand Coffin"
+   },
+   {
+    "move": "Sand Burial",
+    "smash": "Sand Burial"
+   },
+   {
+    "move": "Sand Shuriken",
+    "smash": "Sand Shuriken"
+   },
+   {
+    "move": "Sand Tsunami",
+    "smash": "Sand Tsunami"
+   },
+   {
+    "move": "Armor of Sand",
+    "smash": "Armor of Sand"
+   }
+  ],
+  "learnset": [
+   "Sand Coffin",
+   "Sand Burial",
+   "Sand Shuriken",
+   "Sand Tsunami",
+   "Armor of Sand",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "magnet",
+   "wind"
+  ],
+  "notes": "Partial Shukaku: Beast replaces Wind.",
+  "image": "gaara-part-1.webp"
+ },
+ {
+  "num": 39,
+  "id": "gaara-ship",
+  "baseId": "gaara",
+  "name": "Gaara",
+  "series": "Shippuden",
+  "role": "Tank / Striker / Support",
+  "types": [
+   "Magnet",
+   "Wind"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 50,
+   "def": 135,
+   "spa": 120,
+   "spd": 113,
+   "spe": 70
+  },
+  "abilities": [
+   {
+    "name": "Shield of Sand",
+    "desc": "Takes half damage while at full HP."
+   }
+  ],
+  "hidden": {
+   "name": "Kazekage's Protection",
+   "desc": "Takes 25% less damage from super-effective attacks."
+  },
+  "signature": [
+   {
+    "move": "Sand Coffin",
+    "smash": "Sand Coffin"
+   },
+   {
+    "move": "Sand Burial",
+    "smash": "Sand Burial"
+   },
+   {
+    "move": "Sand Waterfall Imperial Funeral",
+    "smash": "Sand Waterfall Imperial Funeral"
+   },
+   {
+    "move": "Sand Shuriken",
+    "smash": "Sand Shuriken"
+   },
+   {
+    "move": "Kazekage's Sand Shield",
+    "smash": "Kazekage's Sand Shield"
+   },
+   {
+    "move": "Armor of Sand",
+    "smash": "Armor of Sand"
+   }
+  ],
+  "learnset": [
+   "Sand Coffin",
+   "Sand Burial",
+   "Sand Waterfall Imperial Funeral",
+   "Sand Shuriken",
+   "Kazekage's Sand Shield",
+   "Armor of Sand",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "magnet",
+   "wind"
+  ],
+  "notes": "",
+  "image": "gaara-shippuden.webp"
+ },
+ {
+  "num": 40,
+  "id": "temari-p1",
+  "baseId": "temari",
+  "name": "Temari (Part I)",
+  "series": "Part I",
+  "role": "Striker",
+  "types": [
+   "Wind"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 70,
+   "def": 70,
+   "spa": 100,
+   "spd": 74,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Gale Mastery",
+    "desc": "Wind moves deal 1.2x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Wind Strategy",
+   "desc": "Wind moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "Wind Release: Cutting Whirlwind",
+    "smash": "Wind Release: Cutting Whirlwind"
+   },
+   {
+    "move": "Wind Release: Great Sickle Weasel",
+    "smash": "Wind Release: Great Sickle Weasel"
+   },
+   {
+    "move": "Giant Fan Strike",
+    "smash": "Giant Fan Strike"
+   },
+   {
+    "move": "Wind Release: Wind Barrier",
+    "smash": "Wind Release: Wind Barrier"
+   },
+   {
+    "move": "Summoning: Kamatari",
+    "smash": "Summoning: Kamatari"
+   }
+  ],
+  "learnset": [
+   "Wind Release: Cutting Whirlwind",
+   "Wind Release: Great Sickle Weasel",
+   "Giant Fan Strike",
+   "Wind Release: Wind Barrier",
+   "Summoning: Kamatari",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind"
+  ],
+  "notes": "",
+  "image": "temari-part-1.webp"
+ },
+ {
+  "num": 41,
+  "id": "temari-ship",
+  "baseId": "temari",
+  "name": "Temari",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Wind"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 75,
+   "def": 80,
+   "spa": 115,
+   "spd": 85,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Gale Mastery",
+    "desc": "Wind moves deal 1.2x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Sand Envoy",
+   "desc": "Wind moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "Wind Release: Cutting Whirlwind",
+    "smash": "Wind Release: Cutting Whirlwind"
+   },
+   {
+    "move": "Wind Release: Great Sickle Weasel",
+    "smash": "Wind Release: Great Sickle Weasel"
+   },
+   {
+    "move": "Wind Release: Great Breakthrough",
+    "smash": "Wind Release: Great Breakthrough"
+   },
+   {
+    "move": "Giant Fan Strike",
+    "smash": "Giant Fan Strike"
+   },
+   {
+    "move": "Wind Release: Wind Barrier",
+    "smash": "Wind Release: Wind Barrier"
+   },
+   {
+    "move": "Summoning: Kamatari",
+    "smash": "Summoning: Kamatari"
+   }
+  ],
+  "learnset": [
+   "Wind Release: Cutting Whirlwind",
+   "Wind Release: Great Sickle Weasel",
+   "Wind Release: Great Breakthrough",
+   "Giant Fan Strike",
+   "Wind Release: Wind Barrier",
+   "Summoning: Kamatari",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind"
+  ],
+  "notes": "",
+  "image": "temari-shippuden.webp"
+ },
+ {
+  "num": 42,
+  "id": "kankuro-p1",
+  "baseId": "kankuro",
+  "name": "Kankuro (Part I)",
+  "series": "Part I",
+  "role": "Controller / Striker",
+  "types": [
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 75,
+   "def": 80,
+   "spa": 95,
+   "spd": 76,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Puppet Master",
+    "desc": "Contact with it may cause poison (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Poison Supply",
+   "desc": "Its attacks may cause poison (20%)."
+  },
+  "signature": [
+   {
+    "move": "Crow: Hidden Blades",
+    "smash": "Crow: Hidden Blades"
+   },
+   {
+    "move": "Black Secret Technique: Machine of Forbidden Embraces",
+    "smash": "Black Secret Technique: Machine of Forbidden Embraces"
+   },
+   {
+    "move": "Puppet Body Switch",
+    "smash": "Puppet Body Switch"
+   },
+   {
+    "move": "Poison Smoke Bomb",
+    "smash": "Poison Smoke Bomb"
+   }
+  ],
+  "learnset": [
+   "Crow: Hidden Blades",
+   "Black Secret Technique: Machine of Forbidden Embraces",
+   "Puppet Body Switch",
+   "Poison Smoke Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Puppets.",
+  "image": "kankuro.webp"
+ },
+ {
+  "num": 43,
+  "id": "kankuro-ship",
+  "baseId": "kankuro",
+  "name": "Kankuro",
+  "series": "Shippuden",
+  "role": "Controller / Tank",
+  "types": [
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 80,
+   "def": 90,
+   "spa": 110,
+   "spd": 87,
+   "spe": 85
+  },
+  "abilities": [
+   {
+    "name": "Puppet Master",
+    "desc": "Contact with it may cause poison (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Puppet Bulwark",
+   "desc": "Allies take 25% less damage, and it takes 10% less."
+  },
+  "signature": [
+   {
+    "move": "Crow: Hidden Blades",
+    "smash": "Crow: Hidden Blades"
+   },
+   {
+    "move": "Black Secret Technique: Machine of Forbidden Embraces",
+    "smash": "Black Secret Technique: Machine of Forbidden Embraces"
+   },
+   {
+    "move": "Black Ant: Iron Maiden",
+    "smash": "Black Ant: Iron Maiden"
+   },
+   {
+    "move": "Salamander Shield",
+    "smash": "Salamander Shield"
+   },
+   {
+    "move": "Puppet Body Switch",
+    "smash": "Puppet Body Switch"
+   },
+   {
+    "move": "Poison Smoke Bomb",
+    "smash": "Poison Smoke Bomb"
+   }
+  ],
+  "learnset": [
+   "Crow: Hidden Blades",
+   "Black Secret Technique: Machine of Forbidden Embraces",
+   "Black Ant: Iron Maiden",
+   "Salamander Shield",
+   "Puppet Body Switch",
+   "Poison Smoke Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless.",
+  "image": "kankuro-shippuden.webp"
+ },
+ {
+  "num": 44,
+  "id": "chiyo",
+  "baseId": "chiyo",
+  "name": "Chiyo",
+  "series": "Shippuden",
+  "role": "Controller / Medic",
+  "types": [
+   "Weapon",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 80,
+   "atk": 70,
+   "def": 75,
+   "spa": 110,
+   "spd": 82,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Puppet Master",
+    "desc": "Contact with it may cause poison (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Elder's Antidotes",
+   "desc": "Its status condition is cured when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Ten Puppets of Chikamatsu",
+    "smash": "Ten Puppets of Chikamatsu"
+   },
+   {
+    "move": "White Secret Technique: Mother and Father",
+    "smash": "White Secret Technique: Mother and Father"
+   },
+   {
+    "move": "Chakra Threads",
+    "smash": "Chakra Threads"
+   },
+   {
+    "move": "Antidote",
+    "smash": "Antidote"
+   },
+   {
+    "move": "One's Own Life Reincarnation",
+    "smash": "One's Own Life Reincarnation"
+   },
+   {
+    "move": "Puppet Body Switch",
+    "smash": "Puppet Body Switch"
+   }
+  ],
+  "learnset": [
+   "Ten Puppets of Chikamatsu",
+   "White Secret Technique: Mother and Father",
+   "Chakra Threads",
+   "Antidote",
+   "One's Own Life Reincarnation",
+   "Puppet Body Switch",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Puppets plus life-transfer medicine.",
+  "image": "chiyo.webp"
+ },
+ {
+  "num": 45,
+  "id": "orochimaru-p1",
+  "baseId": "orochimaru",
+  "name": "Orochimaru (Part I)",
+  "series": "Part I",
+  "role": "Striker / Controller",
+  "types": [
+   "Wind",
+   "Yin"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 85,
+   "def": 90,
+   "spa": 125,
+   "spd": 95,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Body Shedding",
+    "desc": "Once per battle, survives a hit that would knock it out with 1 HP."
+   }
+  ],
+  "hidden": {
+   "name": "Forbidden Research",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Striking Shadow Snakes",
+    "smash": "Striking Shadow Snakes"
+   },
+   {
+    "move": "Wind Release: Great Breakthrough Wave",
+    "smash": "Wind Release: Great Breakthrough Wave"
+   },
+   {
+    "move": "Five Pronged Seal",
+    "smash": "Five Pronged Seal"
+   },
+   {
+    "move": "Sword of Kusanagi",
+    "smash": "Sword of Kusanagi"
+   },
+   {
+    "move": "Summoning: Manda",
+    "smash": "Summoning: Manda"
+   },
+   {
+    "move": "Eight Branches Technique",
+    "smash": "Eight Branches Technique"
+   }
+  ],
+  "learnset": [
+   "Striking Shadow Snakes",
+   "Wind Release: Great Breakthrough Wave",
+   "Five Pronged Seal",
+   "Sword of Kusanagi",
+   "Summoning: Manda",
+   "Eight Branches Technique",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "yin"
+  ],
+  "notes": "Eight Branches: the eight-headed serpent is Beast.",
+  "image": "orochimaru.webp"
+ },
+ {
+  "num": 46,
+  "id": "orochimaru-ship",
+  "baseId": "orochimaru",
+  "name": "Orochimaru",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Wind",
+   "Yin"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 90,
+   "def": 95,
+   "spa": 130,
+   "spd": 99,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Body Shedding",
+    "desc": "Once per battle, survives a hit that would knock it out with 1 HP."
+   }
+  ],
+  "hidden": {
+   "name": "Immortality Research",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Striking Shadow Snakes",
+    "smash": "Striking Shadow Snakes"
+   },
+   {
+    "move": "Hidden Shadow Snake Hands",
+    "smash": "Hidden Shadow Snake Hands"
+   },
+   {
+    "move": "Wind Release: Great Breakthrough Wave",
+    "smash": "Wind Release: Great Breakthrough Wave"
+   },
+   {
+    "move": "Sword of Kusanagi",
+    "smash": "Sword of Kusanagi"
+   },
+   {
+    "move": "Summoning: Manda",
+    "smash": "Summoning: Manda"
+   },
+   {
+    "move": "Eight Branches Technique",
+    "smash": "Eight Branches Technique"
+   }
+  ],
+  "learnset": [
+   "Striking Shadow Snakes",
+   "Hidden Shadow Snake Hands",
+   "Wind Release: Great Breakthrough Wave",
+   "Sword of Kusanagi",
+   "Summoning: Manda",
+   "Eight Branches Technique",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "yin"
+  ],
+  "notes": "",
+  "image": "orochimaru.webp"
+ },
+ {
+  "num": 47,
+  "id": "kabuto-p1",
+  "baseId": "kabuto",
+  "name": "Kabuto Yakushi",
+  "series": "Part I",
+  "role": "Medic / Infiltrator",
+  "types": [
+   "Yang",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 85,
+   "def": 85,
+   "spa": 95,
+   "spd": 81,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Medical Spy",
+    "desc": "Restores 1/16 of its max HP at the end of every turn. Its healing moves restore 50% more HP."
+   }
+  ],
+  "hidden": {
+   "name": "Double Agent",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Chakra Scalpel",
+    "smash": "Chakra Scalpel"
+   },
+   {
+    "move": "Mystical Palm",
+    "smash": "Mystical Palm"
+   },
+   {
+    "move": "Temple of Nirvana",
+    "smash": "Temple of Nirvana"
+   },
+   {
+    "move": "Dead Soul Technique",
+    "smash": "Dead Soul Technique"
+   },
+   {
+    "move": "Striking Shadow Snakes",
+    "smash": "Striking Shadow Snakes"
+   }
+  ],
+  "learnset": [
+   "Chakra Scalpel",
+   "Mystical Palm",
+   "Temple of Nirvana",
+   "Dead Soul Technique",
+   "Striking Shadow Snakes",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yang",
+   "earth"
+  ],
+  "notes": "",
+  "image": "kabuto-part-1.webp"
+ },
+ {
+  "num": 48,
+  "id": "kabuto-sage",
+  "baseId": "kabuto",
+  "name": "Kabuto Yakushi (Sage Mode)",
+  "series": "Shippuden",
+  "role": "Striker / Medic / Sensor",
+  "types": [
+   "Yang",
+   "Sage"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 105,
+   "def": 100,
+   "spa": 130,
+   "spd": 102,
+   "spe": 115
+  },
+  "abilities": [
+   {
+    "name": "White Snake Sage",
+    "desc": "Restores 1/16 of its max HP at the end of every turn. Ignores the target's evasion boosts and its own accuracy drops."
+   }
+  ],
+  "hidden": {
+   "name": "Sage Healing",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Sage Art: White Rage",
+    "smash": "Sage Art: White Rage"
+   },
+   {
+    "move": "Sage Art: Inorganic Animation",
+    "smash": "Sage Art: Inorganic Animation"
+   },
+   {
+    "move": "Chakra Scalpel",
+    "smash": "Chakra Scalpel"
+   },
+   {
+    "move": "Mystical Palm",
+    "smash": "Mystical Palm"
+   },
+   {
+    "move": "Temple of Nirvana",
+    "smash": "Temple of Nirvana"
+   },
+   {
+    "move": "Sage Art: Snake Dragon",
+    "smash": "Sage Art: Snake Dragon"
+   }
+  ],
+  "learnset": [
+   "Sage Art: White Rage",
+   "Sage Art: Inorganic Animation",
+   "Chakra Scalpel",
+   "Mystical Palm",
+   "Temple of Nirvana",
+   "Sage Art: Snake Dragon",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yang",
+   "earth"
+  ],
+  "notes": "White Snake Sage at base; Dragon Sage Mode adds Beast.",
+  "image": "kabuto-sage-mode.webp"
+ },
+ {
+  "num": 49,
+  "id": "jirobo",
+  "baseId": "jirobo",
+  "name": "Jirobo",
+  "series": "Part I",
+  "role": "Tank",
+  "types": [
+   "Earth"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 105,
+   "def": 105,
+   "spa": 70,
+   "spd": 81,
+   "spe": 55
+  },
+  "abilities": [
+   {
+    "name": "Chakra Eater",
+    "desc": "Contact moves heal 1/4 of the damage dealt."
+   }
+  ],
+  "hidden": {
+   "name": "Barrier Team",
+   "desc": "Takes 25% less damage from super-effective attacks."
+  },
+  "signature": [
+   {
+    "move": "Earth Release: Barrier Earth Prison Dome",
+    "smash": "Earth Release: Barrier Earth Prison Dome"
+   },
+   {
+    "move": "Arhat Fist",
+    "smash": "Arhat Fist"
+   },
+   {
+    "move": "Earth Release: Earth Shore Return",
+    "smash": "Earth Release: Earth Shore Return"
+   },
+   {
+    "move": "Shuriken Volley",
+    "smash": "Shuriken Volley"
+   }
+  ],
+  "learnset": [
+   "Earth Release: Barrier Earth Prison Dome",
+   "Arhat Fist",
+   "Earth Release: Earth Shore Return",
+   "Shuriken Volley",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "earth"
+  ],
+  "notes": "Curse Mark: Sage.",
+  "image": "jirobo.webp"
+ },
+ {
+  "num": 50,
+  "id": "kidomaru",
+  "baseId": "kidomaru",
+  "name": "Kidomaru",
+  "series": "Part I",
+  "role": "Controller / Striker",
+  "types": [
+   "Weapon",
+   "Beast"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 90,
+   "def": 80,
+   "spa": 95,
+   "spd": 77,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Six Arms",
+    "desc": "Multi-hit moves always hit the maximum number of times."
+   }
+  ],
+  "hidden": {
+   "name": "Spider Sense",
+   "desc": "The first hit it takes in battle misses completely."
+  },
+  "signature": [
+   {
+    "move": "Spider Sticky Gold: Spider Web Area",
+    "smash": "Spider Sticky Gold: Spider Web Area"
+   },
+   {
+    "move": "Spider Bow: Fierce Rip",
+    "smash": "Spider Bow: Fierce Rip"
+   },
+   {
+    "move": "Spider Sticky Gold Armor",
+    "smash": "Spider Sticky Gold Armor"
+   },
+   {
+    "move": "Summoning: Kyodaigumo",
+    "smash": "Summoning: Kyodaigumo"
+   }
+  ],
+  "learnset": [
+   "Spider Sticky Gold: Spider Web Area",
+   "Spider Bow: Fierce Rip",
+   "Spider Sticky Gold Armor",
+   "Summoning: Kyodaigumo",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Golden arrows plus spider; Curse Mark replaces Beast with Sage.",
+  "image": "kidomaru.webp"
+ },
+ {
+  "num": 51,
+  "id": "sakon-ukon",
+  "baseId": "sakon",
+  "name": "Sakon and Ukon",
+  "series": "Part I",
+  "role": "Frontliner",
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 105,
+   "def": 85,
+   "spa": 80,
+   "spd": 75,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Twin Demons",
+    "desc": "Its attacks hit a second time for 25% damage."
+   }
+  ],
+  "hidden": {
+   "name": "Twin Coordination",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Multiple Connected Fist",
+    "smash": "Multiple Connected Fist"
+   },
+   {
+    "move": "Parasitic Demon Destruction",
+    "smash": "Parasitic Demon Destruction"
+   },
+   {
+    "move": "Summoning: Rashomon",
+    "smash": "Summoning: Rashomon"
+   },
+   {
+    "move": "Arhat Fist",
+    "smash": "Arhat Fist"
+   }
+  ],
+  "learnset": [
+   "Multiple Connected Fist",
+   "Parasitic Demon Destruction",
+   "Summoning: Rashomon",
+   "Arhat Fist",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Merging their bodies is Yang; Curse Mark adds Sage.",
+  "image": "sakon-ukon.webp"
+ },
+ {
+  "num": 52,
+  "id": "tayuya",
+  "baseId": "tayuya",
+  "name": "Tayuya",
+  "series": "Part I",
+  "role": "Controller",
+  "types": [
+   "Yin"
+  ],
+  "stats": {
+   "hp": 80,
+   "atk": 65,
+   "def": 70,
+   "spa": 105,
+   "spd": 77,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Demon Flute",
+    "desc": "Its Yin moves may cause paralysis (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Sound Barrier",
+   "desc": "Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+  },
+  "signature": [
+   {
+    "move": "Demonic Flute: Phantom Sound Chains",
+    "smash": "Demonic Flute: Phantom Sound Chains"
+   },
+   {
+    "move": "Summoning: Doki",
+    "smash": "Summoning: Doki"
+   },
+   {
+    "move": "Doki: Spirit Eaters",
+    "smash": "Doki: Spirit Eaters"
+   },
+   {
+    "move": "Flute Strike",
+    "smash": "Flute Strike"
+   }
+  ],
+  "learnset": [
+   "Demonic Flute: Phantom Sound Chains",
+   "Summoning: Doki",
+   "Doki: Spirit Eaters",
+   "Flute Strike",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin"
+  ],
+  "notes": "Curse Mark: Sage.",
+  "image": "tayuya.webp"
+ },
+ {
+  "num": 53,
+  "id": "kimimaro",
+  "baseId": "kimimaro",
+  "name": "Kimimaro",
+  "series": "Part I",
+  "role": "Frontliner / Tank",
+  "types": [
+   "Weapon",
+   "Taijutsu"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 125,
+   "def": 110,
+   "spa": 70,
+   "spd": 84,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Dead Bone Pulse",
+    "desc": "Takes 20% less damage from physical moves. Attackers that make contact lose 1/8 of their max HP."
+   }
+  ],
+  "hidden": {
+   "name": "Last Loyal Servant",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Dance of the Willow",
+    "smash": "Dance of the Willow"
+   },
+   {
+    "move": "Dance of the Camellia",
+    "smash": "Dance of the Camellia"
+   },
+   {
+    "move": "Dance of the Larch",
+    "smash": "Dance of the Larch"
+   },
+   {
+    "move": "Ten-Finger Drilling Bullets",
+    "smash": "Ten-Finger Drilling Bullets"
+   },
+   {
+    "move": "Dance of the Seedling Fern",
+    "smash": "Dance of the Seedling Fern"
+   }
+  ],
+  "learnset": [
+   "Dance of the Willow",
+   "Dance of the Camellia",
+   "Dance of the Larch",
+   "Ten-Finger Drilling Bullets",
+   "Dance of the Seedling Fern",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Bone blades plus dances; Curse Mark adds Sage.",
+  "image": "kimimaro.webp"
+ },
+ {
+  "num": 54,
+  "id": "zabuza",
+  "baseId": "zabuza",
+  "name": "Zabuza Momochi",
+  "series": "Part I",
+  "role": "Frontliner / Striker",
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 115,
+   "def": 90,
+   "spa": 95,
+   "spd": 83,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Silent Killing",
+    "desc": "Its moves are more likely to land critical hits."
+   }
+  ],
+  "hidden": {
+   "name": "Demon of the Mist",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Hidden Mist Technique",
+    "smash": "Hidden Mist Technique"
+   },
+   {
+    "move": "Water Release: Water Prison",
+    "smash": "Water Release: Water Prison"
+   },
+   {
+    "move": "Executioner's Blade",
+    "smash": "Executioner's Blade"
+   },
+   {
+    "move": "Water Release: Great Waterfall",
+    "smash": "Water Release: Great Waterfall"
+   },
+   {
+    "move": "Water Release: Water Dragon",
+    "smash": "Water Release: Water Dragon"
+   }
+  ],
+  "learnset": [
+   "Hidden Mist Technique",
+   "Water Release: Water Prison",
+   "Executioner's Blade",
+   "Water Release: Great Waterfall",
+   "Water Release: Water Dragon",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water"
+  ],
+  "notes": "Executioner's Blade.",
+  "image": "zabuza.webp"
+ },
+ {
+  "num": 55,
+  "id": "haku",
+  "baseId": "haku",
+  "name": "Haku",
+  "series": "Part I",
+  "role": "Controller / Support",
+  "types": [
+   "Ice",
+   "Water"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 85,
+   "def": 70,
+   "spa": 105,
+   "spd": 76,
+   "spe": 125
+  },
+  "abilities": [
+   {
+    "name": "Ice Mirrors",
+    "desc": "The first hit it takes in battle misses completely."
+   }
+  ],
+  "hidden": {
+   "name": "Devotion",
+   "desc": "Allies take 25% less damage, and it takes 10% less."
+  },
+  "signature": [
+   {
+    "move": "Demonic Mirroring Ice Crystals",
+    "smash": "Demonic Mirroring Ice Crystals"
+   },
+   {
+    "move": "Thousand Needles of Death",
+    "smash": "Thousand Needles of Death"
+   },
+   {
+    "move": "Ice Release: Ice Prison",
+    "smash": "Ice Release: Ice Prison"
+   },
+   {
+    "move": "Senbon Volley",
+    "smash": "Senbon Volley"
+   },
+   {
+    "move": "Selfless Shield",
+    "smash": "Selfless Shield"
+   }
+  ],
+  "learnset": [
+   "Demonic Mirroring Ice Crystals",
+   "Thousand Needles of Death",
+   "Ice Release: Ice Prison",
+   "Senbon Volley",
+   "Selfless Shield",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "ice",
+   "water"
+  ],
+  "notes": "",
+  "image": "haku.webp"
+ },
+ {
+  "num": 56,
+  "id": "anko",
+  "baseId": "anko",
+  "name": "Anko Mitarashi",
+  "series": "Part I",
+  "role": "Striker",
+  "types": [
+   "Fire",
+   "Beast"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 90,
+   "def": 80,
+   "spa": 95,
+   "spd": 76,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Snake Mistress",
+    "desc": "Its attacks may cause poison (20%)."
+   }
+  ],
+  "hidden": {
+   "name": "Proctor's Watch",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Striking Shadow Snakes",
+    "smash": "Striking Shadow Snakes"
+   },
+   {
+    "move": "Hidden Shadow Snake Hands",
+    "smash": "Hidden Shadow Snake Hands"
+   },
+   {
+    "move": "Twin Snakes Mutual Death",
+    "smash": "Twin Snakes Mutual Death"
+   },
+   {
+    "move": "Fire Release: Dragon Fire",
+    "smash": "Fire Release: Dragon Fire"
+   },
+   {
+    "move": "Shuriken Volley",
+    "smash": "Shuriken Volley"
+   }
+  ],
+  "learnset": [
+   "Striking Shadow Snakes",
+   "Hidden Shadow Snake Hands",
+   "Twin Snakes Mutual Death",
+   "Fire Release: Dragon Fire",
+   "Shuriken Volley",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire"
+  ],
+  "notes": "Snake Mistress adds Beast; Curse Mark of Heaven replaces it with Sage.",
+  "image": "anko.webp"
+ },
+ {
+  "num": 57,
+  "id": "danzo",
+  "baseId": "danzo",
+  "name": "Danzo Shimura",
+  "series": "Shippuden",
+  "role": "Striker / Controller / Infiltrator",
+  "types": [
+   "Wind",
+   "Water"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 90,
+   "def": 95,
+   "spa": 120,
+   "spd": 94,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Izanagi",
+    "desc": "Once per battle, when knocked out it gets back up with 25% HP."
+   }
+  ],
+  "hidden": {
+   "name": "Root Command",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Wind Release: Vacuum Blade",
+    "smash": "Wind Release: Vacuum Blade"
+   },
+   {
+    "move": "Wind Release: Vacuum Great Sphere",
+    "smash": "Wind Release: Vacuum Great Sphere"
+   },
+   {
+    "move": "Summoning: Baku",
+    "smash": "Summoning: Baku"
+   },
+   {
+    "move": "Kotoamatsukami",
+    "smash": "Kotoamatsukami"
+   },
+   {
+    "move": "Reverse Four Symbols Sealing",
+    "smash": "Reverse Four Symbols Sealing"
+   }
+  ],
+  "learnset": [
+   "Wind Release: Vacuum Blade",
+   "Wind Release: Vacuum Great Sphere",
+   "Summoning: Baku",
+   "Kotoamatsukami",
+   "Reverse Four Symbols Sealing",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "water"
+  ],
+  "notes": "",
+  "image": "danzo.webp"
+ },
+ {
+  "num": 58,
+  "id": "obito-tobi",
+  "baseId": "obito",
+  "name": "Obito Uchiha (Tobi)",
+  "series": "Shippuden",
+  "role": "Infiltrator / Controller",
+  "types": [
+   "Fire",
+   "Wood"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 80,
+   "def": 85,
+   "spa": 90,
+   "spd": 80,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Kamui Intangibility",
+    "desc": "The first hit it takes in battle misses completely."
+   }
+  ],
+  "hidden": {
+   "name": "Akatsuki Recruiter",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Kamui Warp Strike",
+    "smash": "Kamui Warp Strike"
+   },
+   {
+    "move": "Fire Release: Great Fireball",
+    "smash": "Fire Release: Great Fireball"
+   },
+   {
+    "move": "Kamui: Phase",
+    "smash": "Kamui: Phase"
+   },
+   {
+    "move": "Tobi Is a Good Boy!",
+    "smash": "Tobi Is a Good Boy!"
+   },
+   {
+    "move": "Wood Release: Spikes",
+    "smash": "Wood Release: Spikes"
+   }
+  ],
+  "learnset": [
+   "Kamui Warp Strike",
+   "Fire Release: Great Fireball",
+   "Kamui: Phase",
+   "Tobi Is a Good Boy!",
+   "Wood Release: Spikes",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "wood"
+  ],
+  "notes": "",
+  "image": "tobi.webp"
+ },
+ {
+  "num": 59,
+  "id": "obito-masked",
+  "baseId": "obito",
+  "name": "Obito Uchiha (Masked Man)",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Fire",
+   "Wood"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 100,
+   "def": 100,
+   "spa": 120,
+   "spd": 98,
+   "spe": 110
+  },
+  "abilities": [
+   {
+    "name": "Kamui Intangibility",
+    "desc": "The first hit it takes in battle misses completely."
+   }
+  ],
+  "hidden": {
+   "name": "Moon's Eye Plan",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Kamui: Absorption",
+    "smash": "Kamui: Absorption"
+   },
+   {
+    "move": "Fire Release: Great Fire Annihilation",
+    "smash": "Fire Release: Great Fire Annihilation"
+   },
+   {
+    "move": "Demonic Statue Chains",
+    "smash": "Demonic Statue Chains"
+   },
+   {
+    "move": "Kamui Warp Strike",
+    "smash": "Kamui Warp Strike"
+   },
+   {
+    "move": "Wood Release: Wood Dragon",
+    "smash": "Wood Release: Wood Dragon"
+   },
+   {
+    "move": "Kamui: Phase",
+    "smash": "Kamui: Phase"
+   }
+  ],
+  "learnset": [
+   "Kamui: Absorption",
+   "Fire Release: Great Fire Annihilation",
+   "Demonic Statue Chains",
+   "Kamui Warp Strike",
+   "Wood Release: Wood Dragon",
+   "Kamui: Phase",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "wood"
+  ],
+  "notes": "",
+  "image": "masked-man.webp"
+ },
+ {
+  "num": 60,
+  "id": "zetsu-white",
+  "baseId": "zetsu",
+  "name": "Zetsu (White)",
+  "series": "Shippuden",
+  "role": "Infiltrator",
+  "types": [
+   "Wood"
+  ],
+  "stats": {
+   "hp": 80,
+   "atk": 60,
+   "def": 70,
+   "spa": 65,
+   "spd": 62,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Spore Spy",
+    "desc": "The first time it enters battle, it sets up a Substitute (a clone) for free."
+   }
+  ],
+  "hidden": {
+   "name": "Zetsu Network",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Spore Clone",
+    "smash": "Spore Clone"
+   },
+   {
+    "move": "Wood Release: Spikes",
+    "smash": "Wood Release: Spikes"
+   },
+   {
+    "move": "Spore Absorption",
+    "smash": "Spore Absorption"
+   },
+   {
+    "move": "Mayfly",
+    "smash": "Mayfly"
+   }
+  ],
+  "learnset": [
+   "Spore Clone",
+   "Wood Release: Spikes",
+   "Spore Absorption",
+   "Mayfly",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wood"
+  ],
+  "notes": "",
+  "image": "white-zetsu.webp"
+ },
+ {
+  "num": 61,
+  "id": "zetsu-black",
+  "baseId": "zetsu",
+  "name": "Zetsu (Black)",
+  "series": "Shippuden",
+  "role": "Infiltrator / Controller",
+  "types": [
+   "Yin",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 75,
+   "atk": 55,
+   "def": 75,
+   "spa": 95,
+   "spd": 75,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Ground Merge",
+    "desc": "The first hit it takes in battle misses completely."
+   }
+  ],
+  "hidden": {
+   "name": "Mother's Will",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Body Hijack",
+    "smash": "Body Hijack"
+   },
+   {
+    "move": "Black Spike",
+    "smash": "Black Spike"
+   },
+   {
+    "move": "Mayfly",
+    "smash": "Mayfly"
+   },
+   {
+    "move": "Spore Clone",
+    "smash": "Spore Clone"
+   }
+  ],
+  "learnset": [
+   "Body Hijack",
+   "Black Spike",
+   "Mayfly",
+   "Spore Clone",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin",
+   "earth"
+  ],
+  "notes": "",
+  "image": "black-zetsu.webp"
+ },
+ {
+  "num": 62,
+  "id": "kisame",
+  "baseId": "kisame",
+  "name": "Kisame Hoshigaki",
+  "series": "Shippuden",
+  "role": "Tank / Frontliner",
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 135,
+   "atk": 105,
+   "def": 105,
+   "spa": 100,
+   "spd": 96,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Samehada",
+    "desc": "Contact moves heal 1/4 of the damage dealt."
+   }
+  ],
+  "hidden": {
+   "name": "Tailless Tailed Beast",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Samehada Shred",
+    "smash": "Samehada Shred"
+   },
+   {
+    "move": "Water Release: Shark Bomb",
+    "smash": "Water Release: Shark Bomb"
+   },
+   {
+    "move": "Water Release: Thousand Feeding Sharks",
+    "smash": "Water Release: Thousand Feeding Sharks"
+   },
+   {
+    "move": "Water Prison Shark Dance",
+    "smash": "Water Prison Shark Dance"
+   },
+   {
+    "move": "Hidden Mist Technique",
+    "smash": "Hidden Mist Technique"
+   }
+  ],
+  "learnset": [
+   "Samehada Shred",
+   "Water Release: Shark Bomb",
+   "Water Release: Thousand Feeding Sharks",
+   "Water Prison Shark Dance",
+   "Hidden Mist Technique",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water"
+  ],
+  "notes": "Samehada is a sword at base; Fusion makes him a shark (Beast).",
+  "image": "kisame.webp"
+ },
+ {
+  "num": 63,
+  "id": "itachi",
+  "baseId": "itachi",
+  "name": "Itachi Uchiha",
+  "series": "Shippuden",
+  "role": "Controller / Striker",
+  "types": [
+   "Fire",
+   "Yin"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 90,
+   "def": 85,
+   "spa": 125,
+   "spd": 92,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Itachi's Genius",
+    "desc": "Its moves go through Substitutes and screens. Yin moves deal 1.2x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Crow Genjutsu",
+   "desc": "Its moves' added effects are twice as likely."
+  },
+  "signature": [
+   {
+    "move": "Tsukuyomi",
+    "smash": "Tsukuyomi"
+   },
+   {
+    "move": "Amaterasu",
+    "smash": "Amaterasu"
+   },
+   {
+    "move": "Crow Clone",
+    "smash": "Crow Clone"
+   },
+   {
+    "move": "Fire Release: Phoenix Flower",
+    "smash": "Fire Release: Phoenix Flower"
+   },
+   {
+    "move": "Fire Release: Great Fireball",
+    "smash": "Fire Release: Great Fireball"
+   },
+   {
+    "move": "Totsuka Blade",
+    "smash": "Totsuka Blade"
+   }
+  ],
+  "learnset": [
+   "Tsukuyomi",
+   "Amaterasu",
+   "Crow Clone",
+   "Fire Release: Phoenix Flower",
+   "Fire Release: Great Fireball",
+   "Totsuka Blade",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "yin"
+  ],
+  "notes": "Susano'o rule (Totsuka Sword and Yata Mirror).",
+  "image": "itachi.webp"
+ },
+ {
+  "num": 64,
+  "id": "deidara",
+  "baseId": "deidara",
+  "name": "Deidara",
+  "series": "Shippuden",
+  "role": "Striker",
+  "types": [
+   "Explosion"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 65,
+   "def": 75,
+   "spa": 120,
+   "spd": 85,
+   "spe": 110
+  },
+  "abilities": [
+   {
+    "name": "Art Is an Explosion",
+    "desc": "Explosion moves deal 1.2x damage. Takes 20% less damage from physical moves."
+   }
+  ],
+  "hidden": {
+   "name": "Explosive Expertise",
+   "desc": "Explosion moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "C1: Clay Spiders",
+    "smash": "C1: Clay Spiders"
+   },
+   {
+    "move": "C2: Clay Dragon",
+    "smash": "C2: Clay Dragon"
+   },
+   {
+    "move": "C3: Giant Clay Bomb",
+    "smash": "C3: Giant Clay Bomb"
+   },
+   {
+    "move": "C4: Karura",
+    "smash": "C4: Karura"
+   },
+   {
+    "move": "Clay Bird Flight",
+    "smash": "Clay Bird Flight"
+   },
+   {
+    "move": "C0: Ultimate Art",
+    "smash": "C0: Ultimate Art"
+   }
+  ],
+  "learnset": [
+   "C1: Clay Spiders",
+   "C2: Clay Dragon",
+   "C3: Giant Clay Bomb",
+   "C4: Karura",
+   "Clay Bird Flight",
+   "C0: Ultimate Art",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "explosion"
+  ],
+  "notes": "Mono-type, so Lightning stays his canon weakness.",
+  "image": "deidara.webp"
+ },
+ {
+  "num": 65,
+  "id": "hidan",
+  "baseId": "hidan",
+  "name": "Hidan",
+  "series": "Shippuden",
+  "role": "Frontliner / Tank",
+  "types": [
+   "Weapon",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 125,
+   "atk": 105,
+   "def": 90,
+   "spa": 65,
+   "spd": 72,
+   "spe": 85
+  },
+  "abilities": [
+   {
+    "name": "Jashinist Immortality",
+    "desc": "Only takes damage from attacks (no poison, burn, recoil or hazard damage). Once per battle, survives a hit that would knock it out with 1 HP."
+   }
+  ],
+  "hidden": {
+   "name": "Blood Price",
+   "desc": "Each knockout raises its Attack by 1 stage."
+  },
+  "signature": [
+   {
+    "move": "Triple-Bladed Scythe",
+    "smash": "Triple-Bladed Scythe"
+   },
+   {
+    "move": "Scythe Throw",
+    "smash": "Scythe Throw"
+   },
+   {
+    "move": "Jashin Spike",
+    "smash": "Jashin Spike"
+   },
+   {
+    "move": "Curse Ritual: Death Possession Blood",
+    "smash": "Curse Ritual: Death Possession Blood"
+   },
+   {
+    "move": "Sacrificial Stab",
+    "smash": "Sacrificial Stab"
+   }
+  ],
+  "learnset": [
+   "Triple-Bladed Scythe",
+   "Scythe Throw",
+   "Jashin Spike",
+   "Curse Ritual: Death Possession Blood",
+   "Sacrificial Stab",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Scythe plus immortal body; the ritual curse is Yin.",
+  "image": "hidan.webp"
+ },
+ {
+  "num": 66,
+  "id": "kakuzu",
+  "baseId": "kakuzu",
+  "name": "Kakuzu",
+  "series": "Shippuden",
+  "role": "Tank / Striker",
+  "types": [
+   "Earth",
+   "Lightning"
+  ],
+  "stats": {
+   "hp": 140,
+   "atk": 90,
+   "def": 110,
+   "spa": 115,
+   "spd": 101,
+   "spe": 70
+  },
+  "abilities": [
+   {
+    "name": "Five Hearts",
+    "desc": "Restores 1/4 of its max HP whenever it knocks out a foe."
+   }
+  ],
+  "hidden": {
+   "name": "Bounty Ledger",
+   "desc": "Restores 1/4 of its max HP whenever it knocks out a foe."
+  },
+  "signature": [
+   {
+    "move": "Lightning Release: False Darkness",
+    "smash": "Lightning Release: False Darkness"
+   },
+   {
+    "move": "Fire Release: Searing Migraine",
+    "smash": "Fire Release: Searing Migraine"
+   },
+   {
+    "move": "Earth Grudge Fear Threads",
+    "smash": "Earth Grudge Fear Threads"
+   },
+   {
+    "move": "Earth Release: Earth Spear",
+    "smash": "Earth Release: Earth Spear"
+   },
+   {
+    "move": "Wind Release: Pressure Damage",
+    "smash": "Wind Release: Pressure Damage"
+   }
+  ],
+  "learnset": [
+   "Lightning Release: False Darkness",
+   "Fire Release: Searing Migraine",
+   "Earth Grudge Fear Threads",
+   "Earth Release: Earth Spear",
+   "Wind Release: Pressure Damage",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "earth",
+   "lightning"
+  ],
+  "notes": "Mask monsters are Beast.",
+  "image": "kakuzu.webp"
+ },
+ {
+  "num": 67,
+  "id": "sasori",
+  "baseId": "sasori",
+  "name": "Sasori",
+  "series": "Shippuden",
+  "role": "Controller / Striker",
+  "types": [
+   "Weapon",
+   "Magnet"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 85,
+   "def": 90,
+   "spa": 115,
+   "spd": 90,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Human Puppet",
+    "desc": "Can't be poisoned, put to sleep. Can't be confused (genjutsu doesn't take hold). Contact with it may cause poison (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Master Toxicologist",
+   "desc": "Its attacks may cause poison (30%)."
+  },
+  "signature": [
+   {
+    "move": "Hiruko: Poison Tail",
+    "smash": "Hiruko: Poison Tail"
+   },
+   {
+    "move": "Iron Sand: Drizzle",
+    "smash": "Iron Sand: Drizzle"
+   },
+   {
+    "move": "Iron Sand: World Order",
+    "smash": "Iron Sand: World Order"
+   },
+   {
+    "move": "Puppet Body Switch",
+    "smash": "Puppet Body Switch"
+   },
+   {
+    "move": "Red Secret Technique: Performance of a Hundred Puppets",
+    "smash": "Red Secret Technique: Performance of a Hundred Puppets"
+   }
+  ],
+  "learnset": [
+   "Hiruko: Poison Tail",
+   "Iron Sand: Drizzle",
+   "Iron Sand: World Order",
+   "Puppet Body Switch",
+   "Red Secret Technique: Performance of a Hundred Puppets",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "magnet"
+  ],
+  "notes": "Puppets plus Iron Sand; his puppet body adds flamethrowers (Fire).",
+  "image": "sasori.webp"
+ },
+ {
+  "num": 68,
+  "id": "konan",
+  "baseId": "konan",
+  "name": "Konan",
+  "series": "Shippuden",
+  "role": "Striker / Support",
+  "types": [
+   "Wind",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 65,
+   "def": 80,
+   "spa": 110,
+   "spd": 84,
+   "spe": 110
+  },
+  "abilities": [
+   {
+    "name": "Paper Body",
+    "desc": "The first hit it takes in battle misses completely."
+   }
+  ],
+  "hidden": {
+   "name": "Angel of Ame",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Paper Shuriken",
+    "smash": "Paper Shuriken"
+   },
+   {
+    "move": "Paper Spear",
+    "smash": "Paper Spear"
+   },
+   {
+    "move": "Dance of the Shikigami",
+    "smash": "Dance of the Shikigami"
+   },
+   {
+    "move": "Paper Clone",
+    "smash": "Paper Clone"
+   },
+   {
+    "move": "Six Hundred Billion Exploding Tags",
+    "smash": "Six Hundred Billion Exploding Tags"
+   }
+  ],
+  "learnset": [
+   "Paper Shuriken",
+   "Paper Spear",
+   "Dance of the Shikigami",
+   "Paper Clone",
+   "Six Hundred Billion Exploding Tags",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind"
+  ],
+  "notes": "Paper shuriken are Weapon; Paper Angel (explosive tags) is Explosion.",
+  "image": "konan.webp"
+ },
+ {
+  "num": 69,
+  "id": "nagato-pain",
+  "baseId": "nagato",
+  "name": "Nagato (Six Paths of Pain)",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Yin",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 95,
+   "def": 100,
+   "spa": 130,
+   "spd": 103,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Rinnegan",
+    "desc": "Takes 25% less damage from special moves. Ignores the target's evasion boosts and its own accuracy drops."
+   }
+  ],
+  "hidden": {
+   "name": "God of Amegakure",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle. Takes 10% less damage from physical moves."
+  },
+  "signature": [
+   {
+    "move": "Shinra Tensei",
+    "smash": "Shinra Tensei"
+   },
+   {
+    "move": "Almighty Push",
+    "smash": "Almighty Push"
+   },
+   {
+    "move": "Universal Pull",
+    "smash": "Universal Pull"
+   },
+   {
+    "move": "Preta Path: Absorb",
+    "smash": "Preta Path: Absorb"
+   },
+   {
+    "move": "Asura Path: Missiles",
+    "smash": "Asura Path: Missiles"
+   },
+   {
+    "move": "Chibaku Tensei",
+    "smash": "Chibaku Tensei"
+   }
+  ],
+  "learnset": [
+   "Shinra Tensei",
+   "Almighty Push",
+   "Universal Pull",
+   "Preta Path: Absorb",
+   "Asura Path: Missiles",
+   "Chibaku Tensei",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin",
+   "yang"
+  ],
+  "notes": "Rinnegan.",
+  "image": "pain.webp"
+ },
+ {
+  "num": 70,
+  "id": "nagato-reanimated",
+  "baseId": "nagato",
+  "name": "Nagato (Reanimated)",
+  "series": "Shippuden",
+  "role": "Striker / Support",
+  "types": [
+   "Yin",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 60,
+   "def": 95,
+   "spa": 135,
+   "spd": 102,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Reanimated Body",
+    "desc": "Restores 1/16 of its max HP at the end of every turn. Can't be poisoned."
+   }
+  ],
+  "hidden": {
+   "name": "Edo Tensei",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Shinra Tensei",
+    "smash": "Shinra Tensei"
+   },
+   {
+    "move": "Universal Pull",
+    "smash": "Universal Pull"
+   },
+   {
+    "move": "Preta Path: Absorb",
+    "smash": "Preta Path: Absorb"
+   },
+   {
+    "move": "Chibaku Tensei",
+    "smash": "Chibaku Tensei"
+   },
+   {
+    "move": "Outer Path: Samsara of Heavenly Life",
+    "smash": "Outer Path: Samsara of Heavenly Life"
+   }
+  ],
+  "learnset": [
+   "Shinra Tensei",
+   "Universal Pull",
+   "Preta Path: Absorb",
+   "Chibaku Tensei",
+   "Outer Path: Samsara of Heavenly Life",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin",
+   "yang"
+  ],
+  "notes": "",
+  "image": "nagato.webp"
+ },
+ {
+  "num": 71,
+  "id": "suigetsu",
+  "baseId": "suigetsu",
+  "name": "Suigetsu Hozuki",
+  "series": "Shippuden",
+  "role": "Frontliner",
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 100,
+   "def": 75,
+   "spa": 80,
+   "spd": 71,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Hydrification",
+    "desc": "Takes 25% less damage from physical moves."
+   }
+  ],
+  "hidden": {
+   "name": "Hozuki Water",
+   "desc": "Water moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "Executioner's Blade",
+    "smash": "Executioner's Blade"
+   },
+   {
+    "move": "Water Release: Water Gun",
+    "smash": "Water Release: Water Gun"
+   },
+   {
+    "move": "Great Water Arm",
+    "smash": "Great Water Arm"
+   },
+   {
+    "move": "Hydrification Technique",
+    "smash": "Hydrification Technique"
+   }
+  ],
+  "learnset": [
+   "Executioner's Blade",
+   "Water Release: Water Gun",
+   "Great Water Arm",
+   "Hydrification Technique",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water"
+  ],
+  "notes": "Executioner's Blade.",
+  "image": "suigetsu.webp"
+ },
+ {
+  "num": 72,
+  "id": "karin",
+  "baseId": "karin",
+  "name": "Karin",
+  "series": "Shippuden",
+  "role": "Medic / Sensor",
+  "types": [
+   "Yang"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 55,
+   "def": 75,
+   "spa": 85,
+   "spd": 73,
+   "spe": 90
+  },
+  "abilities": [
+   {
+    "name": "Kagura Sensing",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. At the end of each turn, may cure an ally of a status condition (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Healing Bite",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Healing Bite",
+    "smash": "Healing Bite"
+   },
+   {
+    "move": "Adamantine Sealing Chains",
+    "smash": "Adamantine Sealing Chains"
+   },
+   {
+    "move": "Karin Punch",
+    "smash": "Karin Punch"
+   },
+   {
+    "move": "Mind's Eye of the Kagura",
+    "smash": "Mind's Eye of the Kagura"
+   }
+  ],
+  "learnset": [
+   "Healing Bite",
+   "Adamantine Sealing Chains",
+   "Karin Punch",
+   "Mind's Eye of the Kagura",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yang"
+  ],
+  "notes": "",
+  "image": "karin.webp"
+ },
+ {
+  "num": 73,
+  "id": "jugo",
+  "baseId": "jugo",
+  "name": "Jugo",
+  "series": "Shippuden",
+  "role": "Frontliner / Tank",
+  "types": [
+   "Taijutsu",
+   "Sage"
+  ],
+  "stats": {
+   "hp": 130,
+   "atk": 120,
+   "def": 95,
+   "spa": 70,
+   "spd": 77,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Berserker",
+    "desc": "When its HP drops below half, its Attack rises by 1 stage."
+   }
+  ],
+  "hidden": {
+   "name": "Natural Energy",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Sage Art: Arm Cannon",
+    "smash": "Sage Art: Arm Cannon"
+   },
+   {
+    "move": "Axe Arm",
+    "smash": "Axe Arm"
+   },
+   {
+    "move": "Jet Punch",
+    "smash": "Jet Punch"
+   },
+   {
+    "move": "Natural Energy Transfer",
+    "smash": "Natural Energy Transfer"
+   }
+  ],
+  "learnset": [
+   "Sage Art: Arm Cannon",
+   "Axe Arm",
+   "Jet Punch",
+   "Natural Energy Transfer",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Always takes in natural energy; his transformation turns his arms into weapons.",
+  "image": "jugo.webp"
+ },
+ {
+  "num": 74,
+  "id": "hashirama",
+  "baseId": "hashirama",
+  "name": "Hashirama Senju",
+  "series": "Shippuden",
+  "role": "Tank / Striker / Controller",
+  "types": [
+   "Wood",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 100,
+   "def": 110,
+   "spa": 130,
+   "spd": 109,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Hashirama Cells",
+    "desc": "Restores 1/16 of its max HP at the end of every turn."
+   }
+  ],
+  "hidden": {
+   "name": "God of Shinobi",
+   "desc": "Takes 25% less damage from super-effective attacks."
+  },
+  "signature": [
+   {
+    "move": "Wood Release: Wood Dragon",
+    "smash": "Wood Release: Wood Dragon"
+   },
+   {
+    "move": "Wood Release: Deep Forest Emergence",
+    "smash": "Wood Release: Deep Forest Emergence"
+   },
+   {
+    "move": "Wood Release: Wood Golem",
+    "smash": "Wood Release: Wood Golem"
+   },
+   {
+    "move": "Wood Release: Four-Pillar Prison",
+    "smash": "Wood Release: Four-Pillar Prison"
+   },
+   {
+    "move": "Seal-less Healing",
+    "smash": "Seal-less Healing"
+   },
+   {
+    "move": "Sage Art: True Several Thousand Hands",
+    "smash": "Sage Art: True Several Thousand Hands"
+   }
+  ],
+  "learnset": [
+   "Wood Release: Wood Dragon",
+   "Wood Release: Deep Forest Emergence",
+   "Wood Release: Wood Golem",
+   "Wood Release: Four-Pillar Prison",
+   "Seal-less Healing",
+   "Sage Art: True Several Thousand Hands",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wood",
+   "earth"
+  ],
+  "notes": "Sage Mode: Sage.",
+  "image": "hashirama.webp"
+ },
+ {
+  "num": 75,
+  "id": "tobirama",
+  "baseId": "tobirama",
+  "name": "Tobirama Senju",
+  "series": "Shippuden",
+  "role": "Striker / Sensor",
+  "types": [
+   "Water",
+   "Lightning"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 95,
+   "def": 95,
+   "spa": 120,
+   "spd": 97,
+   "spe": 125
+  },
+  "abilities": [
+   {
+    "name": "Sensory Genius",
+    "desc": "On entry, raises its Speed if a foe has a super-effective move."
+   }
+  ],
+  "hidden": {
+   "name": "Second Hokage's Order",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Water Release: Water Dragon",
+    "smash": "Water Release: Water Dragon"
+   },
+   {
+    "move": "Water Release: Exploding Water Shockwave",
+    "smash": "Water Release: Exploding Water Shockwave"
+   },
+   {
+    "move": "Flying Thunder God Slash",
+    "smash": "Flying Thunder God Slash"
+   },
+   {
+    "move": "Water Release: Water Formation Wall",
+    "smash": "Water Release: Water Formation Wall"
+   },
+   {
+    "move": "Shadow Clone Ambush",
+    "smash": "Shadow Clone Ambush"
+   }
+  ],
+  "learnset": [
+   "Water Release: Water Dragon",
+   "Water Release: Exploding Water Shockwave",
+   "Flying Thunder God Slash",
+   "Water Release: Water Formation Wall",
+   "Shadow Clone Ambush",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water",
+   "lightning"
+  ],
+  "notes": "",
+  "image": "tobirama.webp"
+ },
+ {
+  "num": 76,
+  "id": "hiruzen",
+  "baseId": "hiruzen",
+  "name": "Hiruzen Sarutobi",
+  "series": "Part I",
+  "role": "Striker / Controller / Support",
+  "types": [
+   "Fire",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 90,
+   "def": 95,
+   "spa": 120,
+   "spd": 97,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "The Professor",
+    "desc": "Changes its type to the type of the move it's about to use."
+   }
+  ],
+  "hidden": {
+   "name": "Will of Fire",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Fire Release: Fire Dragon Flame Bullet",
+    "smash": "Fire Release: Fire Dragon Flame Bullet"
+   },
+   {
+    "move": "Shuriken Shadow Clone",
+    "smash": "Shuriken Shadow Clone"
+   },
+   {
+    "move": "Enma: Adamantine Staff",
+    "smash": "Enma: Adamantine Staff"
+   },
+   {
+    "move": "Earth Release: Mud Wall",
+    "smash": "Earth Release: Mud Wall"
+   },
+   {
+    "move": "Reaper Death Seal",
+    "smash": "Reaper Death Seal"
+   }
+  ],
+  "learnset": [
+   "Fire Release: Fire Dragon Flame Bullet",
+   "Shuriken Shadow Clone",
+   "Enma: Adamantine Staff",
+   "Earth Release: Mud Wall",
+   "Reaper Death Seal",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "earth"
+  ],
+  "notes": "",
+  "image": "hiruzen.webp"
+ },
+ {
+  "num": 77,
+  "id": "minato",
+  "baseId": "minato",
+  "name": "Minato Namikaze",
+  "series": "Shippuden",
+  "role": "Striker / Infiltrator",
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 100,
+   "def": 90,
+   "spa": 115,
+   "spd": 92,
+   "spe": 140
+  },
+  "abilities": [
+   {
+    "name": "Flying Thunder God",
+    "desc": "Its first move after entering battle gets +1 priority."
+   }
+  ],
+  "hidden": {
+   "name": "Yellow Flash",
+   "desc": "The first hit it takes in battle misses completely."
+  },
+  "signature": [
+   {
+    "move": "Rasengan",
+    "smash": "Rasengan"
+   },
+   {
+    "move": "Flying Thunder God Strike",
+    "smash": "Flying Thunder God Strike"
+   },
+   {
+    "move": "Flying Thunder God: Rasengan",
+    "smash": "Flying Thunder God: Rasengan"
+   },
+   {
+    "move": "Space-Time Barrier",
+    "smash": "Space-Time Barrier"
+   },
+   {
+    "move": "Yang Kurama: Tailed Beast Bomb",
+    "smash": "Yang Kurama: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Rasengan",
+   "Flying Thunder God Strike",
+   "Flying Thunder God: Rasengan",
+   "Space-Time Barrier",
+   "Yang Kurama: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "yang"
+  ],
+  "notes": "Nine-Tails Chakra Mode: Beast.",
+  "image": "minato.webp"
+ },
+ {
+  "num": 78,
+  "id": "tsunade",
+  "baseId": "tsunade",
+  "name": "Tsunade Senju",
+  "series": "Part I",
+  "role": "Frontliner / Medic",
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 125,
+   "atk": 130,
+   "def": 105,
+   "spa": 90,
+   "spd": 92,
+   "spe": 90
+  },
+  "abilities": [
+   {
+    "name": "Legendary Medic",
+    "desc": "Its healing moves restore 50% more HP. At the end of each turn, may cure an ally of a status condition (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Slug Princess",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Chakra Enhanced Strength",
+    "smash": "Chakra Enhanced Strength"
+   },
+   {
+    "move": "Heavenly Foot of Pain",
+    "smash": "Heavenly Foot of Pain"
+   },
+   {
+    "move": "Mystical Palm",
+    "smash": "Mystical Palm"
+   },
+   {
+    "move": "Summoning: Katsuyu",
+    "smash": "Summoning: Katsuyu"
+   },
+   {
+    "move": "Creation Rebirth",
+    "smash": "Creation Rebirth"
+   }
+  ],
+  "learnset": [
+   "Chakra Enhanced Strength",
+   "Heavenly Foot of Pain",
+   "Mystical Palm",
+   "Summoning: Katsuyu",
+   "Creation Rebirth",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "earth",
+   "yang"
+  ],
+  "notes": "Hundred Seal: pure strength.",
+  "image": "tsunade.webp"
+ },
+ {
+  "num": 79,
+  "id": "jiraiya",
+  "baseId": "jiraiya",
+  "name": "Jiraiya",
+  "series": "Part I",
+  "role": "Striker / Infiltrator / Controller",
+  "types": [
+   "Fire",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 95,
+   "def": 95,
+   "spa": 120,
+   "spd": 97,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Super Pervert Spy",
+    "desc": "Reveals the foes' held items when it enters battle."
+   }
+  ],
+  "hidden": {
+   "name": "Spy Network",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Rasengan",
+    "smash": "Rasengan"
+   },
+   {
+    "move": "Fire Release: Toad Oil Flame Bullet",
+    "smash": "Fire Release: Toad Oil Flame Bullet"
+   },
+   {
+    "move": "Wild Lion's Mane: Needle Jizo",
+    "smash": "Wild Lion's Mane: Needle Jizo"
+   },
+   {
+    "move": "Toad Mouth Bind",
+    "smash": "Toad Mouth Bind"
+   },
+   {
+    "move": "Summoning: Gamabunta",
+    "smash": "Summoning: Gamabunta"
+   },
+   {
+    "move": "Demonic Illusion: Gamarinsho",
+    "smash": "Demonic Illusion: Gamarinsho"
+   }
+  ],
+  "learnset": [
+   "Rasengan",
+   "Fire Release: Toad Oil Flame Bullet",
+   "Wild Lion's Mane: Needle Jizo",
+   "Toad Mouth Bind",
+   "Summoning: Gamabunta",
+   "Demonic Illusion: Gamarinsho",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "earth"
+  ],
+  "notes": "Sage Mode: Sage leads.",
+  "image": "jiraiya.webp"
+ },
+ {
+  "num": 80,
+  "id": "raikage-a",
+  "baseId": "a",
+  "name": "A",
+  "series": "Shippuden",
+  "role": "Frontliner / Striker",
+  "types": [
+   "Lightning",
+   "Taijutsu"
+  ],
+  "stats": {
+   "hp": 125,
+   "atk": 130,
+   "def": 105,
+   "spa": 80,
+   "spd": 87,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Lightning Release Armor",
+    "desc": "Takes 10% less damage from all attacks. Contact moves deal 1.2x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Raikage's Command",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Lightning Release: Liger Bomb",
+    "smash": "Lightning Release: Liger Bomb"
+   },
+   {
+    "move": "Lightning Release: Lariat",
+    "smash": "Lightning Release: Lariat"
+   },
+   {
+    "move": "Lightning Release: Guillotine Drop",
+    "smash": "Lightning Release: Guillotine Drop"
+   },
+   {
+    "move": "Lightning Release Armor",
+    "smash": "Lightning Release Armor"
+   }
+  ],
+  "learnset": [
+   "Lightning Release: Liger Bomb",
+   "Lightning Release: Lariat",
+   "Lightning Release: Guillotine Drop",
+   "Lightning Release Armor",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lightning"
+  ],
+  "notes": "Lightning Armor brawler.",
+  "image": "a.webp"
+ },
+ {
+  "num": 81,
+  "id": "killer-bee",
+  "baseId": "killer",
+  "name": "Killer Bee",
+  "series": "Shippuden",
+  "role": "Frontliner / Tank",
+  "types": [
+   "Lightning",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 125,
+   "atk": 115,
+   "def": 100,
+   "spa": 105,
+   "spd": 96,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Perfect Jinchuriki",
+    "desc": "Restores 1/16 of its max HP at the end of every turn. Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+   }
+  ],
+  "hidden": {
+   "name": "Rap Flow",
+   "desc": "Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+  },
+  "signature": [
+   {
+    "move": "Seven Swords Dance",
+    "smash": "Seven Swords Dance"
+   },
+   {
+    "move": "Lightning Release: Lariat",
+    "smash": "Lightning Release: Lariat"
+   },
+   {
+    "move": "Ink Creation",
+    "smash": "Ink Creation"
+   },
+   {
+    "move": "Octopus Leg Substitute",
+    "smash": "Octopus Leg Substitute"
+   },
+   {
+    "move": "Gyuki: Tailed Beast Bomb",
+    "smash": "Gyuki: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Seven Swords Dance",
+   "Lightning Release: Lariat",
+   "Ink Creation",
+   "Octopus Leg Substitute",
+   "Gyuki: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lightning"
+  ],
+  "notes": "Seven Swords; full Eight-Tails form is Beast.",
+  "image": "killer-bee.webp"
+ },
+ {
+  "num": 82,
+  "id": "darui",
+  "baseId": "darui",
+  "name": "Darui",
+  "series": "Shippuden",
+  "role": "Striker",
+  "types": [
+   "Storm",
+   "Lightning"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 95,
+   "def": 95,
+   "spa": 115,
+   "spd": 93,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Black Lightning",
+    "desc": "Its Lightning moves may cause paralysis (20%)."
+   }
+  ],
+  "hidden": {
+   "name": "Calm Head",
+   "desc": "Takes 25% less damage from super-effective attacks."
+  },
+  "signature": [
+   {
+    "move": "Black Lightning: Black Panther",
+    "smash": "Black Lightning: Black Panther"
+   },
+   {
+    "move": "Storm Release: Laser Circus",
+    "smash": "Storm Release: Laser Circus"
+   },
+   {
+    "move": "Cleaver Sword Slash",
+    "smash": "Cleaver Sword Slash"
+   },
+   {
+    "move": "Lightning Release Armor",
+    "smash": "Lightning Release Armor"
+   }
+  ],
+  "learnset": [
+   "Black Lightning: Black Panther",
+   "Storm Release: Laser Circus",
+   "Cleaver Sword Slash",
+   "Lightning Release Armor",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "storm",
+   "lightning"
+  ],
+  "notes": "",
+  "image": "darui.webp"
+ },
+ {
+  "num": 83,
+  "id": "karui",
+  "baseId": "karui",
+  "name": "Karui",
+  "series": "Shippuden",
+  "role": "Frontliner",
+  "types": [
+   "Lightning",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 105,
+   "def": 85,
+   "spa": 70,
+   "spd": 71,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Hot-Blooded",
+    "desc": "When its HP drops below half, its Attack rises by 1 stage."
+   }
+  ],
+  "hidden": {
+   "name": "Cloud Kunoichi",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Cloud-Style Front Beheading",
+    "smash": "Cloud-Style Front Beheading"
+   },
+   {
+    "move": "Cloud-Style Flurry",
+    "smash": "Cloud-Style Flurry"
+   },
+   {
+    "move": "Lightning Release: Lightning Blade Edge",
+    "smash": "Lightning Release: Lightning Blade Edge"
+   },
+   {
+    "move": "Lightning Release: Lariat",
+    "smash": "Lightning Release: Lariat"
+   }
+  ],
+  "learnset": [
+   "Cloud-Style Front Beheading",
+   "Cloud-Style Flurry",
+   "Lightning Release: Lightning Blade Edge",
+   "Lightning Release: Lariat",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lightning"
+  ],
+  "notes": "Cloud-style swordswoman.",
+  "image": "karui.webp"
+ },
+ {
+  "num": 84,
+  "id": "mei",
+  "baseId": "mei",
+  "name": "Mei Terumi",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Lava",
+   "Boil"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 80,
+   "def": 90,
+   "spa": 125,
+   "spd": 95,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Two Kekkei Genkai",
+    "desc": "Lava and Boil moves deal 1.2x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Fifth Mizukage",
+   "desc": "Lava moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "Lava Release: Lava Monster",
+    "smash": "Lava Release: Lava Monster"
+   },
+   {
+    "move": "Boil Release: Solid Fog",
+    "smash": "Boil Release: Solid Fog"
+   },
+   {
+    "move": "Water Release: Water Dragon Bullet",
+    "smash": "Water Release: Water Dragon Bullet"
+   },
+   {
+    "move": "Lava Release: Lava Globs",
+    "smash": "Lava Release: Lava Globs"
+   }
+  ],
+  "learnset": [
+   "Lava Release: Lava Monster",
+   "Boil Release: Solid Fog",
+   "Water Release: Water Dragon Bullet",
+   "Lava Release: Lava Globs",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lava",
+   "boil"
+  ],
+  "notes": "",
+  "image": "mei-terumi.webp"
+ },
+ {
+  "num": 85,
+  "id": "chojuro",
+  "baseId": "chojuro",
+  "name": "Chojuro",
+  "series": "Shippuden",
+  "role": "Frontliner / Tank",
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 100,
+   "def": 85,
+   "spa": 75,
+   "spd": 73,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Twin Blades",
+    "desc": "Slicing moves deal 1.3x damage."
+   }
+  ],
+  "hidden": {
+   "name": "Swordsmen Legacy",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Hiramekarei Slash",
+    "smash": "Hiramekarei Slash"
+   },
+   {
+    "move": "Hiramekarei Unleashing",
+    "smash": "Hiramekarei Unleashing"
+   },
+   {
+    "move": "Hiramekarei Guard",
+    "smash": "Hiramekarei Guard"
+   },
+   {
+    "move": "Water Release: Water Gun",
+    "smash": "Water Release: Water Gun"
+   }
+  ],
+  "learnset": [
+   "Hiramekarei Slash",
+   "Hiramekarei Unleashing",
+   "Hiramekarei Guard",
+   "Water Release: Water Gun",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water"
+  ],
+  "notes": "Hiramekarei.",
+  "image": "chojuro.webp"
+ },
+ {
+  "num": 86,
+  "id": "ao",
+  "baseId": "ao",
+  "name": "Ao",
+  "series": "Shippuden",
+  "role": "Sensor / Controller",
+  "types": [
+   "Water",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 80,
+   "def": 90,
+   "spa": 100,
+   "spd": 85,
+   "spe": 85
+  },
+  "abilities": [
+   {
+    "name": "Byakugan",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Its moves are more likely to land critical hits."
+   }
+  ],
+  "hidden": {
+   "name": "Mist Sensor",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Water Release: Raging Waves",
+    "smash": "Water Release: Raging Waves"
+   },
+   {
+    "move": "Water Release: Water Dragon",
+    "smash": "Water Release: Water Dragon"
+   },
+   {
+    "move": "Byakugan Sensing",
+    "smash": "Byakugan Sensing"
+   },
+   {
+    "move": "Hidden Mist Technique",
+    "smash": "Hidden Mist Technique"
+   }
+  ],
+  "learnset": [
+   "Water Release: Raging Waves",
+   "Water Release: Water Dragon",
+   "Byakugan Sensing",
+   "Hidden Mist Technique",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water"
+  ],
+  "notes": "Byakugan follows the Hyūga Yang rule.",
+  "image": "ao.webp"
+ },
+ {
+  "num": 87,
+  "id": "gengetsu",
+  "baseId": "gengetsu",
+  "name": "Gengetsu Hozuki",
+  "series": "Shippuden",
+  "role": "Controller / Striker",
+  "types": [
+   "Boil",
+   "Water"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 80,
+   "def": 85,
+   "spa": 115,
+   "spd": 89,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Hydrification",
+    "desc": "Takes 25% less damage from physical moves."
+   }
+  ],
+  "hidden": {
+   "name": "Second Mizukage",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "Water Release: Steaming Danger Tyrant",
+    "smash": "Water Release: Steaming Danger Tyrant"
+   },
+   {
+    "move": "Clam Mirage",
+    "smash": "Clam Mirage"
+   },
+   {
+    "move": "Water Release: Water Gun",
+    "smash": "Water Release: Water Gun"
+   },
+   {
+    "move": "Hydrification Technique",
+    "smash": "Hydrification Technique"
+   }
+  ],
+  "learnset": [
+   "Water Release: Steaming Danger Tyrant",
+   "Clam Mirage",
+   "Water Release: Water Gun",
+   "Hydrification Technique",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "boil",
+   "water"
+  ],
+  "notes": "",
+  "image": "gengetsu.webp"
+ },
+ {
+  "num": 88,
+  "id": "yagura",
+  "baseId": "yagura",
+  "name": "Yagura Karatachi",
+  "series": "Shippuden",
+  "role": "Tank / Controller",
+  "types": [
+   "Water"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 95,
+   "def": 105,
+   "spa": 110,
+   "spd": 97,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Coral Shell",
+    "desc": "Takes 25% less damage from super-effective attacks."
+   }
+  ],
+  "hidden": {
+   "name": "Bloody Mist",
+   "desc": "Heals 1/8 of the damage its attacks deal."
+  },
+  "signature": [
+   {
+    "move": "Water Release: Coral Palm",
+    "smash": "Water Release: Coral Palm"
+   },
+   {
+    "move": "Hook Staff",
+    "smash": "Hook Staff"
+   },
+   {
+    "move": "Water Mirror Technique",
+    "smash": "Water Mirror Technique"
+   },
+   {
+    "move": "Water Release: Raging Waves",
+    "smash": "Water Release: Raging Waves"
+   },
+   {
+    "move": "Isobu: Tailed Beast Bomb",
+    "smash": "Isobu: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Water Release: Coral Palm",
+   "Hook Staff",
+   "Water Mirror Technique",
+   "Water Release: Raging Waves",
+   "Isobu: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water"
+  ],
+  "notes": "Three-Tails Isobu.",
+  "image": "yagura.webp"
+ },
+ {
+  "num": 89,
+  "id": "onoki",
+  "baseId": "onoki",
+  "name": "Onoki",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Dust",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 70,
+   "def": 95,
+   "spa": 135,
+   "spd": 102,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Levitation",
+    "desc": "Takes 20% less damage from physical moves."
+   }
+  ],
+  "hidden": {
+   "name": "Third Tsuchikage",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Dust Release: Detachment of the Primitive World",
+    "smash": "Dust Release: Detachment of the Primitive World"
+   },
+   {
+    "move": "Earth Release: Added Weight Rock",
+    "smash": "Earth Release: Added Weight Rock"
+   },
+   {
+    "move": "Earth Release: Light Weight Rock",
+    "smash": "Earth Release: Light Weight Rock"
+   },
+   {
+    "move": "Earth Release: Golem",
+    "smash": "Earth Release: Golem"
+   },
+   {
+    "move": "Dust Release: Cone of Light",
+    "smash": "Dust Release: Cone of Light"
+   }
+  ],
+  "learnset": [
+   "Dust Release: Detachment of the Primitive World",
+   "Earth Release: Added Weight Rock",
+   "Earth Release: Light Weight Rock",
+   "Earth Release: Golem",
+   "Dust Release: Cone of Light",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "dust",
+   "earth"
+  ],
+  "notes": "",
+  "image": "onoki.webp"
+ },
+ {
+  "num": 90,
+  "id": "kurotsuchi",
+  "baseId": "kurotsuchi",
+  "name": "Kurotsuchi",
+  "series": "Shippuden",
+  "role": "Controller / Striker",
+  "types": [
+   "Lava",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 85,
+   "def": 85,
+   "spa": 105,
+   "spd": 84,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Quick-Setting Lime",
+    "desc": "Its binding moves last longer and deal double damage."
+   }
+  ],
+  "hidden": {
+   "name": "Stone Guard",
+   "desc": "Allies take 25% less damage, and it takes 10% less."
+  },
+  "signature": [
+   {
+    "move": "Lava Release: Quicklime Congealing",
+    "smash": "Lava Release: Quicklime Congealing"
+   },
+   {
+    "move": "Lava Release: Lava Globs",
+    "smash": "Lava Release: Lava Globs"
+   },
+   {
+    "move": "Earth Release: Rock Fist",
+    "smash": "Earth Release: Rock Fist"
+   },
+   {
+    "move": "Earth Release: Earth Dome",
+    "smash": "Earth Release: Earth Dome"
+   }
+  ],
+  "learnset": [
+   "Lava Release: Quicklime Congealing",
+   "Lava Release: Lava Globs",
+   "Earth Release: Rock Fist",
+   "Earth Release: Earth Dome",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lava",
+   "earth"
+  ],
+  "notes": "",
+  "image": "kurotsuchi.webp"
+ },
+ {
+  "num": 91,
+  "id": "akatsuchi",
+  "baseId": "akatsuchi",
+  "name": "Akatsuchi",
+  "series": "Shippuden",
+  "role": "Tank",
+  "types": [
+   "Earth"
+  ],
+  "stats": {
+   "hp": 125,
+   "atk": 95,
+   "def": 115,
+   "spa": 75,
+   "spd": 87,
+   "spe": 70
+  },
+  "abilities": [
+   {
+    "name": "Rock-Solid",
+    "desc": "Takes 15% less damage from all attacks."
+   }
+  ],
+  "hidden": {
+   "name": "Bodyguard Duty",
+   "desc": "Allies take 25% less damage, and it takes 10% less."
+  },
+  "signature": [
+   {
+    "move": "Earth Release: Golem",
+    "smash": "Earth Release: Golem"
+   },
+   {
+    "move": "Earth Release: Rock Fist",
+    "smash": "Earth Release: Rock Fist"
+   },
+   {
+    "move": "Earth Release: Earth Dome",
+    "smash": "Earth Release: Earth Dome"
+   },
+   {
+    "move": "Earth Release: Light Weight Rock",
+    "smash": "Earth Release: Light Weight Rock"
+   }
+  ],
+  "learnset": [
+   "Earth Release: Golem",
+   "Earth Release: Rock Fist",
+   "Earth Release: Earth Dome",
+   "Earth Release: Light Weight Rock",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "earth"
+  ],
+  "notes": "",
+  "image": "akatsuchi.webp"
+ },
+ {
+  "num": 92,
+  "id": "mu",
+  "baseId": "mu",
+  "name": "Mu",
+  "series": "Shippuden",
+  "role": "Infiltrator / Striker",
+  "types": [
+   "Dust",
+   "Wind"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 65,
+   "def": 85,
+   "spa": 120,
+   "spd": 91,
+   "spe": 105
+  },
+  "abilities": [
+   {
+    "name": "Invisibility",
+    "desc": "The first hit it takes in battle misses completely."
+   }
+  ],
+  "hidden": {
+   "name": "Second Tsuchikage",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Dust Release: Detachment of the Primitive World",
+    "smash": "Dust Release: Detachment of the Primitive World"
+   },
+   {
+    "move": "Dust Release: Cone of Light",
+    "smash": "Dust Release: Cone of Light"
+   },
+   {
+    "move": "Splitting Technique",
+    "smash": "Splitting Technique"
+   },
+   {
+    "move": "Invisibility Technique",
+    "smash": "Invisibility Technique"
+   }
+  ],
+  "learnset": [
+   "Dust Release: Detachment of the Primitive World",
+   "Dust Release: Cone of Light",
+   "Splitting Technique",
+   "Invisibility Technique",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "dust",
+   "wind"
+  ],
+  "notes": "",
+  "image": "mu.webp"
+ },
+ {
+  "num": 93,
+  "id": "obito-war",
+  "baseId": "obito",
+  "name": "Obito Uchiha (Great War)",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Wood",
+   "Fire"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 105,
+   "def": 105,
+   "spa": 125,
+   "spd": 104,
+   "spe": 115
+  },
+  "abilities": [
+   {
+    "name": "Kamui Intangibility",
+    "desc": "The first hit it takes in battle misses completely."
+   }
+  ],
+  "hidden": {
+   "name": "Six Paths Power",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Kamui: Absorption",
+    "smash": "Kamui: Absorption"
+   },
+   {
+    "move": "Fire Release: Great Fire Annihilation",
+    "smash": "Fire Release: Great Fire Annihilation"
+   },
+   {
+    "move": "Demonic Statue Chains",
+    "smash": "Demonic Statue Chains"
+   },
+   {
+    "move": "Uchiha Gunbai: Uchiwa",
+    "smash": "Uchiha Gunbai: Uchiwa"
+   },
+   {
+    "move": "Truth-Seeking Balls",
+    "smash": "Truth-Seeking Balls"
+   },
+   {
+    "move": "Ten-Tails: Tailed Beast Bomb",
+    "smash": "Ten-Tails: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Kamui: Absorption",
+   "Fire Release: Great Fire Annihilation",
+   "Demonic Statue Chains",
+   "Uchiha Gunbai: Uchiwa",
+   "Truth-Seeking Balls",
+   "Ten-Tails: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wood",
+   "fire"
+  ],
+  "notes": "Ten-Tails Jinchūriki.",
+  "image": "obito.webp"
+ },
+ {
+  "num": 94,
+  "id": "madara-reanimated",
+  "baseId": "madara",
+  "name": "Madara Uchiha (Full Reanimation)",
+  "series": "Shippuden",
+  "role": "Striker / Frontliner",
+  "types": [
+   "Fire",
+   "Wood"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 115,
+   "def": 105,
+   "spa": 125,
+   "spd": 105,
+   "spe": 115
+  },
+  "abilities": [
+   {
+    "name": "Endless Chakra",
+    "desc": "Restores 1/16 of its max HP at the end of every turn. Can't be poisoned. Foes use 2 PP per move against it."
+   }
+  ],
+  "hidden": {
+   "name": "Ghost of the Uchiha",
+   "desc": "Its moves go through Substitutes and screens."
+  },
+  "signature": [
+   {
+    "move": "Fire Release: Majestic Destroyer Flame",
+    "smash": "Fire Release: Majestic Destroyer Flame"
+   },
+   {
+    "move": "Wood Release: Deep Forest Emergence",
+    "smash": "Wood Release: Deep Forest Emergence"
+   },
+   {
+    "move": "Uchiha Taijutsu",
+    "smash": "Uchiha Taijutsu"
+   },
+   {
+    "move": "Uchiha Gunbai: Uchiwa",
+    "smash": "Uchiha Gunbai: Uchiwa"
+   },
+   {
+    "move": "Tengai Shinsei",
+    "smash": "Tengai Shinsei"
+   },
+   {
+    "move": "Perfect Susano'o: Sword Slash",
+    "smash": "Perfect Susano'o: Sword Slash"
+   }
+  ],
+  "learnset": [
+   "Fire Release: Majestic Destroyer Flame",
+   "Wood Release: Deep Forest Emergence",
+   "Uchiha Taijutsu",
+   "Uchiha Gunbai: Uchiwa",
+   "Tengai Shinsei",
+   "Perfect Susano'o: Sword Slash",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "wood"
+  ],
+  "notes": "Susano'o rule.",
+  "image": "madara.webp"
+ },
+ {
+  "num": 95,
+  "id": "madara-six-paths",
+  "baseId": "madara",
+  "name": "Madara Uchiha (Six Paths Mode)",
+  "series": "Shippuden",
+  "role": "Striker / Controller",
+  "types": [
+   "Yin",
+   "Sage"
+  ],
+  "stats": {
+   "hp": 120,
+   "atk": 125,
+   "def": 110,
+   "spa": 130,
+   "spd": 109,
+   "spe": 125
+  },
+  "abilities": [
+   {
+    "name": "Rinne-Sharingan (Madara)",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Can't be confused (genjutsu doesn't take hold). Can't be put to sleep. Its attacks hit a second time for 25% damage."
+   }
+  ],
+  "hidden": {
+   "name": "Moon's Eye",
+   "desc": "Heals 1/8 of the damage its attacks deal."
+  },
+  "signature": [
+   {
+    "move": "Limbo: Border Jail",
+    "smash": "Limbo: Border Jail"
+   },
+   {
+    "move": "Truth-Seeking Ball Staff",
+    "smash": "Truth-Seeking Ball Staff"
+   },
+   {
+    "move": "Six Paths: Chibaku Tensei",
+    "smash": "Six Paths: Chibaku Tensei"
+   },
+   {
+    "move": "Infinite Tsukuyomi",
+    "smash": "Infinite Tsukuyomi"
+   },
+   {
+    "move": "Fire Release: Majestic Destroyer Flame",
+    "smash": "Fire Release: Majestic Destroyer Flame"
+   }
+  ],
+  "learnset": [
+   "Limbo: Border Jail",
+   "Truth-Seeking Ball Staff",
+   "Six Paths: Chibaku Tensei",
+   "Infinite Tsukuyomi",
+   "Fire Release: Majestic Destroyer Flame",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yin",
+   "yang"
+  ],
+  "notes": "Six Paths Sage Mode.",
+  "image": "madara-six-paths.webp"
+ },
+ {
+  "num": 96,
+  "id": "kaguya",
+  "baseId": "kaguya",
+  "name": "Kaguya Otsutsuki",
+  "series": "Shippuden",
+  "role": "Striker / Controller / Tank",
+  "types": [
+   "Yang",
+   "Yin"
+  ],
+  "stats": {
+   "hp": 140,
+   "atk": 110,
+   "def": 120,
+   "spa": 145,
+   "spd": 120,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Progenitor of Chakra",
+    "desc": "Heals 1/8 of the damage its attacks deal. Can't be confused (genjutsu doesn't take hold)."
+   }
+  ],
+  "hidden": {
+   "name": "Mother of Chakra",
+   "desc": "Restores 1/3 of its max HP when it switches out."
+  },
+  "signature": [
+   {
+    "move": "All-Killing Ash Bones",
+    "smash": "All-Killing Ash Bones"
+   },
+   {
+    "move": "Expansive Truth-Seeking Ball",
+    "smash": "Expansive Truth-Seeking Ball"
+   },
+   {
+    "move": "Yomotsu Hirasaka",
+    "smash": "Yomotsu Hirasaka"
+   },
+   {
+    "move": "Eighty Gods Vacuum Attack",
+    "smash": "Eighty Gods Vacuum Attack"
+   },
+   {
+    "move": "Hair Needle Senbon",
+    "smash": "Hair Needle Senbon"
+   },
+   {
+    "move": "Amenominaka",
+    "smash": "Amenominaka"
+   }
+  ],
+  "learnset": [
+   "All-Killing Ash Bones",
+   "Expansive Truth-Seeking Ball",
+   "Yomotsu Hirasaka",
+   "Eighty Gods Vacuum Attack",
+   "Hair Needle Senbon",
+   "Amenominaka",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "yang",
+   "yin"
+  ],
+  "notes": "",
+  "image": "kaguya.webp"
+ },
+ {
+  "num": 97,
+  "id": "fu",
+  "baseId": "fu",
+  "name": "Fu",
+  "series": "Shippuden",
+  "role": "Striker / Infiltrator",
+  "types": [
+   "Wind"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 80,
+   "def": 80,
+   "spa": 100,
+   "spd": 80,
+   "spe": 120
+  },
+  "abilities": [
+   {
+    "name": "Lucky Seven",
+    "desc": "Its moves' added effects are twice as likely."
+   }
+  ],
+  "hidden": {
+   "name": "Takigakure Spirit",
+   "desc": "The first hit it takes in battle misses completely."
+  },
+  "signature": [
+   {
+    "move": "Secret Technique: Scale Powder",
+    "smash": "Secret Technique: Scale Powder"
+   },
+   {
+    "move": "Rinpun Tackle",
+    "smash": "Rinpun Tackle"
+   },
+   {
+    "move": "Chomei Wings",
+    "smash": "Chomei Wings"
+   },
+   {
+    "move": "Chomei: Tailed Beast Bomb",
+    "smash": "Chomei: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Secret Technique: Scale Powder",
+   "Rinpun Tackle",
+   "Chomei Wings",
+   "Chomei: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind"
+  ],
+  "notes": "Seven-Tails Chōmei.",
+  "image": "fu.webp"
+ },
+ {
+  "num": 98,
+  "id": "utakata",
+  "baseId": "utakata",
+  "name": "Utakata",
+  "series": "Shippuden",
+  "role": "Controller / Striker",
+  "types": [
+   "Water",
+   "Boil"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 70,
+   "def": 90,
+   "spa": 115,
+   "spd": 91,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Corrosive Bubbles",
+    "desc": "Its attacks may lower the target's Defense by 1 stage (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Bubble Barrier",
+   "desc": "Allies take 25% less damage, and it takes 10% less."
+  },
+  "signature": [
+   {
+    "move": "Bubble Release: Exploding Bubbles",
+    "smash": "Bubble Release: Exploding Bubbles"
+   },
+   {
+    "move": "Bubble Release: Acid Bubbles",
+    "smash": "Bubble Release: Acid Bubbles"
+   },
+   {
+    "move": "Bubble Release: Bubble Prison",
+    "smash": "Bubble Release: Bubble Prison"
+   },
+   {
+    "move": "Bubble Clone",
+    "smash": "Bubble Clone"
+   },
+   {
+    "move": "Saiken: Tailed Beast Bomb",
+    "smash": "Saiken: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Bubble Release: Exploding Bubbles",
+   "Bubble Release: Acid Bubbles",
+   "Bubble Release: Bubble Prison",
+   "Bubble Clone",
+   "Saiken: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water",
+   "boil"
+  ],
+  "notes": "Six-Tails Saiken.",
+  "image": "utakata.webp"
+ },
+ {
+  "num": 99,
+  "id": "han",
+  "baseId": "han",
+  "name": "Han",
+  "series": "Shippuden",
+  "role": "Frontliner / Tank",
+  "types": [
+   "Boil",
+   "Water"
+  ],
+  "stats": {
+   "hp": 125,
+   "atk": 115,
+   "def": 110,
+   "spa": 80,
+   "spd": 88,
+   "spe": 90
+  },
+  "abilities": [
+   {
+    "name": "Steam Armor",
+    "desc": "Contact with it may cause burn (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Steam Vents",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Boil Release: Steam Punch",
+    "smash": "Boil Release: Steam Punch"
+   },
+   {
+    "move": "Boil Release: Steam Kick",
+    "smash": "Boil Release: Steam Kick"
+   },
+   {
+    "move": "Boil Release: Steam Armor",
+    "smash": "Boil Release: Steam Armor"
+   },
+   {
+    "move": "Kokuo: Tailed Beast Bomb",
+    "smash": "Kokuo: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Boil Release: Steam Punch",
+   "Boil Release: Steam Kick",
+   "Boil Release: Steam Armor",
+   "Kokuo: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "boil",
+   "water"
+  ],
+  "notes": "Five-Tails Kokuō.",
+  "image": "han.webp"
+ },
+ {
+  "num": 100,
+  "id": "roshi",
+  "baseId": "roshi",
+  "name": "Roshi",
+  "series": "Shippuden",
+  "role": "Tank / Striker",
+  "types": [
+   "Lava",
+   "Earth"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 95,
+   "def": 105,
+   "spa": 110,
+   "spd": 96,
+   "spe": 85
+  },
+  "abilities": [
+   {
+    "name": "Volcanic Body",
+    "desc": "Can't be burned. Its Lava moves may cause burn (20%)."
+   }
+  ],
+  "hidden": {
+   "name": "Old Monkey Wisdom",
+   "desc": "At full HP, survives any single hit with 1 HP."
+  },
+  "signature": [
+   {
+    "move": "Lava Release: Lava Fist",
+    "smash": "Lava Release: Lava Fist"
+   },
+   {
+    "move": "Lava Release: Rubber Ball Shuriken",
+    "smash": "Lava Release: Rubber Ball Shuriken"
+   },
+   {
+    "move": "Lava Release: Magma Wall",
+    "smash": "Lava Release: Magma Wall"
+   },
+   {
+    "move": "Lava Release: Lava Globs",
+    "smash": "Lava Release: Lava Globs"
+   },
+   {
+    "move": "Son Goku: Tailed Beast Bomb",
+    "smash": "Son Goku: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Lava Release: Lava Fist",
+   "Lava Release: Rubber Ball Shuriken",
+   "Lava Release: Magma Wall",
+   "Lava Release: Lava Globs",
+   "Son Goku: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "lava",
+   "earth"
+  ],
+  "notes": "Four-Tails Son Gokū.",
+  "image": "roshi.webp"
+ },
+ {
+  "num": 101,
+  "id": "yugito",
+  "baseId": "yugito",
+  "name": "Yugito Nii",
+  "series": "Shippuden",
+  "role": "Striker / Frontliner",
+  "types": [
+   "Fire"
+  ],
+  "stats": {
+   "hp": 95,
+   "atk": 95,
+   "def": 80,
+   "spa": 105,
+   "spd": 81,
+   "spe": 115
+  },
+  "abilities": [
+   {
+    "name": "Cat Reflexes",
+    "desc": "Its Speed rises by 1 stage the first time it enters battle."
+   }
+  ],
+  "hidden": {
+   "name": "Blue Flames",
+   "desc": "Fire moves deal 1.2x damage."
+  },
+  "signature": [
+   {
+    "move": "Cat Claw of Blue Fire",
+    "smash": "Cat Claw of Blue Fire"
+   },
+   {
+    "move": "Fire Release: Mouse Fireballs",
+    "smash": "Fire Release: Mouse Fireballs"
+   },
+   {
+    "move": "Cat Pounce",
+    "smash": "Cat Pounce"
+   },
+   {
+    "move": "Matatabi: Tailed Beast Bomb",
+    "smash": "Matatabi: Tailed Beast Bomb"
+   }
+  ],
+  "learnset": [
+   "Cat Claw of Blue Fire",
+   "Fire Release: Mouse Fireballs",
+   "Cat Pounce",
+   "Matatabi: Tailed Beast Bomb",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire"
+  ],
+  "notes": "Two-Tails Matatabi.",
+  "image": "yguito.webp"
+ },
+ {
+  "num": 102,
+  "id": "hanzo",
+  "baseId": "hanzo",
+  "name": "Hanzo",
+  "series": "Shippuden",
+  "role": "Frontliner / Controller",
+  "types": [
+   "Wind",
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 110,
+   "def": 105,
+   "spa": 95,
+   "spd": 91,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Poison Sac",
+    "desc": "Can't be poisoned. Its attacks may cause poison (20%)."
+   }
+  ],
+  "hidden": {
+   "name": "Demigod of the Hidden Rain",
+   "desc": "Its attacks may cause poison (20%)."
+  },
+  "signature": [
+   {
+    "move": "Poison Kusarigama",
+    "smash": "Poison Kusarigama"
+   },
+   {
+    "move": "Summoning: Ibuse",
+    "smash": "Summoning: Ibuse"
+   },
+   {
+    "move": "Chain Bind",
+    "smash": "Chain Bind"
+   },
+   {
+    "move": "Salamander Guard",
+    "smash": "Salamander Guard"
+   }
+  ],
+  "learnset": [
+   "Poison Kusarigama",
+   "Summoning: Ibuse",
+   "Chain Bind",
+   "Salamander Guard",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind"
+  ],
+  "notes": "Poison kusarigama.",
+  "image": "hanzo.webp"
+ },
+ {
+  "num": 103,
+  "id": "iruka",
+  "baseId": "iruka",
+  "name": "Iruka Umino",
+  "series": "Part I",
+  "role": "Support / Tank",
+  "types": [
+   "Fire"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 70,
+   "def": 85,
+   "spa": 70,
+   "spd": 71,
+   "spe": 80
+  },
+  "abilities": [
+   {
+    "name": "Protective Instinct",
+    "desc": "Allies take 25% less damage, and it takes 10% less."
+   }
+  ],
+  "hidden": {
+   "name": "Academy Lessons",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Shuriken Volley",
+    "smash": "Shuriken Volley"
+   },
+   {
+    "move": "Fire Release: Great Fireball",
+    "smash": "Fire Release: Great Fireball"
+   },
+   {
+    "move": "Teacher's Shield",
+    "smash": "Teacher's Shield"
+   },
+   {
+    "move": "Explosive Trap Tags",
+    "smash": "Explosive Trap Tags"
+   }
+  ],
+  "learnset": [
+   "Shuriken Volley",
+   "Fire Release: Great Fireball",
+   "Teacher's Shield",
+   "Explosive Trap Tags",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire"
+  ],
+  "notes": "",
+  "image": "iruka.webp"
+ },
+ {
+  "num": 104,
+  "id": "konohamaru",
+  "baseId": "konohamaru",
+  "name": "Konohamaru Sarutobi",
+  "series": "Shippuden",
+  "role": "Striker",
+  "types": [
+   "Wind",
+   "Fire"
+  ],
+  "stats": {
+   "hp": 90,
+   "atk": 85,
+   "def": 80,
+   "spa": 95,
+   "spd": 78,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Will of Fire (Konohamaru)",
+    "desc": "When an ally is knocked out, its Attack and Sp. Atk rise by 1 stage."
+   }
+  ],
+  "hidden": {
+   "name": "Honorable Grandson",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Rasengan",
+    "smash": "Rasengan"
+   },
+   {
+    "move": "Fire Release: Ash Accumulation Burning",
+    "smash": "Fire Release: Ash Accumulation Burning"
+   },
+   {
+    "move": "Konohamaru Combo",
+    "smash": "Konohamaru Combo"
+   },
+   {
+    "move": "Sexy Jutsu: Harem",
+    "smash": "Sexy Jutsu: Harem"
+   }
+  ],
+  "learnset": [
+   "Rasengan",
+   "Fire Release: Ash Accumulation Burning",
+   "Konohamaru Combo",
+   "Sexy Jutsu: Harem",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "wind",
+   "fire"
+  ],
+  "notes": "",
+  "image": "konohamaru.webp"
+ },
+ {
+  "num": 105,
+  "id": "kushina",
+  "baseId": "kushina",
+  "name": "Kushina Uzumaki",
+  "series": "Shippuden",
+  "role": "Controller / Frontliner",
+  "types": [
+   "Water",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 115,
+   "atk": 100,
+   "def": 95,
+   "spa": 105,
+   "spd": 95,
+   "spe": 100
+  },
+  "abilities": [
+   {
+    "name": "Sealing Chains",
+    "desc": "Deals 1.5x damage to Beast and Sage-type shinobi."
+   }
+  ],
+  "hidden": {
+   "name": "Red-Hot Habanero",
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Adamantine Sealing Chains",
+    "smash": "Adamantine Sealing Chains"
+   },
+   {
+    "move": "Adamantine Chain Lash",
+    "smash": "Adamantine Chain Lash"
+   },
+   {
+    "move": "Red-Hot Habanero Fury",
+    "smash": "Red-Hot Habanero Fury"
+   },
+   {
+    "move": "Uzumaki Kenjutsu",
+    "smash": "Uzumaki Kenjutsu"
+   },
+   {
+    "move": "Adamantine Chain Barrier",
+    "smash": "Adamantine Chain Barrier"
+   }
+  ],
+  "learnset": [
+   "Adamantine Sealing Chains",
+   "Adamantine Chain Lash",
+   "Red-Hot Habanero Fury",
+   "Uzumaki Kenjutsu",
+   "Adamantine Chain Barrier",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water",
+   "yang"
+  ],
+  "notes": "",
+  "image": "kushina.webp"
+ },
+ {
+  "num": 106,
+  "id": "mifune",
+  "baseId": "mifune",
+  "name": "Mifune",
+  "series": "Shippuden",
+  "role": "Frontliner / Striker",
+  "types": [
+   "Weapon"
+  ],
+  "stats": {
+   "hp": 105,
+   "atk": 125,
+   "def": 100,
+   "spa": 60,
+   "spd": 75,
+   "spe": 115
+  },
+  "abilities": [
+   {
+    "name": "Iai Master",
+    "desc": "Slicing moves are more likely to land critical hits. Critical hits deal 2.25x damage instead of 1.5x."
+   }
+  ],
+  "hidden": {
+   "name": "Samurai Code",
+   "desc": "Its moves are more likely to land critical hits."
+  },
+  "signature": [
+   {
+    "move": "Iai Draw",
+    "smash": "Iai Draw"
+   },
+   {
+    "move": "Iai: Flash",
+    "smash": "Iai: Flash"
+   },
+   {
+    "move": "Chakra Blade Wave",
+    "smash": "Chakra Blade Wave"
+   },
+   {
+    "move": "Samurai Stance",
+    "smash": "Samurai Stance"
+   }
+  ],
+  "learnset": [
+   "Iai Draw",
+   "Iai: Flash",
+   "Chakra Blade Wave",
+   "Samurai Stance",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [],
+  "notes": "Was typeless. Pure samurai.",
+  "image": "mifune.webp"
+ },
+ {
+  "num": 107,
+  "id": "rasa",
+  "baseId": "rasa",
+  "name": "Rasa (Fourth Kazekage)",
+  "series": "Shippuden",
+  "role": "Controller / Tank",
+  "types": [
+   "Magnet",
+   "Wind"
+  ],
+  "stats": {
+   "hp": 110,
+   "atk": 75,
+   "def": 105,
+   "spa": 115,
+   "spd": 99,
+   "spe": 90
+  },
+  "abilities": [
+   {
+    "name": "Gold Dust",
+    "desc": "Its attacks may lower the target's Speed by 1 stage (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Fourth Kazekage",
+   "desc": "Takes 25% less damage from super-effective attacks."
+  },
+  "signature": [
+   {
+    "move": "Magnet Release: Gold Dust Wave",
+    "smash": "Magnet Release: Gold Dust Wave"
+   },
+   {
+    "move": "Magnet Release: Gold Avalanche",
+    "smash": "Magnet Release: Gold Avalanche"
+   },
+   {
+    "move": "Magnet Release: Gold Dust Coffin",
+    "smash": "Magnet Release: Gold Dust Coffin"
+   },
+   {
+    "move": "Magnet Release: Gold Dust Wall",
+    "smash": "Magnet Release: Gold Dust Wall"
+   }
+  ],
+  "learnset": [
+   "Magnet Release: Gold Dust Wave",
+   "Magnet Release: Gold Avalanche",
+   "Magnet Release: Gold Dust Coffin",
+   "Magnet Release: Gold Dust Wall",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "magnet",
+   "wind"
+  ],
+  "notes": "",
+  "image": "rasa.webp"
+ },
+ {
+  "num": 108,
+  "id": "shisui",
+  "baseId": "shisui",
+  "name": "Shisui Uchiha",
+  "series": "Part I",
+  "role": "Striker / Controller",
+  "types": [
+   "Fire",
+   "Yin"
+  ],
+  "stats": {
+   "hp": 100,
+   "atk": 105,
+   "def": 90,
+   "spa": 120,
+   "spd": 93,
+   "spe": 135
+  },
+  "abilities": [
+   {
+    "name": "Shisui of the Body Flicker",
+    "desc": "Its first move after entering battle gets +1 priority. Its moves go through Substitutes and screens."
+   }
+  ],
+  "hidden": {
+   "name": "Shisui's Crow",
+   "desc": "Reveals the foes' held items when it enters battle."
+  },
+  "signature": [
+   {
+    "move": "Body Flicker Strike",
+    "smash": "Body Flicker Strike"
+   },
+   {
+    "move": "Body Flicker Slashes",
+    "smash": "Body Flicker Slashes"
+   },
+   {
+    "move": "Kotoamatsukami",
+    "smash": "Kotoamatsukami"
+   },
+   {
+    "move": "Fire Release: Great Fireball",
+    "smash": "Fire Release: Great Fireball"
+   },
+   {
+    "move": "Susano'o: Divine Arrows",
+    "smash": "Susano'o: Divine Arrows"
+   }
+  ],
+  "learnset": [
+   "Body Flicker Strike",
+   "Body Flicker Slashes",
+   "Kotoamatsukami",
+   "Fire Release: Great Fireball",
+   "Susano'o: Divine Arrows",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "fire",
+   "yin"
+  ],
+  "notes": "Perfect Susano'o: Weapon.",
+  "image": "shisui.webp"
+ },
+ {
+  "num": 109,
+  "id": "shizune",
+  "baseId": "shizune",
+  "name": "Shizune",
+  "series": "Part I",
+  "role": "Medic / Controller",
+  "types": [
+   "Water",
+   "Yang"
+  ],
+  "stats": {
+   "hp": 85,
+   "atk": 60,
+   "def": 80,
+   "spa": 90,
+   "spd": 77,
+   "spe": 95
+  },
+  "abilities": [
+   {
+    "name": "Tsunade's Apprentice",
+    "desc": "Its healing moves restore 50% more HP. At the end of each turn, may cure an ally of a status condition (30%)."
+   }
+  ],
+  "hidden": {
+   "name": "Assistant's Care",
+   "desc": "Restores 1/16 of its max HP at the end of every turn."
+  },
+  "signature": [
+   {
+    "move": "Poison Mist",
+    "smash": "Poison Mist"
+   },
+   {
+    "move": "Hidden Needle Shot",
+    "smash": "Hidden Needle Shot"
+   },
+   {
+    "move": "Mystical Palm",
+    "smash": "Mystical Palm"
+   },
+   {
+    "move": "Antidote",
+    "smash": "Antidote"
+   }
+  ],
+  "learnset": [
+   "Poison Mist",
+   "Hidden Needle Shot",
+   "Mystical Palm",
+   "Antidote",
+   "Kunai & Shuriken",
+   "Substitution Jutsu",
+   "Body Flicker"
+  ],
+  "chakraNatures": [
+   "water",
+   "yang"
+  ],
+  "notes": "",
+  "image": "shizune.webp"
+ }
+]

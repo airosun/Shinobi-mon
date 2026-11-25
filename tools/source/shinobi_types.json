@@ -1,0 +1,994 @@
+{
+ "naruto_p1": {
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "formTypes": [
+   "Wind",
+   "Beast"
+  ],
+  "why": "Partial cloak: Kurama chakra replaces Yang with Beast."
+ },
+ "naruto_ship": {
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "formTypes": [
+   "Beast",
+   "Wind"
+  ],
+  "why": "Four-tails cloak is more beast than man, so Beast takes the primary slot."
+ },
+ "naruto_sage": {
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "formTypes": [
+   "Wind",
+   "Sage"
+  ],
+  "why": "Sage Mode: natural energy replaces Yang."
+ },
+ "naruto_war": {
+  "types": [
+   "Wind",
+   "Beast"
+  ],
+  "formTypes": [
+   "Sage",
+   "Beast"
+  ],
+  "why": "Linked with Kurama at all times; Six Paths adds Sage."
+ },
+ "sasuke_p1": {
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "formTypes": [
+   "Fire",
+   "Sage"
+  ],
+  "why": "Curse Marks are senjutsu (Jugo's natural energy), so they become Sage."
+ },
+ "sasuke_ship": {
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "formTypes": [
+   "Lightning",
+   "Sage"
+  ],
+  "why": "Level 2: Chidori-focused, Lightning leads."
+ },
+ "sasuke_ms": {
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "formTypes": [
+   "Fire",
+   "Weapon"
+  ],
+  "why": "Susano'o rule: the armor becomes the Weapon type."
+ },
+ "sasuke_war": {
+  "types": [
+   "Fire",
+   "Lightning"
+  ],
+  "formTypes": [
+   "Lightning",
+   "Yin"
+  ],
+  "why": "Rinne-Sharingan: Indra-style lightning plus Yin eyes."
+ },
+ "sakura_p1": {
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "sakura_shippuden": {
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "sakura_war": {
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "formTypes": [
+   "Yang",
+   "Taijutsu"
+  ],
+  "why": "Hundred Seal: pure strength (shared with Tsunade)."
+ },
+ "kakashi_p1": {
+  "types": [
+   "Lightning",
+   "Earth"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "kakashi_ship": {
+  "types": [
+   "Lightning",
+   "Earth"
+  ],
+  "formTypes": [
+   "Lightning",
+   "Yin"
+  ],
+  "why": "Mangeky\u014d replaces Earth with Yin."
+ },
+ "kakashi_dms": {
+  "types": [
+   "Lightning",
+   "Yin"
+  ],
+  "formTypes": [
+   "Lightning",
+   "Weapon"
+  ],
+  "why": "Double Mangeky\u014d is Yin at base; Perfect Susano'o is Weapon."
+ },
+ "sai": {
+  "types": [
+   "Yin"
+  ],
+  "formTypes": null,
+  "why": "Mono-type: ink and imagination."
+ },
+ "yamato": {
+  "types": [
+   "Wood",
+   "Water"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "hinata_p1": {
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Hy\u016bga rule: Gentle Fist is Taijutsu, chakra-network strikes add Yang."
+ },
+ "hinata_ship": {
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "formTypes": [
+   "Taijutsu",
+   "Beast"
+  ],
+  "why": "Twin Lion Fists: the chakra lions are Beast."
+ },
+ "neji_p1": {
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Hy\u016bga rule."
+ },
+ "neji_ship": {
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Hy\u016bga rule."
+ },
+ "lee_p1": {
+  "types": [
+   "Taijutsu"
+  ],
+  "formTypes": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "why": "Was typeless. Pure Taijutsu; opening Gates adds Yang (life force)."
+ },
+ "lee_ship": {
+  "types": [
+   "Taijutsu"
+  ],
+  "formTypes": [
+   "Taijutsu",
+   "Fire"
+  ],
+  "why": "Was typeless. Sixth Gate: Morning Peacock friction flames add Fire."
+ },
+ "tenten_p1": {
+  "types": [
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Was typeless."
+ },
+ "tenten_ship": {
+  "types": [
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Was typeless."
+ },
+ "guy": {
+  "types": [
+   "Taijutsu"
+  ],
+  "formTypes": [
+   "Taijutsu",
+   "Boil"
+  ],
+  "why": "Was typeless. Eighth Gate: blood-red steam = Boil."
+ },
+ "kiba_p1": {
+  "types": [
+   "Beast",
+   "Taijutsu"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Fights alongside Akamaru."
+ },
+ "kiba_ship": {
+  "types": [
+   "Beast",
+   "Taijutsu"
+  ],
+  "formTypes": [
+   "Beast"
+  ],
+  "why": "Two-Headed Wolf: mono-Beast."
+ },
+ "shino_p1": {
+  "types": [
+   "Beast"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Kikaich\u016b insects."
+ },
+ "shino_ship": {
+  "types": [
+   "Beast"
+  ],
+  "formTypes": null,
+  "why": "Was typeless."
+ },
+ "shikamaru_p1": {
+  "types": [
+   "Yin",
+   "Fire"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "shikamaru_ship": {
+  "types": [
+   "Yin",
+   "Fire"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "choji_p1": {
+  "types": [
+   "Yang",
+   "Earth"
+  ],
+  "formTypes": [
+   "Yang",
+   "Taijutsu"
+  ],
+  "why": "Curry Pill: drops Earth for raw Taijutsu power."
+ },
+ "choji_ship": {
+  "types": [
+   "Yang",
+   "Earth"
+  ],
+  "formTypes": [
+   "Yang"
+  ],
+  "why": "Butterfly Mode: mono-Yang, pure calorie chakra."
+ },
+ "ino_p1": {
+  "types": [
+   "Yin"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "ino_ship": {
+  "types": [
+   "Yin",
+   "Water"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "kurenai": {
+  "types": [
+   "Yin"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "asuma": {
+  "types": [
+   "Wind",
+   "Fire"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "gaara_p1": {
+  "types": [
+   "Magnet",
+   "Wind"
+  ],
+  "formTypes": [
+   "Magnet",
+   "Beast"
+  ],
+  "why": "Partial Shukaku: Beast replaces Wind."
+ },
+ "gaara_ship": {
+  "types": [
+   "Magnet",
+   "Wind"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "temari_p1": {
+  "types": [
+   "Wind"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "temari_ship": {
+  "types": [
+   "Wind"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "kankuro_p1": {
+  "types": [
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Puppets."
+ },
+ "kankuro_ship": {
+  "types": [
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Was typeless."
+ },
+ "chiyo": {
+  "types": [
+   "Weapon",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Puppets plus life-transfer medicine."
+ },
+ "orochimaru_p1": {
+  "types": [
+   "Wind",
+   "Yin"
+  ],
+  "formTypes": [
+   "Beast",
+   "Yin"
+  ],
+  "why": "Eight Branches: the eight-headed serpent is Beast."
+ },
+ "orochimaru_ship": {
+  "types": [
+   "Wind",
+   "Yin"
+  ],
+  "formTypes": [
+   "Beast",
+   "Yin"
+  ],
+  "why": ""
+ },
+ "kabuto_p1": {
+  "types": [
+   "Yang",
+   "Earth"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "kabuto_sage": {
+  "types": [
+   "Yang",
+   "Sage"
+  ],
+  "formTypes": [
+   "Sage",
+   "Beast"
+  ],
+  "why": "White Snake Sage at base; Dragon Sage Mode adds Beast."
+ },
+ "jirobo": {
+  "types": [
+   "Earth"
+  ],
+  "formTypes": [
+   "Earth",
+   "Sage"
+  ],
+  "why": "Curse Mark: Sage."
+ },
+ "kidomaru": {
+  "types": [
+   "Weapon",
+   "Beast"
+  ],
+  "formTypes": [
+   "Weapon",
+   "Sage"
+  ],
+  "why": "Was typeless. Golden arrows plus spider; Curse Mark replaces Beast with Sage."
+ },
+ "sakon_ukon": {
+  "types": [
+   "Taijutsu",
+   "Yang"
+  ],
+  "formTypes": [
+   "Taijutsu",
+   "Sage"
+  ],
+  "why": "Was typeless. Merging their bodies is Yang; Curse Mark adds Sage."
+ },
+ "tayuya": {
+  "types": [
+   "Yin"
+  ],
+  "formTypes": [
+   "Yin",
+   "Sage"
+  ],
+  "why": "Curse Mark: Sage."
+ },
+ "kimimaro": {
+  "types": [
+   "Weapon",
+   "Taijutsu"
+  ],
+  "formTypes": [
+   "Weapon",
+   "Sage"
+  ],
+  "why": "Was typeless. Bone blades plus dances; Curse Mark adds Sage."
+ },
+ "zabuza": {
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Executioner's Blade."
+ },
+ "haku": {
+  "types": [
+   "Ice",
+   "Water"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "anko": {
+  "types": [
+   "Fire",
+   "Beast"
+  ],
+  "formTypes": [
+   "Fire",
+   "Sage"
+  ],
+  "why": "Snake Mistress adds Beast; Curse Mark of Heaven replaces it with Sage."
+ },
+ "danzo": {
+  "types": [
+   "Wind",
+   "Water"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "obito_tobi": {
+  "types": [
+   "Fire",
+   "Wood"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "obito_masked": {
+  "types": [
+   "Fire",
+   "Wood"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "zetsu_white": {
+  "types": [
+   "Wood"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "zetsu_black": {
+  "types": [
+   "Yin",
+   "Earth"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "kisame": {
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "formTypes": [
+   "Water",
+   "Beast"
+  ],
+  "why": "Samehada is a sword at base; Fusion makes him a shark (Beast)."
+ },
+ "itachi": {
+  "types": [
+   "Fire",
+   "Yin"
+  ],
+  "formTypes": [
+   "Fire",
+   "Weapon"
+  ],
+  "why": "Susano'o rule (Totsuka Sword and Yata Mirror)."
+ },
+ "deidara": {
+  "types": [
+   "Explosion"
+  ],
+  "formTypes": null,
+  "why": "Mono-type, so Lightning stays his canon weakness."
+ },
+ "hidan": {
+  "types": [
+   "Weapon",
+   "Yang"
+  ],
+  "formTypes": [
+   "Yin",
+   "Yang"
+  ],
+  "why": "Was typeless. Scythe plus immortal body; the ritual curse is Yin."
+ },
+ "kakuzu": {
+  "types": [
+   "Earth",
+   "Lightning"
+  ],
+  "formTypes": [
+   "Earth",
+   "Beast"
+  ],
+  "why": "Mask monsters are Beast."
+ },
+ "sasori": {
+  "types": [
+   "Weapon",
+   "Magnet"
+  ],
+  "formTypes": [
+   "Weapon",
+   "Fire"
+  ],
+  "why": "Puppets plus Iron Sand; his puppet body adds flamethrowers (Fire)."
+ },
+ "konan": {
+  "types": [
+   "Wind",
+   "Weapon"
+  ],
+  "formTypes": [
+   "Wind",
+   "Explosion"
+  ],
+  "why": "Paper shuriken are Weapon; Paper Angel (explosive tags) is Explosion."
+ },
+ "nagato_pain": {
+  "types": [
+   "Yin",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": "Rinnegan."
+ },
+ "nagato_reanimated": {
+  "types": [
+   "Yin",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "suigetsu": {
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Executioner's Blade."
+ },
+ "karin": {
+  "types": [
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "jugo": {
+  "types": [
+   "Taijutsu",
+   "Sage"
+  ],
+  "formTypes": [
+   "Sage",
+   "Weapon"
+  ],
+  "why": "Was typeless. Always takes in natural energy; his transformation turns his arms into weapons."
+ },
+ "hashirama": {
+  "types": [
+   "Wood",
+   "Earth"
+  ],
+  "formTypes": [
+   "Wood",
+   "Sage"
+  ],
+  "why": "Sage Mode: Sage."
+ },
+ "tobirama": {
+  "types": [
+   "Water",
+   "Lightning"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "hiruzen": {
+  "types": [
+   "Fire",
+   "Earth"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "minato": {
+  "types": [
+   "Wind",
+   "Yang"
+  ],
+  "formTypes": [
+   "Wind",
+   "Beast"
+  ],
+  "why": "Nine-Tails Chakra Mode: Beast."
+ },
+ "tsunade": {
+  "types": [
+   "Earth",
+   "Yang"
+  ],
+  "formTypes": [
+   "Yang",
+   "Taijutsu"
+  ],
+  "why": "Hundred Seal: pure strength."
+ },
+ "jiraiya": {
+  "types": [
+   "Fire",
+   "Earth"
+  ],
+  "formTypes": [
+   "Sage",
+   "Fire"
+  ],
+  "why": "Sage Mode: Sage leads."
+ },
+ "raikage_a": {
+  "types": [
+   "Lightning",
+   "Taijutsu"
+  ],
+  "formTypes": null,
+  "why": "Lightning Armor brawler."
+ },
+ "killer_bee": {
+  "types": [
+   "Lightning",
+   "Weapon"
+  ],
+  "formTypes": [
+   "Beast",
+   "Lightning"
+  ],
+  "why": "Seven Swords; full Eight-Tails form is Beast."
+ },
+ "darui": {
+  "types": [
+   "Storm",
+   "Lightning"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "karui": {
+  "types": [
+   "Lightning",
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Cloud-style swordswoman."
+ },
+ "mei": {
+  "types": [
+   "Lava",
+   "Boil"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "chojuro": {
+  "types": [
+   "Water",
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Hiramekarei."
+ },
+ "ao": {
+  "types": [
+   "Water",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": "Byakugan follows the Hy\u016bga Yang rule."
+ },
+ "gengetsu": {
+  "types": [
+   "Boil",
+   "Water"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "yagura": {
+  "types": [
+   "Water"
+  ],
+  "formTypes": [
+   "Beast",
+   "Water"
+  ],
+  "why": "Three-Tails Isobu."
+ },
+ "onoki": {
+  "types": [
+   "Dust",
+   "Earth"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "kurotsuchi": {
+  "types": [
+   "Lava",
+   "Earth"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "akatsuchi": {
+  "types": [
+   "Earth"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "mu": {
+  "types": [
+   "Dust",
+   "Wind"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "obito_war": {
+  "types": [
+   "Wood",
+   "Fire"
+  ],
+  "formTypes": [
+   "Beast",
+   "Yin"
+  ],
+  "why": "Ten-Tails Jinch\u016briki."
+ },
+ "madara_reanimated": {
+  "types": [
+   "Fire",
+   "Wood"
+  ],
+  "formTypes": [
+   "Fire",
+   "Weapon"
+  ],
+  "why": "Susano'o rule."
+ },
+ "madara_six_paths": {
+  "types": [
+   "Yin",
+   "Sage"
+  ],
+  "formTypes": null,
+  "why": "Six Paths Sage Mode."
+ },
+ "kaguya": {
+  "types": [
+   "Yang",
+   "Yin"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "fu": {
+  "types": [
+   "Wind"
+  ],
+  "formTypes": [
+   "Beast",
+   "Wind"
+  ],
+  "why": "Seven-Tails Ch\u014dmei."
+ },
+ "utakata": {
+  "types": [
+   "Water",
+   "Boil"
+  ],
+  "formTypes": [
+   "Beast",
+   "Boil"
+  ],
+  "why": "Six-Tails Saiken."
+ },
+ "han": {
+  "types": [
+   "Boil",
+   "Water"
+  ],
+  "formTypes": [
+   "Beast",
+   "Boil"
+  ],
+  "why": "Five-Tails Koku\u014d."
+ },
+ "roshi": {
+  "types": [
+   "Lava",
+   "Earth"
+  ],
+  "formTypes": [
+   "Beast",
+   "Lava"
+  ],
+  "why": "Four-Tails Son Gok\u016b."
+ },
+ "yugito": {
+  "types": [
+   "Fire"
+  ],
+  "formTypes": [
+   "Beast",
+   "Fire"
+  ],
+  "why": "Two-Tails Matatabi."
+ },
+ "hanzo": {
+  "types": [
+   "Wind",
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Poison kusarigama."
+ },
+ "iruka": {
+  "types": [
+   "Fire"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "konohamaru": {
+  "types": [
+   "Wind",
+   "Fire"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "kushina": {
+  "types": [
+   "Water",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "mifune": {
+  "types": [
+   "Weapon"
+  ],
+  "formTypes": null,
+  "why": "Was typeless. Pure samurai."
+ },
+ "rasa": {
+  "types": [
+   "Magnet",
+   "Wind"
+  ],
+  "formTypes": null,
+  "why": ""
+ },
+ "shisui": {
+  "types": [
+   "Fire",
+   "Yin"
+  ],
+  "formTypes": [
+   "Fire",
+   "Weapon"
+  ],
+  "why": "Perfect Susano'o: Weapon."
+ },
+ "shizune": {
+  "types": [
+   "Water",
+   "Yang"
+  ],
+  "formTypes": null,
+  "why": ""
+ }
+}

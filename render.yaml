@@ -1,0 +1,15 @@
+services:
+  - type: web
+    name: shinobi-mon
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /healthz
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: SHINOBI_SECRET
+        generateValue: true
+      - key: DATABASE_URL
+        sync: false   # paste your Neon (or other Postgres) connection string in the Render dashboard
