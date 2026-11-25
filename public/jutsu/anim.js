@@ -108,6 +108,8 @@ const ART = {
   // Kaguya's All-Killing Ash Bone: a long, thin, ash-grey spear of bone (its own piece, so it can be redrawn apart from Kimimaro's)
   ashBone: (l = 80) => `<svg data-sp="art-ashBone" width="${l}" height="14" viewBox="0 0 80 14"><path d="M0 7 Q8 3 20 4.5 L74 6.2 80 7 74 7.8 20 9.5 Q8 11 0 7Z" fill="#e4e2dc" stroke="#8f8b84" stroke-width="1.2"/><path d="M14 7H70" stroke="#b9b5ad" stroke-width=".8" stroke-dasharray="6 4"/><circle cx="5" cy="7" r="2.2" fill="#cfccc4" stroke="#8f8b84" stroke-width=".8"/></svg>`,
   bone: (l = 70) => `<svg data-sp="art-bone-1" width="${l}" height="16" viewBox="0 0 70 16"><path d="M0 8 Q30 1 70 8 Q30 15 0 8Z" fill="#f4f1e8" stroke="#cfc8b4"/></svg>`,
+  // Hidan's retractable black rod (its own piece, apart from Iron Sand / Black Zetsu spikes)
+  jashinSpike: (l = 90, c = '#0d0d0d') => `<svg data-sp="art-jashinSpike" width="${l}" height="12" viewBox="0 0 90 12"><path d="M0 4.2H70L90 6 70 7.8H0Z" fill="${c}" stroke="#55555c" stroke-width=".8"/><path d="M0 4.6H68" stroke="#4a4a52" stroke-width=".8"/><g fill="#b9bcc4" stroke="#5c5f66" stroke-width=".5"><rect x="6" y="3.2" width="3" height="5.6" rx=".8"/><rect x="24" y="3.4" width="2.4" height="5.2" rx=".8"/><rect x="42" y="3.6" width="2" height="4.8" rx=".8"/><rect x="58" y="3.8" width="1.8" height="4.4" rx=".8"/></g><circle cx="2" cy="6" r="2.6" fill="#2a2a30" stroke="#b9bcc4" stroke-width=".8"/></svg>`,
   spike: (l = 60, c = '#151515') => `<svg data-sp="art-spike" width="${l}" height="14" viewBox="0 0 60 14"><path d="M0 2 60 7 0 12Z" fill="${c}" stroke="#7a5cff" stroke-width=".8"/></svg>`,
   missile: () => `<svg data-sp="art-missile" width="46" height="14" viewBox="0 0 46 14"><path d="M8 3h28l8 4-8 4H8Z" fill="#9aa3ad" stroke="#555"/><path d="M8 3 3 0v14l5-3" fill="#6b737c"/><path d="M3 4-8 7 3 10Z" fill="#ff9a3c"/></svg>`,
   flame: (s = 40, c1 = '#000', c2 = '#7a2bd6') => `<svg data-sp="${flameKind(c1)}" width="${s}" height="${s * 1.3}" viewBox="0 0 40 52" class="ax-flicker"><path d="M20 52C6 52 0 42 4 30 7 22 12 18 12 8c6 4 10 10 10 16 2-4 2-8 1-12 9 6 15 16 13 26-2 10-8 14-16 14Z" fill="${c1}" stroke="${c2}" stroke-width="2.5"/></svg>`,
@@ -2486,7 +2488,7 @@ Object.assign(ANIMS, {
       const to = ctx.tos[0]; const g = ghostOf(ctx, ctx.from, 0.5);
       fly(ctx, g, ctx.from, between(ctx.from, to, 0.8), 240, { rotate: 0 }).then(() => fade(ctx, g, 200));
       const hit = lunge(ctx, to, 0.66, 520);
-      const s = spawn(ctx, ART.spike(80, '#0d0d0d'), ctx.from, { life: 1000 });
+      const s = spawn(ctx, ART.jashinSpike(90, '#0d0d0d'), ctx.from, { life: 1000 });
       await fly(ctx, s, ctx.from, between(hit, to, 0.7), 250, { ease: 'ease-in' });
       boom(ctx, to, '#8a1020', 90); shake(ctx); fade(ctx, s, 200);
     },
@@ -3245,7 +3247,7 @@ Object.assign(ANIMS, {
     desc: 'User stabs themself with a black spike.',
     async play(ctx) {
       const { h } = ctx.userSize; const at = { x: ctx.from.x, y: ctx.from.y };
-      const s = spawn(ctx, ART.spike(70, '#0d0d0d'), { x: at.x + (ctx.isFoe ? 60 : -60), y: at.y - h * 0.2 }, { life: 1200 });
+      const s = spawn(ctx, ART.jashinSpike(80, '#0d0d0d'), { x: at.x + (ctx.isFoe ? 60 : -60), y: at.y - h * 0.2 }, { life: 1200 });
       await fly(ctx, s, { x: at.x + (ctx.isFoe ? 60 : -60), y: at.y - h * 0.2 }, at, 260, { ease: 'ease-in' });
       boom(ctx, at, '#8a1020', 90); shakeEl(ctx.userEl); await wait(400 * ctx.sp); fade(ctx, s, 250);
     },
