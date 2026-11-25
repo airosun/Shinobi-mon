@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="120" height="200" viewBox="0 0 120 200">
+  <defs>
+    <linearGradient id="bark" x1="0" x2="1">
+      <stop offset="0" stop-color="#5a3a1e"/><stop offset=".45" stop-color="#8a5a30"/><stop offset="1" stop-color="#4a2f18"/>
+    </linearGradient>
+  </defs>
+  <ellipse cx="60" cy="192" rx="44" ry="7" fill="#0006"/>
+  <rect x="22" y="24" width="76" height="166" rx="10" fill="url(#bark)" stroke="#2e1d0e" stroke-width="3"/>
+  <path d="M34 40v130M50 32v150M70 36v140M86 44v120" stroke="#3b2612" stroke-width="2.5" stroke-linecap="round" opacity=".7"/>
+  <ellipse cx="60" cy="26" rx="38" ry="12" fill="#d9b27a" stroke="#2e1d0e" stroke-width="3"/>
+  <ellipse cx="60" cy="26" rx="24" ry="7" fill="none" stroke="#a87a44" stroke-width="2"/>
+  <ellipse cx="60" cy="26" rx="10" ry="3" fill="none" stroke="#a87a44" stroke-width="2"/>
+  <path d="M98 90q14 -6 16 -22" stroke="#4a2f18" stroke-width="7" stroke-linecap="round" fill="none"/>
+  <rect x="38" y="96" width="44" height="22" rx="2" fill="#f3e3b0" stroke="#b08a3a" stroke-width="2"/>
+  <path d="M46 107h28M60 100v14" stroke="#c0392b" stroke-width="2.5"/>
+</svg>

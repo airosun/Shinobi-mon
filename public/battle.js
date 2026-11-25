@@ -445,7 +445,7 @@
       const vols = (a.volatiles || []).map(v => `<span class="chip">${VOL[v] || v}</span>`).join('');
       // with a substitute up the shinobi stands back, dimmed, and a sand bag takes its spot
       const subbed = (a.volatiles || []).includes('substitute') && !a.fainted;
-      mons += `<div class="mon ${cls} p${pos} ${flags} ${subbed ? 'subbed' : ''}" id="mon-${n}-${pos}" ${pick}><div class="sprwrap" ${tip}><div class="spr">${sprite(battleLook(a), 'battle', !isFoe, a.gender)}</div>${subbed ? '<img class="subbag" src="/sprites/sand_bag.png" alt="Substitute">' : ''}${pickable ? '<span class="pick-hint">Tap to target</span>' : ''}</div></div>`;
+      mons += `<div class="mon ${cls} p${pos} ${flags} ${subbed ? 'subbed' : ''}" id="mon-${n}-${pos}" ${pick}><div class="sprwrap" ${tip}><div class="spr">${sprite(battleLook(a), 'battle', !isFoe, a.gender)}</div>${subbed ? '<img class="subbag" src="/images/substitute-log.svg" alt="Substitute">' : ''}${pickable ? '<span class="pick-hint">Tap to target</span>' : ''}</div></div>`;
       cards += `<div class="hpcard ${flags}" id="slot-${n}-${pos}" ${pick} ${tip}><div class="nm">${esc(a.name)} ${gsym(a.gender)} ${a.status ? `<span class="st st-${a.status}">${STATUSL[a.status]}</span>` : ''}<span class="grow"></span><span class="chips types">${(a.types || []).map(typeChip).join('')}</span></div>
           <div class="hpbar"><i style="width:${a.hpPct}%;background:${hpColor(a.hpPct)}"></i></div>
           <div class="hprow"><span class="hptext">${a.fainted || a.hpPct <= 0 ? 'Fainted' : a.hp !== undefined && !(rec(m.id) || {}).playing ? `${a.hp}/${a.maxhp} HP · ${a.hpPct}%` : a.hpPct + '%'}</span><span class="chips">${boosts}${vols}</span></div></div>`;

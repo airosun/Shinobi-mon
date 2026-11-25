@@ -104,7 +104,7 @@
     (async () => {
       await new Promise(r => setTimeout(r, after));
       if (!mon.isConnected) return;
-      mon.querySelector('.sprwrap').insertAdjacentHTML('beforeend', '<img class="subbag" src="/sprites/sand_bag.png" alt="Substitute">');
+      mon.querySelector('.sprwrap').insertAdjacentHTML('beforeend', '<img class="subbag" src="/images/substitute-log.svg" alt="Substitute">');
       mon.classList.add('subbed', 'sub-enter');
       await at(1900); if (!mon.isConnected) return;
       const bag = mon.querySelector('.subbag');
