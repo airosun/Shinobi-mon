@@ -105,6 +105,8 @@ function flameKind(c1) {
 }
 const ART = {
   star: (s = 26, c = '#c9ced6') => `<svg data-sp="art-star" width="${s}" height="${s}" viewBox="-10 -10 20 20" class="ax-spin"><path d="M0-10 2-2 10 0 2 2 0 10-2 2-10 0-2-2Z" fill="${c}" stroke="#555" stroke-width=".8"/><circle r="1.8" fill="#333"/></svg>`,
+  // Kaguya's All-Killing Ash Bone: a long, thin, ash-grey spear of bone (its own piece, so it can be redrawn apart from Kimimaro's)
+  ashBone: (l = 80) => `<svg data-sp="art-ashBone" width="${l}" height="14" viewBox="0 0 80 14"><path d="M0 7 Q8 3 20 4.5 L74 6.2 80 7 74 7.8 20 9.5 Q8 11 0 7Z" fill="#e4e2dc" stroke="#8f8b84" stroke-width="1.2"/><path d="M14 7H70" stroke="#b9b5ad" stroke-width=".8" stroke-dasharray="6 4"/><circle cx="5" cy="7" r="2.2" fill="#cfccc4" stroke="#8f8b84" stroke-width=".8"/></svg>`,
   bone: (l = 70) => `<svg data-sp="art-bone-1" width="${l}" height="16" viewBox="0 0 70 16"><path d="M0 8 Q30 1 70 8 Q30 15 0 8Z" fill="#f4f1e8" stroke="#cfc8b4"/></svg>`,
   spike: (l = 60, c = '#151515') => `<svg data-sp="art-spike" width="${l}" height="14" viewBox="0 0 60 14"><path d="M0 2 60 7 0 12Z" fill="${c}" stroke="#7a5cff" stroke-width=".8"/></svg>`,
   missile: () => `<svg data-sp="art-missile" width="46" height="14" viewBox="0 0 46 14"><path d="M8 3h28l8 4-8 4H8Z" fill="#9aa3ad" stroke="#555"/><path d="M8 3 3 0v14l5-3" fill="#6b737c"/><path d="M3 4-8 7 3 10Z" fill="#ff9a3c"/></svg>`,
@@ -190,7 +192,7 @@ export const ANIMS = {
     async play(ctx) {
       const to = ctx.tos[0];
       const hit = lunge(ctx, to, 0.6);
-      const b = spawn(ctx, ART.bone(80), ctx.from, { life: 900 });
+      const b = spawn(ctx, ART.ashBone(80), ctx.from, { life: 900 });
       fly(ctx, b, ctx.from, hit, 240, { ease: 'ease-in-out' });
       await wait(240 * ctx.sp);
       FX.fx(ctx.arena, 'slash', to);

@@ -1,7 +1,7 @@
 {
  "amaterasu": {"pieces": {"flame-black": {"dx": -7}}, "speed": 1},
  "arhat_fist": {"pieces": {"art-palm": {"scale": 120}}, "speed": 1},
- "ash_bones": {"pieces": {"art-bone-1": {"dx": 141}}, "speed": 1},
+ "ash_bones": {"pieces": {"art-ashBone": {"dx": 141}}, "speed": 1},
  "axe_arm": {"pieces": {"art-axe": {"scale": 186}}, "speed": 0.8},
  "black_panther": {"pieces": {"black_panther": {"rotate": 23, "scale": 142}}, "speed": 0.9},
  "blue_fire_claw": {"pieces": {"art-claw": {"dx": -5}}, "speed": 1},
