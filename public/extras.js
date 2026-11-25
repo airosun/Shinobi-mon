@@ -127,7 +127,7 @@
     let avatar = p.avatar; let color = p.color || 'classic';
     modal(`<h2>Edit your Shinobi Card</h2>
       <div class="field"><label>Rank</label><select id="tcR"><option value="">(no rank)</option>${(CARDCOLORS.CARD_RANKS || []).map(r => `<option value="${r[0]}" ${p.rank === r[0] ? 'selected' : ''}>${esc(r[1])}</option>`).join('')}</select></div>
-      <div class="field"><label>Title</label><input id="tcT" maxlength="32" value="${esc(p.title)}" placeholder="e.g. Hidden Leaf Prodigy"></div>
+      <div class="field"><label>Title</label><select id="tcT"><option value="">(no title)</option>${p.title && !(window.CARDTITLES?.CARD_TITLES || []).includes(p.title) ? `<option value="${esc(p.title)}" selected>${esc(p.title)} (current)</option>` : ''}${(window.CARDTITLES?.CARD_TITLE_GROUPS || []).map(([g, ts]) => `<optgroup label="${esc(g)}">${ts.map(t => `<option value="${esc(t)}" ${p.title === t ? 'selected' : ''}>${esc(t)}</option>`).join('')}</optgroup>`).join('')}</select></div>
       <div class="field"><label>About you</label><textarea id="tcB" maxlength="160" rows="2" class="paste" style="font-family:inherit">${esc(p.bio)}</textarea></div>
       <div class="field"><label>Showcase team</label><select id="tcF"><option value="">(none)</option>${S.elite.map((t, i) => `<option value="${i}" ${p.favoriteTeam && p.favoriteTeam.name === t.name ? 'selected' : ''}>${esc(t.name)} (${t.mons.length})</option>`).join('')}</select></div>
       <div class="field"><label>Card color</label><div class="color-swatches" id="tcColors"></div></div>

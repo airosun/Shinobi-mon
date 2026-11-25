@@ -39,7 +39,7 @@ app.get('/jutsu/img/index.json', (req, res) => {
 require('./studio').mountStudio(app);
 app.get('/studio', (req, res) => res.sendFile(path.join(__dirname, '..', 'public', 'studio', 'index.html')));
 app.use(express.static(path.join(__dirname, '..', 'public')));
-for (const f of ['typechart.js', 'dex.js', 'movetext.js', 'megas.js', 'genders.js', 'cardcolors.js']) app.get('/shared/' + f, (req, res) => res.sendFile(path.join(__dirname, '..', 'shared', f)));
+for (const f of ['typechart.js', 'dex.js', 'movetext.js', 'megas.js', 'genders.js', 'cardcolors.js', 'cardtitles.js']) app.get('/shared/' + f, (req, res) => res.sendFile(path.join(__dirname, '..', 'shared', f)));
 const dexPayload = JSON.stringify({ fighters: FIGHTERS, moves: MOVES, items: DEX.ITEMS, natures: DEX.NATURES, types: DEX.TYPES, chart: DEX.CHART, eviolite: DEX.EVIOLITE_USERS, renamed: DEX.RENAMED_ABILITIES, finalSmashes: MEGAS.FINAL_SMASHES, forms: MEGAS.FORMS, pass: { perDay: Pass.ROLLS_PER_DAY, keep: Pass.KEEP_PER_ROLL } });
 // hand-drawn sprites made by tools/process_sprites.py (public/sprites/<id>[_female|_male]_<front|back>.png)
 function drawnSprites() {
@@ -103,7 +103,7 @@ app.post('/api/account/profile', api(async (req, res) => {
   const me = await userFromCookie(store, req.headers.cookie);
   if (!me) return res.status(401).json({ error: 'Sign in first.' });
   const data = (await store.getData(me.id)).data;
-  const prof = sanitizeProfile(req.body, UserData.sanitize(data || {}));
+  const prof = sanitizeProfile(req.body, UserData.sanitize(data || {}), await store.getProfile(me.id));
   if (prof.error) return res.status(400).json({ error: prof.error });
   await store.setProfile(me.id, prof);
   const u = users.get('u:' + me.id); if (u) { u.avatar = prof.avatar; broadcastLobby(); }
