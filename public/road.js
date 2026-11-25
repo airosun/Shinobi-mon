@@ -53,7 +53,7 @@
       </section>
       <section class="card road-opt">
         <h2>Pick 6 shinobi you own</h2>
-        <p class="muted small">Choose 6 from your Battle Pass roster. They start with suggested moves and no items, and you can change both before floor 1.</p>
+        <p class="muted small">Choose 6 from your Ichiraku Ramen roster. They start with suggested moves and no items, and you can change both before floor 1.</p>
         ${S.roster.length >= 6 ? `<button class="primary" id="roadStartRoster">Choose shinobi</button>` : `<p class="small">You need at least 6 shinobi in your roster (you have ${S.roster.length}). Roll the <a href="#" data-goto="pass">Battle Pass</a>.</p>`}
       </section>
       <section class="card road-opt">

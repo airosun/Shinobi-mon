@@ -1,4 +1,4 @@
-// Battle Pass: 3 rolls per day (US Eastern day). Each roll shows 20 random heroes; the player keeps up to 5.
+// Ichiraku Ramen (MARVEL-mon's Battle Pass): 3 rolls per day (US Eastern day). Each roll shows 20 random shinobi; the player keeps up to 5.
 // Rolls are tracked per player: signed-in players by account ("u:<id>"), guests by browser id ("g:<id>").
 // State lives in the store (Postgres when DATABASE_URL is set), so restarts don't reset the day's rolls.
 const { rollPool, sign } = require('./engine/roster.js');
@@ -31,7 +31,7 @@ const status = key => locked(key, async () => view(await entry(key)));
 const roll = key => locked(key, async () => {
   const e = await entry(key);
   if (e.pending) return { pending: e.pending.fighters, rollsLeft: ROLLS_PER_DAY - e.used };
-  if (e.used >= ROLLS_PER_DAY) return { error: 'No Battle Pass rolls left today. Come back tomorrow!' };
+  if (e.used >= ROLLS_PER_DAY) return { error: 'No Ichiraku Ramen rolls left today. Come back tomorrow!' };
   e.used++;
   e.pending = { fighters: rollPool(20) };
   await store.setPass(key, e);
@@ -39,7 +39,7 @@ const roll = key => locked(key, async () => {
 });
 const claim = (key, uids) => locked(key, async () => {
   const e = await entry(key);
-  if (!e.pending) return { error: 'There is no Battle Pass roll to claim.' };
+  if (!e.pending) return { error: 'There is no Ichiraku Ramen roll to claim.' };
   uids = [...new Set(uids || [])];
   if (uids.length > KEEP_PER_ROLL) return { error: `You can keep up to ${KEEP_PER_ROLL} heroes.` };
   const chosen = e.pending.fighters.filter(f => uids.includes(f.uid));

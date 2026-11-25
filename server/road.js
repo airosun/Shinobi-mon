@@ -81,7 +81,7 @@ function start(key, { source, team, fighters } = {}) {
     } else if (source === 'roster') {
       if (!Array.isArray(fighters) || fighters.length !== 6) return { error: 'Pick 6 heroes from your roster.' };
       const errors = [];
-      if (fighters.some(f => !verify(f))) return { error: "Those heroes aren't all from your Battle Pass roster." };
+      if (fighters.some(f => !verify(f))) return { error: "Those shinobi aren't all from your Ichiraku Ramen roster." };
       sets = fighters.map(f => setFor(f, { moves: AI.chooseMoves(f, false), item: '' }, errors));
       checkClauses(sets, errors); if (errors.length) return { error: errors.join('\n') };
     } else if (source === 'random') {

@@ -47,6 +47,7 @@
         <ul class="about-list">
           <li><b>Formats (level 50):</b> <b>Singles</b> (bring 6, pick 3) and <b>Doubles</b> (bring 6, pick 4). In Doubles, jutsu that hit every foe deal 75% damage to each.</li>
           <li><b>Quick Match:</b> you get 20 random shinobi with random natures, IVs and either their ability or hidden ability. Pick 6, give each up to 4 jutsu and an item, see both teams, pick your lineup in secret, then battle.</li>
+          <li><b>Competitive:</b> order a bowl at ${goto('pass', 'Ichiraku Ramen')} each day (3 bowls, 20 random shinobi per bowl, keep up to 5) to collect a roster, build a ${goto('elite', 'Strike Squad')} of 6 with jutsu, items and genders set, then take it into battle.</li>
           <li><b>One version of each shinobi per team.</b> Naruto (Part I) and Naruto (Sage Mode) can't be on the same team. One of each item per team too.</li>
           <li>Play the <b>CPU</b> any time, or <b>Find opponent</b> to play another person. Player battles are timed (45 seconds a turn, a 7-minute time bank, a 20-minute game clock). CPU battles aren't.</li>
           <li>Every battle gets a <b>replay link</b>, and the ${goto('stats', 'Stats')} tab tracks usage.</li>

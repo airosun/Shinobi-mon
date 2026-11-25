@@ -412,6 +412,6 @@ io.on('connection', socket => {
 });
 
 store.init().then(() => {
-  if (store.kind === 'memory' && process.env.NODE_ENV === 'production') console.warn('DATABASE_URL is not set: accounts and Battle Pass rolls are kept in memory and will be lost on restart.');
+  if (store.kind === 'memory' && process.env.NODE_ENV === 'production') console.warn('DATABASE_URL is not set: accounts and Ichiraku Ramen rolls are kept in memory and will be lost on restart.');
   server.listen(PORT, () => console.log(`Shinobi-mon running on http://localhost:${PORT} (storage: ${store.kind})`));
 }).catch(e => { console.error('Could not connect to the database:', e.message); process.exit(1); });
