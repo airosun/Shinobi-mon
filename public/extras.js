@@ -88,15 +88,17 @@
     }).catch(() => { H.loading = false; });
   };
 
-  // ---------- Battler Cards ----------
+  // ---------- Shinobi Cards ----------
   const recordLine = r => { const w = r.wins, l = r.losses; return `${w}–${l}${r.ties ? '–' + r.ties : ''}${w + l ? ` <span class="muted">(${pct(w / (w + l))})</span>` : ''}`; };
+  const RANK = Object.fromEntries((CARDCOLORS.CARD_RANKS || []).map(r => [r[0], r]));
+  const rankChip = k => { const r = RANK[k]; return r ? `<div class="tc-rank" style="--rk:${r[2]}">${esc(r[1])}</div>` : ''; };
   U.cardHtml = (p, opts = {}) => {
     const avHtml = U.avatarSprite(p.avatar, 'lg');
     const team = p.favoriteTeam;
     const c = CARDCOLORS.CARD_COLORS[p.color] || CARDCOLORS.CARD_COLORS.classic;
     return `<div class="trainer-card" style="background:linear-gradient(135deg, ${c[1]}, ${c[2]} 55%, ${c[3]});border-color:${c[4]}66;--tc-accent:${c[4]}">
       <div class="tc-top"><div class="tc-avatar">${avHtml || `<div class="tc-blank">${esc(p.username[0].toUpperCase())}</div>`}</div>
-        <div class="grow"><div class="tc-name">${esc(p.username)}</div>${p.title ? `<div class="tc-title">${esc(p.title)}</div>` : ''}
+        <div class="grow"><div class="tc-name">${esc(p.username)}</div>${rankChip(p.rank)}${p.title ? `<div class="tc-title">${esc(p.title)}</div>` : ''}
           <div class="muted small">${p.joined ? 'Joined ' + new Date(p.joined).toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' }) + ' · ' : ''}${p.battles} battle${p.battles === 1 ? '' : 's'}</div></div>
         ${opts.edit ? '<button class="small" id="tcEdit">Edit card</button>' : ''}</div>
       ${p.bio ? `<div class="tc-bio">${esc(p.bio)}</div>` : ''}
@@ -109,7 +111,7 @@
   U.editCard = editCard;
   // avatar values: "pichu", or "pichu~F" for an alternate-gender sprite
   U.avatarSprite = (avatar, cls) => { if (!avatar) return ''; const [id, g] = String(avatar).split('~'); return S.byId[id] ? sprite(S.byId[id], cls, false, g || null) : ''; };
-  U.loadMyCard = async () => { const r = await fetch('/api/profile/' + encodeURIComponent(S.account.username), { credentials: 'same-origin' }); const j = await r.json(); if (!r.ok) throw new Error(j.error || 'Could not load your Battler Card.'); return j; };
+  U.loadMyCard = async () => { const r = await fetch('/api/profile/' + encodeURIComponent(S.account.username), { credentials: 'same-origin' }); const j = await r.json(); if (!r.ok) throw new Error(j.error || 'Could not load your Shinobi Card.'); return j; };
   U.showProfile = async name => {
     modal('<div class="muted">Loading…</div>');
     try { const r = await fetch('/api/profile/' + encodeURIComponent(name)); const p = await r.json(); if (!r.ok) throw new Error(p.error);
@@ -123,7 +125,8 @@
     const allIds = [...S.dex.fighters.map(f => f.id), ...Object.values(S.dex.finalSmashes).map(x => x.id)].flatMap(id => [id, ...alts(id)]);
     const avName = a => { const [id, g] = a.split('~'); return S.byId[id].name + (g ? (g === 'F' ? ' (female)' : ' (male)') : ''); };
     let avatar = p.avatar; let color = p.color || 'classic';
-    modal(`<h2>Edit your Battler Card</h2>
+    modal(`<h2>Edit your Shinobi Card</h2>
+      <div class="field"><label>Rank</label><select id="tcR"><option value="">(no rank)</option>${(CARDCOLORS.CARD_RANKS || []).map(r => `<option value="${r[0]}" ${p.rank === r[0] ? 'selected' : ''}>${esc(r[1])}</option>`).join('')}</select></div>
       <div class="field"><label>Title</label><input id="tcT" maxlength="32" value="${esc(p.title)}" placeholder="e.g. Hidden Leaf Prodigy"></div>
       <div class="field"><label>About you</label><textarea id="tcB" maxlength="160" rows="2" class="paste" style="font-family:inherit">${esc(p.bio)}</textarea></div>
       <div class="field"><label>Showcase team</label><select id="tcF"><option value="">(none)</option>${S.elite.map((t, i) => `<option value="${i}" ${p.favoriteTeam && p.favoriteTeam.name === t.name ? 'selected' : ''}>${esc(t.name)} (${t.mons.length})</option>`).join('')}</select></div>
@@ -138,10 +141,10 @@
     $('#tcCancel').onclick = () => { closeModal(); if (opts.after) opts.after(); };
     $('#tcSave').onclick = async () => {
       const fav = $('#tcF').value;
-      const r = await fetch('/api/account/profile', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ color, avatar, title: $('#tcT').value, bio: $('#tcB').value, favoriteTeam: fav === '' ? null : +fav }) });
+      const r = await fetch('/api/account/profile', { method: 'POST', headers: { 'Content-Type': 'application/json' }, credentials: 'same-origin', body: JSON.stringify({ color, avatar, rank: $('#tcR').value || null, title: $('#tcT').value, bio: $('#tcB').value, favoriteTeam: fav === '' ? null : +fav }) });
       const j = await r.json().catch(() => ({}));
       if (!r.ok) { $('#tcErr').textContent = j.error || 'Could not save your card.'; return; }
-      closeModal(); toast('Battler Card saved.'); if (S.tab === 'stats') U.renderStats(); if (opts.after) opts.after();
+      closeModal(); toast('Shinobi Card saved.'); if (S.tab === 'stats') U.renderStats(); if (opts.after) opts.after();
     };
   }
 
@@ -149,7 +152,7 @@
   S.statsView = S.statsView || { format: '', days: 30 };
   U.renderStats = async () => {
     const v = S.statsView;
-    $('#view').innerHTML = `<div class="stats-page">${S.account ? '<section class="card" id="stCard"><div class="muted">Loading your Battler Card…</div></section>' : ''}<section class="card" id="stMe"><h2>Your record</h2><div class="muted">Loading…</div></section>
+    $('#view').innerHTML = `<div class="stats-page">${S.account ? '<section class="card" id="stCard"><div class="muted">Loading your Shinobi Card…</div></section>' : ''}<section class="card" id="stMe"><h2>Your record</h2><div class="muted">Loading…</div></section>
       <section class="card"><div class="row"><h2 class="grow" style="margin:0">Shinobi usage</h2>
         <select id="stFmt"><option value="">All formats</option><option value="singles">Singles</option><option value="doubles">Doubles</option></select>
         <select id="stDays"><option value="today">Today</option><option value="7">Last 7 days</option><option value="30">Last 30 days</option><option value="90">Last 90 days</option><option value="all">All time</option></select></div>
@@ -164,7 +167,7 @@
     if (S.account && $('#stCard')) {
       const c = await get('/api/profile/' + encodeURIComponent(S.account.username));
       if (S.tab !== 'stats') return;
-      $('#stCard').innerHTML = c.ok ? `<h2>Your Battler Card</h2>${U.cardHtml(c.data, { edit: true })}<p class="muted small">Other players see this when they tap your name in the Online list.</p>` : '<div class="muted">Could not load your card.</div>';
+      $('#stCard').innerHTML = c.ok ? `<h2>Your Shinobi Card</h2>${U.cardHtml(c.data, { edit: true })}<p class="muted small">Other players see this when they tap your name in the Online list.</p>` : '<div class="muted">Could not load your card.</div>';
       const ed = $('#tcEdit'); if (ed) ed.onclick = () => editCard(c.data);
     }
     const meEl = $('#stMe');

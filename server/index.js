@@ -86,12 +86,12 @@ app.get('/api/stats/usage', api(async (req, res) => {
   usageCache.set(key, { t: Date.now(), v });
   res.json(v);
 }));
-// ---------- Battler Cards ----------
+// ---------- Shinobi Cards ----------
 async function publicProfile(user) {
   const [prof, sides, road] = await Promise.all([store.getProfile(user.id), store.userSides(user.id), Road.bestOf('u:' + user.id)]);
   const p = cleanForDisplay(prof) || {};
   const rec = Stats.record(sides);
-  return { username: user.username, joined: user.created_at || null, color: p.color || 'classic', avatar: p.avatar || null, title: p.title || '', bio: p.bio || '', favoriteTeam: p.favoriteTeam || null,
+  return { username: user.username, joined: user.created_at || null, color: p.color || 'classic', rank: p.rank || null, avatar: p.avatar || null, title: p.title || '', bio: p.bio || '', favoriteTeam: p.favoriteTeam || null,
     record: { total: rec.total, pvp: rec.pvp }, battles: sides.length, top: Stats.fighterTable(sides).slice(0, 3), road };
 }
 app.get('/api/profile/:username', api(async (req, res) => {

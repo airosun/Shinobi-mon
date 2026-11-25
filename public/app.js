@@ -46,7 +46,7 @@
   const typeChip = t => `<span class="type" style="background:var(--t-${t})">${t}</span>`;
   // Which picture to show for a shinobi. Hand-drawn sprites (public/sprites/, see tools/process_sprites.py)
   // are only used for shinobi standing on the battlefield (sprite class "battle"); everywhere else
-  // (Shinobidex, Battler Cards, menus, team builder) keeps the official art in public/images/.
+  // (Shinobidex, Shinobi Cards, menus, team builder) keeps the official art in public/images/.
   //   back = true: the player's own shinobi in battle (back view; the original image is mirrored)
   //   gender: picks the alternate-gender art when that gender has its own
   const USE_DRAWN_BACKS = true;
@@ -205,8 +205,8 @@
   function reconnect() { socket.disconnect(); socket.connect(); }
   function accountModal(tab = 'in') {
     if (S.account) {
-      modal(`<div id="acCard"><div class="muted">Loading your Battler Card…</div></div>
-        <div class="row" style="margin-top:8px"><button class="small" id="acEditCard" disabled>Edit Battler Card</button><span class="grow"></span></div>
+      modal(`<div id="acCard"><div class="muted">Loading your Shinobi Card…</div></div>
+        <div class="row" style="margin-top:8px"><button class="small" id="acEditCard" disabled>Edit Shinobi Card</button><span class="grow"></span></div>
         <p class="muted small">Your roster, Strike Squads and Battle Pass rolls are saved to this account, so they follow you to any device.</p>
         <details class="pw"><summary>Change password</summary>
           <div class="field"><label>Current password</label><input id="pwCur" type="password" autocomplete="current-password"></div>

@@ -1,9 +1,10 @@
-// Battler Cards: a signed-in player's avatar, title, short bio and a showcased Strike Squad.
+// Shinobi Cards: a signed-in player's avatar, title, short bio and a showcased Strike Squad.
 const FIGHTERS = require('../shared/fighters.json');
 const { FINAL_SMASHES, FORMS } = require('../shared/megas.js');
 const GENDER = require('../shared/genders.js');
 const { isClean, mask } = require('./moderation.js');
-const { CARD_COLORS } = require('../shared/cardcolors.js');
+const { CARD_COLORS, CARD_RANKS } = require('../shared/cardcolors.js');
+const RANKS = new Set(CARD_RANKS.map(r => r[0]));
 // avatars: any hero, Ultimate form or battle form (Bruce Banner), plus "id~F" / "id~M" for the alternate-gender sprites
 const AVATARS = new Set([...FIGHTERS.map(f => f.id), ...Object.values(FINAL_SMASHES).map(x => x.id), ...Object.keys(FORMS)]);
 for (const [id, g] of Object.entries(GENDER.GENDERS)) for (const sex of Object.keys(g.images || {})) AVATARS.add(`${id}~${sex}`);
@@ -13,7 +14,7 @@ const text = (v, n) => String(v == null ? '' : v).replace(/[<>]/g, '').replace(/
 // userData: the player's saved roster/teams (already signature-checked)
 function sanitizeProfile(input, userData) {
   input = input || {};
-  const out = { color: CARD_COLORS[input.color] ? input.color : 'classic', avatar: AVATARS.has(input.avatar) ? input.avatar : null, title: text(input.title, 32), bio: text(input.bio, 160), favoriteTeam: null };
+  const out = { color: CARD_COLORS[input.color] ? input.color : 'classic', rank: RANKS.has(input.rank) ? input.rank : null, avatar: AVATARS.has(input.avatar) ? input.avatar : null, title: text(input.title, 32), bio: text(input.bio, 160), favoriteTeam: null };
   const i = input.favoriteTeam;
   const teams = (userData && userData.elite) || [];
   if (Number.isInteger(i) && teams[i]) {

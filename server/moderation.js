@@ -1,4 +1,4 @@
-// Blocks curse words and slurs in player-written text (Battler Cards). Uses the "obscenity" library's
+// Blocks curse words and slurs in player-written text (Shinobi Cards). Uses the "obscenity" library's
 // English word list, which also catches disguised spellings (leetspeak, repeated or swapped letters).
 const { RegExpMatcher, TextCensor, DataSet, pattern, englishDataset, englishRecommendedTransformers } = require('obscenity');
 
