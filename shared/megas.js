@@ -63,7 +63,7 @@
      "spd": 102,
      "spe": 105
     },
-    "image": null,
+    "image": "naruto-sage-mode-aura.webp",
     "ability": {
      "name": "Sage Mode",
      "desc": "Sage moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops."
@@ -611,7 +611,7 @@
      "spd": 76,
      "spe": 100
     },
-    "image": null,
+    "image": "anko-curse-mark-of-heaven.webp",
     "ability": {
      "name": "Curse Mark of Heaven",
      "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."

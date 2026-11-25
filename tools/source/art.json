@@ -8,7 +8,8 @@
   "transform": "naruto-four-tails-cloak.webp"
  },
  "naruto_sage": {
-  "front": "naruto-sage-mode.webp"
+  "front": "naruto-sage-mode.webp",
+  "transform": "naruto-sage-mode-aura.webp"
  },
  "naruto_war": {
   "front": "naruto-kurama-link-mode.webp",
@@ -191,7 +192,8 @@
   "front": "haku.webp"
  },
  "anko": {
-  "front": "anko.webp"
+  "front": "anko.webp",
+  "transform": "anko-curse-mark-of-heaven.webp"
  },
  "danzo": {
   "front": "danzo.webp"
