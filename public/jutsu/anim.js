@@ -3337,7 +3337,7 @@ async function boulderRoll(ctx, spiked) {
 function shadowTo(ctx, el, ms = 420) { return stretch(ctx, feetOf(ctx, ctx.userEl), feetOf(ctx, el), shadowStrip, ms, 2400); }
 function sandWave(ctx, a, b, w, h, ms = 520, water = false) {
   const bg = water ? 'radial-gradient(ellipse at 50% 30%,#e6f7ff,#7ec8ff 50%,#2a7ad8);box-shadow:0 0 16px #4ab0ff' : 'radial-gradient(ellipse at 50% 30%,#f2deb0,#d9b56a 50%,#a8864e);box-shadow:0 0 14px #c9a86b';
-  const wv = spawn(ctx, `<div data-sp="sandWave" style="width:${w}px;height:${h}px;border-radius:50% 50% 20% 20%;background:${bg}"></div>`, a, { life: ms + 1200 });
+  const wv = spawn(ctx, `<div data-sp="${water ? 'waterWave' : 'sandWave'}" style="width:${w}px;height:${h}px;border-radius:50% 50% 20% 20%;background:${bg}"></div>`, a, { life: ms + 1200 });
   return fly(ctx, wv, a, b, ms, { rotate: 0, scale: [0.1, 1], ease: 'ease-in' }).then(() => wv);
 }
 const sandGrains = (ctx, at, spread, n = 30) => Array.from({ length: n }, () => { const d = spawn(ctx, `<div data-sp="sandGrains" style="width:${rnd(4, 8)}px;height:${rnd(4, 8)}px;border-radius:50%;background:#d9b56a"></div>`, { x: at.x + rnd(-spread, spread), y: at.y + rnd(-spread * 0.4, spread * 0.4) }, { life: 1200 }); return d; });
