@@ -90,6 +90,23 @@ async function test(name, fn) { try { await fn(); passed++; console.log('ok  ', 
     assert(/Minato/.test(used[0]), 'faster shinobi moves first');
   });
 
+  await test('every ability has its own effect; new lore effects work', () => {
+    const seen = new Map();
+    const canon = v => v && typeof v === 'object' && !Array.isArray(v) ? '{' + Object.keys(v).sort().map(k => k + ':' + canon(v[k])).join(',') + '}' : JSON.stringify(v);
+    for (const [n, sp] of Object.entries(ABILITIES)) { const k = canon(sp); assert(!seen.has(k), `${n} duplicates ${seen.get(k)}`); seen.set(k, n); }
+    // Kurenai's genjutsu on entry
+    let b = battle([mk('kurenai', ['Substitution Jutsu'])], [mk('naruto-p1', ['Rasengan'])]);
+    assert(b.sides[1].team[0].v.confusion, 'Genjutsu Mistress confuses on entry');
+    // Shino's insects drain every turn
+    b = battle([mk('shino-p1', ['Substitution Jutsu'])], [mk('naruto-p1', ['Substitution Jutsu'])]);
+    b.choose(0, mv(0)); b.choose(1, mv(0));
+    assert(b.sides[1].team[0].hp < b.sides[1].team[0].maxhp, 'Kikaichu Host drains');
+    // Hidan shares the pain
+    b = battle([mk('hidan', ['Kunai & Shuriken'], { ability: 'Blood Price' })], [mk('raikage-a', ['Kunai & Shuriken'])]);
+    b.choose(0, mv(0)); b.choose(1, mv(0));
+    assert(b.sides[1].team[0].hp < b.sides[1].team[0].maxhp, 'Blood Price reflects damage');
+  });
+
   await test('roster signatures detect tampering', () => {
     const f = sign(genFighter('itachi'));
     assert(verify(f));

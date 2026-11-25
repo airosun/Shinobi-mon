@@ -21,8 +21,8 @@
     },
     "image": "naruto-part-1-nine-tails-cloak.webp",
     "ability": {
-     "name": "Nine-Tails Cloak (One Tail)",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "name": "Nine-Tails Cloak",
+     "desc": "Attackers that make contact lose 1/8 of their max HP. Restores 1/16 of its max HP at the end of every turn."
     }
    },
    "Nine-Tails Cloak (Four Tails)": {
@@ -43,8 +43,8 @@
     },
     "image": "naruto-four-tails-cloak.webp",
     "ability": {
-     "name": "Nine-Tails Cloak (Four Tails)",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "name": "Four-Tails Rampage",
+     "desc": "Attack and Sp. Atk are 1.3x. Attackers that make contact lose 1/8 of their max HP. Loses 1/16 of its max HP after each attack."
     }
    },
    "Sage Mode (Naruto)": {
@@ -65,8 +65,8 @@
     },
     "image": "naruto-sage-mode-aura.webp",
     "ability": {
-     "name": "Sage Mode",
-     "desc": "Sage moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops."
+     "name": "Frog Kumite",
+     "desc": "Contact moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops. Its attacks never make contact, so contact abilities and Rocky Helmet don't hurt it."
     }
    },
    "Sage of Six Paths Mode": {
@@ -87,8 +87,8 @@
     },
     "image": "naruto-sage-of-six-paths.webp",
     "ability": {
-     "name": "Sage of Six Paths Mode",
-     "desc": "Sage moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops."
+     "name": "Truth-Seeking Balls",
+     "desc": "Sage and Beast moves deal 1.3x damage. Takes 15% less damage from all attacks."
     }
    },
    "Curse Mark (Level 1)": {
@@ -109,8 +109,8 @@
     },
     "image": "sasuke-part-1-curse-mark.webp",
     "ability": {
-     "name": "Curse Mark (Level 1)",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "name": "Cursed Seal of Heaven",
+     "desc": "Sp. Atk and Speed are 1.2x. Loses 1/16 of its max HP after each attack."
     }
    },
    "Curse Mark (Level 2) (Sasuke)": {
@@ -131,8 +131,8 @@
     },
     "image": "sasuke-shippuden-curse-mark.webp",
     "ability": {
-     "name": "Curse Mark (Level 2)",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "name": "Cursed Seal: Level Two",
+     "desc": "Attack and Sp. Atk are 1.2x. Lightning moves deal 1.2x damage. Loses 1/16 of its max HP after each attack."
     }
    },
    "Susano'o (Sasuke)": {
@@ -153,8 +153,8 @@
     },
     "image": "sasuke-susanoo.webp",
     "ability": {
-     "name": "Susano'o",
-     "desc": "Takes 20% less damage from all attacks. Weapon moves deal 1.2x damage."
+     "name": "Susano'o: Arrow of Flame",
+     "desc": "Takes 20% less damage from all attacks. Fire moves deal 1.3x damage."
     }
    },
    "Rinne-Sharingan": {
@@ -175,8 +175,8 @@
     },
     "image": "sasuke-rinne-sharingan.webp",
     "ability": {
-     "name": "Rinne-Sharingan",
-     "desc": "Its moves go through Substitutes and screens. Yin moves deal 1.3x damage."
+     "name": "Amenotejikara",
+     "desc": "Its moves ignore the target's ability. Lightning moves deal 1.3x damage."
     }
    },
    "Strength of a Hundred Seal (Sakura)": {
@@ -197,7 +197,7 @@
     },
     "image": "sakura-strength-of-a-hundred.webp",
     "ability": {
-     "name": "Strength of a Hundred Seal",
+     "name": "Hundred Healings",
      "desc": "Restores 1/8 of its max HP at the end of every turn. Punching moves deal 1.3x damage."
     }
    },
@@ -219,8 +219,8 @@
     },
     "image": "kakashi-mangekyo.webp",
     "ability": {
-     "name": "Mangekyō Sharingan",
-     "desc": "Its moves go through Substitutes and screens. Yin moves deal 1.3x damage."
+     "name": "Kamui Warp",
+     "desc": "Its moves go through Substitutes and screens. Yin moves deal 1.3x damage. Its moves are more likely to land critical hits."
     }
    },
    "Perfect Susano'o (Kakashi)": {
@@ -241,8 +241,8 @@
     },
     "image": "kakashi-perfect-susanoo.webp",
     "ability": {
-     "name": "Perfect Susano'o",
-     "desc": "Takes 20% less damage from all attacks. Weapon moves deal 1.2x damage."
+     "name": "Perfect Susano'o: Lightning",
+     "desc": "Lightning moves deal 1.3x damage. Takes 15% less damage from all attacks. Its moves go through Substitutes and screens."
     }
    },
    "Twin Lion Fists": {
@@ -264,7 +264,7 @@
     "image": "hinata-twin-lion-fist.webp",
     "ability": {
      "name": "Twin Lion Fists",
-     "desc": "Punching moves deal 1.3x damage."
+     "desc": "Punching moves deal 1.3x damage. Its attacks may lower the target's Sp. Atk by 1 stage (30%)."
     }
    },
    "Eight Inner Gates (Fifth Gate)": {
@@ -285,7 +285,7 @@
     },
     "image": "rock-lee-gates.webp",
     "ability": {
-     "name": "Eight Inner Gates (Fifth Gate)",
+     "name": "Gate of Closing",
      "desc": "Its Speed rises by 1 stage at the end of every turn. Contact moves deal 1.2x damage."
     }
    },
@@ -307,8 +307,8 @@
     },
     "image": "rock-lee-shippuden-gates.webp",
     "ability": {
-     "name": "Eight Inner Gates (Sixth Gate)",
-     "desc": "Its Speed rises by 1 stage at the end of every turn. Contact moves deal 1.2x damage."
+     "name": "Morning Peacock",
+     "desc": "Attack are 1.3x. Fire moves deal 1.3x damage. Loses 1/16 of its max HP after each attack."
     }
    },
    "Eight Gates: Gate of Death": {
@@ -329,8 +329,8 @@
     },
     "image": "might-guy-gates.webp",
     "ability": {
-     "name": "Eight Gates: Gate of Death",
-     "desc": "Its Speed rises by 1 stage at the end of every turn. Contact moves deal 1.3x damage. Loses 10% of its max HP after each attack."
+     "name": "Night Guy",
+     "desc": "Attack and Speed are 1.5x. Loses 1/8 of its max HP after each attack."
     }
    },
    "Man Beast Clone: Two-Headed Wolf": {
@@ -350,8 +350,8 @@
     },
     "image": "kiba-two-headed-wolf.webp",
     "ability": {
-     "name": "Man Beast Clone: Two-Headed Wolf",
-     "desc": "Its attacks hit a second time for 25% damage."
+     "name": "Two-Headed Wolf",
+     "desc": "Biting moves deal 1.5x damage. Its attacks hit a second time for 25% damage."
     }
    },
    "Three Colored Pills (Curry Pill)": {
@@ -372,8 +372,8 @@
     },
     "image": "choji-butterfly.webp",
     "ability": {
-     "name": "Three Colored Pills (Curry Pill)",
-     "desc": "Attack are 1.3x."
+     "name": "Curry Pill",
+     "desc": "Attack are 1.4x. Loses 1/16 of its max HP after each attack."
     }
    },
    "Butterfly Mode": {
@@ -416,7 +416,7 @@
     "image": "gaara-partial-shukaku.webp",
     "ability": {
      "name": "Partial Shukaku",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Magnet moves deal 1.3x damage. Attack are 1.2x. Can't be put to sleep."
     }
    },
    "Eight Branches Technique (Orochimaru)": {
@@ -437,8 +437,8 @@
     },
     "image": "orochimaru-snake-form.webp",
     "ability": {
-     "name": "Eight Branches Technique",
-     "desc": "Restores 1/3 of its max HP when it switches out. Beast moves deal 1.2x damage."
+     "name": "Eight Branches",
+     "desc": "Beast moves deal 1.3x damage. Takes 20% less damage from special moves."
     }
    },
    "Eight Branches Technique (Orochimaru, Shippuden)": {
@@ -459,8 +459,8 @@
     },
     "image": "orochimaru-eight-branches.webp",
     "ability": {
-     "name": "Eight Branches Technique",
-     "desc": "Restores 1/3 of its max HP when it switches out. Beast moves deal 1.2x damage."
+     "name": "Eight Branches",
+     "desc": "Beast moves deal 1.3x damage. Takes 20% less damage from special moves."
     }
    },
    "Dragon Sage Mode": {
@@ -482,7 +482,7 @@
     "image": "kabuto-dragon-sage-mode.webp",
     "ability": {
      "name": "Dragon Sage Mode",
-     "desc": "Sage moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops."
+     "desc": "Sage and Beast moves deal 1.3x damage. Reflects status moves back at the user."
     }
    },
    "Curse Mark (Level 2) (Jirobo)": {
@@ -503,8 +503,8 @@
     },
     "image": "jirobo-curse-mark.webp",
     "ability": {
-     "name": "Curse Mark (Level 2)",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "name": "Cursed Seal: Earth Fist",
+     "desc": "Attack are 1.3x. Punching moves deal 1.2x damage. Loses 1/16 of its max HP after each attack."
     }
    },
    "Curse Mark (Level 2) (Kidomaru)": {
@@ -525,8 +525,8 @@
     },
     "image": "kidomaru-curse-mark.webp",
     "ability": {
-     "name": "Curse Mark (Level 2)",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "name": "Cursed Seal: Golden Arrow",
+     "desc": "Critical hits deal 2.25x damage instead of 1.5x. Its moves are more likely to land critical hits. Loses 1/16 of its max HP after each attack."
     }
    },
    "Curse Mark (Level 2) (Sakon)": {
@@ -547,8 +547,8 @@
     },
     "image": "sakon-ukon-curse-mark.webp",
     "ability": {
-     "name": "Curse Mark (Level 2)",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "name": "Cursed Seal: Rashomon",
+     "desc": "Defense and Attack are 1.3x. Loses 1/16 of its max HP after each attack."
     }
    },
    "Curse Mark (Level 2) (Tayuya)": {
@@ -569,8 +569,8 @@
     },
     "image": "tayuya-curse-mark.webp",
     "ability": {
-     "name": "Curse Mark (Level 2)",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "name": "Cursed Seal: Doki",
+     "desc": "Yin moves deal 1.3x damage. Its moves' added effects are twice as likely. Loses 1/16 of its max HP after each attack."
     }
    },
    "Curse Mark (Level 2) (Kimimaro)": {
@@ -591,8 +591,8 @@
     },
     "image": "kimimaro-curse-mark.webp",
     "ability": {
-     "name": "Curse Mark (Level 2)",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "name": "Cursed Seal: Bone Armor",
+     "desc": "Takes 40% less damage from physical moves. Slicing moves deal 1.3x damage."
     }
    },
    "Curse Mark of Heaven": {
@@ -614,7 +614,7 @@
     "image": "anko-curse-mark-of-heaven.webp",
     "ability": {
      "name": "Curse Mark of Heaven",
-     "desc": "Attack and Sp. Atk are 1.2x. Loses 10% of its max HP after each attack."
+     "desc": "Attack and Sp. Atk are 1.15x. Deals 1.3x damage to targets with a status condition."
     }
    },
    "Samehada Fusion": {
@@ -636,7 +636,7 @@
     "image": "kisame-fused.webp",
     "ability": {
      "name": "Samehada Fusion",
-     "desc": "Contact moves heal 1/4 of the damage dealt. Water moves deal 1.2x damage."
+     "desc": "Water moves deal 1.3x damage. On entry, makes it rain for 5 turns (Water moves 1.5x, Fire moves 0.5x). Contact moves heal 1/4 of the damage dealt."
     }
    },
    "Susano'o (Itachi)": {
@@ -657,8 +657,8 @@
     },
     "image": "itachi-susanoo.webp",
     "ability": {
-     "name": "Susano'o",
-     "desc": "Takes 20% less damage from all attacks. Weapon moves deal 1.2x damage."
+     "name": "Susano'o: Yata Mirror",
+     "desc": "Takes 25% less damage from all attacks. Reflects status moves back at the user."
     }
    },
    "Death Possession Blood": {
@@ -680,7 +680,7 @@
     "image": "hidan-death-possession-blood.webp",
     "ability": {
      "name": "Death Possession Blood",
-     "desc": "Contact moves heal 1/4 of the damage dealt. Only takes damage from attacks (no poison, burn, recoil or hazard damage)."
+     "desc": "Whenever a foe damages it, the attacker takes 50% of that damage too. Only takes damage from attacks (no poison, burn, recoil or hazard damage)."
     }
    },
    "Earth Grudge Fear Masks": {
@@ -702,7 +702,7 @@
     "image": "kakuzu-earth-grudge.webp",
     "ability": {
      "name": "Earth Grudge Fear Masks",
-     "desc": "Restores 1/4 of its max HP whenever it knocks out a foe. Earth moves deal 1.2x damage."
+     "desc": "Earth and Fire and Wind and Lightning and Water moves deal 1.2x damage."
     }
    },
    "Human Puppet Body": {
@@ -723,8 +723,8 @@
     },
     "image": "sasori-puppet-form.webp",
     "ability": {
-     "name": "Human Puppet Body",
-     "desc": "Can't be poisoned, put to sleep, burned. Contact with it may cause poison (30%)."
+     "name": "Scorpion Body",
+     "desc": "Can't be poisoned, put to sleep, burned, paralyzed. Its attacks never make contact, so contact abilities and Rocky Helmet don't hurt it. Weapon moves deal 1.2x damage."
     }
    },
    "Paper Angel": {
@@ -768,7 +768,7 @@
     "image": "jugo-sage-mode.webp",
     "ability": {
      "name": "Sage Transformation",
-     "desc": "Sage moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops."
+     "desc": "Sage and Weapon moves deal 1.3x damage. Attack are 1.2x."
     }
    },
    "Sage Mode (Hashirama)": {
@@ -789,8 +789,8 @@
     },
     "image": "hashirama-sage-mode.webp",
     "ability": {
-     "name": "Sage Mode",
-     "desc": "Sage moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops."
+     "name": "Sage Art: Wood Release",
+     "desc": "Wood and Sage moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
     }
    },
    "Nine-Tails Chakra Mode": {
@@ -812,7 +812,7 @@
     "image": "minato-nine-tails-chakra.webp",
     "ability": {
      "name": "Nine-Tails Chakra Mode",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Wind and Beast moves deal 1.2x damage. Speed are 1.2x."
     }
    },
    "Strength of a Hundred Seal (Tsunade)": {
@@ -833,8 +833,8 @@
     },
     "image": "tsunade-hundred-healings.webp",
     "ability": {
-     "name": "Strength of a Hundred Seal",
-     "desc": "Restores 1/8 of its max HP at the end of every turn. Punching moves deal 1.3x damage."
+     "name": "Creation Rebirth",
+     "desc": "Restores 1/6 of its max HP at the end of every turn. Attack are 1.2x."
     }
    },
    "Sage Mode (Jiraiya)": {
@@ -855,8 +855,8 @@
     },
     "image": "jiraiya-sage-mode.webp",
     "ability": {
-     "name": "Sage Mode",
-     "desc": "Sage moves deal 1.3x damage. Ignores the target's evasion boosts and its own accuracy drops."
+     "name": "Two Great Sage Toads",
+     "desc": "Sage and Fire moves deal 1.3x damage. On entry, lowers the foes' accuracy by 1 stage."
     }
    },
    "Eight-Tails Full Form": {
@@ -878,7 +878,7 @@
     "image": "gyuki.webp",
     "ability": {
      "name": "Eight-Tails Full Form",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Beast moves deal 1.2x damage. Multi-hit moves always hit the maximum number of times. Takes 20% less damage from physical moves."
     }
    },
    "Three-Tails Isobu": {
@@ -900,7 +900,7 @@
     "image": "isobu.webp",
     "ability": {
      "name": "Three-Tails Isobu",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Takes 25% less damage from all attacks. Water moves deal 1.2x damage."
     }
    },
    "Ten Tails Jinchuriki": {
@@ -921,8 +921,8 @@
     },
     "image": "obito-ten-tails.webp",
     "ability": {
-     "name": "Ten Tails Jinchuriki",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "name": "Ten-Tails Jinchuriki",
+     "desc": "Beast moves deal 1.3x damage. Foes use 2 PP per move against it. Only takes damage from attacks (no poison, burn, recoil or hazard damage)."
     }
    },
    "Perfect Susano'o (Madara)": {
@@ -943,8 +943,8 @@
     },
     "image": "madara-perfect-susanoo.webp",
     "ability": {
-     "name": "Perfect Susano'o",
-     "desc": "Takes 20% less damage from all attacks. Weapon moves deal 1.2x damage."
+     "name": "Perfect Susano'o: Madara",
+     "desc": "Takes 30% less damage from all attacks. Moves with added effects deal 1.3x damage, but the added effects are lost."
     }
    },
    "Seven-Tails Chomei": {
@@ -966,7 +966,7 @@
     "image": "chomei.webp",
     "ability": {
      "name": "Seven-Tails Chomei",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Wind and Beast moves deal 1.2x damage. On entry, lowers the foes' accuracy by 1 stage."
     }
    },
    "Six-Tails Saiken": {
@@ -988,7 +988,7 @@
     "image": "saiken.webp",
     "ability": {
      "name": "Six-Tails Saiken",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "A foe that makes contact with it has its Defense and Sp. Def lowered by 1 stage. Boil moves deal 1.3x damage."
     }
    },
    "Five-Tails Kokuo": {
@@ -1010,7 +1010,7 @@
     "image": "kokuo.webp",
     "ability": {
      "name": "Five-Tails Kokuo",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Boil moves deal 1.3x damage. Its Speed rises by 1 stage at the end of every turn."
     }
    },
    "Four-Tails Son Goku": {
@@ -1032,7 +1032,7 @@
     "image": "son-goku.webp",
     "ability": {
      "name": "Four-Tails Son Goku",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Lava moves deal 1.3x damage. On entry, turns the sunlight harsh for 5 turns (Fire moves 1.5x, Water moves 0.5x)."
     }
    },
    "Two-Tails Matatabi": {
@@ -1054,7 +1054,7 @@
     "image": "matatabi.webp",
     "ability": {
      "name": "Two-Tails Matatabi",
-     "desc": "Beast moves deal 1.3x damage. Restores 1/16 of its max HP at the end of every turn."
+     "desc": "Fire moves deal 1.3x damage. Contact with it may cause burn (30%)."
     }
    },
    "Perfect Susano'o (Shisui)": {
@@ -1075,8 +1075,8 @@
     },
     "image": "shisui-susanoo.webp",
     "ability": {
-     "name": "Perfect Susano'o",
-     "desc": "Takes 20% less damage from all attacks. Weapon moves deal 1.2x damage."
+     "name": "Perfect Susano'o: Kotoamatsukami",
+     "desc": "Takes 20% less damage from all attacks. Its moves' added effects are twice as likely."
     }
    }
   };

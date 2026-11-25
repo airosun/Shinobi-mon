@@ -18,7 +18,8 @@ const NO_METRONOME = new Set(['Metronome', 'Copycat', 'Protect', 'Detect', "King
 const BERRIES = new Set(['Sitrus Berry', 'Lum Berry', 'Salac Berry', 'Liechi Berry', 'Petaya Berry', 'Custap Berry', 'Aguav Berry', 'Figy Berry']);
 const TYPE_ITEMS = {};
 const PIVOT_MOVES = new Set(['Teleport', 'U-turn', 'Volt Switch', 'Ally Switch', 'Parting Shot']);
-const TERRAIN_LABEL = { electric: 'Electric Terrain', psychic: 'Psychic Terrain', misty: 'Misty Terrain' };
+// terrains, re-themed for shinobi: electric = Lightning Field (boosts Lightning), psychic = Genjutsu Field (boosts Yin, blocks priority), misty = Hidden Mist (no status)
+const TERRAIN_LABEL = { electric: 'Lightning Field', psychic: 'Genjutsu Field', misty: 'Hidden Mist' };
 const bst = sp => Object.values(sp.stats).reduce((a, b) => a + b, 0);
 const STRUGGLE = { name: 'Struggle', type: 'Taijutsu', cat: 'Physical', power: 50, acc: true, pp: 1, prio: 0, contact: true, target: 'randomFoe' };
 
@@ -195,7 +196,7 @@ class Battle {
   isTrapped(mon) {
     if (mon.v.ingrain) return true;
     if (mon.v.bound && this.isActive(mon.v.bound.by)) return true;
-    if (mon.types.includes('Steel') && this.foesOf(mon).some(f => f.spec.magnetPull)) return true;
+    if (mon.types.includes('Weapon') && this.foesOf(mon).some(f => f.spec.magnetPull)) return true;
     return !!(mon.v.trapped && this.isActive(mon.v.trapped));
   }
 
@@ -389,6 +390,7 @@ class Battle {
     if (s.regenerator && !mon.fainted) mon.hp = Math.min(mon.maxhp, mon.hp + Math.floor(mon.maxhp / 3));
     if (s.switchGift && this.activeCount === 1) mon.side.gift = { from: mon, boosts: s.switchGift };
     if (s.naturalCure && mon.status) mon.status = '';
+    if (s.switchOutWish && !mon.fainted) mon.side.wishNext = { from: mon, heal: s.switchOutWish };
     for (const o of this.allActive()) if (o.v.trapped === mon) delete o.v.trapped;
     this.add('switch', `${mon.side.name} withdrew ${mon.displaySpecies.name}.`, { k: 'out', m: this.P(mon) });
     mon.resetVolatiles();
@@ -418,6 +420,8 @@ class Battle {
     }
     if (mon.fainted) return;
     // Avengers Assemble / Field Leader (singles): the next ally to switch in gets a boost
+    const wn = mon.side.wishNext;
+    if (wn && wn.from !== mon) { mon.side.wishNext = null; this.heal(mon, mon.maxhp * wn.heal, `${wn.from.displaySpecies.name}'s ${wn.from.ability} healed ${mon.label}!`); }
     const g = mon.side.gift;
     if (g && g.from !== mon) { mon.side.gift = null; this.add('ability', `${g.from.displaySpecies.name}'s ${g.from.ability} inspired ${mon.label}!`); this.boost(mon, g.boosts, mon); }
     this.abilityOnStart(mon);
@@ -460,6 +464,15 @@ class Battle {
         return;
       }
     }
+    // Shinobi-mon: genjutsu cast on arrival (confuses one foe) and a general on-entry stat drop
+    if (s.entryConfuse && foes.length) {
+      const f = foes[this.random(foes.length)];
+      this.add('ability', `${mon.label}'s ${mon.ability} caught ${f.label} in a genjutsu!`); this.tryConfuse(f, mon);
+    }
+    if (s.entryFoeBoost && foes.length) {
+      this.add('ability', `${mon.label}'s ${mon.ability} activated!`);
+      for (const foe of foes) { if (foe.v.substitute) this.add('effect', `${foe.label}'s substitute blocked it!`); else this.boost(foe, s.entryFoeBoost, mon); }
+    }
     if (s.frisk) for (const foe of foes) if (foe.item) this.add('ability', `${mon.label} frisked ${foe.label} and found its ${foe.item}!`);
     if (s.anticipation && foes.some(f => f.moves.some(mv => { const md = MOVES[mv.name]; return md.cat !== 'Status' && effectiveness(md.type, mon.types) > 1; })))
       this.add('ability', `${mon.label} shuddered! It senses danger.`);
@@ -483,13 +496,13 @@ class Battle {
     }
     if (s.clearFoeBoosts && foes.some(f => BOOST_STATS.some(k => f.boosts[k]))) {
       for (const foe of foes) for (const k of BOOST_STATS) foe.boosts[k] = 0;
-      this.add('ability', `${mon.label}'s Ball of Light erased the opposing stat changes!`);
+      this.add('ability', `${mon.label}'s ${mon.ability} erased the opposing stat changes!`);
     }
     if (s.startSide) {
       const { cond, turns } = s.startSide;
-      if (!mon.side.conditions[cond]) { mon.side.conditions[cond] = turns; this.add('ability', `${mon.label}'s ${mon.ability} set up ${cond === 'tailwind' ? 'a tailwind' : 'Reflect'}!`); }
+      if (!mon.side.conditions[cond]) { mon.side.conditions[cond] = turns; this.add('ability', `${mon.label}'s ${mon.ability} set up ${{ tailwind: 'a tailwind', reflect: 'Reflect', lightscreen: 'Light Screen', safeguard: 'Safeguard', auroraveil: 'Aurora Veil' }[cond] || cond}!`); }
     }
-    if (s.startField && !this.field[s.startField.cond]) { this.field[s.startField.cond] = s.startField.turns; this.add('ability', `${mon.label}'s ${mon.ability} intensified gravity!`, this.fieldA()); }
+    if (s.startField && !this.field[s.startField.cond]) { this.field[s.startField.cond] = s.startField.turns; this.add('ability', `${mon.label}'s ${mon.ability} ${{ gravity: 'intensified gravity', trickroom: 'twisted the dimensions', magicroom: 'warped the area' }[s.startField.cond] || 'changed the field'}!`, this.fieldA()); }
     if (s.startWeather) this.setWeather(s.startWeather, mon, 5);
     if (s.download && foes.length) {
       const def = foes.reduce((a, f) => a + this.getStat(f, 'def'), 0), spd = foes.reduce((a, f) => a + this.getStat(f, 'spd'), 0);
@@ -497,7 +510,7 @@ class Battle {
     }
     if (s.announcement && !mon.once.announced) {
       mon.once.announced = true;
-      if (mon.side.team.some(m => m.status)) { for (const m of mon.side.team) m.status = ''; this.add('ability', `${mon.label}'s Morning Announcement cured the team's status conditions!`); }
+      if (mon.side.team.some(m => m.status)) { for (const m of mon.side.team) m.status = ''; this.add('ability', `${mon.label}'s ${mon.ability} cured the team's status conditions!`); }
     }
     if (s.startBoost) { this.add('ability', `${mon.label}'s ${mon.ability} activated!`); this.boost(mon, s.startBoost, mon); }
     if (s.pressure) this.add('ability', `${mon.label} is exerting its pressure!`);
@@ -571,7 +584,7 @@ class Battle {
     const s = mon.spec;
     if (s.phoenix && !mon.once.phoenix) {
       mon.once.phoenix = true; mon.hp = Math.max(1, Math.floor(mon.maxhp * s.phoenix.heal)); mon.status = '';
-      this.add('ability', `${mon.label} rose from the ashes with ${mon.ability}!`, { k: 'hp', m: this.P(mon), hp: this.pct(mon), heal: true });
+      this.add('ability', `${mon.label} got back up with ${mon.ability}!`, { k: 'hp', m: this.P(mon), hp: this.pct(mon), heal: true });
       this.add('hp', '', { k: 'status', m: this.P(mon), status: '' });
       return false;
     }
@@ -787,6 +800,7 @@ class Battle {
       }
     }
     mon.movedSinceSwitch = true;
+    if (mon.spec.afterFirstMoveBoost && !mon.once.firstMoveBoost) mon.once.firstMoveBoostPending = true;
     if (slotObj && ['Choice Band', 'Choice Specs', 'Choice Scarf'].includes(mon.item)) mon.v.choiceLock = moveName;
     if (moveName === 'Metronome' || moveName === 'Copycat') {
       this.add('move', `${mon.label} used ${moveName}!`, { k: 'move', u: this.P(mon), name: moveName, type: 'Taijutsu', cat: 'Status', t: [] });
@@ -1368,14 +1382,17 @@ class Battle {
     if (md.hitsSemi && target.v.charging && ['dig', 'dive'].includes(target.v.charging.semi) && md.hitsSemi.includes(target.v.charging.semi)) bp *= 2;
     if (s.weatherTypeBoost && this.field.weather && s.weatherTypeBoost[md.type]) bp *= s.weatherTypeBoost[md.type];
     if (s.executioner && target.hpFrac() < 0.5) bp *= s.executioner;
+    if (s.vsStatus && target.status) bp *= s.vsStatus;
+    if (s.lastOneBoost && mon.side.team.filter(m => !m.fainted).length === 1) bp *= s.lastOneBoost;
+    if (s.lowHpPower && mon.hpFrac() <= 1 / 3) bp *= s.lowHpPower;
     if (s.godButcher && bst(target.species) > bst(mon.species)) bp *= s.godButcher;
     if (mon.v.demon) bp *= s.demonicEnergy ? s.demonicEnergy.mult : 1.3;
     if (mon.v.flashFire && md.type === 'Fire') bp *= 1.5;
     if (mon.v.charge && md.type === 'Electric') bp *= 2;
     if (mon.v.helpingHand) bp *= 1.5;
     if (ally && ally.spec.allyPower) bp *= ally.spec.allyPower;
-    if (this.inTerrain(mon, 'electric') && md.type === 'Electric') bp *= 1.3;
-    if (this.inTerrain(mon, 'psychic') && md.type === 'Psychic') bp *= 1.3;
+    if (this.inTerrain(mon, 'electric') && md.type === 'Lightning') bp *= 1.3;
+    if (this.inTerrain(mon, 'psychic') && md.type === 'Yin') bp *= 1.3;
     if (this.inTerrain(target, 'misty') && md.type === 'Dragon') bp *= 0.5;
     const it = mon.item;
     if (it === 'Muscle Band' && physical) bp *= 1.1;
@@ -1460,6 +1477,7 @@ class Battle {
     if (dmg > 0 && contact && mon.spec.contactDrain && !mon.fainted) this.heal(mon, Math.floor(dmg * mon.spec.contactDrain * dBoost), `${mon.label}'s ${mon.ability} drained its foe!`);
     if (dmg > 0 && contact && mon.item === 'Symbiote Fragment' && !mon.fainted) this.heal(mon, Math.floor(dmg / 8), `${mon.label}'s symbiote fed on the hit!`);
     if (dmg > 0 && contact && !mon.fainted && mon.item !== 'Protective Pads') this.contactReactions(mon, target, md);
+    if (dmg > 0 && ts.reflectDamage && !mon.fainted && mon !== target && mon.side !== target.side) this.damage(mon, Math.max(1, Math.floor(dmg * ts.reflectDamage)), `${mon.label} shared the pain through ${target.label}'s ${target.ability}!`);
     if (dmg > 0 && !target.fainted && !target.v.substitute) this.afterHitItems(mon, target, md, info);
     return dmg;
   }
@@ -1603,6 +1621,12 @@ class Battle {
       if (mon.fainted) continue;
       if (s.iceBody && w === 'snow') this.heal(mon, mon.maxhp / 16, `${mon.label}'s ${mon.ability} restored HP!`);
       if (s.rainDish && w === 'rain') this.heal(mon, mon.maxhp / 16, `${mon.label}'s ${mon.ability} restored HP!`);
+      if (s.leechFoes) for (const foe of this.foesOf(mon)) {
+        if (foe.fainted) continue;
+        const d = this.damage(foe, foe.maxhp * s.leechFoes, `${mon.label}'s ${mon.ability} drained ${foe.label}!`);
+        if (d && !mon.fainted) this.heal(mon, d);
+      }
+      if (mon.fainted) continue;
       if (s.natRegen && mon.hpFrac() > 0.5) this.heal(mon, mon.maxhp / 16, `${mon.label} regenerated a little HP!`);
       if (s.solarPower && w === 'sun') this.damage(mon, mon.maxhp / 8, `${mon.label} was hurt by the harsh sunlight!`);
       if (mon.fainted) continue;
@@ -1643,6 +1667,10 @@ class Battle {
       if (s.tagTeam && s.tagTeam.mode === 'turn' && this.tagSwap(mon, !this.isDaggerForm(mon)) && s.tagTeam.heal && mon.hp < mon.maxhp)
         this.heal(mon, Math.floor(mon.maxhp / s.tagTeam.heal), `${mon.label} tagged in fresh and restored a little HP!`);
       for (const k of ['encore', 'disable']) if (mon.v[k] && --mon.v[k].turns <= 0) { delete mon.v[k]; this.add('effect', `${mon.label}'s ${k} ended.`); }
+      if (mon.once.firstMoveBoostPending && !mon.once.firstMoveBoost && s.afterFirstMoveBoost) {   // ability may have changed since (Mind Link, Copy Ninja)
+        mon.once.firstMoveBoost = true; delete mon.once.firstMoveBoostPending;
+        this.add('ability', `${mon.label}'s ${mon.ability} activated!`); this.boost(mon, s.afterFirstMoveBoost, mon);
+      }
       if (s.speedBoost && mon.turnsActive > 0) { this.add('ability', `${mon.label}'s ${mon.ability} activated!`); this.boost(mon, { spe: 1 }, mon); }
       if (s.moody) {
         const up = ['atk', 'def', 'spa', 'spd', 'spe'].filter(k => mon.boosts[k] < 6);

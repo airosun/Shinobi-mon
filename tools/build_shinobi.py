@@ -57,136 +57,10 @@ def mega_stats(base, tf):
     return out
 
 # ---------------------------------------------------------------- abilities
-# Each lore ability maps to engine effect keys (see server/engine/battle.js). Description is written from the spec.
+# Abilities are hand-designed per shinobi in tools/ability_design.py (ability, hidden ability, transformation ability).
+import sys; sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from ability_design import A as DESIGN
 T16 = 1 / 16
-TRAIT = {
- 'uzumakiVitality': {'residualHeal': T16},
- 'kuramaLink': {'residualHeal': T16, 'noConfusion': True, 'statusImmune': ['slp']},
- 'sharingan': {'infiltrator': True, 'mindsEye': True},
- 'mangekyo': {'infiltrator': True, 'typeBoost': {'Fire': 1.2, 'Yin': 1.2}},
- 'ems': {'infiltrator': True, 'noConfusion': True, 'statusImmune': ['slp'], 'typeBoost': {'Fire': 1.2}},
- 'genjutsuTalent': {'typeBoost': {'Yin': 1.2}, 'noConfusion': True},
- 'chakraControl': {'flagBoost': {'flag': 'punch', 'mult': 1.2}, 'healBoost': 1.5},
- 'copyNinja': {'trace': True},
- 'obitoGift': {'trace': True, 'noConfusion': True},
- 'rootAgent': {'infiltrator': True},
- 'suppression': {'vsType': {'Beast': 1.5, 'Sage': 1.5}},
- 'byakugan': {'mindsEye': True, 'critBonus': 1},
- 'noNinjutsu': {'flagBoost': {'flag': 'contact', 'mult': 1.3}},
- 'weaponMistress': {'typeBoost': {'Weapon': 1.2}, 'skillLink': True},
- 'akamaru': {'parentalBond': True},
- 'kikaichu': {'drainAll': 0.125},
- 'strategist': {'analytic': True},
- 'akimichi': {'ripen': True},
- 'yamanaka': {'typeBoost': {'Yin': 1.3}},
- 'genjutsuMistress': {'sereneGrace': True},
- 'chakraBlades': {'flagBoost': {'flag': 'slicing', 'mult': 1.3}},
- 'sandShield': {'fullHpTaken': 0.5},
- 'galeMastery': {'typeBoost': {'Wind': 1.2}},
- 'puppetMaster': {'contactStatus': {'status': 'psn', 'chance': 30}},
- 'bodyShedding': {'surviveOnce': True},
- 'medicalSpy': {'residualHeal': T16, 'healBoost': 1.5},
- 'whiteSnakeSage': {'residualHeal': T16, 'mindsEye': True},
- 'chakraEater': {'contactDrain': 0.25},
- 'sixArms': {'skillLink': True},
- 'twinDemons': {'parentalBond': True},
- 'demonFlute': {'attackStatus': {'type': 'Yin', 'status': 'par', 'chance': 30}},
- 'deadBone': {'catTaken': {'Physical': 0.8}, 'roughSkin': 0.125},
- 'silentKilling': {'critBonus': 1},
- 'iceMirrors': {'disguise': True, 'disguiseText': 'was only a reflection in the ice mirrors, and the attack missed!'},
- 'snakeMistress': {'attackStatus': {'status': 'psn', 'chance': 20}},
- 'izanagi': {'phoenix': {'heal': 0.25}},
- 'kamuiPhase': {'disguise': True, 'disguiseText': 'phased through the attack with Kamui!'},
- 'sporeSpy': {'freeSubOnce': True},
- 'groundMerge': {'disguise': True, 'disguiseText': 'sank into the ground and the attack missed!'},
- 'samehada': {'contactDrain': 0.25},
- 'itachiGenius': {'infiltrator': True, 'typeBoost': {'Yin': 1.2}},
- 'artExplosion': {'typeBoost': {'Explosion': 1.2}, 'catTaken': {'Physical': 0.8}},
- 'jashin': {'magicGuard': True, 'surviveOnce': True},
- 'fiveHearts': {'onKOHeal': 0.25},
- 'humanPuppet': {'statusImmune': ['psn', 'tox', 'slp'], 'noConfusion': True, 'contactStatus': {'status': 'psn', 'chance': 30}},
- 'paperBody': {'disguise': True, 'disguiseText': 'scattered into paper and the attack missed!'},
- 'rinnegan': {'catTaken': {'Special': 0.75}, 'mindsEye': True},
- 'reanimated': {'residualHeal': T16, 'statusImmune': ['psn', 'tox']},
- 'hydrification': {'catTaken': {'Physical': 0.75}},
- 'kaguraSensing': {'mindsEye': True, 'healer': 30},
- 'berserker': {'thresholdEntry': {'below': 0.5, 'boosts': {'atk': 1}}},
- 'hashiramaCells': {'residualHeal': T16},
- 'sensoryGenius': {'anticipationBoost': {'spe': 1}},
- 'professor': {'protean': True},
- 'ftg': {'firstMovePrio': True},
- 'legendaryMedic': {'healBoost': 1.5, 'healer': 30},
- 'pervertSpy': {'frisk': True},
- 'lightningArmor': {'allTaken': 0.9, 'flagBoost': {'flag': 'contact', 'mult': 1.2}},
- 'perfectJinchuriki': {'residualHeal': T16, 'noConfusion': True, 'statusImmune': ['slp']},
- 'blackLightning': {'attackStatus': {'type': 'Lightning', 'status': 'par', 'chance': 20}},
- 'twoKekkei': {'typeBoost': {'Lava': 1.2, 'Boil': 1.2}},
- 'twinBlades': {'flagBoost': {'flag': 'slicing', 'mult': 1.3}},
- 'coralShell': {'filter': 0.75},
- 'levitation': {'catTaken': {'Physical': 0.8}},
- 'quicklime': {'bindingBand': {'mult': 2, 'turns': 7}},
- 'rockSolid': {'allTaken': 0.85},
- 'invisibility': {'disguise': True, 'disguiseText': 'was invisible, and the attack missed!'},
- 'endlessChakra': {'residualHeal': T16, 'statusImmune': ['psn', 'tox'], 'pressure': True},
- 'rinneMadara': {'mindsEye': True, 'noConfusion': True, 'statusImmune': ['slp'], 'parentalBond': True},
- 'progenitor': {'drainAll': 0.125, 'noConfusion': True},
- 'luckySeven': {'sereneGrace': True},
- 'corrosiveBubbles': {'attackFoeBoost': {'chance': 30, 'boosts': {'def': -1}}},
- 'steamArmor': {'contactStatus': {'status': 'brn', 'chance': 30}},
- 'volcanicBody': {'statusImmune': ['brn'], 'attackStatus': {'type': 'Lava', 'status': 'brn', 'chance': 20}},
- 'catReflexes': {'startBoostOnce': {'spe': 1}},
- 'poisonSac': {'statusImmune': ['psn', 'tox'], 'attackStatus': {'status': 'psn', 'chance': 20}},
- 'protectiveInstinct': {'forceField': {'ally': 0.75, 'self': 0.9}},
- 'willOfFire': {'allyFaintBoost': {'atk': 1, 'spa': 1}},
- 'iaiMaster': {'flagCrit': 'slicing', 'sniper': True},
- 'goldDust': {'attackFoeBoost': {'chance': 30, 'boosts': {'spe': -1}}},
- 'bodyFlicker': {'firstMovePrio': True, 'infiltrator': True},
-}
-
-# Hidden abilities come from each shinobi's Shinobi Showdown support passive (name kept, mechanic made personal).
-def aura_spec(sh):
-    e = sh['supportAura']['effects'][0]['type']
-    t1 = ST[sh['id']]['types'][0]
-    return {
-     'resolve': {'sturdy': True}, 'decoyChance': {'freeSubOnce': True}, 'chakra': {'regenerator': True},
-     'heal': {'residualHeal': T16}, 'stat': {'intimidate': True}, 'crit': {'critBonus': 1}, 'execute': {'executioner': 1.3},
-     'genjutsuResist': {'noConfusion': True, 'statusImmune': ['slp']}, 'dr': {'filter': 0.75}, 'subDiscount': {'regenerator': True},
-     'enemyIntel': {'frisk': True}, 'aoeDR': {'forceField': {'ally': 0.75, 'self': 0.9}}, 'dodge': {'disguise': True},
-     'pierce': {'infiltrator': True}, 'lowHpDR': {'sturdy': True}, 'kunai': {'skillLink': True},
-     'taiDamage': {'flagBoost': {'flag': 'contact', 'mult': 1.2}}, 'focus': {'critBonus': 1}, 'enemyDrain': {'drainAll': 0.125},
-     'controlChance': {'sereneGrace': True}, 'protectWeakest': {'forceField': {'ally': 0.75, 'self': 0.9}}, 'intel': {'frisk': True},
-     'natureBoost': {'typeBoost': {t1: 1.2}}, 'aoeBoost': {'typeBoost': {t1: 1.2}}, 'poisonChance': {'attackStatus': {'status': 'psn', 'chance': 20}},
-     'cleanseChance': {'naturalCure': True}, 'resolveDiscount': {'regenerator': True}, 'koIntel': {'onKOHeal': 0.25},
-     'poisonPower': {'attackStatus': {'status': 'psn', 'chance': 30}}, 'gatherBonus': {'frisk': True},
-    }[e]
-AURA_OVERRIDE = {
- 'lee_p1': {'speedBoost': True}, 'hidan': {'onKO': {'atk': 1}}, 'gaara_p1': {'fullHpTaken': 0.5},
- 'sasuke_war': {'onKO': {'atk': 1, 'spa': 1}}, 'kakashi_dms': {'allyCrit': 1, 'switchGift': {'spe': 1}},
- 'nagato_pain': {'intimidate': True, 'catTaken': {'Physical': 0.9}},
-}
-
-# Transformation abilities, picked by the transformation's name.
-def tf_ability(name, ftypes):
-    n = name.lower()
-    if "susano" in n: return {'allTaken': 0.8, 'typeBoost': {'Weapon': 1.2}}
-    if 'curse mark' in n: return {'statMult': {'atk': 1.2, 'spa': 1.2}, 'attackRecoil': 0.1}
-    if 'gate of death' in n: return {'speedBoost': True, 'flagBoost': {'flag': 'contact', 'mult': 1.3}, 'attackRecoil': 0.1}
-    if 'gate' in n: return {'speedBoost': True, 'flagBoost': {'flag': 'contact', 'mult': 1.2}}
-    if 'hundred' in n: return {'residualHeal': 1 / 8, 'flagBoost': {'flag': 'punch', 'mult': 1.3}}
-    if 'mangek' in n or 'rinne' in n: return {'infiltrator': True, 'typeBoost': {'Yin': 1.3}}
-    if 'sage' in n or 'six paths' in n: return {'typeBoost': {'Sage': 1.3}, 'mindsEye': True}
-    if 'butterfly' in n: return {'adaptability': True}
-    if 'pill' in n: return {'statMult': {'atk': 1.3}}
-    if 'twin lion' in n: return {'flagBoost': {'flag': 'punch', 'mult': 1.3}}
-    if 'wolf' in n: return {'parentalBond': True}
-    if 'puppet' in n: return {'statusImmune': ['psn', 'tox', 'slp', 'brn'], 'contactStatus': {'status': 'psn', 'chance': 30}}
-    if 'paper angel' in n: return {'typeBoost': {'Explosion': 1.3, 'Wind': 1.2}}
-    if 'fusion' in n: return {'contactDrain': 0.25, 'typeBoost': {'Water': 1.2}}
-    if 'death possession' in n: return {'contactDrain': 0.25, 'magicGuard': True}
-    if 'masks' in n: return {'onKOHeal': 0.25, 'typeBoost': {'Earth': 1.2}}
-    if 'branches' in n: return {'regenerator': True, 'typeBoost': {'Beast': 1.2}}
-    if 'Beast' in ftypes: return {'typeBoost': {'Beast': 1.3}, 'residualHeal': T16}
-    return {'typeBoost': {ftypes[0]: 1.3}}
 
 ST_NAME = {'brn': 'burn', 'par': 'paralysis', 'psn': 'poison', 'tox': 'bad poison', 'slp': 'sleep', 'frz': 'freeze'}
 STAT_LABEL = {'atk': 'Attack', 'def': 'Defense', 'spa': 'Sp. Atk', 'spd': 'Sp. Def', 'spe': 'Speed', 'accuracy': 'accuracy'}
@@ -203,7 +77,7 @@ def describe(s):
         elif k == 'infiltrator': out.append("Its moves go through Substitutes and screens.")
         elif k == 'mindsEye': out.append("Ignores the target's evasion boosts and its own accuracy drops.")
         elif k == 'typeBoost': out.append(' and '.join(f'{t}' for t in v) + f' moves deal {list(v.values())[0]}x damage.')
-        elif k == 'flagBoost': out.append({'punch': 'Punching moves', 'contact': 'Contact moves', 'slicing': 'Slicing moves'}[v['flag']] + f" deal {v['mult']}x damage.")
+        elif k == 'flagBoost': out.append({'punch': 'Punching moves', 'contact': 'Contact moves', 'slicing': 'Slicing moves', 'kick': 'Kicking moves', 'bite': 'Biting moves'}[v['flag']] + f" deal {v['mult']}x damage.")
         elif k == 'healBoost': out.append('Its healing moves restore 50% more HP.')
         elif k == 'trace': out.append("Copies the opposing shinobi's ability when it enters battle.")
         elif k == 'vsType': out.append('Deals ' + f"{list(v.values())[0]}x damage to " + ' and '.join(v) + '-type shinobi.')
@@ -255,6 +129,70 @@ def describe(s):
         elif k == 'statMult': out.append(' and '.join(STAT_LABEL[x] for x in v) + f' are {list(v.values())[0]}x.')
         elif k == 'attackRecoil': out.append(f'Loses {frac(v)} of its max HP after each attack.')
         elif k == 'adaptability': out.append('Same-type attack bonus is 2x instead of 1.5x.')
+        elif k == 'lastOneBoost': out.append(f"Its moves deal {v}x damage when it's the last shinobi standing on its team.")
+        elif k == 'cheapSub': out.append('Making a Substitute only costs 1/8 of its max HP.')
+        elif k == 'natRegen': out.append('Restores 1/16 of its max HP at the end of each turn while above half HP.')
+        elif k == 'longReach': out.append("Its attacks never make contact, so contact abilities and Rocky Helmet don't hurt it.")
+        elif k == 'cursedBody': out.append(f"When hit by a move, may disable that move for the attacker ({v}%).")
+        elif k == 'onStatDrop': out.append('When a foe lowers its stats, its ' + ' and '.join(STAT_LABEL[x] for x in v) + f" rise{'s' if len(v) == 1 else ''} by {list(v.values())[0]} stages.")
+        elif k == 'lowHpPower': out.append(f'Its moves deal {v}x damage while it is at 1/3 HP or less.')
+        elif k == 'moldBreaker': out.append("Its moves ignore the target's ability.")
+        elif k == 'angerPoint': out.append('Taking a critical hit maxes out its Attack.')
+        elif k == 'hitByType': out.append(f"When hit by a {v['type']} move, raises its " + ' and '.join(STAT_LABEL[x] for x in v['boosts']) + ' by 1 stage.')
+        elif k == 'statusMoveHeal': out.append(f'Restores {frac(v)} of its max HP each time it uses a status move.')
+        elif k == 'switchOutWish': out.append(f'When it switches out, the ally that comes in restores {frac(v)} of its max HP.')
+        elif k == 'colorChange': out.append("Changes its type to the type of the move that just hit it.")
+        elif k == 'unaware': out.append("Ignores its opponents' stat changes when attacking and being attacked.")
+        elif k == 'noIntimidate': out.append("Can't be intimidated.")
+        elif k == 'clearBody': out.append("Foes can't lower its stats.")
+        elif k == 'startSide': out.append({'reflect': 'On entry, sets up Reflect (halves physical damage) for its side for 5 turns.', 'lightscreen': 'On entry, sets up Light Screen (halves special damage) for its side for 5 turns.', 'tailwind': "On entry, whips up a tailwind that doubles its side's Speed for 4 turns.", 'auroraveil': 'On entry, raises a barrier that cuts all damage to its side for 5 turns.'}[v['cond']])
+        elif k == 'clearFoeBoosts': out.append("On entry, erases all of the foes' stat changes.")
+        elif k == 'protectSelfBoost': out.append('When it blocks an attack with a protecting move, its ' + ' and '.join(STAT_LABEL[x] for x in v) + ' rise by 1 stage.')
+        elif k == 'afterFirstMoveBoost': out.append('After its first move of the battle, its ' + ' and '.join(STAT_LABEL[x] for x in v) + f' rise by {list(v.values())[0]} stages (once per battle).')
+        elif k == 'guts': out.append('Its Attack is 1.5x while it has a status condition, and burns don\'t weaken it.')
+        elif k == 'godButcher': out.append(f'Deals {v}x damage to shinobi with higher base stats than its own.')
+        elif k == 'pickup': out.append('If it has no item, may pick up a used item at the end of the turn.')
+        elif k == 'pickpocket': out.append("Steals the item of a foe that makes contact with it.")
+        elif k == 'magician': out.append("Steals the target's item when it hits with an attack.")
+        elif k == 'anticipation': out.append('Warns its team on entry if a foe has a super-effective move.')
+        elif k == 'leechFoes': out.append(f'At the end of each turn, drains {frac(v)} of each foe\'s max HP and heals by that much.')
+        elif k == 'download': out.append("On entry, raises Attack or Sp. Atk depending on which of the foe's defenses is weaker.")
+        elif k == 'harvest': out.append('May regrow a Berry it has eaten at the end of each turn (50%).')
+        elif k == 'gutCheck': out.append('Takes half damage from the first contact move after each time it enters battle.')
+        elif k == 'mummy': out.append("A foe that makes contact with it has its ability replaced by this one (its mind is taken over).")
+        elif k == 'entryConfuse': out.append('On entry, casts a genjutsu that confuses a random foe.')
+        elif k == 'startTerrain': out.append({'psychic': 'On entry, sets a Genjutsu Field for 5 turns (Yin moves 1.3x, no priority attacks on grounded shinobi).', 'misty': 'On entry, spreads the Hidden Mist for 5 turns (grounded shinobi can\'t get status conditions or confusion).', 'electric': 'On entry, sets a Lightning Field for 5 turns.'}[v])
+        elif k == 'immuneFlag': out.append({'wind': 'Immune to wind moves.', 'kick': 'Immune to kicking moves (it floats out of reach).'}[v])
+        elif k == 'weatherSpeed': out.append({'sun': 'Speed doubles in harsh sunlight.', 'rain': 'Speed doubles in rain.'}[v])
+        elif k == 'vsStatus': out.append(f'Deals {v}x damage to targets with a status condition.')
+        elif k == 'magnetPull': out.append("Weapon-type foes can't switch out while it's in battle.")
+        elif k == 'cocoon': out.append('Once per battle, when knocked out, its body reforms and it returns to battle 2 turns later' + (' at full HP.' if v['heal'] >= 1 else f" with {round(v['heal'] * 100)}% HP."))
+        elif k == 'illusion': out.append('Enters battle disguised as the last shinobi in its team until it takes damage.')
+        elif k == 'emergencyExit': out.append('Switches out when its HP drops below half.')
+        elif k == 'poisonHeal': out.append('Poison heals it by 1/8 of its max HP each turn instead of hurting it.')
+        elif k == 'magicBounce': out.append('Reflects status moves back at the user.')
+        elif k == 'contactFoeBoost': out.append('A foe that makes contact with it has its ' + ' and '.join(STAT_LABEL[x] for x in v) + ' lowered by 1 stage.')
+        elif k == 'typeTaken': out.append(' '.join(f'Takes {round(m * 100)}% damage from {t} moves.' for t, m in v.items()))
+        elif k == 'noMiss': out.append('Its moves never miss.')
+        elif k == 'battleArmor': out.append("Can't be hit by critical hits.")
+        elif k == 'unnerve': out.append("Foes are too nervous to eat Berries while it's in battle.")
+        elif k == 'entryFoeBoost': out.append("On entry, lowers the foes' " + ' and '.join(STAT_LABEL[x] for x in v) + ' by 1 stage.')
+        elif k == 'badLuck': out.append("Foes can't land critical hits on its side.")
+        elif k == 'absorb': out.append(f"{v['type']} moves heal it by {frac(v['heal'])} of its max HP instead of hurting it.")
+        elif k == 'rainDish': out.append('Restores 1/16 of its max HP each turn in rain.')
+        elif k == 'startWeather': out.append({'rain': 'On entry, makes it rain for 5 turns (Water moves 1.5x, Fire moves 0.5x).', 'sun': 'On entry, turns the sunlight harsh for 5 turns (Fire moves 1.5x, Water moves 0.5x).'}[v])
+        elif k == 'contactAttract': out.append(f'A foe of the opposite gender that makes contact with it may fall in love ({v}%).')
+        elif k == 'soulHeart': out.append('Its Sp. Atk rises by 1 stage whenever any shinobi faints.')
+        elif k == 'aftermath': out.append(f'When knocked out by a contact move, the attacker loses {frac(v)} of its max HP.')
+        elif k == 'reflectDamage': out.append(f'Whenever a foe damages it, the attacker takes {round(v * 100)}% of that damage too.')
+        elif k == 'startField': out.append({'trickroom': 'On entry, twists the dimensions for 5 turns: slower shinobi move first.', 'gravity': 'On entry, intensifies gravity for 5 turns: moves are more accurate and nothing can float.', 'magicroom': 'On entry, warps the area for 5 turns: held items have no effect.'}[v['cond']])
+        elif k == 'sheerForce': out.append('Moves with added effects deal 1.3x damage, but the added effects are lost.')
+        elif k == 'moody': out.append('At the end of each turn, one stat rises by 2 stages and another drops by 1 (freestyle).')
+        elif k == 'hitBoost': out.append('Each time it is hit, its ' + ' and '.join(STAT_LABEL[x] for x in v) + ' rise by 1 stage.')
+        elif k == 'steadfast': out.append('Its Speed rises by 1 stage when it flinches.')
+        elif k == 'rockHead': out.append('Takes no recoil damage.')
+        elif k == 'foeMissBoost': out.append("When a foe's attack misses it, its Speed rises by 1 stage.")
+        elif k == 'shedSkin': out.append('At the end of each turn, may shed its skin and cure its status condition (30%).')
         else: raise KeyError(k)
     return ' '.join(out)
 
@@ -400,16 +338,10 @@ for s in SH:
 for i, s in enumerate(SH, 1):
     st = ST[s['id']]
     stats = convert_stats(s)
-    ab_name = s['trait']['name']
-    spec = TRAIT[s['trait']['id']]
-    if ab_name in abil_specs and abil_specs[ab_name] != spec: ab_name = f"{ab_name} ({s['name'].split(' (')[0].split(' ')[0]})"
-    abil_specs.setdefault(ab_name, spec)
-    if abil_specs[ab_name] != spec: raise SystemExit('ability clash ' + ab_name)
-    hid_name = s['supportAura']['name']
-    hspec = AURA_OVERRIDE.get(s['id']) or aura_spec(s)
-    if hid_name == ab_name or hid_name in abil_specs and abil_specs[hid_name] != hspec:
-        hid_name = hid_name + ' (Spirit)'
-    abil_specs.setdefault(hid_name, hspec)
+    (ab_name, spec), (hid_name, hspec), tfab = DESIGN[s['id']]
+    for n, sp in ((ab_name, spec), (hid_name, hspec)):
+        if n in abil_specs and abil_specs[n] != sp: raise SystemExit('ability clash ' + n)
+        abil_specs[n] = sp
     learn = [JID2NAME[j] for j in s['catalogue']] + list(UNIVERSAL)
     sp = (s.get('_sprite') or {})
     f = {
@@ -431,10 +363,9 @@ for i, s in enumerate(SH, 1):
         if item in item_names: item = f"{tf['name']} ({s['name'].split(' (')[0].split(' ')[0]}, {s['era']})"
         if item in item_names: raise SystemExit('dup item ' + item)
         item_names[item] = 1
-        aspec = tf_ability(tf['name'], ft)
-        aname = tf['name']
-        if aname in abil_specs and abil_specs[aname] != aspec: aname = item
-        abil_specs.setdefault(aname, aspec)
+        aname, aspec = tfab
+        if aname in abil_specs and abil_specs[aname] != aspec: raise SystemExit('ability clash ' + aname)
+        abil_specs[aname] = aspec
         megas[item] = {'base': f['id'], 'id': f['id'] + '-' + slug(tf['name']), 'name': f"{s['name'].split(' (')[0]} ({tf['name']})",
                        'types': ft, 'stats': mega_stats(stats, tf), 'image': ART.get(s['id'], {}).get('transform'), 'ability': {'name': aname, 'desc': describe(aspec)}}
         genders[megas[item]['id']] = dict(genders[f['id']])
@@ -490,6 +421,11 @@ for n, sp in sorted(abil_specs.items()):
 ab.append('module.exports = A;')
 open(os.path.join(ROOT, 'server', 'engine', 'abilities.js'), 'w').write('\n'.join(ab) + '\n')
 
+seen = {}
+for n, sp in abil_specs.items():
+    k = json.dumps(sp, sort_keys=True)
+    if k in seen: raise SystemExit(f'same effect: {seen[k]} / {n}')
+    seen[k] = n
 bst = sorted((sum(f['stats'].values()), f['name']) for f in fighters)
 print(f'{len(fighters)} shinobi, {len(megas)} transformations, {len(MOVES)} moves, {len(abil_specs)} abilities')
 print('BST low', bst[:3], 'high', bst[-3:])

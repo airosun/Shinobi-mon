@@ -79,7 +79,7 @@
       <section class="card" id="ab-shinobi"><h2>Shinobi: stats, abilities, natures, IVs</h2>
         <ul class="about-list">
           <li><b>Base stats</b> are converted from Shinobi Showdown: HP stays HP, TAI becomes Attack, NIN becomes Sp. Atk, DEF becomes Defense, SPD becomes Speed, and Sp. Def is built from DEF, NIN and Chakra.</li>
-          <li><b>Abilities:</b> each shinobi's ability is its Shinobi Showdown trait, and its <b>hidden ability</b> is named after its old support passive.</li>
+          <li><b>Abilities:</b> every shinobi has an ability and a <b>hidden ability</b> based on its lore (Kurenai traps a foe in genjutsu on arrival, Shino's insects drain foes each turn, Hidan makes attackers share his pain). No two abilities have the same effect, and every transformation has its own ability too.</li>
           <li><b>Natures and IVs</b> work as in Pokémon: a nature raises one stat by 10% and lowers another, and IVs (0–31) add a little to each stat. EVs are 0 for now.</li>
         </ul>
       </section>

@@ -449,8 +449,8 @@
       `${{ rain: 'Rain', sun: 'Harsh sunlight', snow: 'Snow' }[f.weather]}: ${turnsLeft(f.weatherTurns)}<br>${{ rain: 'Water moves 1.5×, Fire moves 0.5×. Thunder and Hurricane never miss.', sun: 'Fire moves 1.5×, Water moves 0.5×. Solar Beam needs no charge; no one can be frozen.', snow: 'Ice types get 1.5× Defense. Blizzard never misses.' }[f.weather]}`]);
     if (f.trickroom) c.push([`Trick Room · ${f.trickroom}`, `Trick Room: ${turnsLeft(f.trickroom)}<br>Slower shinobi move first (priority still applies).`]);
     if (f.gravity) c.push([`Gravity · ${f.gravity}`, `Gravity: ${turnsLeft(f.gravity)}<br>Everyone is grounded, moves are more accurate, and flying moves can't be used.`]);
-    if (f.terrain) c.push([`${{ electric: '⚡ Electric', psychic: '🔮 Psychic', misty: '🌫 Misty' }[f.terrain]} Terrain · ${f.terrainTurns}`,
-      `${{ electric: 'Electric', psychic: 'Psychic', misty: 'Misty' }[f.terrain]} Terrain: ${turnsLeft(f.terrainTurns)}<br>${{ electric: 'Grounded shinobi: Electric moves 1.3×, and they can\'t fall asleep.', psychic: 'Grounded shinobi: Psychic moves 1.3×, and they can\'t be hit by priority moves.', misty: 'Grounded shinobi can\'t get status conditions or confusion, and take half damage from Dragon moves.' }[f.terrain]}`]);
+    if (f.terrain) c.push([`${{ electric: '⚡ Lightning Field', psychic: '🌀 Genjutsu Field', misty: '🌫 Hidden Mist' }[f.terrain]} · ${f.terrainTurns}`,
+      `${{ electric: 'Lightning Field', psychic: 'Genjutsu Field', misty: 'Hidden Mist' }[f.terrain]}: ${turnsLeft(f.terrainTurns)}<br>${{ electric: 'Grounded shinobi: Lightning moves 1.3×, and they can\'t fall asleep.', psychic: 'Grounded shinobi: Yin moves 1.3×, and they can\'t be hit by priority moves.', misty: 'Grounded shinobi can\'t get status conditions or confusion.' }[f.terrain]}`]);
     if (f.magicroom) c.push([`Magic Room · ${f.magicroom}`, `Magic Room: ${turnsLeft(f.magicroom)}<br>Held items have no effect.`]);
     for (const s of st.sides) {
       const k = s.conditions || {}; const n = esc(s.name);

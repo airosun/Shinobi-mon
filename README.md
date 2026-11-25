@@ -36,7 +36,7 @@ It writes `shared/fighters.json`, `shared/moves.js`, `shared/megas.js`, `shared/
 
 **Turn order:** like Pokémon, Speed decides who moves first. Only a few very quick jutsu have priority: +1 for weak, fast strikes (Kunai & Shuriken, Shuriken Volley, Senbon Volley, Hidden Needle Shot, Explosive Tag Kunai, Hair Needle Senbon, Dynamic Entry), +2 for Flying Thunder God Strike (Extreme Speed style), +2 for bodyguard moves and +4 for protecting moves (Substitution Jutsu, Palm Rotation…). The priority list is `PRIORITY` in `tools/build_shinobi.py`.
 
-**Abilities:** the ability is the shinobi's Shinobi Showdown trait; the hidden ability is named after its support passive. Each maps to an engine mechanic in `tools/build_shinobi.py`.
+**Abilities:** hand-designed in `tools/ability_design.py`: an ability and a hidden ability per shinobi plus one per transformation, all lore-based. The build fails if two different abilities have the same effect. Descriptions are written from each ability's effects, so they always match what it does.
 
 ## Run
 

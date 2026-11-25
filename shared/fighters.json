@@ -26,7 +26,7 @@
   ],
   "hidden": {
    "name": "Unbreakable Spirit",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "desc": "Its moves deal 1.5x damage when it's the last shinobi standing on its team."
   },
   "signature": [
    {
@@ -94,7 +94,7 @@
   ],
   "hidden": {
    "name": "Shadow Clone Reinforcements",
-   "desc": "The first time it enters battle, it sets up a Substitute (a clone) for free."
+   "desc": "Making a Substitute only costs 1/8 of its max HP. The first time it enters battle, it sets up a Substitute (a clone) for free."
   },
   "signature": [
    {
@@ -167,7 +167,7 @@
   ],
   "hidden": {
    "name": "Toad Sage Tutelage",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Restores 1/16 of its max HP at the end of each turn while above half HP. Can't be confused (genjutsu doesn't take hold)."
   },
   "signature": [
    {
@@ -235,7 +235,7 @@
   ],
   "hidden": {
    "name": "Six Paths Gift",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "When it switches out, the incoming ally gets +1 Speed."
   },
   "signature": [
    {
@@ -303,12 +303,12 @@
   "abilities": [
    {
     "name": "Sharingan",
-    "desc": "Its moves go through Substitutes and screens. Ignores the target's evasion boosts and its own accuracy drops."
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. When hit by a move, may disable that move for the attacker (30%)."
    }
   ],
   "hidden": {
    "name": "Uchiha Pride",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "When a foe lowers its stats, its Sp. Atk rises by 2 stages."
   },
   "signature": [
    {
@@ -371,12 +371,12 @@
   "abilities": [
    {
     "name": "Sharingan",
-    "desc": "Its moves go through Substitutes and screens. Ignores the target's evasion boosts and its own accuracy drops."
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. When hit by a move, may disable that move for the attacker (30%)."
    }
   ],
   "hidden": {
    "name": "Avenger's Focus",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "Deals 1.3x damage to targets at half HP or less. Its moves are more likely to land critical hits."
   },
   "signature": [
    {
@@ -449,7 +449,7 @@
   ],
   "hidden": {
    "name": "Hatred's Edge",
-   "desc": "Deals 1.3x damage to targets at half HP or less."
+   "desc": "Its moves deal 1.5x damage while it is at 1/3 HP or less."
   },
   "signature": [
    {
@@ -522,7 +522,7 @@
   ],
   "hidden": {
    "name": "Taka Leader",
-   "desc": "Each knockout raises its Attack and Sp. Atk by 1 stage."
+   "desc": "When an ally is knocked out, its Attack and Sp. Atk rise by 1 stage."
   },
   "signature": [
    {
@@ -595,7 +595,7 @@
   ],
   "hidden": {
    "name": "Inner Sakura",
-   "desc": "Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+   "desc": "Taking a critical hit maxes out its Attack. When hit by a Yin move, raises its Attack by 1 stage."
   },
   "signature": [
    {
@@ -663,7 +663,7 @@
   ],
   "hidden": {
    "name": "Field Medic",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "Restores 1/8 of its max HP each time it uses a status move."
   },
   "signature": [
    {
@@ -731,7 +731,7 @@
   ],
   "hidden": {
    "name": "Katsuyu Network",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "When it switches out, the ally that comes in restores 1/3 of its max HP."
   },
   "signature": [
    {
@@ -877,7 +877,7 @@
   ],
   "hidden": {
    "name": "Sixth Hokage Candidate",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "Changes its type to the type of the move that just hit it."
   },
   "signature": [
    {
@@ -950,7 +950,7 @@
   "abilities": [
    {
     "name": "Obito's Gift",
-    "desc": "Copies the opposing shinobi's ability when it enters battle. Can't be confused (genjutsu doesn't take hold)."
+    "desc": "The first hit it takes in battle misses completely."
    }
   ],
   "hidden": {
@@ -1022,12 +1022,12 @@
   "abilities": [
    {
     "name": "Root Agent",
-    "desc": "Its moves go through Substitutes and screens."
+    "desc": "Ignores its opponents' stat changes when attacking and being attacked."
    }
   ],
   "hidden": {
    "name": "Root Discipline",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Can't be intimidated. Foes can't lower its stats."
   },
   "signature": [
    {
@@ -1094,7 +1094,7 @@
   ],
   "hidden": {
    "name": "Wood Shelter",
-   "desc": "Allies take 25% less damage, and it takes 10% less."
+   "desc": "On entry, sets up Reflect (halves physical damage) for its side for 5 turns."
   },
   "signature": [
    {
@@ -1227,7 +1227,7 @@
   ],
   "hidden": {
    "name": "Byakugan Lookout",
-   "desc": "The first hit it takes in battle misses completely."
+   "desc": "On entry, erases all of the foes' stat changes."
   },
   "signature": [
    {
@@ -1297,7 +1297,7 @@
   ],
   "hidden": {
    "name": "Hyuga Prodigy",
-   "desc": "Its moves go through Substitutes and screens."
+   "desc": "Multi-hit moves always hit the maximum number of times. Slicing moves are more likely to land critical hits."
   },
   "signature": [
    {
@@ -1362,7 +1362,7 @@
   ],
   "hidden": {
    "name": "Caged Bird's Resolve",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "When it blocks an attack with a protecting move, its Attack and Sp. Atk rise by 1 stage."
   },
   "signature": [
    {
@@ -1431,7 +1431,7 @@
   ],
   "hidden": {
    "name": "Power of Youth",
-   "desc": "Its Speed rises by 1 stage at the end of every turn."
+   "desc": "After its first move of the battle, its Speed rise by 2 stages (once per battle)."
   },
   "signature": [
    {
@@ -1495,7 +1495,7 @@
   ],
   "hidden": {
    "name": "Never Give Up",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "desc": "Its Attack is 1.5x while it has a status condition, and burns don't weaken it."
   },
   "signature": [
    {
@@ -1564,7 +1564,7 @@
   ],
   "hidden": {
    "name": "Armory",
-   "desc": "Multi-hit moves always hit the maximum number of times."
+   "desc": "If it has no item, may pick up a used item at the end of the turn."
   },
   "signature": [
    {
@@ -1628,7 +1628,7 @@
   ],
   "hidden": {
    "name": "Weapon Supply",
-   "desc": "Contact moves deal 1.2x damage."
+   "desc": "Steals the item of a foe that makes contact with it. Steals the target's item when it hits with an attack."
   },
   "signature": [
    {
@@ -1687,12 +1687,12 @@
   "abilities": [
    {
     "name": "Sensei of Youth",
-    "desc": "Contact moves deal 1.3x damage."
+    "desc": "Deals 1.3x damage to shinobi with higher base stats than its own. Kicking moves deal 1.2x damage."
    }
   ],
   "hidden": {
    "name": "Eternal Rival",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "desc": "When an ally is knocked out, its Attack and Sp. Atk rise by 1 stage."
   },
   "signature": [
    {
@@ -1762,7 +1762,7 @@
   ],
   "hidden": {
    "name": "Pack Hunter",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "Deals 1.3x damage to targets at half HP or less."
   },
   "signature": [
    {
@@ -1827,7 +1827,7 @@
   ],
   "hidden": {
    "name": "Akamaru Scouting",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Reveals the foes' held items when it enters battle. Warns its team on entry if a foe has a super-effective move."
   },
   "signature": [
    {
@@ -1886,7 +1886,7 @@
   "abilities": [
    {
     "name": "Kikaichu Host",
-    "desc": "Heals 1/8 of the damage its attacks deal."
+    "desc": "At the end of each turn, drains 1/16 of each foe's max HP and heals by that much."
    }
   ],
   "hidden": {
@@ -1950,12 +1950,12 @@
   "abilities": [
    {
     "name": "Kikaichu Host",
-    "desc": "Heals 1/8 of the damage its attacks deal."
+    "desc": "At the end of each turn, drains 1/16 of each foe's max HP and heals by that much."
    }
   ],
   "hidden": {
    "name": "Insect Barrier",
-   "desc": "Takes 25% less damage from super-effective attacks."
+   "desc": "On entry, sets up Light Screen (halves special damage) for its side for 5 turns."
   },
   "signature": [
    {
@@ -2020,12 +2020,12 @@
   "abilities": [
    {
     "name": "200 IQ",
-    "desc": "Deals 1.3x damage when it moves last."
+    "desc": "On entry, raises Attack or Sp. Atk depending on which of the foe's defenses is weaker."
    }
   ],
   "hidden": {
    "name": "Battle Plan",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Deals 1.3x damage when it moves last."
   },
   "signature": [
    {
@@ -2088,12 +2088,12 @@
   "abilities": [
    {
     "name": "200 IQ",
-    "desc": "Deals 1.3x damage when it moves last."
+    "desc": "On entry, raises Attack or Sp. Atk depending on which of the foe's defenses is weaker."
    }
   ],
   "hidden": {
    "name": "Asuma's Will",
-   "desc": "Its moves' added effects are twice as likely."
+   "desc": "When hit by a move, may disable that move for the attacker (50%). Its binding moves last longer and deal double damage."
   },
   "signature": [
    {
@@ -2161,12 +2161,12 @@
   "abilities": [
    {
     "name": "Akimichi Appetite",
-    "desc": "Berries have double the effect."
+    "desc": "Berries have double the effect. Takes 10% less damage from special moves."
    }
   ],
   "hidden": {
    "name": "Snack Break",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "May regrow a Berry it has eaten at the end of each turn (50%)."
   },
   "signature": [
    {
@@ -2224,12 +2224,12 @@
   "abilities": [
    {
     "name": "Akimichi Appetite",
-    "desc": "Berries have double the effect."
+    "desc": "Berries have double the effect. Takes 10% less damage from special moves."
    }
   ],
   "hidden": {
    "name": "Akimichi Bulwark",
-   "desc": "Allies take 25% less damage, and it takes 10% less."
+   "desc": "Takes half damage from the first contact move after each time it enters battle."
   },
   "signature": [
    {
@@ -2358,7 +2358,7 @@
   ],
   "hidden": {
    "name": "Mind Link",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "A foe that makes contact with it has its ability replaced by this one (its mind is taken over)."
   },
   "signature": [
    {
@@ -2425,12 +2425,12 @@
   "abilities": [
    {
     "name": "Genjutsu Mistress",
-    "desc": "Its moves' added effects are twice as likely."
+    "desc": "On entry, casts a genjutsu that confuses a random foe."
    }
   ],
   "hidden": {
    "name": "Illusionary Cover",
-   "desc": "The first hit it takes in battle misses completely."
+   "desc": "On entry, sets a Genjutsu Field for 5 turns (Yin moves 1.3x, no priority attacks on grounded shinobi)."
   },
   "signature": [
    {
@@ -2497,7 +2497,7 @@
   ],
   "hidden": {
    "name": "Twelve Guardian Ninja",
-   "desc": "Wind moves deal 1.2x damage."
+   "desc": "Wind and Fire moves deal 1.2x damage."
   },
   "signature": [
    {
@@ -2565,7 +2565,7 @@
   ],
   "hidden": {
    "name": "Sand Barrier",
-   "desc": "Takes half damage while at full HP."
+   "desc": "Can't be put to sleep. Can't be confused (genjutsu doesn't take hold)."
   },
   "signature": [
    {
@@ -2700,12 +2700,12 @@
   "abilities": [
    {
     "name": "Gale Mastery",
-    "desc": "Wind moves deal 1.2x damage."
+    "desc": "On entry, whips up a tailwind that doubles its side's Speed for 4 turns."
    }
   ],
   "hidden": {
    "name": "Wind Strategy",
-   "desc": "Wind moves deal 1.2x damage."
+   "desc": "Wind moves deal 1.3x damage."
   },
   "signature": [
    {
@@ -2766,12 +2766,12 @@
   "abilities": [
    {
     "name": "Gale Mastery",
-    "desc": "Wind moves deal 1.2x damage."
+    "desc": "On entry, whips up a tailwind that doubles its side's Speed for 4 turns."
    }
   ],
   "hidden": {
    "name": "Sand Envoy",
-   "desc": "Wind moves deal 1.2x damage."
+   "desc": "Immune to wind moves. Speed doubles in harsh sunlight."
   },
   "signature": [
    {
@@ -2842,7 +2842,7 @@
   ],
   "hidden": {
    "name": "Poison Supply",
-   "desc": "Its attacks may cause poison (20%)."
+   "desc": "Deals 1.3x damage to targets with a status condition."
   },
   "signature": [
    {
@@ -2901,7 +2901,7 @@
   ],
   "hidden": {
    "name": "Puppet Bulwark",
-   "desc": "Allies take 25% less damage, and it takes 10% less."
+   "desc": "Its attacks never make contact, so contact abilities and Rocky Helmet don't hurt it."
   },
   "signature": [
    {
@@ -2965,13 +2965,13 @@
   },
   "abilities": [
    {
-    "name": "Puppet Master",
-    "desc": "Contact with it may cause poison (30%)."
+    "name": "Chikamatsu's Ten Puppets",
+    "desc": "Its attacks never make contact, so contact abilities and Rocky Helmet don't hurt it. Weapon moves deal 1.3x damage."
    }
   ],
   "hidden": {
    "name": "Elder's Antidotes",
-   "desc": "Its status condition is cured when it switches out."
+   "desc": "Can't be poisoned. At the end of each turn, may cure an ally of a status condition (30%)."
   },
   "signature": [
    {
@@ -3036,12 +3036,12 @@
   "abilities": [
    {
     "name": "Body Shedding",
-    "desc": "Once per battle, survives a hit that would knock it out with 1 HP."
+    "desc": "At the end of each turn, may shed its skin and cure its status condition (30%). Once per battle, survives a hit that would knock it out with 1 HP."
    }
   ],
   "hidden": {
    "name": "Forbidden Research",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Once per battle, when knocked out, its body reforms and it returns to battle 2 turns later with 50% HP."
   },
   "signature": [
    {
@@ -3109,12 +3109,12 @@
   "abilities": [
    {
     "name": "Body Shedding",
-    "desc": "Once per battle, survives a hit that would knock it out with 1 HP."
+    "desc": "At the end of each turn, may shed its skin and cure its status condition (30%). Once per battle, survives a hit that would knock it out with 1 HP."
    }
   ],
   "hidden": {
    "name": "Immortality Research",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "Restores 1/3 of its max HP when it switches out."
   },
   "signature": [
    {
@@ -3182,12 +3182,12 @@
   "abilities": [
    {
     "name": "Medical Spy",
-    "desc": "Restores 1/16 of its max HP at the end of every turn. Its healing moves restore 50% more HP."
+    "desc": "Enters battle disguised as the last shinobi in its team until it takes damage. Its healing moves restore 50% more HP."
    }
   ],
   "hidden": {
    "name": "Double Agent",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Switches out when its HP drops below half."
   },
   "signature": [
    {
@@ -3250,12 +3250,12 @@
   "abilities": [
    {
     "name": "White Snake Sage",
-    "desc": "Restores 1/16 of its max HP at the end of every turn. Ignores the target's evasion boosts and its own accuracy drops."
+    "desc": "Poison heals it by 1/8 of its max HP each turn instead of hurting it. Ignores the target's evasion boosts and its own accuracy drops."
    }
   ],
   "hidden": {
    "name": "Sage Healing",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "Restores 1/4 of its max HP each time it uses a status move."
   },
   "signature": [
    {
@@ -3322,12 +3322,12 @@
   "abilities": [
    {
     "name": "Chakra Eater",
-    "desc": "Contact moves heal 1/4 of the damage dealt."
+    "desc": "Contact moves heal 1/3 of the damage dealt."
    }
   ],
   "hidden": {
    "name": "Barrier Team",
-   "desc": "Takes 25% less damage from super-effective attacks."
+   "desc": "On entry, raises a barrier that cuts all damage to its side for 5 turns."
   },
   "signature": [
    {
@@ -3389,7 +3389,7 @@
   ],
   "hidden": {
    "name": "Spider Sense",
-   "desc": "The first hit it takes in battle misses completely."
+   "desc": "Its moves never miss."
   },
   "signature": [
    {
@@ -3444,12 +3444,12 @@
   "abilities": [
    {
     "name": "Twin Demons",
-    "desc": "Its attacks hit a second time for 25% damage."
+    "desc": "A foe that makes contact with it has its Defense lowered by 1 stage."
    }
   ],
   "hidden": {
    "name": "Twin Coordination",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "Its attacks hit a second time for 25% damage. Its moves are more likely to land critical hits."
   },
   "signature": [
    {
@@ -3508,7 +3508,7 @@
   ],
   "hidden": {
    "name": "Sound Barrier",
-   "desc": "Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+   "desc": "Takes 50% damage from Yin moves."
   },
   "signature": [
    {
@@ -3570,7 +3570,7 @@
   ],
   "hidden": {
    "name": "Last Loyal Servant",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "desc": "Can't be hit by critical hits. Its moves deal 1.3x damage while it is at 1/3 HP or less."
   },
   "signature": [
    {
@@ -3630,12 +3630,12 @@
   "abilities": [
    {
     "name": "Silent Killing",
-    "desc": "Its moves are more likely to land critical hits."
+    "desc": "Its moves are more likely to land critical hits. On entry, spreads the Hidden Mist for 5 turns (grounded shinobi can't get status conditions or confusion)."
    }
   ],
   "hidden": {
    "name": "Demon of the Mist",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "Each knockout raises its Attack by 1 stage."
   },
   "signature": [
    {
@@ -3770,7 +3770,7 @@
   ],
   "hidden": {
    "name": "Proctor's Watch",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Foes are too nervous to eat Berries while it's in battle. Reveals the foes' held items when it enters battle."
   },
   "signature": [
    {
@@ -3832,12 +3832,12 @@
   "abilities": [
    {
     "name": "Izanagi",
-    "desc": "Once per battle, when knocked out it gets back up with 25% HP."
+    "desc": "Once per battle, when knocked out it gets back up with 50% HP."
    }
   ],
   "hidden": {
    "name": "Root Command",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "On entry, lowers the foes' Speed by 1 stage."
   },
   "signature": [
    {
@@ -3905,7 +3905,7 @@
   ],
   "hidden": {
    "name": "Akatsuki Recruiter",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Switches out when its HP drops below half. Restores 1/3 of its max HP when it switches out."
   },
   "signature": [
    {
@@ -3973,7 +3973,7 @@
   ],
   "hidden": {
    "name": "Moon's Eye Plan",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "desc": "On entry, twists the dimensions for 5 turns: slower shinobi move first."
   },
   "signature": [
    {
@@ -4045,7 +4045,7 @@
   ],
   "hidden": {
    "name": "Zetsu Network",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Enters battle disguised as the last shinobi in its team until it takes damage. Restores 1/16 of its max HP at the end of each turn while above half HP."
   },
   "signature": [
    {
@@ -4107,7 +4107,7 @@
   ],
   "hidden": {
    "name": "Mother's Will",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Its Sp. Atk rises by 1 stage whenever any shinobi faints."
   },
   "signature": [
    {
@@ -4165,12 +4165,12 @@
   "abilities": [
    {
     "name": "Samehada",
-    "desc": "Contact moves heal 1/4 of the damage dealt."
+    "desc": "Contact moves heal 1/4 of the damage dealt. Water moves heal it by 1/4 of its max HP instead of hurting it."
    }
   ],
   "hidden": {
    "name": "Tailless Tailed Beast",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Restores 1/16 of its max HP each turn in rain. Speed doubles in rain."
   },
   "signature": [
    {
@@ -4237,7 +4237,7 @@
   ],
   "hidden": {
    "name": "Crow Genjutsu",
-   "desc": "Its moves' added effects are twice as likely."
+   "desc": "On entry, lowers the foes' Sp. Atk and Attack by 1 stage."
   },
   "signature": [
    {
@@ -4309,7 +4309,7 @@
   ],
   "hidden": {
    "name": "Explosive Expertise",
-   "desc": "Explosion moves deal 1.2x damage."
+   "desc": "When knocked out by a contact move, the attacker loses 1/4 of its max HP."
   },
   "signature": [
    {
@@ -4381,7 +4381,7 @@
   ],
   "hidden": {
    "name": "Blood Price",
-   "desc": "Each knockout raises its Attack by 1 stage."
+   "desc": "Whenever a foe damages it, the attacker takes 25% of that damage too."
   },
   "signature": [
    {
@@ -4441,12 +4441,12 @@
   "abilities": [
    {
     "name": "Five Hearts",
-    "desc": "Restores 1/4 of its max HP whenever it knocks out a foe."
+    "desc": "Restores 1/4 of its max HP whenever it knocks out a foe. Once per battle, when knocked out it gets back up with 25% HP."
    }
   ],
   "hidden": {
    "name": "Bounty Ledger",
-   "desc": "Restores 1/4 of its max HP whenever it knocks out a foe."
+   "desc": "Steals the target's item when it hits with an attack."
   },
   "signature": [
    {
@@ -4514,7 +4514,7 @@
   ],
   "hidden": {
    "name": "Master Toxicologist",
-   "desc": "Its attacks may cause poison (30%)."
+   "desc": "Weapon-type foes can't switch out while it's in battle. Deals 1.25x damage to targets with a status condition."
   },
   "signature": [
    {
@@ -4581,7 +4581,7 @@
   ],
   "hidden": {
    "name": "Angel of Ame",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "On entry, makes it rain for 5 turns (Water moves 1.5x, Fire moves 0.5x). Wind moves deal 1.1x damage."
   },
   "signature": [
    {
@@ -4648,7 +4648,7 @@
   ],
   "hidden": {
    "name": "God of Amegakure",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle. Takes 10% less damage from physical moves."
+   "desc": "On entry, intensifies gravity for 5 turns: moves are more accurate and nothing can float."
   },
   "signature": [
    {
@@ -4721,7 +4721,7 @@
   ],
   "hidden": {
    "name": "Edo Tensei",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "Once per battle, when knocked out, its body reforms and it returns to battle 2 turns later at full HP."
   },
   "signature": [
    {
@@ -4789,7 +4789,7 @@
   ],
   "hidden": {
    "name": "Hozuki Water",
-   "desc": "Water moves deal 1.2x damage."
+   "desc": "Water moves heal it by 1/3 of its max HP instead of hurting it."
   },
   "signature": [
    {
@@ -4845,12 +4845,12 @@
   "abilities": [
    {
     "name": "Kagura Sensing",
-    "desc": "Ignores the target's evasion boosts and its own accuracy drops. At the end of each turn, may cure an ally of a status condition (30%)."
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. On entry, raises its Speed if a foe has a super-effective move."
    }
   ],
   "hidden": {
    "name": "Healing Bite",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "At the end of each turn, may cure an ally of a status condition (30%)."
   },
   "signature": [
    {
@@ -4912,7 +4912,7 @@
   ],
   "hidden": {
    "name": "Natural Energy",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Restores 1/16 of its max HP at the end of each turn while above half HP. Each time it is hit, its Defense rise by 1 stage."
   },
   "signature": [
    {
@@ -4967,12 +4967,12 @@
   "abilities": [
    {
     "name": "Hashirama Cells",
-    "desc": "Restores 1/16 of its max HP at the end of every turn."
+    "desc": "Restores 1/8 of its max HP at the end of every turn."
    }
   ],
   "hidden": {
    "name": "God of Shinobi",
-   "desc": "Takes 25% less damage from super-effective attacks."
+   "desc": "Foes use 2 PP per move against it. Foes can't lower its stats."
   },
   "signature": [
    {
@@ -5045,7 +5045,7 @@
   ],
   "hidden": {
    "name": "Second Hokage's Order",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "Its first move after entering battle gets +1 priority. Water moves deal 1.2x damage."
   },
   "signature": [
    {
@@ -5112,8 +5112,8 @@
    }
   ],
   "hidden": {
-   "name": "Will of Fire",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "name": "Will of the Leaf",
+   "desc": "When an ally is knocked out, its Attack and Sp. Atk rise by 1 stage."
   },
   "signature": [
    {
@@ -5181,7 +5181,7 @@
   ],
   "hidden": {
    "name": "Yellow Flash",
-   "desc": "The first hit it takes in battle misses completely."
+   "desc": "Its Speed rises by 1 stage at the end of every turn."
   },
   "signature": [
    {
@@ -5249,7 +5249,7 @@
   ],
   "hidden": {
    "name": "Slug Princess",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "Foes can't land critical hits on its side. When it switches out, the ally that comes in restores 1/4 of its max HP."
   },
   "signature": [
    {
@@ -5312,12 +5312,12 @@
   "abilities": [
    {
     "name": "Super Pervert Spy",
-    "desc": "Reveals the foes' held items when it enters battle."
+    "desc": "Reveals the foes' held items when it enters battle. Its moves go through Substitutes and screens."
    }
   ],
   "hidden": {
    "name": "Spy Network",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "On entry, raises its Speed if a foe has a super-effective move."
   },
   "signature": [
    {
@@ -5390,7 +5390,7 @@
   ],
   "hidden": {
    "name": "Raikage's Command",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "Moves with added effects deal 1.3x damage, but the added effects are lost."
   },
   "signature": [
    {
@@ -5447,12 +5447,12 @@
   "abilities": [
    {
     "name": "Perfect Jinchuriki",
-    "desc": "Restores 1/16 of its max HP at the end of every turn. Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+    "desc": "Restores 1/16 of its max HP at the end of every turn. Can't be confused (genjutsu doesn't take hold). Can't be put to sleep, paralyzed."
    }
   ],
   "hidden": {
    "name": "Rap Flow",
-   "desc": "Can't be confused (genjutsu doesn't take hold). Can't be put to sleep."
+   "desc": "At the end of each turn, one stat rises by 2 stages and another drops by 1 (freestyle)."
   },
   "signature": [
    {
@@ -5519,7 +5519,7 @@
   ],
   "hidden": {
    "name": "Calm Head",
-   "desc": "Takes 25% less damage from super-effective attacks."
+   "desc": "Lightning moves heal it by 1/4 of its max HP instead of hurting it."
   },
   "signature": [
    {
@@ -5577,12 +5577,12 @@
   "abilities": [
    {
     "name": "Hot-Blooded",
-    "desc": "When its HP drops below half, its Attack rises by 1 stage."
+    "desc": "Each time it is hit, its Attack rise by 1 stage."
    }
   ],
   "hidden": {
    "name": "Cloud Kunoichi",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "Slicing moves are more likely to land critical hits. Its moves are more likely to land critical hits."
   },
   "signature": [
    {
@@ -5644,7 +5644,7 @@
   ],
   "hidden": {
    "name": "Fifth Mizukage",
-   "desc": "Lava moves deal 1.2x damage."
+   "desc": "A foe of the opposite gender that makes contact with it may fall in love (30%)."
   },
   "signature": [
    {
@@ -5702,12 +5702,12 @@
   "abilities": [
    {
     "name": "Twin Blades",
-    "desc": "Slicing moves deal 1.3x damage."
+    "desc": "Slicing moves deal 1.3x damage. Foes can't lower its stats."
    }
   ],
   "hidden": {
    "name": "Swordsmen Legacy",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "Slicing moves are more likely to land critical hits."
   },
   "signature": [
    {
@@ -5763,13 +5763,13 @@
   },
   "abilities": [
    {
-    "name": "Byakugan",
-    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Its moves are more likely to land critical hits."
+    "name": "Stolen Byakugan",
+    "desc": "Ignores the target's evasion boosts and its own accuracy drops. Warns its team on entry if a foe has a super-effective move."
    }
   ],
   "hidden": {
    "name": "Mist Sensor",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Reveals the foes' held items when it enters battle. Its moves never miss."
   },
   "signature": [
    {
@@ -5825,13 +5825,13 @@
   },
   "abilities": [
    {
-    "name": "Hydrification",
-    "desc": "Takes 25% less damage from physical moves."
+    "name": "Steam Mirage",
+    "desc": "Takes 25% less damage from physical moves. On entry, spreads the Hidden Mist for 5 turns (grounded shinobi can't get status conditions or confusion)."
    }
   ],
   "hidden": {
    "name": "Second Mizukage",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Enters battle disguised as the last shinobi in its team until it takes damage."
   },
   "signature": [
    {
@@ -5893,7 +5893,7 @@
   ],
   "hidden": {
    "name": "Bloody Mist",
-   "desc": "Heals 1/8 of the damage its attacks deal."
+   "desc": "Heals 1/8 of the damage its attacks deal. On entry, spreads the Hidden Mist for 5 turns (grounded shinobi can't get status conditions or confusion)."
   },
   "signature": [
    {
@@ -5955,12 +5955,12 @@
   "abilities": [
    {
     "name": "Levitation",
-    "desc": "Takes 20% less damage from physical moves."
+    "desc": "Takes 20% less damage from physical moves. Immune to kicking moves (it floats out of reach)."
    }
   ],
   "hidden": {
    "name": "Third Tsuchikage",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "On entry, warps the area for 5 turns: held items have no effect."
   },
   "signature": [
    {
@@ -6023,12 +6023,12 @@
   "abilities": [
    {
     "name": "Quick-Setting Lime",
-    "desc": "Its binding moves last longer and deal double damage."
+    "desc": "A foe that makes contact with it has its Speed lowered by 1 stage. Its binding moves last longer and deal double damage."
    }
   ],
   "hidden": {
    "name": "Stone Guard",
-   "desc": "Allies take 25% less damage, and it takes 10% less."
+   "desc": "Takes no recoil damage. Takes 50% damage from Fire moves."
   },
   "signature": [
    {
@@ -6090,7 +6090,7 @@
   ],
   "hidden": {
    "name": "Bodyguard Duty",
-   "desc": "Allies take 25% less damage, and it takes 10% less."
+   "desc": "Can't be hit by critical hits. Allies take 25% less damage, and it takes 10% less."
   },
   "signature": [
    {
@@ -6152,7 +6152,7 @@
   ],
   "hidden": {
    "name": "Second Tsuchikage",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "Dust moves deal 1.3x damage."
   },
   "signature": [
    {
@@ -6215,7 +6215,7 @@
   ],
   "hidden": {
    "name": "Six Paths Power",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "Can't be burned, paralyzed, poisoned, put to sleep, frozen. Can't be confused (genjutsu doesn't take hold)."
   },
   "signature": [
    {
@@ -6288,7 +6288,7 @@
   ],
   "hidden": {
    "name": "Ghost of the Uchiha",
-   "desc": "Its moves go through Substitutes and screens."
+   "desc": "Lowers the foes' Attack by 1 stage when it enters battle. Can't be intimidated."
   },
   "signature": [
    {
@@ -6355,13 +6355,13 @@
   },
   "abilities": [
    {
-    "name": "Rinne-Sharingan (Madara)",
+    "name": "Rinne-Sharingan Eyes",
     "desc": "Ignores the target's evasion boosts and its own accuracy drops. Can't be confused (genjutsu doesn't take hold). Can't be put to sleep. Its attacks hit a second time for 25% damage."
    }
   ],
   "hidden": {
    "name": "Moon's Eye",
-   "desc": "Heals 1/8 of the damage its attacks deal."
+   "desc": "On entry, casts a genjutsu that confuses a random foe. On entry, sets a Genjutsu Field for 5 turns (Yin moves 1.3x, no priority attacks on grounded shinobi)."
   },
   "signature": [
    {
@@ -6429,7 +6429,7 @@
   ],
   "hidden": {
    "name": "Mother of Chakra",
-   "desc": "Restores 1/3 of its max HP when it switches out."
+   "desc": "Ignores its opponents' stat changes when attacking and being attacked. Restores 1/3 of its max HP when it switches out."
   },
   "signature": [
    {
@@ -6501,7 +6501,7 @@
   ],
   "hidden": {
    "name": "Takigakure Spirit",
-   "desc": "The first hit it takes in battle misses completely."
+   "desc": "When a foe's attack misses it, its Speed rises by 1 stage."
   },
   "signature": [
    {
@@ -6563,7 +6563,7 @@
   ],
   "hidden": {
    "name": "Bubble Barrier",
-   "desc": "Allies take 25% less damage, and it takes 10% less."
+   "desc": "Takes 50% damage from Fire moves. Takes 50% damage from Lava moves."
   },
   "signature": [
    {
@@ -6631,7 +6631,7 @@
   ],
   "hidden": {
    "name": "Steam Vents",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "desc": "On entry, turns the sunlight harsh for 5 turns (Fire moves 1.5x, Water moves 0.5x). Kicking moves deal 1.2x damage."
   },
   "signature": [
    {
@@ -6694,7 +6694,7 @@
   ],
   "hidden": {
    "name": "Old Monkey Wisdom",
-   "desc": "At full HP, survives any single hit with 1 HP."
+   "desc": "Its Speed rises by 1 stage when it flinches. Each time it is hit, its Sp. Def rise by 1 stage."
   },
   "signature": [
    {
@@ -6761,7 +6761,7 @@
   ],
   "hidden": {
    "name": "Blue Flames",
-   "desc": "Fire moves deal 1.2x damage."
+   "desc": "Fire moves deal 1.25x damage. Can't be burned."
   },
   "signature": [
    {
@@ -6823,7 +6823,7 @@
   ],
   "hidden": {
    "name": "Demigod of the Hidden Rain",
-   "desc": "Its attacks may cause poison (20%)."
+   "desc": "Poison heals it by 1/8 of its max HP each turn instead of hurting it. On entry, makes it rain for 5 turns (Water moves 1.5x, Fire moves 0.5x)."
   },
   "signature": [
    {
@@ -6879,12 +6879,12 @@
   "abilities": [
    {
     "name": "Protective Instinct",
-    "desc": "Allies take 25% less damage, and it takes 10% less."
+    "desc": "When it switches out, the ally that comes in restores 1/6 of its max HP."
    }
   ],
   "hidden": {
    "name": "Academy Lessons",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "At the end of each turn, may cure an ally of a status condition (30%). Warns its team on entry if a foe has a super-effective move."
   },
   "signature": [
    {
@@ -6940,13 +6940,13 @@
   },
   "abilities": [
    {
-    "name": "Will of Fire (Konohamaru)",
-    "desc": "When an ally is knocked out, its Attack and Sp. Atk rise by 1 stage."
+    "name": "Will of Fire",
+    "desc": "Deals 1.25x damage to shinobi with higher base stats than its own. Its moves deal 1.3x damage when it's the last shinobi standing on its team."
    }
   ],
   "hidden": {
    "name": "Honorable Grandson",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "A foe of the opposite gender that makes contact with it may fall in love (50%)."
   },
   "signature": [
    {
@@ -7004,12 +7004,12 @@
   "abilities": [
    {
     "name": "Sealing Chains",
-    "desc": "Deals 1.5x damage to Beast and Sage-type shinobi."
+    "desc": "Its binding moves last longer and deal double damage. Deals 1.3x damage to Beast-type shinobi."
    }
   ],
   "hidden": {
    "name": "Red-Hot Habanero",
-   "desc": "Lowers the foes' Attack by 1 stage when it enters battle."
+   "desc": "Each knockout raises its Attack and Speed by 1 stage."
   },
   "signature": [
    {
@@ -7076,7 +7076,7 @@
   ],
   "hidden": {
    "name": "Samurai Code",
-   "desc": "Its moves are more likely to land critical hits."
+   "desc": "Ignores its opponents' stat changes when attacking and being attacked. Its Speed rises by 1 stage when it flinches."
   },
   "signature": [
    {
@@ -7136,7 +7136,7 @@
   ],
   "hidden": {
    "name": "Fourth Kazekage",
-   "desc": "Takes 25% less damage from super-effective attacks."
+   "desc": "Weapon-type foes can't switch out while it's in battle."
   },
   "signature": [
    {
@@ -7199,7 +7199,7 @@
   ],
   "hidden": {
    "name": "Shisui's Crow",
-   "desc": "Reveals the foes' held items when it enters battle."
+   "desc": "On entry, casts a genjutsu that confuses a random foe. Reflects status moves back at the user."
   },
   "signature": [
    {
@@ -7262,12 +7262,12 @@
   "abilities": [
    {
     "name": "Tsunade's Apprentice",
-    "desc": "Its healing moves restore 50% more HP. At the end of each turn, may cure an ally of a status condition (30%)."
+    "desc": "Its healing moves restore 50% more HP. Its attacks may cause poison (20%)."
    }
   ],
   "hidden": {
    "name": "Assistant's Care",
-   "desc": "Restores 1/16 of its max HP at the end of every turn."
+   "desc": "Its status condition is cured when it switches out. Restores 1/16 of its max HP each time it uses a status move."
   },
   "signature": [
    {
