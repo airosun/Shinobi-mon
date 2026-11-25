@@ -272,6 +272,12 @@ SLICE = re.compile(r'sword|blade|slash|kusanagi|scythe|iai|cleaver|kenjutsu|behe
 BITE = re.compile(r'fang|bite|jaw|shark', re.I)
 STAT = {'tai': 'atk', 'nin': 'spa', 'def': 'def', 'spd': 'spe'}
 
+# Quick-Attack / Aqua Jet style +1 (weak, fast strikes) and one Extreme Speed style +2.
+# Protect-style moves get +4 and bodyguard moves +2 where they're converted below.
+PRIORITY = {'shuriken_volley': 1, 'senbon_volley': 1, 'poison_needles': 1, 'explosive_tag_kunai': 1,
+            'hair_needles': 1, 'dynamic_entry': 1, 'ftg_strike': 2}
+OVERRIDE = {'ftg_strike': {'power': 80, 'pp': 5}}   # Extreme Speed numbers
+
 def r5(x): return int(5 * round(x / 5))
 def convert_move(j, used_names):
     name = j['name']
@@ -282,8 +288,8 @@ def convert_move(j, used_names):
     power = j.get('power') or 0
     cat = 'Status' if power == 0 else ('Physical' if j['category'] == 'taijutsu' else 'Special')
     o = {}
-    pr = j.get('priority', 0)
-    o['prio'] = 2 if pr >= 3 else 1 if pr >= 2 else -1 if pr < 0 else 0
+    # Turn order works like Pokémon: Speed decides, and only a few very quick jutsu get priority (see PRIORITY).
+    o['prio'] = PRIORITY.get(j['id'], 0)
     if cat != 'Status':
         cap = 160 if j.get('charged') else 150
         power = max(20, min(cap, r5(power * 0.85)))
@@ -355,6 +361,8 @@ def convert_move(j, used_names):
         elif ty == 'selfStab': o['special'] = 'painsplit'
         elif ty == 'bonusVsBound': o['special'] = 'hex'
         elif ty == 'selfVulnerable': o['selfBoost'] = dict(o.get('selfBoost', {}), **{'def': -1, 'spd': -1})
+    ov = OVERRIDE.get(j['id'], {})
+    power = ov.get('power', power); pp = ov.get('pp', pp)
     if sec: o['sec'] = sec
     if status_set: o['status'] = status_set
     if boosts:
