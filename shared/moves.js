@@ -353,7 +353,7 @@ m("Six-Armed Rush", "Taijutsu", "Physical", 20, 100, 15, {"contact": true, "punc
 m("Spiked Human Boulder", "Taijutsu", "Physical", 85, 100, 15, {"prio": 0, "contact": true, "punch": true, "crit": 1, "jutsu": "spiked_boulder"});
 m("Super Open-Hand Slap", "Taijutsu", "Physical", 90, 100, 10, {"contact": true, "punch": true});
 m("Teacher's Shield", "Taijutsu", "Status", 0, 100, 10, {"prio": 2, "special": "followme", "target": "self", "jutsu": "iruka_cover"});
-m("Thousand Years of Death", "Taijutsu", "Physical", 40, 100, 10, {"contact": true, "sec": [{"chance": 100, "volatile": "flinch"}], "special": "fakeout"});
+m("Thousand Years of Death", "Taijutsu", "Physical", 40, 100, 10, {"contact": true, "special": "fakeout", "prio": 3});
 m("Twin Demon Combo", "Taijutsu", "Physical", 45, 100, 15, {"contact": true, "multihit": 2});
 m("Uchiha Taijutsu", "Taijutsu", "Physical", 80, 100, 15, {"prio": 0, "contact": true, "jutsu": "madara_taijutsu"});
 m("Uzumaki Barrage", "Taijutsu", "Physical", 60, 100, 15, {"prio": 0, "contact": true, "jutsu": "shadow_clone_barrage"});

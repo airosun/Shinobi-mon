@@ -36,7 +36,7 @@ NEW = {
  'Cherry Blossom Clash': ('Taijutsu', P, 90, 100, 10, o(contact=True, punch=True, sec=[{'chance': 30, 'boosts': {'def': -1}}])),
  'Lightning Release: Lightning Hound': ('Lightning', S, 85, 100, 10, o(sec=[{'chance': 20, 'status': 'par'}])),
  'Lightning Release: Purple Electricity': ('Lightning', S, 95, 100, 10, o(sec=[{'chance': 30, 'status': 'par'}])),
- 'Thousand Years of Death': ('Taijutsu', P, 40, 100, 10, o(contact=True, sec=[{'chance': 100, 'volatile': 'flinch'}], special='fakeout')),
+ 'Thousand Years of Death': ('Taijutsu', P, 40, 100, 10, o(contact=True, special='fakeout', prio=3)),
  'Sharingan: Copy': ('Yin', S, 0, 100, 10, o(special='mirrorcoat', prio=-5)),
  'Super Beast Scroll: Lions': ('Yin', P, 80, 100, 10, o()),
  'Ink Mist': ('Yin', X, 0, 100, 15, o(boosts={'target': 'foe', 'accuracy': -1})),
